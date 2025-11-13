@@ -10,11 +10,33 @@ servers:
   - url: 'https://rnge.com.br/v2'
     description: Produção
 
+tags:
+  - name: cashiers
+    description: Cashiers
+  - name: charts
+    description: Charts
+  - name: logout
+    description: Logout
+  - name: me
+    description: Me
+  - name: menu
+    description: Menu
+  - name: metrics
+    description: Metrics
+  - name: prospects
+    description: Prospects
+  - name: tokens
+    description: Tokens
+  - name: users
+    description: Users
+
 paths:
 # ../v2api/api/v2cashiers.go
   /cashiers:
 # modelo = TabelaPontoVenda
     post:
+      tags:
+       - cashiers
       summary: Cria um(a) cashiers
       responses:
         '200':
@@ -35,11 +57,15 @@ paths:
         description: ID do cashiers
 # modelo = TabelaPontoVenda
     delete:
+      tags:
+       - cashiers
       summary: Deleta um(a) cashiers
 # ../v2api/api/v2charts.go
   /charts:
 # modelo = 
     get:
+      tags:
+       - charts
       summary: Listagem de charts
       responses:
         '200':
@@ -48,6 +74,8 @@ paths:
   /logout:
 # modelo = 
     post:
+      tags:
+       - logout
       summary: Cria um(a) logout
       responses:
         '200':
@@ -57,6 +85,8 @@ paths:
   /menu:
 # modelo = 
     get:
+      tags:
+       - menu
       summary: Listagem de menu
       responses:
         '200':
@@ -66,6 +96,8 @@ paths:
 # filtros = FilterMetrics
 # modelo = JSONIndicadoresV2
     get:
+      tags:
+       - metrics
       summary: Listagem de metrics
       responses:
         '200':
@@ -87,14 +119,20 @@ paths:
         description: ID do metrics
 # modelo = JSONIndicadoresV2
     put:
+      tags:
+       - metrics
       summary: Atualiza um(a) metrics
     delete:
+      tags:
+       - metrics
       summary: Deleta um(a) metrics
 # ../v2api/api/v2prospects.go
   /prospects:
 # filtros = FilterProspects
 # modelo = JSONProspect
     get:
+      tags:
+       - prospects
       summary: Listagem de prospects
       responses:
         '200':
@@ -116,6 +154,8 @@ paths:
         description: ID do prospects
 # modelo = JSONProspect
     get:
+      tags:
+       - prospects
       summary: Busca um(a) prospects
       responses:
         '200':
@@ -129,6 +169,8 @@ paths:
 # filtros = FilterTokens
 # modelo = JSONToken
     get:
+      tags:
+       - tokens
       summary: Listagem de tokens
       responses:
         '200':
@@ -150,13 +192,19 @@ paths:
         description: ID do tokens
 # modelo = JSONToken
     put:
+      tags:
+       - tokens
       summary: Atualiza um(a) tokens
     delete:
+      tags:
+       - tokens
       summary: Deleta um(a) tokens
 # ../v2api/api/v2users.go
   /users:
 # modelo = JSONUser
     post:
+      tags:
+       - users
       summary: Cria um(a) users
       responses:
         '200':
@@ -177,6 +225,10 @@ paths:
         description: ID do users
 # modelo = JSONUser
     put:
+      tags:
+       - users
       summary: Atualiza um(a) users
     delete:
+      tags:
+       - users
       summary: Deleta um(a) users
