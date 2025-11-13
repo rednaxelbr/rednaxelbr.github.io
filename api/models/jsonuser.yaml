@@ -20,8 +20,6 @@ properties:
     type: string
   nome_reduzido:
     type: string
-  grupos:
-    type: []ViewUsuariosGrupo
   senha_atual:
     type: string
   senha_sha256:
@@ -41,15 +39,17 @@ properties:
   id_origem:
     type: integer
   novos_grupos:
-    type: []int64
+    type: array
+    items:
+      type: integer
   ids_filas:
-    type: []int64
+    type: array
+    items:
+      type: integer
   nome_recurso:
     type: string
   separador:
     type: boolean
-  empresas:
-    type: []JSONUserCompany
   usuario_admin:
     type: boolean
   alterar_senha:

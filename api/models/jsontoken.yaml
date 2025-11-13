@@ -47,7 +47,9 @@ properties:
   android_id:
     type: string
   telas_wms:
-    type: []int
+    type: array
+    items:
+      type: integer
   notificacoes:
     type: integer
   latitude:
@@ -60,8 +62,6 @@ properties:
     type: string
   url_mapa:
     type: string
-  alerta:
-    type: JSONAlerta
   alterar_senha:
     type: boolean
   data_validade:
