@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_tipo_ent:
+    type: string
+  via_transp:
+    type: integer
+  desc_via_transp:
+    type: string
+  id_entregador:
+    type: integer
+  nome_entregador:
+    type: string
+  ativo:
+    type: boolean
+  padrao:
+    type: boolean

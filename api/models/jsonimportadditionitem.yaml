@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  addition_id:
+    type: integer
+  num_seq_adic:
+    type: integer
+  ucom:
+    type: string
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  moeda:
+    type: string

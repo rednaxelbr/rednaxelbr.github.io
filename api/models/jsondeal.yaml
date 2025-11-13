@@ -1,0 +1,90 @@
+type: object
+properties:
+  id":
+    type: integer
+  metodo:
+    type: string
+  id_etapa":
+    type: integer
+  nome_etapa:
+    type: string
+  status_code:
+    type: integer
+  cod_tipo_etapa_funil:
+    type: integer
+  id_pessoa":
+    type: integer
+  nome_razao:
+    type: string
+  nome_cliente:
+    type: string
+  email:
+    type: string
+  telefones:
+    type: array
+    items:
+      type: string
+  dthr_agendamento":
+    type: string
+  id_vendedor":
+    type: integer
+  descricao":
+    type: string
+  nome_usuario:
+    type: string
+  contato_ativo":
+    type: boolean
+  data_prevista:
+    type: string
+  numero_pedido:
+    type: integer
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  ident_alfa:
+    type: string
+  gerar_pedido:
+    type: boolean
+  id_empresa:
+    type: integer
+  justificativa":
+    type: string
+  token_id:
+    type: integer
+  data_hora:
+    type: string
+  processando:
+    type: boolean
+  nome_vendedor:
+    type: string
+  hora_marcada":
+    type: boolean
+  desc_tipo:
+    type: string
+  stage:
+    type: string
+  data_arquivamento:
+    type: string
+  desarquivar:
+    type: boolean
+  index:
+    type: integer
+  id_carteira":
+    type: integer
+  nome_carteira:
+    type: string
+  id_pre_vendedor":
+    type: integer
+  nome_pre_vendedor:
+    type: string
+  icone_kanban:
+    type: string
+  cor_kanban:
+    type: string
+  oport_principal:
+    type: boolean
+  cod_situacao:
+    type: integer
+  id_carteira_criacao:
+    type: integer

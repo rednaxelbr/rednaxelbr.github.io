@@ -1,0 +1,42 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  salesper_id:
+    type: integer
+  id_canal:
+    type: integer
+  caminho_canal:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_vendedor:
+    type: string
+  ativo:
+    type: boolean
+  id_carteira:
+    type: integer
+  nome_carteira:
+    type: string
+  picture_url:
+    type: string
+  user_id:
+    type: integer
+  user_email:
+    type: string
+  ramal:
+    type: string
+  data_hora:
+    type: string
+  pre_venda:
+    type: boolean
+  pre_vendedor:
+    type: boolean
+  clientes:
+    type: integer
+  tarefas_hoje:
+    type: integer
+  oport_hoje:
+    type: integer

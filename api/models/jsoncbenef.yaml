@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  uf:
+    type: string
+  filtro_ncm:
+    type: string
+  codigo_benef:
+    type: string

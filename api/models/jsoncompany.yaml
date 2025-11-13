@@ -1,0 +1,112 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_empresa:
+    type: integer
+  utiliza_pdv:
+    type: boolean
+  sigla_loja:
+    type: string
+  cnpj_padrao:
+    type: integer
+  str_cnpj:
+    type: string
+  nome_reduzido:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  nome_fantasia:
+    type: string
+  email_empresa:
+    type: string
+  telefone_empresa:
+    type: string
+  id_contato:
+    type: integer
+  nome_contato:
+    type: string
+  email_contato:
+    type: string
+  telefone_contato:
+    type: string
+  cmun:
+    type: integer
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  cnpj:
+    type: integer
+  uf_ibge:
+    type: integer
+  url_fotos:
+    type: string
+  importadora:
+    type: boolean
+  loja_aberta:
+    type: boolean
+  plano_wms:
+    type: boolean
+  plano_scm:
+    type: boolean
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  id_predio:
+    type: integer
+  central_distrib:
+    type: boolean
+  address_id:
+    type: integer
+  logradouro:
+    type: string
+  numero:
+    type: integer
+  complemento:
+    type: string
+  bairro:
+    type: string
+  cep:
+    type: string
+  pjuridica:
+    type: boolean
+  ind_iedest:
+    type: integer
+  iestadual:
+    type: string
+  crt:
+    type: integer
+  nome_regime:
+    type: string
+  serie_atual:
+    type: integer
+  serie_ajuste:
+    type: integer
+  ids_horarios:
+    type: array
+    items:
+      type: integer
+  tem_retirada:
+    type: boolean
+  predio_especial:
+    type: integer
+  str_cnpj_alternativo:
+    type: string
+  predio_existente:
+    type: boolean
+  id_fila:
+    type: integer
+  nome_fila:
+    type: string
+  reagendar_oport:
+    type: boolean
+  cod_loja_sitef:
+    type: string
+  cnae:
+    type: string

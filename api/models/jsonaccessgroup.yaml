@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ids:
+    type: array
+    items:
+      type: integer
+  raiz:
+    type: boolean
+  id_nivel:
+    type: integer
+  desc_grupo:
+    type: string
+  id_pai:
+    type: integer
+  ativo:
+    type: boolean
+  copiar_permissoes:
+    type: integer

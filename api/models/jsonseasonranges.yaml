@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_periodo:
+    type: string
+  mes_ini:
+    type: integer
+  dia_ini:
+    type: integer
+  mes_fim:
+    type: integer
+  dia_fim:
+    type: integer

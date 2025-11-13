@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  import_id:
+    type: integer
+  num_adicao:
+    type: integer
+  ncm:
+    type: string
+  moeda:
+    type: string

@@ -1,0 +1,30 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_empresa:
+    type: integer
+  pemit:
+    type: integer
+  data_desemb:
+    type: string
+  cmun:
+    type: integer
+  numero_pedido:
+    type: integer
+  pdest:
+    type: integer
+  id_pessoa:
+    type: integer
+  cexportador:
+    type: string
+  num_documento:
+    type: string
+  data_documento:
+    type: string
+  via_transp:
+    type: integer
+  tp_inter:
+    type: integer
+  num_nf:
+    type: integer

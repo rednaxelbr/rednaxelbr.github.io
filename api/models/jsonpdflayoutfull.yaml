@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  tipo:
+    type: string
+  bytes_logo:
+    type: integer
+  logo_base64:
+    type: string

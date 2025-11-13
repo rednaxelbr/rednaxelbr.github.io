@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  ativa:
+    type: boolean
+  auto_quitacao:
+    type: boolean
+  prazo_minimo:
+    type: integer
+  visibilidade:
+    type: string
+  ids_empresas:
+    type: array
+    items:
+      type: integer
+  ct_receber:
+    type: boolean

@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  sigla_ativ_base:
+    type: string
+  nome_ativ_base:
+    type: string
+  sigla_processo:
+    type: string
+  tipo_oper:
+    type: string
+  ordem:
+    type: integer

@@ -1,0 +1,34 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: string
+  nome:
+    type: string
+  razao_social:
+    type: string
+  logo_empresa:
+    type: string
+  email:
+    type: string
+  quant_lojas:
+    type: integer
+  termos_uso:
+    type: boolean
+  cod_servico:
+    type: integer
+  tpag_preferido:
+    type: integer
+  dia_vencimento:
+    type: integer
+  cta_contab:
+    type: integer
+  nome_conta:
+    type: string
+  classificacao_conta:
+    type: string
+  id_pessoa_contador:
+    type: integer
+  nome_razao_contador:
+    type: string

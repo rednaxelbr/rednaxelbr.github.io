@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  template:
+    type: string
+  descricao_template:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  sigla_loja:
+    type: string
+  corpo:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  cod_status:
+    type: integer
+  emails_adicionais:
+    type: string

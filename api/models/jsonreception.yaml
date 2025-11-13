@@ -1,0 +1,50 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  dthr_geracao:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  stat:
+    type: integer
+  sigla_status:
+    type: string
+  nome_usuario:
+    type: string
+  id_romaneio:
+    type: integer
+  tipo:
+    type: string
+  desc_tiporn:
+    type: string
+  destino:
+    type: string
+  id_rastreamento:
+    type: integer
+  finalizada:
+    type: boolean
+  confirmada:
+    type: boolean
+  linhas:
+    type: integer
+  id_fornec:
+    type: integer
+  nome_fornec:
+    type: string
+  prioridade:
+    type: integer
+  urgente:
+    type: boolean
+  locacao_direta_arroba:
+    type: boolean
+  setor_corredor:
+    type: string
+  nao_conferir:
+    type: boolean

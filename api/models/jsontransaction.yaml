@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  desc_transacao:
+    type: string
+  id_modulo:
+    type: integer
+  nome_modulo:
+    type: string
+  ids_grupos:
+    type: array
+    items:
+      type: integer
+  tem_permissao:
+    type: boolean
+  herdado:
+    type: string
+  id_grupo:
+    type: integer
+  descricao_transacao:
+    type: string

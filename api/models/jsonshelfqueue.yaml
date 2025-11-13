@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  num_loja:
+    type: integer
+  id_categoria:
+    type: integer
+  codigo_agrup:
+    type: string
+  numero_fila:
+    type: integer
+  quant_frentes:
+    type: integer

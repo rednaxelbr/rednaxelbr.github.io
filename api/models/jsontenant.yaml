@@ -1,0 +1,70 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_tenant:
+    type: string
+  razao_social:
+    type: string
+  email_domain:
+    type: string
+  legado:
+    type: boolean
+  ativo:
+    type: boolean
+  mensagem:
+    type: string
+  ult_login:
+    type: string
+  quant_tokens:
+    type: integer
+  quant_emit:
+    type: integer
+  mail_id:
+    type: integer
+  user_email:
+    type: string
+  id_pessoa:
+    type: integer
+  nome:
+    type: string
+  cnpj:
+    type: string
+  email:
+    type: string
+  telefone:
+    type: string
+  senha_inicial:
+    type: string
+  cod_servico:
+    type: integer
+  senha_rednaxel:
+    type: string
+  contato:
+    type: string
+  segmento:
+    type: string
+  cupom_desconto:
+    type: string
+  codigo_parceiro:
+    type: string
+  tpag_preferido:
+    type: integer
+  dia_vencimento:
+    type: integer
+  url_retorno:
+    type: string
+  user_id:
+    type: integer
+  cod_plano:
+    type: integer
+  nome_comercial:
+    type: string
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  data_cadastro:
+    type: string

@@ -1,0 +1,42 @@
+type: object
+properties:
+  ids_empresas:
+    type: array
+    items:
+      type: integer
+  ids_categorias:
+    type: string
+  id_fornec:
+    type: integer
+  numero_pedido:
+    type: integer
+  excluir:
+    type: boolean
+  tipo_distrib:
+    type: string
+  curva_minima_geral:
+    type: integer
+  curva_maxima_geral:
+    type: integer
+  calendario:
+    type: boolean
+  gerar_pedidos:
+    type: boolean
+  codigo_sku:
+    type: integer
+  data_distrib:
+    type: string
+  predio:
+    type: integer
+  status_inicial:
+    type: integer
+  curva_minima:
+    type: integer
+  curva_maxima:
+    type: integer
+  desconsiderar_capac_z:
+    type: boolean
+  pedidos_por_zona:
+    type: boolean
+  debitar_transito:
+    type: boolean

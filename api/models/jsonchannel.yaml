@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  abrev_canal:
+    type: string
+  desc_canal:
+    type: string
+  id_pai:
+    type: integer
+  id_plu:
+    type: integer
+  descricao_grupo:
+    type: string
+  caminho:
+    type: string
+  preco_proprio:
+    type: boolean
+  id_vendor:
+    type: string

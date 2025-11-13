@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  desc_nivel:
+    type: string
+  id_grupo:
+    type: integer
+  desc_grupo:
+    type: string
+  lim_desc_item:
+    type: integer
+  lim_desc_subtotal:
+    type: integer

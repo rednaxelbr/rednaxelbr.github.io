@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  cod_produto:
+    type: integer
+  vendor:
+    type: string
+  codigo_loja:
+    type: integer
+  loja_nome:
+    type: string
+  marketplace_nome:
+    type: string
+  parcelas:
+    type: integer
+  limpar_tudo:
+    type: boolean
+  ids:
+    type: array
+    items:
+      type: integer

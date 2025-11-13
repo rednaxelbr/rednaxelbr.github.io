@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  cmun:
+    type: integer
+  nome_municipio:
+    type: string
+  id_bairro:
+    type: integer
+  nome_bairro:
+    type: string
+  cod_zona:
+    type: integer
+  nome_zona:
+    type: string

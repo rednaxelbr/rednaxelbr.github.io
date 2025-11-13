@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  cod_sku:
+    type: integer
+  mult_sku:
+    type: integer
+  cean_nfe:
+    type: boolean
+  invalido:
+    type: boolean

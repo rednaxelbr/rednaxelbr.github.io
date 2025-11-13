@@ -1,0 +1,102 @@
+type: object
+properties:
+  id":
+    type: integer
+  metodo:
+    type: string
+  data_cadastro:
+    type: string
+  dthr_agendamento":
+    type: string
+  ativo:
+    type: boolean
+  deletado_em:
+    type: string
+  nome_lead:
+    type: string
+  cpf:
+    type: string
+  cnpj:
+    type: string
+  email:
+    type: string
+  telefone:
+    type: string
+  type_id:
+    type: integer
+  tipo_telef:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  salesper_id:
+    type: integer
+  nome_prevendedor:
+    type: string
+  id_pessoa:
+    type: integer
+  id_vendedor:
+    type: integer
+  nome_vendedor:
+    type: string
+  id_carteira":
+    type: integer
+  nome_carteira:
+    type: string
+  id_etapa":
+    type: integer
+  nome_etapa:
+    type: string
+  status_code:
+    type: integer
+  nome_status:
+    type: string
+  descricao_status:
+    type: string
+  id_motivo":
+    type: integer
+  descricao_motivo:
+    type: string
+  observacoes:
+    type: string
+  uf:
+    type: string
+  nome_municipio:
+    type: string
+  logradouro:
+    type: string
+  numero:
+    type: integer
+  complemento:
+    type: string
+  bairro:
+    type: string
+  cep:
+    type: string
+  data_hora:
+    type: string
+  temperatura:
+    type: string
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  tags:
+    type: string
+  nb_tasks:
+    type: integer
+  cnae_princ:
+    type: string
+  outros_cnaes:
+    type: array
+    items:
+      type: string
+  id_segmento:
+    type: integer
+  nome_segmento:
+    type: string
+  anotacao:
+    type: string
+  incidencia:
+    type: integer

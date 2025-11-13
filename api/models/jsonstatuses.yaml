@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  desc_status:
+    type: string
+  sigla_status:
+    type: string
+  tipo:
+    type: string
+  id_fase:
+    type: integer
+  observacoes:
+    type: string
+  minutos_agenda:
+    type: integer
+  desc_amigavel:
+    type: string
+  dias_corridos:
+    type: boolean
+  gera_reserva:
+    type: boolean

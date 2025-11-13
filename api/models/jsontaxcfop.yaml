@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_operacao:
+    type: string
+  nfce:
+    type: boolean
+  tipo:
+    type: string
+  id_classe:
+    type: integer

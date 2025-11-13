@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_relatorio:
+    type: string
+  comando_sql:
+    type: string
+  ids_grupos:
+    type: array
+    items:
+      type: integer

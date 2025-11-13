@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_feriado:
+    type: string
+  dia_fixo:
+    type: integer
+  mes_fixo:
+    type: integer
+  tipo:
+    type: string
+  movel:
+    type: boolean

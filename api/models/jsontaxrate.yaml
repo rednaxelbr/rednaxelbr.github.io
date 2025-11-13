@@ -1,0 +1,6 @@
+type: object
+properties:
+  id:
+    type: integer
+  uf_origem:
+    type: string

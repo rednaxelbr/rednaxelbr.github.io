@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_tenant:
+    type: string
+  cod_plano:
+    type: integer
+  nome_comercial:
+    type: string
+  cnpj_ativos:
+    type: integer
+  modulos:
+    type: array
+    items:
+      type: integer

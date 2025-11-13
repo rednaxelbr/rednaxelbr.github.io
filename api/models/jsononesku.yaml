@@ -1,0 +1,38 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  ativo:
+    type: boolean
+  referencia:
+    type: string
+  variacao:
+    type: string
+  dthr_sku:
+    type: string
+  codigo_agrup:
+    type: string
+  excluir:
+    type: boolean
+  legado:
+    type: boolean
+  tipo_item:
+    type: integer
+  data_cadastro:
+    type: string
+  principal:
+    type: boolean
+  data_hora:
+    type: string
+  embalagem_cross_docking:
+    type: integer
+  importacao:
+    type: boolean
+  gtin:
+    type: integer

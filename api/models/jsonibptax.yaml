@@ -1,0 +1,6 @@
+type: object
+properties:
+  versao:
+    type: string
+  url:
+    type: string

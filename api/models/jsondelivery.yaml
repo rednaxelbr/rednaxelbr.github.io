@@ -1,0 +1,56 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_pedido:
+    type: integer
+  tipo_oper:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  id_entregador:
+    type: integer
+  entregador_legado:
+    type: integer
+  address_id:
+    type: integer
+  id_endereco:
+    type: integer
+  data_entrega:
+    type: string
+  nome_turno:
+    type: string
+  id_vendor:
+    type: string
+  serv_adicionais:
+    type: string
+  id_meio:
+    type: integer
+  desc_meio:
+    type: string
+  nome_entregador:
+    type: string
+  resumo_pagto:
+    type: string
+  data_emissao:
+    type: string
+  tpdoc:
+    type: string
+  num_nf:
+    type: integer
+  recebido:
+    type: boolean
+  data_receb_pagto:
+    type: string

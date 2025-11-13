@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: string
+  metodo:
+    type: string
+  escopo:
+    type: string
+  desc_escopo:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  tipo_config:
+    type: string
+  nome_param:
+    type: string
+  descricao:
+    type: string
+  valor:
+    type: string
+  resp:
+    type: string

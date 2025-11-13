@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: string
+  modelo:
+    type: string
+  impressora:
+    type: string
+  nome_etiqueta:
+    type: string
+  ordem:
+    type: integer
+  comandos:
+    type: string
+  descricao:
+    type: string
+  layout:
+    type: string
+  referencia:
+    type: string
+  barcode:
+    type: string

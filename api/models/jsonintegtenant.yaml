@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_vendor:
+    type: string
+  prefixo_api:
+    type: string
+  url_autorizacao:
+    type: string
+  username:
+    type: string
+  expiracao:
+    type: string
+  mensagem:
+    type: string
+  id_empresa:
+    type: integer

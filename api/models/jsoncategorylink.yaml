@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_catalogo:
+    type: string
+  breadcrumb:
+    type: string
+  links:
+    type: array
+    items:
+      type: integer

@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_tipo:
+    type: integer
+  desc_tipo:
+    type: string
+  data_prevista:
+    type: string
+  dthr_prevista:
+    type: string
+  dthr_conclusao:
+    type: string
+  nome_usuario:
+    type: string
+  descricao_tarefa:
+    type: string
+  id_lead:
+    type: integer
+  nome_lead:
+    type: string
+  id_contato:
+    type: integer
+  nome_contato:
+    type: string

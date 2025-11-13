@@ -1,0 +1,52 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_pessoa:
+    type: integer
+  address_id:
+    type: integer
+  id_endereco:
+    type: integer
+  id_tipo:
+    type: integer
+  desc_tipo:
+    type: string
+  logradouro:
+    type: string
+  numero:
+    type: integer
+  complemento:
+    type: string
+  bairro:
+    type: string
+  cidade:
+    type: string
+  cidade_atual:
+    type: string
+  uf:
+    type: string
+  cep:
+    type: string
+  cmun:
+    type: integer
+  sede:
+    type: boolean
+  ativo:
+    type: boolean
+  excluir:
+    type: boolean
+  codigo_pais:
+    type: integer
+  nome_pais:
+    type: string
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  id_geocode:
+    type: integer
+  url_mapa:
+    type: string
+  lograd_complem:
+    type: string

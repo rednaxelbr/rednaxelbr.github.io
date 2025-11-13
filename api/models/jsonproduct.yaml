@@ -1,0 +1,120 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  sku_id:
+    type: integer
+  tipo_item:
+    type: integer
+  ativo:
+    type: boolean
+  referencia:
+    type: string
+  variacao:
+    type: string
+  curva:
+    type: integer
+  curva_minima:
+    type: integer
+  validade_curva:
+    type: string
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  id_grade:
+    type: integer
+  codigo_alfa:
+    type: string
+  desc_basica:
+    type: string
+  grade_ativa:
+    type: boolean
+  orig:
+    type: integer
+  cod_ncm:
+    type: string
+  cod_cest:
+    type: string
+  cont_skus:
+    type: integer
+  cod_legado:
+    type: integer
+  id_categoria:
+    type: integer
+  desc_categoria:
+    type: string
+  categ_base:
+    type: integer
+  id_marca:
+    type: integer
+  nome_marca:
+    type: string
+  id_classe:
+    type: integer
+  desc_trib:
+    type: string
+  id_agrup:
+    type: integer
+  codigo_agrup:
+    type: string
+  desc_agrupamento:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  id_unidade:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  embalagem_venda:
+    type: boolean
+  data_cadastro:
+    type: string
+  embalagem_fragil:
+    type: boolean
+  esmin_padrao:
+    type: integer
+  ultima_compra:
+    type: string
+  id_campanha:
+    type: integer
+  nome_campanha:
+    type: string
+  promo_inicio:
+    type: string
+  promo_termino:
+    type: string
+  cod_sku_modelo:
+    type: integer
+  possui_variacoes:
+    type: boolean
+  variacoes:
+    type: array
+    items:
+      type: string
+  url_foto_principal:
+    type: string
+  nova_variacao:
+    type: string
+  id_fornec:
+    type: integer
+  nome_fornec:
+    type: string
+  custos:
+    type: boolean
+  id_empresa:
+    type: integer
+  embalagem_cross_docking:
+    type: integer
+  observacoes:
+    type: string
+  emb_distrib:
+    type: integer
+  emb_compra:
+    type: integer

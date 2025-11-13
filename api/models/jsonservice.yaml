@@ -1,0 +1,28 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  abrev_servico:
+    type: string
+  id_unidade:
+    type: integer
+  ucom:
+    type: string
+  discriminacao:
+    type: string
+  id_trib:
+    type: integer
+  desc_tributacao:
+    type: string
+  cnae:
+    type: string
+  cidade:
+    type: string
+  uf:
+    type: string
+  codigo_trib:
+    type: string
+  serv_ativo:
+    type: boolean

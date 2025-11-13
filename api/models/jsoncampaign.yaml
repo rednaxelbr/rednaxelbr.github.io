@@ -1,0 +1,30 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  ident_alfa:
+    type: string
+  inicio_camp:
+    type: string
+  termino_camp:
+    type: string
+  nome_campanha:
+    type: string
+  nome_usuario:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  excluir:
+    type: boolean

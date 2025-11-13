@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  email_prestador:
+    type: string
+  nome_prestador:
+    type: string
+  registro_em:
+    type: string
+  ativo:
+    type: boolean
+  verificado:
+    type: boolean
+  autorizado:
+    type: boolean
+  romaneio:
+    type: boolean
+  horario_login:
+    type: string
+  versao_app:
+    type: string
+  excluir:
+    type: boolean

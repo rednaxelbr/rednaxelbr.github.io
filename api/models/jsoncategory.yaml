@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nivel_categ:
+    type: integer
+  breadcrumb:
+    type: string
+  desc_categoria:
+    type: string
+  parent_id:
+    type: integer
+  ativa:
+    type: boolean
+  id_catalogo:
+    type: integer
+  catalog_id:
+    type: integer
+  nome_usuario:
+    type: string

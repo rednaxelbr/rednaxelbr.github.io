@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  nome_salao:
+    type: string
+  salao_ativo:
+    type: boolean
+  nome_usuario:
+    type: string

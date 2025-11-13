@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  cpf_cnpj:
+    type: integer
+  cnpj:
+    type: string
+  mod:
+    type: integer
+  serie:
+    type: integer
+  num_inicial:
+    type: integer
+  num_final:
+    type: integer
+  xjust:
+    type: string
+  protocolo:
+    type: integer
+  nome_usuario:
+    type: string
+  datahora_registro:
+    type: string
+  id_motivo:
+    type: integer
+  descr_motivo:
+    type: string

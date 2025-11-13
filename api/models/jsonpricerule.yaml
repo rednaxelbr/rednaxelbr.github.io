@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_regra:
+    type: string
+  data_criacao:
+    type: string
+  aplicar_em:
+    type: string
+  tipo_valor:
+    type: string
+  regra_ativa:
+    type: boolean
+  validade_ini:
+    type: string
+  validade_fim:
+    type: string
+  requer_cupom:
+    type: boolean
+  cont_uso_regra:
+    type: integer

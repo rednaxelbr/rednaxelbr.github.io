@@ -1,0 +1,12 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  nome_marca:
+    type: string
+  marca_ativa:
+    type: boolean
+  produtos:
+    type: integer

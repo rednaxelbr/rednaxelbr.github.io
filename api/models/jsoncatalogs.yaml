@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_catalogo:
+    type: string
+  padrao:
+    type: boolean
+  eh_taxonomia:
+    type: boolean
+  ativo:
+    type: boolean

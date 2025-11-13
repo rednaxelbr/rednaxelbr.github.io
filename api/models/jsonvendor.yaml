@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: string
+  nome_vendor:
+    type: string
+  url_empresa:
+    type: string
+  endpoint_api:
+    type: string
+  versao_api:
+    type: string
+  auth_type:
+    type: string

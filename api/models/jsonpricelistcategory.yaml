@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_plu:
+    type: integer
+  id_categoria:
+    type: integer
+  desc_categoria:
+    type: string
+  caminho:
+    type: string

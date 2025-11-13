@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_link:
+    type: integer
+  usu_criador:
+    type: string
+  titulo_notificacao:
+    type: string
+  url_destino:
+    type: string
+  nao_lida:
+    type: boolean
+  data_hora:
+    type: string
+  lida:
+    type: boolean
+  limpar:
+    type: boolean

@@ -1,0 +1,32 @@
+type: object
+properties:
+  id:
+    type: string
+  metodo:
+    type: string
+  operation_id:
+    type: string
+  desc_operacao:
+    type: string
+  cfop_trib:
+    type: integer
+  cfop_subst:
+    type: integer
+  decimais:
+    type: integer
+  tp_preco:
+    type: string
+  cod_produto:
+    type: integer
+  cst_ipi:
+    type: integer
+  cst_pis:
+    type: integer
+  cst_cofins:
+    type: integer
+  fila_id:
+    type: integer
+  class_trib_padrao:
+    type: string
+  class_trib_tnant:
+    type: string

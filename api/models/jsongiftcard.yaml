@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  codigo_cartao:
+    type: string
+  voucher_id:
+    type: integer
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string

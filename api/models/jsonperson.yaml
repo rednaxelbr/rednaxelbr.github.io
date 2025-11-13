@@ -1,0 +1,154 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ativo:
+    type: boolean
+  data_cadastro:
+    type: string
+  pjuridica":
+    type: boolean
+  cnpj":
+    type: string
+  cpf":
+    type: string
+  nome_razao":
+    type: string
+  nome_fantasia":
+    type: string
+  ind_iedest":
+    type: integer
+  tp_ente_gov":
+    type: integer
+  iestadual":
+    type: string
+  imunicipal":
+    type: string
+  email":
+    type: string
+  id_telefone:
+    type: integer
+  telefone":
+    type: string
+  id_canal":
+    type: integer
+  desc_canal:
+    type: string
+  address_id:
+    type: integer
+  logradouro":
+    type: string
+  numero":
+    type: integer
+  complemento":
+    type: string
+  lograd_complem":
+    type: string
+  bairro":
+    type: string
+  cep":
+    type: string
+  cmun":
+    type: integer
+  nome_municipio":
+    type: string
+  uf":
+    type: string
+  id_vendedor":
+    type: integer
+  data_hora:
+    type: string
+  criado_por:
+    type: string
+  data_ult_venda:
+    type: string
+  duplicar_cadastro":
+    type: boolean
+  limpar_inconsistencias:
+    type: boolean
+  ids_perfis:
+    type: array
+    items:
+      type: integer
+  ids_categorias:
+    type: array
+    items:
+      type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  financeiro:
+    type: boolean
+  financeiro_readonly:
+    type: boolean
+  gerencial:
+    type: boolean
+  observ_padrao":
+    type: string
+  observ_financeira:
+    type: string
+  observ_credito:
+    type: string
+  observ_gerencial:
+    type: string
+  crm_etapa:
+    type: integer
+  crm_motivo:
+    type: integer
+  tipo_email:
+    type: array
+    items:
+      type: integer
+  type_id:
+    type: integer
+  tipo_chave:
+    type: string
+  chave_pix:
+    type: string
+  id_carteira":
+    type: integer
+  nome_carteira:
+    type: string
+  demais_carteiras:
+    type: array
+    items:
+      type: integer
+  id_geocode:
+    type: integer
+  place_id:
+    type: string
+  url_mapa:
+    type: string
+  id_setor:
+    type: integer
+  desc_setor:
+    type: string
+  nb_contacts:
+    type: integer
+  nb_deals:
+    type: integer
+  nb_trans:
+    type: integer
+  fornecedor:
+    type: boolean
+  emit_fornec:
+    type: boolean
+  cnae_princ:
+    type: string
+  outros_cnaes:
+    type: array
+    items:
+      type: string
+  incidencia:
+    type: integer
+  id_lead:
+    type: integer
+  id_sdr_recup:
+    type: integer
+  recup_inicio:
+    type: string
+  dthr_recuperacao:
+    type: string

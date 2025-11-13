@@ -1,0 +1,30 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: string
+  cnpj_emit:
+    type: integer
+  cnpj_alfa:
+    type: string
+  nome_reduzido:
+    type: string
+  serie:
+    type: integer
+  tpamb:
+    type: integer
+  crt:
+    type: integer
+  nome_regime:
+    type: string
+  serie_ajuste:
+    type: integer
+  id_faixa:
+    type: integer
+  pix_dinamico:
+    type: boolean
+  consulta_sefaz:
+    type: string
+  lucro_real:
+    type: boolean

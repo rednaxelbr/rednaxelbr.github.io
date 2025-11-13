@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  data_carga:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  stat:
+    type: integer
+  sigla_status:
+    type: string
+  pre_romaneio:
+    type: boolean
+  qtd_vol:
+    type: integer
+  qtd_notas:
+    type: integer
+  nome_entregador:
+    type: string
+  id_entregador:
+    type: integer
+  fechar:
+    type: boolean

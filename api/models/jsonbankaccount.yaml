@@ -1,0 +1,52 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  recurso:
+    type: string
+  id_pessoa:
+    type: integer
+  cpf_cnpj:
+    type: string
+  ccomp:
+    type: integer
+  nome_banco:
+    type: string
+  num_agencia:
+    type: integer
+  numero_conta:
+    type: string
+  dvc:
+    type: string
+  conta_desde:
+    type: string
+  dv_agencia:
+    type: string
+  id_plugpix:
+    type: string
+  id_certificado:
+    type: string
+  identificador_ofx:
+    type: string
+  tipo_chave:
+    type: string
+  desc_chave:
+    type: string
+  chave_pix:
+    type: string
+  empresas_pix:
+    type: array
+    items:
+      type: integer
+  ids_empresas:
+    type: array
+    items:
+      type: integer
+  ativa:
+    type: boolean
+  descricao_conta:
+    type: string
+  apelido_conta:
+    type: string

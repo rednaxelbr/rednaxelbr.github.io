@@ -1,0 +1,56 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  nome_carteira:
+    type: string
+  id_vendedor:
+    type: integer
+  nome_razao:
+    type: string
+  nome_vendedor:
+    type: string
+  sit_vend:
+    type: string
+  id_pessoa:
+    type: integer
+  clientes:
+    type: integer
+  nome_usuario:
+    type: string
+  cart_ativa:
+    type: boolean
+  vend_ativo:
+    type: boolean
+  prioridade:
+    type: integer
+  excluir:
+    type: boolean
+  mesclar:
+    type: boolean
+  destino_mesclar:
+    type: integer
+  limpar_carteira:
+    type: boolean
+  pre_venda:
+    type: boolean
+  ciclagem_padrao:
+    type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  data_hora:
+    type: string
+  id_pre_vendedor:
+    type: integer
+  gerar_oport_auto:
+    type: boolean
+  criar_oport_lote:
+    type: boolean

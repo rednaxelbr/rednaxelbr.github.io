@@ -1,0 +1,138 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  id_legado:
+    type: integer
+  tpag:
+    type: integer
+  tpintegra:
+    type: integer
+  sigla_forma:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  data_emissao:
+    type: string
+  num_nf:
+    type: integer
+  chnfe:
+    type: string
+  tipo:
+    type: string
+  tipo_oper:
+    type: string
+  numero_pedido:
+    type: integer
+  stat:
+    type: integer
+  id_pessoa:
+    type: integer
+  cpf_cnpj:
+    type: integer
+  nome_razao:
+    type: string
+  historico:
+    type: string
+  id_externo:
+    type: string
+  fiscdoc_id:
+    type: integer
+  parcela:
+    type: integer
+  lista_cfop:
+    type: array
+    items:
+      type: integer
+  data_vencto:
+    type: string
+  data_parcela:
+    type: string
+  data_quitacao:
+    type: string
+  nome_usuario:
+    type: string
+  quitado:
+    type: boolean
+  quitado_por:
+    type: string
+  recebido:
+    type: boolean
+  confirmado:
+    type: boolean
+  atencao:
+    type: boolean
+  cobranca:
+    type: boolean
+  pendente:
+    type: boolean
+  icones:
+    type: string
+  nosso_numero:
+    type: integer
+  boleto:
+    type: boolean
+  situacao:
+    type: string
+  data_recebido:
+    type: string
+  data_confirmado:
+    type: string
+  data_atencao:
+    type: string
+  data_cobranca:
+    type: string
+  data_entregue:
+    type: string
+  id_boleto:
+    type: integer
+  excluir:
+    type: boolean
+  atualizado_erp:
+    type: boolean
+  ids:
+    type: array
+    items:
+      type: integer
+  linha_digitavel:
+    type: string
+  cta_contab:
+    type: integer
+  nome_conta:
+    type: string
+  str_quitado:
+    type: string
+  str_recebido:
+    type: string
+  str_confirmado:
+    type: string
+  str_atencao:
+    type: string
+  str_cobranca:
+    type: string
+  str_entregue:
+    type: string
+  atrasado:
+    type: boolean
+  tipo_vale:
+    type: string
+  modalidade_pagto:
+    type: string
+  nsu:
+    type: string
+  codigo_vale:
+    type: string
+  situacao_vale:
+    type: string
+  id_vale:
+    type: integer
+  id_pagto:
+    type: integer
+  dthr_lancto:
+    type: string
+  id_conta:
+    type: integer

@@ -1,0 +1,52 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_abertura:
+    type: string
+  data_abertura:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  pdv:
+    type: integer
+  operador:
+    type: string
+  quem_abriu:
+    type: string
+  quem_fechou:
+    type: string
+  quem_conferiu:
+    type: string
+  fechada:
+    type: boolean
+  conferida:
+    type: boolean
+  inicial:
+    type: integer
+  final:
+    type: integer
+  completa:
+    type: boolean
+  situacao:
+    type: string
+  rgb_situacao:
+    type: string
+  sigla_status:
+    type: string
+  cupom:
+    type: string
+  limpar_conf:
+    type: boolean
+  auditar:
+    type: boolean
+  fechamento_manual:
+    type: boolean
+  justificativa:
+    type: string

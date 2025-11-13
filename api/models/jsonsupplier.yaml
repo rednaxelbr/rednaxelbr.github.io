@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_fornec:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  nome_fantasia:
+    type: string
+  ativo:
+    type: boolean
+  fornec_pai:
+    type: integer
+  id_comprador:
+    type: integer
+  nome_comprador:
+    type: string
+  consumo:
+    type: boolean
+  dia_semana_iso:
+    type: integer
+  dia_semana:
+    type: string
+  quant_skus:
+    type: integer
+  dthr_analise:
+    type: string
+  nb_contacts:
+    type: integer
+  nb_orders:
+    type: integer

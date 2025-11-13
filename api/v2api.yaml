@@ -11,42 +11,1229 @@ servers:
     description: Produção
 
 tags:
+  - name: Accesscards
+    description: Accesscards
+  - name: Accessgroups
+    description: Accessgroups
+  - name: Addresses
+    description: Addresses
+  - name: Addresstypes
+    description: Addresstypes
+  - name: Approvals
+    description: Approvals
+  - name: Auditlogs
+    description: Auditlogs
+  - name: Bankaccounts
+    description: Bankaccounts
+  - name: Bankcollections
+    description: Bankcollections
+  - name: Banks
+    description: Banks
+  - name: Bankstatements
+    description: Bankstatements
+  - name: Barcodes
+    description: Barcodes
+  - name: Baseactivities
+    description: Baseactivities
+  - name: Baseprocesses
+    description: Baseprocesses
+  - name: Batches
+    description: Batches
+  - name: Billings
+    description: Billings
+  - name: Billingstatements
+    description: Billingstatements
+  - name: Bizhours
+    description: Bizhours
+  - name: Bizschedules
+    description: Bizschedules
+  - name: Boletocommands
+    description: Boletocommands
+  - name: Boletos
+    description: Boletos
+  - name: Brands
+    description: Brands
+  - name: Buildings
+    description: Buildings
+  - name: Bulkhandlings
+    description: Bulkhandlings
+  - name: Bulkpersons
+    description: Bulkpersons
+  - name: Bulkpurchases
+    description: Bulkpurchases
+  - name: Bulkreceivables
+    description: Bulkreceivables
+  - name: Bulkstocks
+    description: Bulkstocks
+  - name: Buyers
+    description: Buyers
+  - name: Cachetables
+    description: Cachetables
+  - name: Campaignitems
+    description: Campaignitems
+  - name: Campaigns
+    description: Campaigns
+  - name: Carriers
+    description: Carriers
+  - name: Cashbalanceadjustments
+    description: Cashbalanceadjustments
+  - name: Cashbalances
+    description: Cashbalances
   - name: Cashiers
     description: Cashiers
+  - name: Cataloglevels
+    description: Cataloglevels
+  - name: Catalogs
+    description: Catalogs
+  - name: Categories
+    description: Categories
+  - name: Categorylinks
+    description: Categorylinks
+  - name: Cbenefs
+    description: Cbenefs
+  - name: Certificates
+    description: Certificates
+  - name: Channelfreights
+    description: Channelfreights
+  - name: Channelpriceconfigs
+    description: Channelpriceconfigs
+  - name: Channels
+    description: Channels
+  - name: Chartconfigs
+    description: Chartconfigs
   - name: Charts
     description: Charts
+  - name: Cities
+    description: Cities
+  - name: Citydistricts
+    description: Citydistricts
+  - name: Citytaxes
+    description: Citytaxes
+  - name: Cnaes
+    description: Cnaes
+  - name: Companies
+    description: Companies
+  - name: Contacttypes
+    description: Contacttypes
+  - name: Contractrun
+    description: Contractrun
+  - name: Contracts
+    description: Contracts
+  - name: Costcenters
+    description: Costcenters
+  - name: Coupons
+    description: Coupons
+  - name: Covenants
+    description: Covenants
+  - name: Csts
+    description: Csts
+  - name: Csvexports
+    description: Csvexports
+  - name: Csvimporterrors
+    description: Csvimporterrors
+  - name: Csvimports
+    description: Csvimports
+  - name: Currencies
+    description: Currencies
+  - name: Curves
+    description: Curves
+  - name: Customercategories
+    description: Customercategories
+  - name: Customercontacts
+    description: Customercontacts
+  - name: Customeremails
+    description: Customeremails
+  - name: Customernotes
+    description: Customernotes
+  - name: Customerphones
+    description: Customerphones
+  - name: Customerpoints
+    description: Customerpoints
+  - name: Customertransactions
+    description: Customertransactions
+  - name: Dashboardmetrics
+    description: Dashboardmetrics
+  - name: Dashboards
+    description: Dashboards
+  - name: Deals
+    description: Deals
+  - name: Dealtypes
+    description: Dealtypes
+  - name: Deliveries
+    description: Deliveries
+  - name: Deliverytypes
+    description: Deliverytypes
+  - name: Dfebatches
+    description: Dfebatches
+  - name: Distriborders
+    description: Distriborders
+  - name: Distribrefillitems
+    description: Distribrefillitems
+  - name: Distribrefills
+    description: Distribrefills
+  - name: Distribskus
+    description: Distribskus
+  - name: Distribtypes
+    description: Distribtypes
+  - name: Distributions
+    description: Distributions
+  - name: Documenttypes
+    description: Documenttypes
+  - name: Emails
+    description: Emails
+  - name: Emailtemplatefields
+    description: Emailtemplatefields
+  - name: Emailtemplates
+    description: Emailtemplates
+  - name: Emailtemplatetypes
+    description: Emailtemplatetypes
+  - name: Events
+    description: Events
+  - name: Expensecategories
+    description: Expensecategories
+  - name: Expenses
+    description: Expenses
+  - name: Expenseskus
+    description: Expenseskus
+  - name: Financialreports
+    description: Financialreports
+  - name: Freightbillbalances
+    description: Freightbillbalances
+  - name: Freightbillitems
+    description: Freightbillitems
+  - name: Freightbills
+    description: Freightbills
+  - name: Freightregions
+    description: Freightregions
+  - name: Freightzones
+    description: Freightzones
+  - name: Funnelstages
+    description: Funnelstages
+  - name: Futureprices
+    description: Futureprices
+  - name: Giftcards
+    description: Giftcards
+  - name: Grouplevels
+    description: Grouplevels
+  - name: Groupmemberauths
+    description: Groupmemberauths
+  - name: Groupmembers
+    description: Groupmembers
+  - name: Handlingitems
+    description: Handlingitems
+  - name: Handlings
+    description: Handlings
+  - name: Helpmenuitems
+    description: Helpmenuitems
+  - name: Helppages
+    description: Helppages
+  - name: Holidays
+    description: Holidays
+  - name: Ibptaxes
+    description: Ibptaxes
+  - name: Importadditionitems
+    description: Importadditionitems
+  - name: Importadditions
+    description: Importadditions
+  - name: Importadditiontaxes
+    description: Importadditiontaxes
+  - name: Importfees
+    description: Importfees
+  - name: Imports
+    description: Imports
+  - name: Incompleteopenings
+    description: Incompleteopenings
+  - name: Installmentplans
+    description: Installmentplans
+  - name: Installments
+    description: Installments
+  - name: Integrationconfigs
+    description: Integrationconfigs
+  - name: Integrationexports
+    description: Integrationexports
+  - name: Integrationoptions
+    description: Integrationoptions
+  - name: Integrationresponses
+    description: Integrationresponses
+  - name: Integrations
+    description: Integrations
+  - name: Integrationstatus
+    description: Integrationstatus
+  - name: Integrationvendors
+    description: Integrationvendors
+  - name: Invoiceevents
+    description: Invoiceevents
+  - name: Invoicefixes
+    description: Invoicefixes
+  - name: Invoiceitems
+    description: Invoiceitems
+  - name: Invoicepayments
+    description: Invoicepayments
+  - name: Invoices
+    description: Invoices
+  - name: Issuers
+    description: Issuers
+  - name: Kanbanconfigs
+    description: Kanbanconfigs
+  - name: Kanbanitems
+    description: Kanbanitems
+  - name: Kanbanlanes
+    description: Kanbanlanes
+  - name: Kanbanlanetypes
+    description: Kanbanlanetypes
+  - name: Kanbanmenuactions
+    description: Kanbanmenuactions
+  - name: Kanbanmenuitems
+    description: Kanbanmenuitems
+  - name: Kanbans
+    description: Kanbans
+  - name: Kardexes
+    description: Kardexes
+  - name: Keyboardpayments
+    description: Keyboardpayments
+  - name: Keyboards
+    description: Keyboards
+  - name: Labeljobs
+    description: Labeljobs
+  - name: Labels
+    description: Labels
+  - name: Leadreasons
+    description: Leadreasons
+  - name: Leads
+    description: Leads
+  - name: Leadstages
+    description: Leadstages
+  - name: Leadstatuses
+    description: Leadstatuses
+  - name: Locationlabels
+    description: Locationlabels
   - name: Logout
     description: Logout
+  - name: Logs
+    description: Logs
+  - name: Loyaltyprograms
+    description: Loyaltyprograms
   - name: Me
     description: Me
   - name: Menu
     description: Menu
+  - name: Menuitems
+    description: Menuitems
+  - name: Menureports
+    description: Menureports
   - name: Metrics
     description: Metrics
+  - name: Metricseries
+    description: Metricseries
+  - name: Monthlysales
+    description: Monthlysales
+  - name: Myplans
+    description: Myplans
+  - name: Notificationconfigs
+    description: Notificationconfigs
+  - name: Notifications
+    description: Notifications
+  - name: Operationconfigs
+    description: Operationconfigs
+  - name: Operations
+    description: Operations
   - name: Order5929
     description: Order5929
+  - name: Ordercheckitems
+    description: Ordercheckitems
+  - name: Orderflags
+    description: Orderflags
+  - name: Orderflows
+    description: Orderflows
+  - name: Orderfreights
+    description: Orderfreights
   - name: Orderimport
     description: Orderimport
+  - name: Orderintegrations
+    description: Orderintegrations
   - name: Orderitems
     description: Orderitems
+  - name: Orderlabels
+    description: Orderlabels
+  - name: Ordermargins
+    description: Ordermargins
+  - name: Ordernotes
+    description: Ordernotes
+  - name: Orderobjects
+    description: Orderobjects
+  - name: Orderorigins
+    description: Orderorigins
+  - name: Orderpatches
+    description: Orderpatches
+  - name: Orderpaymentlists
+    description: Orderpaymentlists
+  - name: Orderpayments
+    description: Orderpayments
   - name: Orders
     description: Orders
   - name: Orderstatus
     description: Orderstatus
+  - name: Ordertrackings
+    description: Ordertrackings
+  - name: Ordervolumes
+    description: Ordervolumes
+  - name: Packages
+    description: Packages
+  - name: Parameters
+    description: Parameters
+  - name: Payables
+    description: Payables
+  - name: Payablesaggs
+    description: Payablesaggs
+  - name: Paymentcodes
+    description: Paymentcodes
+  - name: Paymenttypes
+    description: Paymenttypes
+  - name: Pdflayouts
+    description: Pdflayouts
+  - name: Pdvparameters
+    description: Pdvparameters
+  - name: Personaddresses
+    description: Personaddresses
+  - name: Personmargins
+    description: Personmargins
+  - name: Personproducts
+    description: Personproducts
+  - name: Personprofiles
+    description: Personprofiles
+  - name: Persons
+    description: Persons
+  - name: Phases
+    description: Phases
+  - name: Phonetypes
+    description: Phonetypes
+  - name: Pickers
+    description: Pickers
+  - name: Pickingqueues
+    description: Pickingqueues
+  - name: Pickingzones
+    description: Pickingzones
+  - name: Pixaccounts
+    description: Pixaccounts
+  - name: Pixcharges
+    description: Pixcharges
+  - name: Pixstatuses
+    description: Pixstatuses
+  - name: Planpaymentmethods
+    description: Planpaymentmethods
+  - name: Portfoliocustomers
+    description: Portfoliocustomers
+  - name: Portfolios
+    description: Portfolios
+  - name: Poslayoutkeys
+    description: Poslayoutkeys
+  - name: Poslayouts
+    description: Poslayouts
+  - name: Postalcodes
+    description: Postalcodes
+  - name: Posterfields
+    description: Posterfields
+  - name: Posterjobs
+    description: Posterjobs
+  - name: Posters
+    description: Posters
+  - name: Postersizes
+    description: Postersizes
+  - name: Pricelistarticles
+    description: Pricelistarticles
+  - name: Pricelistcategories
+    description: Pricelistcategories
+  - name: Pricelists
+    description: Pricelists
+  - name: Priceroundingrules
+    description: Priceroundingrules
+  - name: Pricerules
+    description: Pricerules
+  - name: Productcategories
+    description: Productcategories
   - name: Productimages
     description: Productimages
+  - name: Products
+    description: Products
+  - name: Producttags
+    description: Producttags
   - name: Prospects
     description: Prospects
+  - name: Providers
+    description: Providers
+  - name: Purchaseitems
+    description: Purchaseitems
+  - name: Purchaseitemtaxes
+    description: Purchaseitemtaxes
+  - name: Purchasemappings
+    description: Purchasemappings
+  - name: Purchaseorderitems
+    description: Purchaseorderitems
+  - name: Purchaseorderpayments
+    description: Purchaseorderpayments
+  - name: Purchaseorders
+    description: Purchaseorders
+  - name: Purchases
+    description: Purchases
+  - name: Purchases/Xml
+    description: Purchases/Xml
+  - name: Purchasetaxes
+    description: Purchasetaxes
+  - name: Quotes
+    description: Quotes
+  - name: Reasons
+    description: Reasons
+  - name: Receivables
+    description: Receivables
+  - name: Receivableslist
+    description: Receivableslist
+  - name: Receptioninvoices
+    description: Receptioninvoices
+  - name: Receptions
+    description: Receptions
+  - name: Receptionskus
+    description: Receptionskus
+  - name: Recharges
+    description: Recharges
+  - name: Rep201{Id}
+    description: Rep201{Id}
+  - name: Rep202{Id}
+    description: Rep202{Id}
+  - name: Rep203{Id}
+    description: Rep203{Id}
+  - name: Rep301{Id}
+    description: Rep301{Id}
+  - name: Rep302{Id}
+    description: Rep302{Id}
+  - name: Rep303{Id}
+    description: Rep303{Id}
+  - name: Rep304{Id}
+    description: Rep304{Id}
+  - name: Reportrows
+    description: Reportrows
+  - name: Reports
+    description: Reports
+  - name: Rooms
+    description: Rooms
+  - name: Roundprices
+    description: Roundprices
+  - name: Sales
+    description: Sales
+  - name: Salesfunnels
+    description: Salesfunnels
+  - name: Salesinstallments
+    description: Salesinstallments
+  - name: Salesitems
+    description: Salesitems
+  - name: Salespayments
+    description: Salespayments
+  - name: Salespaymentslist
+    description: Salespaymentslist
+  - name: Salespersons
+    description: Salespersons
+  - name: Salesreports
+    description: Salesreports
+  - name: Salessummaries
+    description: Salessummaries
+  - name: Scmconfigs
+    description: Scmconfigs
+  - name: Seasonalconfigs
+    description: Seasonalconfigs
+  - name: Seasonranges
+    description: Seasonranges
+  - name: Sendmails
+    description: Sendmails
+  - name: Serviceclasses
+    description: Serviceclasses
   - name: Serviceorderitems
     description: Serviceorderitems
+  - name: Serviceorderpayments
+    description: Serviceorderpayments
   - name: Serviceorders
     description: Serviceorders
+  - name: Services
+    description: Services
+  - name: Settings
+    description: Settings
+  - name: Shelfqueues
+    description: Shelfqueues
+  - name: Skuarticles
+    description: Skuarticles
+  - name: Skucmms
+    description: Skucmms
+  - name: Skuconfigs
+    description: Skuconfigs
+  - name: Skucurvedetails
+    description: Skucurvedetails
+  - name: Skucurves
+    description: Skucurves
+  - name: Skudailysales
+    description: Skudailysales
+  - name: Skugrids
+    description: Skugrids
+  - name: Skugroups
+    description: Skugroups
+  - name: Skumonthlysales
+    description: Skumonthlysales
+  - name: Skuparts
+    description: Skuparts
+  - name: Skuprices
+    description: Skuprices
+  - name: Skureservations
+    description: Skureservations
+  - name: Skus
+    description: Skus
+  - name: Skustocks
+    description: Skustocks
+  - name: Skutransits
+    description: Skutransits
+  - name: Skutrends
+    description: Skutrends
+  - name: Skutypes
+    description: Skutypes
+  - name: Slipreasons
+    description: Slipreasons
+  - name: Snbrackets
+    description: Snbrackets
+  - name: States
+    description: States
+  - name: Status
+    description: Status
+  - name: Statuses
+    description: Statuses
+  - name: Stockdailysummaries
+    description: Stockdailysummaries
+  - name: Stocksectors
+    description: Stocksectors
+  - name: Stocksummaries
+    description: Stocksummaries
+  - name: Supplieritems
+    description: Supplieritems
+  - name: Suppliers
+    description: Suppliers
+  - name: Supplyitems
+    description: Supplyitems
+  - name: Systeminfo
+    description: Systeminfo
+  - name: Systemtasks
+    description: Systemtasks
+  - name: Tasks
+    description: Tasks
+  - name: Taxcfops
+    description: Taxcfops
+  - name: Taxclasses
+    description: Taxclasses
+  - name: Taxrates
+    description: Taxrates
+  - name: Tenants
+    description: Tenants
+  - name: Timelines
+    description: Timelines
   - name: Tokens
     description: Tokens
+  - name: Transactions
+    description: Transactions
+  - name: Units
+    description: Units
+  - name: Userauths
+    description: Userauths
+  - name: Usercompanies
+    description: Usercompanies
+  - name: Useremails
+    description: Useremails
   - name: Users
     description: Users
+  - name: Vendors
+    description: Vendors
+  - name: Voidnumbers
+    description: Voidnumbers
+  - name: Vouchers
+    description: Vouchers
+  - name: Voucherstatuses
+    description: Voucherstatuses
+  - name: Vouchertypes
+    description: Vouchertypes
+  - name: Whatsappdevices
+    description: Whatsappdevices
+  - name: Whatsappmessages
+    description: Whatsappmessages
+  - name: Wmsinfos
+    description: Wmsinfos
+  - name: Xmlexports
+    description: Xmlexports
 
 paths:
+# ERRO open ../v2api/api/v2accesscards.go: no such file or directory
+# ERRO open ../v2api/api/v2accesscards.go: no such file or directory
+# ../v2api/api/v2accessgroups.go
+  /accessgroups:
+# modelo = JSONAccessGroup
+    post:
+      tags:
+       - Accessgroups
+      summary: Cria um(a) accessgroups
+      responses:
+        '200':
+          description: accessgroups
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonaccessgroup.yaml
+# ../v2api/api/v2accessgroups.go
+  /accessgroups/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do accessgroups
+# modelo = JSONAccessGroup
+    put:
+      tags:
+       - Accessgroups
+      summary: Atualiza um(a) accessgroups
+# ../v2api/api/v2addresses.go
+  /addresses:
+# modelo = JSONCadPesEnder
+    post:
+      tags:
+       - Addresses
+      summary: Cria um(a) addresses
+      responses:
+        '200':
+          description: addresses
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncadpesender.yaml
+# ../v2api/api/v2addresses.go
+  /addresses/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do addresses
+# modelo = JSONCadPesEnder
+    delete:
+      tags:
+       - Addresses
+      summary: Deleta um(a) addresses
+# ../v2api/api/v2addresstypes.go
+  /addresstypes:
+# modelo = JSONAddressType
+    post:
+      tags:
+       - Addresstypes
+      summary: Cria um(a) addresstypes
+      responses:
+        '200':
+          description: addresstypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonaddresstype.yaml
+# ../v2api/api/v2addresstypes.go
+  /addresstypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do addresstypes
+# modelo = JSONAddressType
+    put:
+      tags:
+       - Addresstypes
+      summary: Atualiza um(a) addresstypes
+    delete:
+      tags:
+       - Addresstypes
+      summary: Deleta um(a) addresstypes
+# ../v2api/api/v2approvals.go
+  /approvals:
+# filtros = FilterApprovals
+# modelo = 
+    get:
+      tags:
+       - Approvals
+      summary: Listagem de approvals
+      responses:
+        '200':
+          description: approvals
+# ../v2api/api/v2approvals.go
+  /approvals/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do approvals
+# modelo = 
+    get:
+      tags:
+       - Approvals
+      summary: Busca um(a) approvals
+      responses:
+        '200':
+          description: approvals
+# ../v2api/api/v2auditlogs.go
+  /auditlogs:
+# filtros = FilterAuditLogs
+# modelo = 
+    get:
+      tags:
+       - Auditlogs
+      summary: Listagem de auditlogs
+      responses:
+        '200':
+          description: auditlogs
+# ../v2api/api/v2bankaccounts.go
+  /bankaccounts:
+# modelo = JSONBankAccount
+    post:
+      tags:
+       - Bankaccounts
+      summary: Cria um(a) bankaccounts
+      responses:
+        '200':
+          description: bankaccounts
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbankaccount.yaml
+# ../v2api/api/v2bankaccounts.go
+  /bankaccounts/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do bankaccounts
+# modelo = JSONBankAccount
+    delete:
+      tags:
+       - Bankaccounts
+      summary: Deleta um(a) bankaccounts
+    put:
+      tags:
+       - Bankaccounts
+      summary: Atualiza um(a) bankaccounts
+# ERRO open ../v2api/api/v2bankcollections.go: no such file or directory
+# ERRO open ../v2api/api/v2bankcollections.go: no such file or directory
+# ../v2api/api/v2banks.go
+  /banks:
+# filtros = FilterBanks
+# modelo = 
+    get:
+      tags:
+       - Banks
+      summary: Listagem de banks
+      responses:
+        '200':
+          description: banks
+# ERRO open ../v2api/api/v2bankstatements.go: no such file or directory
+# ERRO open ../v2api/api/v2bankstatements.go: no such file or directory
+# ../v2api/api/v2barcodes.go
+  /barcodes:
+# modelo = JSONBarcode
+    post:
+      tags:
+       - Barcodes
+      summary: Cria um(a) barcodes
+      responses:
+        '200':
+          description: barcodes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbarcode.yaml
+# ../v2api/api/v2barcodes.go
+  /barcodes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do barcodes
+# modelo = JSONBarcode
+    put:
+      tags:
+       - Barcodes
+      summary: Atualiza um(a) barcodes
+    delete:
+      tags:
+       - Barcodes
+      summary: Deleta um(a) barcodes
+# ../v2api/api/v2baseactivities.go
+  /baseactivities:
+# modelo = JSONBaseActivity
+    post:
+      tags:
+       - Baseactivities
+      summary: Cria um(a) baseactivities
+      responses:
+        '200':
+          description: baseactivities
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbaseactivity.yaml
+# ../v2api/api/v2baseactivities.go
+  /baseactivities/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do baseactivities
+# modelo = JSONBaseActivity
+    put:
+      tags:
+       - Baseactivities
+      summary: Atualiza um(a) baseactivities
+# ../v2api/api/v2baseprocesses.go
+  /baseprocesses:
+# filtros = FilterBaseProcesses
+# modelo = 
+    get:
+      tags:
+       - Baseprocesses
+      summary: Listagem de baseprocesses
+      responses:
+        '200':
+          description: baseprocesses
+# ../v2api/api/v2batches.go
+  /batches:
+# filtros = FilterBatches
+# modelo = 
+    get:
+      tags:
+       - Batches
+      summary: Listagem de batches
+      responses:
+        '200':
+          description: batches
+# ../v2api/api/v2batches.go
+  /batches/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do batches
+# modelo = 
+    get:
+      tags:
+       - Batches
+      summary: Busca um(a) batches
+      responses:
+        '200':
+          description: batches
+# ../v2api/api/v2billings.go
+  /billings:
+# filtros = FilterBillings
+# modelo = JSONBilling
+    get:
+      tags:
+       - Billings
+      summary: Listagem de billings
+      responses:
+        '200':
+          description: billings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonbilling.yaml
+# ../v2api/api/v2billings.go
+  /billings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do billings
+# modelo = JSONBilling
+    put:
+      tags:
+       - Billings
+      summary: Atualiza um(a) billings
+# ERRO open ../v2api/api/v2billingstatements.go: no such file or directory
+# ERRO open ../v2api/api/v2billingstatements.go: no such file or directory
+# ERRO open ../v2api/api/v2bizhours.go: no such file or directory
+# ERRO open ../v2api/api/v2bizhours.go: no such file or directory
+# ERRO open ../v2api/api/v2bizschedules.go: no such file or directory
+# ERRO open ../v2api/api/v2bizschedules.go: no such file or directory
+# ../v2api/api/v2boletocommands.go
+  /boletocommands:
+# modelo = 
+    get:
+      tags:
+       - Boletocommands
+      summary: Listagem de boletocommands
+      responses:
+        '200':
+          description: boletocommands
+# ../v2api/api/v2boletos.go
+  /boletos:
+# filtros = FilterBoletos
+# modelo = JSONBoleto
+    get:
+      tags:
+       - Boletos
+      summary: Listagem de boletos
+      responses:
+        '200':
+          description: boletos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonboleto.yaml
+# ../v2api/api/v2boletos.go
+  /boletos/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do boletos
+# modelo = JSONBoleto
+    delete:
+      tags:
+       - Boletos
+      summary: Deleta um(a) boletos
+# ../v2api/api/v2brands.go
+  /brands:
+# modelo = JSONBrand
+    post:
+      tags:
+       - Brands
+      summary: Cria um(a) brands
+      responses:
+        '200':
+          description: brands
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbrand.yaml
+# ../v2api/api/v2brands.go
+  /brands/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do brands
+# modelo = JSONBrand
+    put:
+      tags:
+       - Brands
+      summary: Atualiza um(a) brands
+    delete:
+      tags:
+       - Brands
+      summary: Deleta um(a) brands
+# ../v2api/api/v2buildings.go
+  /buildings:
+# modelo = JSONBuilding
+    post:
+      tags:
+       - Buildings
+      summary: Cria um(a) buildings
+      responses:
+        '200':
+          description: buildings
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbuilding.yaml
+# ../v2api/api/v2buildings.go
+  /buildings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do buildings
+# modelo = JSONBuilding
+    put:
+      tags:
+       - Buildings
+      summary: Atualiza um(a) buildings
+    delete:
+      tags:
+       - Buildings
+      summary: Deleta um(a) buildings
+# ERRO open ../v2api/api/v2bulkhandlings.go: no such file or directory
+# ERRO open ../v2api/api/v2bulkpersons.go: no such file or directory
+# ERRO open ../v2api/api/v2bulkpurchases.go: no such file or directory
+# ERRO open ../v2api/api/v2bulkreceivables.go: no such file or directory
+# ERRO open ../v2api/api/v2bulkstocks.go: no such file or directory
+# ../v2api/api/v2buyers.go
+  /buyers:
+# modelo = JSONBuyer
+    post:
+      tags:
+       - Buyers
+      summary: Cria um(a) buyers
+      responses:
+        '200':
+          description: buyers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbuyer.yaml
+# ../v2api/api/v2buyers.go
+  /buyers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do buyers
+# modelo = JSONBuyer
+    put:
+      tags:
+       - Buyers
+      summary: Atualiza um(a) buyers
+    delete:
+      tags:
+       - Buyers
+      summary: Deleta um(a) buyers
+# ../v2api/api/v2cachetables.go
+  /cachetables:
+# modelo = 
+    post:
+      tags:
+       - Cachetables
+      summary: Cria um(a) cachetables
+      responses:
+        '200':
+          description: cachetables
+# ERRO open ../v2api/api/v2campaignitems.go: no such file or directory
+# ERRO open ../v2api/api/v2campaignitems.go: no such file or directory
+# ../v2api/api/v2campaigns.go
+  /campaigns:
+# modelo = JSONCampaign
+    post:
+      tags:
+       - Campaigns
+      summary: Cria um(a) campaigns
+      responses:
+        '200':
+          description: campaigns
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncampaign.yaml
+# ../v2api/api/v2campaigns.go
+  /campaigns/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do campaigns
+# modelo = JSONCampaign
+    put:
+      tags:
+       - Campaigns
+      summary: Atualiza um(a) campaigns
+    delete:
+      tags:
+       - Campaigns
+      summary: Deleta um(a) campaigns
+# ../v2api/api/v2carriers.go
+  /carriers:
+# modelo = JSONCarrier
+    post:
+      tags:
+       - Carriers
+      summary: Cria um(a) carriers
+      responses:
+        '200':
+          description: carriers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncarrier.yaml
+# ../v2api/api/v2carriers.go
+  /carriers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do carriers
+# modelo = JSONCarrier
+    delete:
+      tags:
+       - Carriers
+      summary: Deleta um(a) carriers
+# ERRO open ../v2api/api/v2cashbalanceadjustments.go: no such file or directory
+# ../v2api/api/v2cashbalances.go
+  /cashbalances:
+# modelo = JSONCashBalance
+    post:
+      tags:
+       - Cashbalances
+      summary: Cria um(a) cashbalances
+      responses:
+        '200':
+          description: cashbalances
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncashbalance.yaml
+# ../v2api/api/v2cashbalances.go
+  /cashbalances/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cashbalances
+# modelo = JSONCashBalance
+    put:
+      tags:
+       - Cashbalances
+      summary: Atualiza um(a) cashbalances
+    delete:
+      tags:
+       - Cashbalances
+      summary: Deleta um(a) cashbalances
 # ../v2api/api/v2cashiers.go
   /cashiers:
 # modelo = TabelaPontoVenda
@@ -76,6 +1263,219 @@ paths:
       tags:
        - Cashiers
       summary: Deleta um(a) cashiers
+# ../v2api/api/v2cataloglevels.go
+  /cataloglevels:
+# filtros = FilterCatalogLevels
+# modelo = 
+    get:
+      tags:
+       - Cataloglevels
+      summary: Listagem de cataloglevels
+      responses:
+        '200':
+          description: cataloglevels
+# ../v2api/api/v2catalogs.go
+  /catalogs:
+# modelo = JSONCatalogs
+    post:
+      tags:
+       - Catalogs
+      summary: Cria um(a) catalogs
+      responses:
+        '200':
+          description: catalogs
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncatalogs.yaml
+# ../v2api/api/v2catalogs.go
+  /catalogs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do catalogs
+# modelo = JSONCatalogs
+    delete:
+      tags:
+       - Catalogs
+      summary: Deleta um(a) catalogs
+# ../v2api/api/v2categories.go
+  /categories:
+# modelo = JSONCategory
+    post:
+      tags:
+       - Categories
+      summary: Cria um(a) categories
+      responses:
+        '200':
+          description: categories
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncategory.yaml
+# ../v2api/api/v2categories.go
+  /categories/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do categories
+# modelo = JSONCategory
+    put:
+      tags:
+       - Categories
+      summary: Atualiza um(a) categories
+    delete:
+      tags:
+       - Categories
+      summary: Deleta um(a) categories
+# ../v2api/api/v2categorylinkitems.go
+  /categorylinkitems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do categorylinkitems
+# modelo = 
+    delete:
+      tags:
+       - Categorylinkitems
+      summary: Deleta um(a) categorylinkitems
+# ../v2api/api/v2categorylinks.go
+  /categorylinks:
+# modelo = JSONCategoryLink
+    post:
+      tags:
+       - Categorylinks
+      summary: Cria um(a) categorylinks
+      responses:
+        '200':
+          description: categorylinks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncategorylink.yaml
+# ../v2api/api/v2categorylinks.go
+  /categorylinks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do categorylinks
+# modelo = JSONCategoryLink
+    put:
+      tags:
+       - Categorylinks
+      summary: Atualiza um(a) categorylinks
+    delete:
+      tags:
+       - Categorylinks
+      summary: Deleta um(a) categorylinks
+# ../v2api/api/v2cbenefs.go
+  /cbenefs:
+# modelo = JSONCbenef
+    post:
+      tags:
+       - Cbenefs
+      summary: Cria um(a) cbenefs
+      responses:
+        '200':
+          description: cbenefs
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncbenef.yaml
+# ../v2api/api/v2cbenefs.go
+  /cbenefs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cbenefs
+# modelo = JSONCbenef
+    delete:
+      tags:
+       - Cbenefs
+      summary: Deleta um(a) cbenefs
+# ../v2api/api/v2certificates.go
+  /certificates:
+# modelo = JSONCertificado
+    post:
+      tags:
+       - Certificates
+      summary: Cria um(a) certificates
+      responses:
+        '200':
+          description: certificates
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncertificado.yaml
+# ../v2api/api/v2certificates.go
+  /certificates/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do certificates
+# modelo = JSONCertificado
+    put:
+      tags:
+       - Certificates
+      summary: Atualiza um(a) certificates
+# ERRO open ../v2api/api/v2channelfreights.go: no such file or directory
+# ERRO open ../v2api/api/v2channelfreights.go: no such file or directory
+# ERRO open ../v2api/api/v2channelpriceconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2channelpriceconfigs.go: no such file or directory
+# ../v2api/api/v2channels.go
+  /channels:
+# modelo = JSONChannel
+    post:
+      tags:
+       - Channels
+      summary: Cria um(a) channels
+      responses:
+        '200':
+          description: channels
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonchannel.yaml
+# ../v2api/api/v2channels.go
+  /channels/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do channels
+# modelo = JSONChannel
+    delete:
+      tags:
+       - Channels
+      summary: Deleta um(a) channels
+# ERRO open ../v2api/api/v2chartconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2chartconfigs.go: no such file or directory
 # ../v2api/api/v2charts.go
   /charts:
 # modelo = 
@@ -86,6 +1486,1637 @@ paths:
       responses:
         '200':
           description: charts
+# ../v2api/api/v2cities.go
+  /cities:
+# filtros = FilterCities
+# modelo = 
+    get:
+      tags:
+       - Cities
+      summary: Listagem de cities
+      responses:
+        '200':
+          description: cities
+# ../v2api/api/v2cities.go
+  /cities/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cities
+# modelo = 
+    get:
+      tags:
+       - Cities
+      summary: Busca um(a) cities
+      responses:
+        '200':
+          description: cities
+# ../v2api/api/v2citydistricts.go
+  /citydistricts:
+# filtros = FilterCityDistricts
+# modelo = 
+    get:
+      tags:
+       - Citydistricts
+      summary: Listagem de citydistricts
+      responses:
+        '200':
+          description: citydistricts
+# ../v2api/api/v2citytaxes.go
+  /citytaxes:
+# filtros = FilterCityTaxes
+# modelo = 
+    get:
+      tags:
+       - Citytaxes
+      summary: Listagem de citytaxes
+      responses:
+        '200':
+          description: citytaxes
+# ../v2api/api/v2cnaes.go
+  /cnaes:
+# modelo = JSONCnae
+    post:
+      tags:
+       - Cnaes
+      summary: Cria um(a) cnaes
+      responses:
+        '200':
+          description: cnaes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncnae.yaml
+# ../v2api/api/v2cnaes.go
+  /cnaes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cnaes
+# modelo = JSONCnae
+    put:
+      tags:
+       - Cnaes
+      summary: Atualiza um(a) cnaes
+    delete:
+      tags:
+       - Cnaes
+      summary: Deleta um(a) cnaes
+# ../v2api/api/v2companies.go
+  /companies:
+# modelo = JSONCompany
+    post:
+      tags:
+       - Companies
+      summary: Cria um(a) companies
+      responses:
+        '200':
+          description: companies
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncompany.yaml
+# ../v2api/api/v2companies.go
+  /companies/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do companies
+# modelo = JSONCompany
+    get:
+      tags:
+       - Companies
+      summary: Busca um(a) companies
+      responses:
+        '200':
+          description: companies
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsoncompany.yaml
+# ../v2api/api/v2contacttypes.go
+  /contacttypes:
+# filtros = FilterContactTypes
+# modelo = 
+    get:
+      tags:
+       - Contacttypes
+      summary: Listagem de contacttypes
+      responses:
+        '200':
+          description: contacttypes
+# ../v2api/api/v2contacttypes.go
+  /contacttypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do contacttypes
+# modelo = 
+    get:
+      tags:
+       - Contacttypes
+      summary: Busca um(a) contacttypes
+      responses:
+        '200':
+          description: contacttypes
+# ERRO open ../v2api/api/v2contractrun.go: no such file or directory
+# ../v2api/api/v2contracts.go
+  /contracts:
+# filtros = FilterContracts
+# modelo = JSONContract
+    get:
+      tags:
+       - Contracts
+      summary: Listagem de contracts
+      responses:
+        '200':
+          description: contracts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsoncontract.yaml
+# ../v2api/api/v2contracts.go
+  /contracts/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do contracts
+# modelo = JSONContract
+    put:
+      tags:
+       - Contracts
+      summary: Atualiza um(a) contracts
+# ERRO open ../v2api/api/v2costcenters.go: no such file or directory
+# ERRO open ../v2api/api/v2costcenters.go: no such file or directory
+# ../v2api/api/v2coupons.go
+  /coupons:
+# modelo = JSONCoupon
+    post:
+      tags:
+       - Coupons
+      summary: Cria um(a) coupons
+      responses:
+        '200':
+          description: coupons
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncoupon.yaml
+# ../v2api/api/v2coupons.go
+  /coupons/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do coupons
+# modelo = JSONCoupon
+    delete:
+      tags:
+       - Coupons
+      summary: Deleta um(a) coupons
+# ../v2api/api/v2covenants.go
+  /covenants:
+# modelo = JSONConvenio
+    post:
+      tags:
+       - Covenants
+      summary: Cria um(a) covenants
+      responses:
+        '200':
+          description: covenants
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonconvenio.yaml
+# ../v2api/api/v2covenants.go
+  /covenants/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do covenants
+# modelo = JSONConvenio
+    put:
+      tags:
+       - Covenants
+      summary: Atualiza um(a) covenants
+    delete:
+      tags:
+       - Covenants
+      summary: Deleta um(a) covenants
+# ../v2api/api/v2csts.go
+  /csts:
+# modelo = JSONCstExcel
+    post:
+      tags:
+       - Csts
+      summary: Cria um(a) csts
+      responses:
+        '200':
+          description: csts
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncstexcel.yaml
+# ../v2api/api/v2csvexports.go
+  /csvexports:
+# filtros = FilterCSVExports
+# modelo = 
+    get:
+      tags:
+       - Csvexports
+      summary: Listagem de csvexports
+      responses:
+        '200':
+          description: csvexports
+# ERRO open ../v2api/api/v2csvimporterrors.go: no such file or directory
+# ERRO open ../v2api/api/v2csvimporterrors.go: no such file or directory
+# ERRO open ../v2api/api/v2csvimports.go: no such file or directory
+# ERRO open ../v2api/api/v2csvimports.go: no such file or directory
+# ../v2api/api/v2currencies.go
+  /currencies:
+# filtros = FilterCurrencies
+# modelo = 
+    get:
+      tags:
+       - Currencies
+      summary: Listagem de currencies
+      responses:
+        '200':
+          description: currencies
+# ../v2api/api/v2curves.go
+  /curves:
+# modelo = JSONCurve
+    post:
+      tags:
+       - Curves
+      summary: Cria um(a) curves
+      responses:
+        '200':
+          description: curves
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncurve.yaml
+# ../v2api/api/v2curves.go
+  /curves/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do curves
+# modelo = JSONCurve
+    put:
+      tags:
+       - Curves
+      summary: Atualiza um(a) curves
+    delete:
+      tags:
+       - Curves
+      summary: Deleta um(a) curves
+# ERRO open ../v2api/api/v2customercategories.go: no such file or directory
+# ERRO open ../v2api/api/v2customercategories.go: no such file or directory
+# ERRO open ../v2api/api/v2customercontacts.go: no such file or directory
+# ERRO open ../v2api/api/v2customercontacts.go: no such file or directory
+# ERRO open ../v2api/api/v2customeremails.go: no such file or directory
+# ERRO open ../v2api/api/v2customeremails.go: no such file or directory
+# ERRO open ../v2api/api/v2customernotes.go: no such file or directory
+# ERRO open ../v2api/api/v2customerphones.go: no such file or directory
+# ERRO open ../v2api/api/v2customerphones.go: no such file or directory
+# ERRO open ../v2api/api/v2customerpoints.go: no such file or directory
+# ERRO open ../v2api/api/v2customerpoints.go: no such file or directory
+# ../v2api/api/v2customertransactions.go
+  /customertransactions:
+# filtros = FilterCustomerTransaction
+# modelo = 
+    get:
+      tags:
+       - Customertransactions
+      summary: Listagem de customertransactions
+      responses:
+        '200':
+          description: customertransactions
+# ../v2api/api/v2dashboardmetrics.go
+  /dashboardmetrics:
+# filtros = FilterMetrics
+# modelo = 
+    get:
+      tags:
+       - Dashboardmetrics
+      summary: Listagem de dashboardmetrics
+      responses:
+        '200':
+          description: dashboardmetrics
+# ../v2api/api/v2dashboards.go
+  /dashboards:
+# modelo = JSONDashboardV2
+    post:
+      tags:
+       - Dashboards
+      summary: Cria um(a) dashboards
+      responses:
+        '200':
+          description: dashboards
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondashboardv2.yaml
+# ../v2api/api/v2dashboards.go
+  /dashboards/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do dashboards
+# modelo = JSONDashboardV2
+    delete:
+      tags:
+       - Dashboards
+      summary: Deleta um(a) dashboards
+# ../v2api/api/v2deals.go
+  /deals:
+# modelo = JSONDeal
+    post:
+      tags:
+       - Deals
+      summary: Cria um(a) deals
+      responses:
+        '200':
+          description: deals
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondeal.yaml
+# ../v2api/api/v2deals.go
+  /deals/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do deals
+# modelo = JSONDeal
+    put:
+      tags:
+       - Deals
+      summary: Atualiza um(a) deals
+    delete:
+      tags:
+       - Deals
+      summary: Deleta um(a) deals
+# ERRO open ../v2api/api/v2dealtypes.go: no such file or directory
+# ERRO open ../v2api/api/v2dealtypes.go: no such file or directory
+# ../v2api/api/v2deliveries.go
+  /deliveries:
+# modelo = JSONDelivery
+    post:
+      tags:
+       - Deliveries
+      summary: Cria um(a) deliveries
+      responses:
+        '200':
+          description: deliveries
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondelivery.yaml
+# ../v2api/api/v2deliveries.go
+  /deliveries/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do deliveries
+# modelo = JSONDelivery
+    put:
+      tags:
+       - Deliveries
+      summary: Atualiza um(a) deliveries
+    delete:
+      tags:
+       - Deliveries
+      summary: Deleta um(a) deliveries
+# ../v2api/api/v2deliverytypes.go
+  /deliverytypes:
+# modelo = JSONDeliveryType
+    post:
+      tags:
+       - Deliverytypes
+      summary: Cria um(a) deliverytypes
+      responses:
+        '200':
+          description: deliverytypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondeliverytype.yaml
+# ../v2api/api/v2deliverytypes.go
+  /deliverytypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do deliverytypes
+# modelo = JSONDeliveryType
+    delete:
+      tags:
+       - Deliverytypes
+      summary: Deleta um(a) deliverytypes
+# ERRO open ../v2api/api/v2dfebatches.go: no such file or directory
+# ERRO open ../v2api/api/v2dfebatches.go: no such file or directory
+# ERRO open ../v2api/api/v2distriborders.go: no such file or directory
+# ERRO open ../v2api/api/v2distriborders.go: no such file or directory
+# ERRO open ../v2api/api/v2distribrefillitems.go: no such file or directory
+# ERRO open ../v2api/api/v2distribrefills.go: no such file or directory
+# ERRO open ../v2api/api/v2distribrefills.go: no such file or directory
+# ERRO open ../v2api/api/v2distribskus.go: no such file or directory
+# ERRO open ../v2api/api/v2distribtypes.go: no such file or directory
+# ERRO open ../v2api/api/v2distribtypes.go: no such file or directory
+# ../v2api/api/v2distributions.go
+  /distributions:
+# modelo = JSONDistribParamsPostPutDel
+    post:
+      tags:
+       - Distributions
+      summary: Cria um(a) distributions
+      responses:
+        '200':
+          description: distributions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondistribparamspostputdel.yaml
+# ../v2api/api/v2distributions.go
+  /distributions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do distributions
+# modelo = JSONDistribParamsPostPutDel
+    delete:
+      tags:
+       - Distributions
+      summary: Deleta um(a) distributions
+# ERRO open ../v2api/api/v2documenttypes.go: no such file or directory
+# ERRO open ../v2api/api/v2documenttypes.go: no such file or directory
+# ../v2api/api/v2emails.go
+  /emails:
+# modelo = JSONEmail
+    post:
+      tags:
+       - Emails
+      summary: Cria um(a) emails
+      responses:
+        '200':
+          description: emails
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonemail.yaml
+# ../v2api/api/v2emails.go
+  /emails/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do emails
+# modelo = JSONEmail
+    put:
+      tags:
+       - Emails
+      summary: Atualiza um(a) emails
+    delete:
+      tags:
+       - Emails
+      summary: Deleta um(a) emails
+# ../v2api/api/v2emailtemplatefields.go
+  /emailtemplatefields:
+# filtros = EmailTemplateFieldsGet
+# modelo = 
+    get:
+      tags:
+       - Emailtemplatefields
+      summary: Listagem de emailtemplatefields
+      responses:
+        '200':
+          description: emailtemplatefields
+# ../v2api/api/v2emailtemplates.go
+  /emailtemplates:
+# modelo = JSONEmailTemplate
+    post:
+      tags:
+       - Emailtemplates
+      summary: Cria um(a) emailtemplates
+      responses:
+        '200':
+          description: emailtemplates
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonemailtemplate.yaml
+# ../v2api/api/v2emailtemplates.go
+  /emailtemplates/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do emailtemplates
+# modelo = JSONEmailTemplate
+    put:
+      tags:
+       - Emailtemplates
+      summary: Atualiza um(a) emailtemplates
+    delete:
+      tags:
+       - Emailtemplates
+      summary: Deleta um(a) emailtemplates
+# ../v2api/api/v2emailtemplatetypes.go
+  /emailtemplatetypes:
+# filtros = FilterEmailTemplateTypes
+# modelo = 
+    get:
+      tags:
+       - Emailtemplatetypes
+      summary: Listagem de emailtemplatetypes
+      responses:
+        '200':
+          description: emailtemplatetypes
+# ../v2api/api/v2events.go
+  /events:
+# modelo = JSONEventoSefaz
+    post:
+      tags:
+       - Events
+      summary: Cria um(a) events
+      responses:
+        '200':
+          description: events
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoneventosefaz.yaml
+# ../v2api/api/v2events.go
+  /events/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do events
+# modelo = JSONEventoSefaz
+    put /*:
+      tags:
+       - Events
+    delete*/:
+      tags:
+       - Events
+# ../v2api/api/v2expensecategories.go
+  /expensecategories:
+# modelo = JSONExpenseCategories
+    post:
+      tags:
+       - Expensecategories
+      summary: Cria um(a) expensecategories
+      responses:
+        '200':
+          description: expensecategories
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonexpensecategories.yaml
+# ../v2api/api/v2expensecategories.go
+  /expensecategories/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do expensecategories
+# modelo = JSONExpenseCategories
+    delete:
+      tags:
+       - Expensecategories
+      summary: Deleta um(a) expensecategories
+# ../v2api/api/v2expenses.go
+  /expenses:
+# modelo = JSONExpense
+    post:
+      tags:
+       - Expenses
+      summary: Cria um(a) expenses
+      responses:
+        '200':
+          description: expenses
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonexpense.yaml
+# ../v2api/api/v2expenses.go
+  /expenses/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do expenses
+# modelo = JSONExpense
+    put:
+      tags:
+       - Expenses
+      summary: Atualiza um(a) expenses
+# ../v2api/api/v2expenseskus.go
+  /expenseskus:
+# modelo = JSONExpenseSkus
+    post:
+      tags:
+       - Expenseskus
+      summary: Cria um(a) expenseskus
+      responses:
+        '200':
+          description: expenseskus
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonexpenseskus.yaml
+# ../v2api/api/v2expenseskus.go
+  /expenseskus/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do expenseskus
+# modelo = JSONExpenseSkus
+    delete:
+      tags:
+       - Expenseskus
+      summary: Deleta um(a) expenseskus
+# ERRO open ../v2api/api/v2externals{id}.go: no such file or directory
+# ../v2api/api/v2filedownloads.go
+  /filedownloads/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do filedownloads
+# modelo = 
+    get:
+      tags:
+       - Filedownloads
+      summary: Busca um(a) filedownloads
+      responses:
+        '200':
+          description: filedownloads
+# ERRO open ../v2api/api/v2financialreports.go: no such file or directory
+# ERRO open ../v2api/api/v2financialreports.go: no such file or directory
+# ERRO open ../v2api/api/v2freightbillbalances.go: no such file or directory
+# ERRO open ../v2api/api/v2freightbillbalances.go: no such file or directory
+# ERRO open ../v2api/api/v2freightbillitems.go: no such file or directory
+# ERRO open ../v2api/api/v2freightbillitems.go: no such file or directory
+# ../v2api/api/v2freightbills.go
+  /freightbills:
+# modelo = JSONFreightBill
+    post:
+      tags:
+       - Freightbills
+      summary: Cria um(a) freightbills
+      responses:
+        '200':
+          description: freightbills
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonfreightbill.yaml
+# ../v2api/api/v2freightbills.go
+  /freightbills/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do freightbills
+# modelo = JSONFreightBill
+    delete:
+      tags:
+       - Freightbills
+      summary: Deleta um(a) freightbills
+# ../v2api/api/v2freightregions.go
+  /freightregions:
+# modelo = JSONFreightRegion
+    post:
+      tags:
+       - Freightregions
+      summary: Cria um(a) freightregions
+      responses:
+        '200':
+          description: freightregions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonfreightregion.yaml
+# ../v2api/api/v2freightregions.go
+  /freightregions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do freightregions
+# modelo = JSONFreightRegion
+    delete:
+      tags:
+       - Freightregions
+      summary: Deleta um(a) freightregions
+# ../v2api/api/v2freightzones.go
+  /freightzones:
+# modelo = JSONFreightZone
+    post:
+      tags:
+       - Freightzones
+      summary: Cria um(a) freightzones
+      responses:
+        '200':
+          description: freightzones
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonfreightzone.yaml
+# ../v2api/api/v2freightzones.go
+  /freightzones/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do freightzones
+# modelo = JSONFreightZone
+    delete:
+      tags:
+       - Freightzones
+      summary: Deleta um(a) freightzones
+# ERRO open ../v2api/api/v2funnelstages.go: no such file or directory
+# ERRO open ../v2api/api/v2funnelstages.go: no such file or directory
+# ../v2api/api/v2futureprices.go
+  /futureprices:
+# modelo = JSONFuturePrice
+    post:
+      tags:
+       - Futureprices
+      summary: Cria um(a) futureprices
+      responses:
+        '200':
+          description: futureprices
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonfutureprice.yaml
+# ../v2api/api/v2futureprices.go
+  /futureprices/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do futureprices
+# modelo = JSONFuturePrice
+    put:
+      tags:
+       - Futureprices
+      summary: Atualiza um(a) futureprices
+    delete:
+      tags:
+       - Futureprices
+      summary: Deleta um(a) futureprices
+# ../v2api/api/v2giftcards.go
+  /giftcards:
+# modelo = JSONGiftCard
+    post:
+      tags:
+       - Giftcards
+      summary: Cria um(a) giftcards
+      responses:
+        '200':
+          description: giftcards
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsongiftcard.yaml
+# ../v2api/api/v2giftcards.go
+  /giftcards/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do giftcards
+# modelo = JSONGiftCard
+    put:
+      tags:
+       - Giftcards
+      summary: Atualiza um(a) giftcards
+# ../v2api/api/v2grouplevels.go
+  /grouplevels:
+# filtros = FilterGroupLevels
+# modelo = JSONGroupLevel
+    get:
+      tags:
+       - Grouplevels
+      summary: Listagem de grouplevels
+      responses:
+        '200':
+          description: grouplevels
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsongrouplevel.yaml
+# ../v2api/api/v2grouplevels.go
+  /grouplevels/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do grouplevels
+# modelo = JSONGroupLevel
+    put:
+      tags:
+       - Grouplevels
+      summary: Atualiza um(a) grouplevels
+# ../v2api/api/v2groupmemberauths.go
+  /groupmemberauths:
+# modelo = JSONGroupMemberAuth
+    post:
+      tags:
+       - Groupmemberauths
+      summary: Cria um(a) groupmemberauths
+      responses:
+        '200':
+          description: groupmemberauths
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsongroupmemberauth.yaml
+# ../v2api/api/v2groupmemberauths.go
+  /groupmemberauths/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do groupmemberauths
+# modelo = JSONGroupMemberAuth
+    delete:
+      tags:
+       - Groupmemberauths
+      summary: Deleta um(a) groupmemberauths
+# ../v2api/api/v2groupmembers.go
+  /groupmembers:
+# filtros = FilterGroupMembers
+# modelo = 
+    get:
+      tags:
+       - Groupmembers
+      summary: Listagem de groupmembers
+      responses:
+        '200':
+          description: groupmembers
+# ERRO open ../v2api/api/v2handlingitems.go: no such file or directory
+# ERRO open ../v2api/api/v2handlingitems.go: no such file or directory
+# ../v2api/api/v2handlings.go
+  /handlings:
+# filtros = FilterHandlings
+# modelo = JSONOrder
+    get:
+      tags:
+       - Handlings
+      summary: Listagem de handlings
+      responses:
+        '200':
+          description: handlings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonorder.yaml
+# ../v2api/api/v2handlings.go
+  /handlings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do handlings
+# modelo = JSONOrder
+    put:
+      tags:
+       - Handlings
+      summary: Atualiza um(a) handlings
+    delete:
+      tags:
+       - Handlings
+      summary: Deleta um(a) handlings
+# ../v2api/api/v2helpmenuitems.go
+  /helpmenuitems:
+# filtros = FilterHelpMenuItems
+# modelo = 
+    get:
+      tags:
+       - Helpmenuitems
+      summary: Listagem de helpmenuitems
+      responses:
+        '200':
+          description: helpmenuitems
+# ../v2api/api/v2helppages.go
+  /helppages:
+# modelo = JSONHelpPage
+    post:
+      tags:
+       - Helppages
+      summary: Cria um(a) helppages
+      responses:
+        '200':
+          description: helppages
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonhelppage.yaml
+# ../v2api/api/v2helppages.go
+  /helppages/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do helppages
+# modelo = JSONHelpPage
+    put:
+      tags:
+       - Helppages
+      summary: Atualiza um(a) helppages
+# ../v2api/api/v2holidays.go
+  /holidays:
+# modelo = JSONHoliday
+    post:
+      tags:
+       - Holidays
+      summary: Cria um(a) holidays
+      responses:
+        '200':
+          description: holidays
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonholiday.yaml
+# ../v2api/api/v2holidays.go
+  /holidays/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do holidays
+# modelo = JSONHoliday
+    put:
+      tags:
+       - Holidays
+      summary: Atualiza um(a) holidays
+# ../v2api/api/v2ibptaxes.go
+  /ibptaxes:
+# modelo = JSONIBPTax
+    post:
+      tags:
+       - Ibptaxes
+      summary: Cria um(a) ibptaxes
+      responses:
+        '200':
+          description: ibptaxes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonibptax.yaml
+# ../v2api/api/v2importadditionitems.go
+  /importadditionitems:
+# modelo = JSONImportAdditionItem
+    post:
+      tags:
+       - Importadditionitems
+      summary: Cria um(a) importadditionitems
+      responses:
+        '200':
+          description: importadditionitems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonimportadditionitem.yaml
+# ../v2api/api/v2importadditionitems.go
+  /importadditionitems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do importadditionitems
+# modelo = JSONImportAdditionItem
+    delete:
+      tags:
+       - Importadditionitems
+      summary: Deleta um(a) importadditionitems
+# ../v2api/api/v2importadditions.go
+  /importadditions:
+# modelo = JSONImportAddition
+    post:
+      tags:
+       - Importadditions
+      summary: Cria um(a) importadditions
+      responses:
+        '200':
+          description: importadditions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonimportaddition.yaml
+# ../v2api/api/v2importadditions.go
+  /importadditions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do importadditions
+# modelo = JSONImportAddition
+    delete:
+      tags:
+       - Importadditions
+      summary: Deleta um(a) importadditions
+# ../v2api/api/v2importadditiontaxes.go
+  /importadditiontaxes:
+# modelo = JSONImportAdditionTaxe
+    post:
+      tags:
+       - Importadditiontaxes
+      summary: Cria um(a) importadditiontaxes
+      responses:
+        '200':
+          description: importadditiontaxes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonimportadditiontaxe.yaml
+# ../v2api/api/v2importadditiontaxes.go
+  /importadditiontaxes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do importadditiontaxes
+# modelo = JSONImportAdditionTaxe
+    delete:
+      tags:
+       - Importadditiontaxes
+      summary: Deleta um(a) importadditiontaxes
+# ../v2api/api/v2importfees.go
+  /importfees:
+# filtros = FilterImportFees
+# modelo = JSONImportFee
+    get:
+      tags:
+       - Importfees
+      summary: Listagem de importfees
+      responses:
+        '200':
+          description: importfees
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonimportfee.yaml
+# ../v2api/api/v2importfees.go
+  /importfees/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do importfees
+# modelo = JSONImportFee
+    put:
+      tags:
+       - Importfees
+      summary: Atualiza um(a) importfees
+# ../v2api/api/v2imports.go
+  /imports:
+# modelo = JSONImport
+    post:
+      tags:
+       - Imports
+      summary: Cria um(a) imports
+      responses:
+        '200':
+          description: imports
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonimport.yaml
+# ../v2api/api/v2imports.go
+  /imports/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do imports
+# modelo = JSONImport
+    put:
+      tags:
+       - Imports
+      summary: Atualiza um(a) imports
+# ../v2api/api/v2incompleteopenings.go
+  /incompleteopenings:
+# filtros = FilterIncompleteOpenings
+# modelo = 
+    get:
+      tags:
+       - Incompleteopenings
+      summary: Listagem de incompleteopenings
+      responses:
+        '200':
+          description: incompleteopenings
+# ../v2api/api/v2incompleteopenings.go
+  /incompleteopenings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do incompleteopenings
+# modelo = 
+    get:
+      tags:
+       - Incompleteopenings
+      summary: Busca um(a) incompleteopenings
+      responses:
+        '200':
+          description: incompleteopenings
+# ../v2api/api/v2installmentplans.go
+  /installmentplans:
+# modelo = JSONInstallmentPlan
+    post:
+      tags:
+       - Installmentplans
+      summary: Cria um(a) installmentplans
+      responses:
+        '200':
+          description: installmentplans
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoninstallmentplan.yaml
+# ../v2api/api/v2installmentplans.go
+  /installmentplans/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do installmentplans
+# modelo = JSONInstallmentPlan
+    put:
+      tags:
+       - Installmentplans
+      summary: Atualiza um(a) installmentplans
+# ../v2api/api/v2installments.go
+  /installments:
+# filtros = FilterInstallments
+# modelo = 
+    get:
+      tags:
+       - Installments
+      summary: Listagem de installments
+      responses:
+        '200':
+          description: installments
+# ERRO open ../v2api/api/v2integrationconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationexports.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationexports.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationoptions.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationoptions.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationresponses.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationresponses.go: no such file or directory
+# ../v2api/api/v2integrations.go
+  /integrations:
+# modelo = JSONIntegTenant
+    post:
+      tags:
+       - Integrations
+      summary: Cria um(a) integrations
+      responses:
+        '200':
+          description: integrations
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonintegtenant.yaml
+# ../v2api/api/v2integrations.go
+  /integrations/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do integrations
+# modelo = JSONIntegTenant
+    put:
+      tags:
+       - Integrations
+      summary: Atualiza um(a) integrations
+    delete:
+      tags:
+       - Integrations
+      summary: Deleta um(a) integrations
+# ERRO open ../v2api/api/v2integrationstatus.go: no such file or directory
+# ../v2api/api/v2integrationvendors.go
+  /integrationvendors:
+# modelo = 
+    get:
+      tags:
+       - Integrationvendors
+      summary: Listagem de integrationvendors
+      responses:
+        '200':
+          description: integrationvendors
+# ERRO open ../v2api/api/v2integrationwebhooks{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2integrationwebhooks{id}{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2invoiceemails.go: no such file or directory
+# ERRO open ../v2api/api/v2invoiceevents.go: no such file or directory
+# ERRO open ../v2api/api/v2invoiceevents.go: no such file or directory
+# ERRO open ../v2api/api/v2invoicefixes.go: no such file or directory
+# ERRO open ../v2api/api/v2invoiceitems.go: no such file or directory
+# ERRO open ../v2api/api/v2invoiceitems.go: no such file or directory
+# ERRO open ../v2api/api/v2invoicepayments.go: no such file or directory
+# ERRO open ../v2api/api/v2invoicepayments.go: no such file or directory
+# ../v2api/api/v2invoices.go
+  /invoices:
+# modelo = 
+    post:
+      tags:
+       - Invoices
+      summary: Cria um(a) invoices
+      responses:
+        '200':
+          description: invoices
+# ../v2api/api/v2invoices.go
+  /invoices/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do invoices
+# modelo = 
+    get:
+      tags:
+       - Invoices
+      summary: Busca um(a) invoices
+      responses:
+        '200':
+          description: invoices
+# ../v2api/api/v2issuers.go
+  /issuers:
+# modelo = JSONIssuer
+    post:
+      tags:
+       - Issuers
+      summary: Cria um(a) issuers
+      responses:
+        '200':
+          description: issuers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonissuer.yaml
+# ../v2api/api/v2issuers.go
+  /issuers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do issuers
+# modelo = JSONIssuer
+    put:
+      tags:
+       - Issuers
+      summary: Atualiza um(a) issuers
+    delete:
+      tags:
+       - Issuers
+      summary: Deleta um(a) issuers
+# ERRO open ../v2api/api/v2kanbanconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanitems.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanlanes.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanlanes.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanlanetypes.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanlanetypes.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanmenuactions.go: no such file or directory
+# ERRO open ../v2api/api/v2kanbanmenuitems.go: no such file or directory
+# ../v2api/api/v2kanbans.go
+  /kanbans:
+# modelo = JSONKanban
+    post:
+      tags:
+       - Kanbans
+      summary: Cria um(a) kanbans
+      responses:
+        '200':
+          description: kanbans
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonkanban.yaml
+# ../v2api/api/v2kanbans.go
+  /kanbans/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do kanbans
+# modelo = JSONKanban
+    put:
+      tags:
+       - Kanbans
+      summary: Atualiza um(a) kanbans
+    delete:
+      tags:
+       - Kanbans
+      summary: Deleta um(a) kanbans
+# ../v2api/api/v2kardexes.go
+  /kardexes:
+# filtros = FilterKardexes
+# modelo = 
+    get:
+      tags:
+       - Kardexes
+      summary: Listagem de kardexes
+      responses:
+        '200':
+          description: kardexes
+# ../v2api/api/v2keyboardpayments.go
+  /keyboardpayments:
+# modelo = JSONKeyboardPayment
+    post:
+      tags:
+       - Keyboardpayments
+      summary: Cria um(a) keyboardpayments
+      responses:
+        '200':
+          description: keyboardpayments
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonkeyboardpayment.yaml
+# ../v2api/api/v2keyboardpayments.go
+  /keyboardpayments/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do keyboardpayments
+# modelo = JSONKeyboardPayment
+    put:
+      tags:
+       - Keyboardpayments
+      summary: Atualiza um(a) keyboardpayments
+    delete:
+      tags:
+       - Keyboardpayments
+      summary: Deleta um(a) keyboardpayments
+# ../v2api/api/v2keyboards.go
+  /keyboards:
+# modelo = JSONKeyboard
+    post:
+      tags:
+       - Keyboards
+      summary: Cria um(a) keyboards
+      responses:
+        '200':
+          description: keyboards
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonkeyboard.yaml
+# ../v2api/api/v2keyboards.go
+  /keyboards/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do keyboards
+# modelo = JSONKeyboard
+    put:
+      tags:
+       - Keyboards
+      summary: Atualiza um(a) keyboards
+    delete:
+      tags:
+       - Keyboards
+      summary: Deleta um(a) keyboards
+# ERRO open ../v2api/api/v2labeljobs.go: no such file or directory
+# ERRO open ../v2api/api/v2labeljobs.go: no such file or directory
+# ../v2api/api/v2labels.go
+  /labels:
+# modelo = JSONLabel
+    post:
+      tags:
+       - Labels
+      summary: Cria um(a) labels
+      responses:
+        '200':
+          description: labels
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonlabel.yaml
+# ../v2api/api/v2labels.go
+  /labels/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do labels
+# modelo = JSONLabel
+    put:
+      tags:
+       - Labels
+      summary: Atualiza um(a) labels
+    delete:
+      tags:
+       - Labels
+      summary: Deleta um(a) labels
+# ERRO open ../v2api/api/v2leadreasons.go: no such file or directory
+# ERRO open ../v2api/api/v2leadreasons.go: no such file or directory
+# ../v2api/api/v2leads.go
+  /leads:
+# modelo = JSONLead
+    post:
+      tags:
+       - Leads
+      summary: Cria um(a) leads
+      responses:
+        '200':
+          description: leads
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonlead.yaml
+# ../v2api/api/v2leads.go
+  /leads/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do leads
+# modelo = JSONLead
+    put:
+      tags:
+       - Leads
+      summary: Atualiza um(a) leads
+    delete:
+      tags:
+       - Leads
+      summary: Deleta um(a) leads
+# ERRO open ../v2api/api/v2leadstages.go: no such file or directory
+# ERRO open ../v2api/api/v2leadstages.go: no such file or directory
+# ERRO open ../v2api/api/v2leadstatuses.go: no such file or directory
+# ERRO open ../v2api/api/v2leadstatuses.go: no such file or directory
+# ../v2api/api/v2locationlabels.go
+  /locationlabels:
+# filtros = FilterLocationLabels
+# modelo = 
+    get:
+      tags:
+       - Locationlabels
+      summary: Listagem de locationlabels
+      responses:
+        '200':
+          description: locationlabels
 # ../v2api/api/v2logout.go
   /logout:
 # modelo = 
@@ -96,6 +3127,67 @@ paths:
       responses:
         '200':
           description: logout
+# ../v2api/api/v2logs.go
+  /logs:
+# filtros = FilterLogs
+# modelo = 
+    get:
+      tags:
+       - Logs
+      summary: Listagem de logs
+      responses:
+        '200':
+          description: logs
+# ../v2api/api/v2logs.go
+  /logs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do logs
+# modelo = 
+    get:
+      tags:
+       - Logs
+      summary: Busca um(a) logs
+      responses:
+        '200':
+          description: logs
+# ../v2api/api/v2loyaltyprograms.go
+  /loyaltyprograms:
+# modelo = JSONLoyaltyProgram
+    post:
+      tags:
+       - Loyaltyprograms
+      summary: Cria um(a) loyaltyprograms
+      responses:
+        '200':
+          description: loyaltyprograms
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonloyaltyprogram.yaml
+# ../v2api/api/v2loyaltyprograms.go
+  /loyaltyprograms/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do loyaltyprograms
+# modelo = JSONLoyaltyProgram
+    put:
+      tags:
+       - Loyaltyprograms
+      summary: Atualiza um(a) loyaltyprograms
+    delete:
+      tags:
+       - Loyaltyprograms
+      summary: Deleta um(a) loyaltyprograms
 # ERRO open ../v2api/api/v2me.go: no such file or directory
 # ../v2api/api/v2menu.go
   /menu:
@@ -107,6 +3199,41 @@ paths:
       responses:
         '200':
           description: menu
+# ../v2api/api/v2menuitems.go
+  /menuitems:
+# modelo = JSONMenuItem
+    post:
+      tags:
+       - Menuitems
+      summary: Cria um(a) menuitems
+      responses:
+        '200':
+          description: menuitems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonmenuitem.yaml
+# ../v2api/api/v2menuitems.go
+  /menuitems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do menuitems
+# modelo = JSONMenuItem
+    delete:
+      tags:
+       - Menuitems
+      summary: Deleta um(a) menuitems
+    put:
+      tags:
+       - Menuitems
+      summary: Atualiza um(a) menuitems
+# ERRO open ../v2api/api/v2menureports.go: no such file or directory
+# ERRO open ../v2api/api/v2menureports.go: no such file or directory
 # ../v2api/api/v2metrics.go
   /metrics:
 # filtros = FilterMetrics
@@ -142,12 +3269,160 @@ paths:
       tags:
        - Metrics
       summary: Deleta um(a) metrics
+# ERRO open ../v2api/api/v2metricseries.go: no such file or directory
+# ERRO open ../v2api/api/v2metricseries.go: no such file or directory
+# ../v2api/api/v2monthlysales.go
+  /monthlysales:
+# filtros = FilterMonthlySales
+# modelo = 
+    get:
+      tags:
+       - Monthlysales
+      summary: Listagem de monthlysales
+      responses:
+        '200':
+          description: monthlysales
+# ../v2api/api/v2myplans.go
+  /myplans:
+# modelo = JSONMyPlan
+    post:
+      tags:
+       - Myplans
+      summary: Cria um(a) myplans
+      responses:
+        '200':
+          description: myplans
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonmyplan.yaml
+# ../v2api/api/v2myplans.go
+  /myplans/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do myplans
+# modelo = JSONMyPlan
+    put:
+      tags:
+       - Myplans
+      summary: Atualiza um(a) myplans
+    delete:
+      tags:
+       - Myplans
+      summary: Deleta um(a) myplans
+# ERRO open ../v2api/api/v2notificationconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2notificationconfigs.go: no such file or directory
+# ../v2api/api/v2notifications.go
+  /notifications:
+# modelo = JSONNotification
+    post:
+      tags:
+       - Notifications
+      summary: Cria um(a) notifications
+      responses:
+        '200':
+          description: notifications
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonnotification.yaml
+# ../v2api/api/v2notifications.go
+  /notifications/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do notifications
+# modelo = JSONNotification
+    put:
+      tags:
+       - Notifications
+      summary: Atualiza um(a) notifications
+    delete:
+      tags:
+       - Notifications
+      summary: Deleta um(a) notifications
+# ../v2api/api/v2operationconfigs.go
+  /operationconfigs:
+# modelo = JSONOperationConfigs
+    post:
+      tags:
+       - Operationconfigs
+      summary: Cria um(a) operationconfigs
+      responses:
+        '200':
+          description: operationconfigs
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonoperationconfigs.yaml
+# ../v2api/api/v2operationconfigs.go
+  /operationconfigs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do operationconfigs
+# modelo = JSONOperationConfigs
+    put:
+      tags:
+       - Operationconfigs
+      summary: Atualiza um(a) operationconfigs
+    delete:
+      tags:
+       - Operationconfigs
+      summary: Deleta um(a) operationconfigs
+# ../v2api/api/v2operations.go
+  /operations:
+# filtros = FilterOperation
+# modelo = 
+    get:
+      tags:
+       - Operations
+      summary: Listagem de operations
+      responses:
+        '200':
+          description: operations
 # ERRO open ../v2api/api/v2order5929.go: no such file or directory
 # ERRO open ../v2api/api/v2ordercancel.go: no such file or directory
+# ERRO open ../v2api/api/v2ordercheckitems.go: no such file or directory
+# ERRO open ../v2api/api/v2ordercheckitems.go: no such file or directory
+# ERRO open ../v2api/api/v2orderchecks.go: no such file or directory
 # ERRO open ../v2api/api/v2orderdraft.go: no such file or directory
+# ERRO open ../v2api/api/v2orderflags.go: no such file or directory
+# ERRO open ../v2api/api/v2orderflags.go: no such file or directory
+# ERRO open ../v2api/api/v2orderflows.go: no such file or directory
+# ERRO open ../v2api/api/v2orderflows.go: no such file or directory
+# ERRO open ../v2api/api/v2orderfreights.go: no such file or directory
 # ERRO open ../v2api/api/v2orderimport.go: no such file or directory
+# ERRO open ../v2api/api/v2orderintegrations.go: no such file or directory
+# ERRO open ../v2api/api/v2orderintegrations.go: no such file or directory
+# ERRO open ../v2api/api/v2orderitemdiscounts.go: no such file or directory
 # ERRO open ../v2api/api/v2orderitems.go: no such file or directory
 # ERRO open ../v2api/api/v2orderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2orderlabels.go: no such file or directory
+# ERRO open ../v2api/api/v2orderlabels.go: no such file or directory
+# ERRO open ../v2api/api/v2ordermargins.go: no such file or directory
+# ERRO open ../v2api/api/v2ordermargins.go: no such file or directory
+# ERRO open ../v2api/api/v2ordernotes.go: no such file or directory
+# ERRO open ../v2api/api/v2orderobjects.go: no such file or directory
+# ERRO open ../v2api/api/v2orderorigins.go: no such file or directory
+# ERRO open ../v2api/api/v2orderpatches.go: no such file or directory
+# ERRO open ../v2api/api/v2orderpatches.go: no such file or directory
+# ERRO open ../v2api/api/v2orderpaymentlists.go: no such file or directory
+# ERRO open ../v2api/api/v2orderpayments.go: no such file or directory
+# ERRO open ../v2api/api/v2orderpayments.go: no such file or directory
 # ../v2api/api/v2orders.go
   /orders:
 # modelo = JSONOrder
@@ -179,8 +3454,665 @@ paths:
 # ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
 # ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
 # ERRO open ../v2api/api/v2ordersync.go: no such file or directory
+# ERRO open ../v2api/api/v2ordertrackings.go: no such file or directory
+# ERRO open ../v2api/api/v2ordervolumes.go: no such file or directory
+# ERRO open ../v2api/api/v2ordervolumes.go: no such file or directory
+# ../v2api/api/v2packages.go
+  /packages:
+# modelo = JSONPackage
+    post:
+      tags:
+       - Packages
+      summary: Cria um(a) packages
+      responses:
+        '200':
+          description: packages
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpackage.yaml
+# ../v2api/api/v2packages.go
+  /packages/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do packages
+# modelo = JSONPackage
+    put:
+      tags:
+       - Packages
+      summary: Atualiza um(a) packages
+    delete:
+      tags:
+       - Packages
+      summary: Deleta um(a) packages
+# ../v2api/api/v2parameters.go
+  /parameters:
+# modelo = JSONParameter
+    post:
+      tags:
+       - Parameters
+      summary: Cria um(a) parameters
+      responses:
+        '200':
+          description: parameters
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonparameter.yaml
+# ../v2api/api/v2parameters.go
+  /parameters/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do parameters
+# modelo = JSONParameter
+    put:
+      tags:
+       - Parameters
+      summary: Atualiza um(a) parameters
+    delete:
+      tags:
+       - Parameters
+      summary: Deleta um(a) parameters
+# ../v2api/api/v2payables.go
+  /payables:
+# modelo = JSONPayable
+    post:
+      tags:
+       - Payables
+      summary: Cria um(a) payables
+      responses:
+        '200':
+          description: payables
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpayable.yaml
+# ../v2api/api/v2payables.go
+  /payables/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do payables
+# modelo = JSONPayable
+    put:
+      tags:
+       - Payables
+      summary: Atualiza um(a) payables
+    delete:
+      tags:
+       - Payables
+      summary: Deleta um(a) payables
+# ../v2api/api/v2payablesaggs.go
+  /payablesaggs:
+# filtros = FilterPayables
+# modelo = 
+    get:
+      tags:
+       - Payablesaggs
+      summary: Listagem de payablesaggs
+      responses:
+        '200':
+          description: payablesaggs
+# ERRO open ../v2api/api/v2paymentcodes.go: no such file or directory
+# ERRO open ../v2api/api/v2paymentcodes.go: no such file or directory
+# ../v2api/api/v2paymenttypes.go
+  /paymenttypes:
+# modelo = JSONPaymentType
+    post:
+      tags:
+       - Paymenttypes
+      summary: Cria um(a) paymenttypes
+      responses:
+        '200':
+          description: paymenttypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpaymenttype.yaml
+# ../v2api/api/v2paymenttypes.go
+  /paymenttypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do paymenttypes
+# modelo = JSONPaymentType
+    put:
+      tags:
+       - Paymenttypes
+      summary: Atualiza um(a) paymenttypes
+    delete:
+      tags:
+       - Paymenttypes
+      summary: Deleta um(a) paymenttypes
+# ../v2api/api/v2pdflayouts.go
+  /pdflayouts:
+# modelo = JSONPdfLayoutFull
+    post:
+      tags:
+       - Pdflayouts
+      summary: Cria um(a) pdflayouts
+      responses:
+        '200':
+          description: pdflayouts
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpdflayoutfull.yaml
+# ../v2api/api/v2pdflayouts.go
+  /pdflayouts/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pdflayouts
+# modelo = JSONPdfLayoutFull
+    delete:
+      tags:
+       - Pdflayouts
+      summary: Deleta um(a) pdflayouts
+# ERRO open ../v2api/api/v2pdfs{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2pdvparameters.go: no such file or directory
+# ERRO open ../v2api/api/v2pdvparameters.go: no such file or directory
+# ERRO open ../v2api/api/v2personaddresses.go: no such file or directory
+# ERRO open ../v2api/api/v2personaddresses.go: no such file or directory
+# ERRO open ../v2api/api/v2personmargins.go: no such file or directory
+# ERRO open ../v2api/api/v2personmargins.go: no such file or directory
+# ERRO open ../v2api/api/v2personproducts.go: no such file or directory
+# ERRO open ../v2api/api/v2personprofiles.go: no such file or directory
+# ERRO open ../v2api/api/v2personprofiles.go: no such file or directory
+# ../v2api/api/v2persons.go
+  /persons:
+# modelo = JSONPerson
+    post:
+      tags:
+       - Persons
+      summary: Cria um(a) persons
+      responses:
+        '200':
+          description: persons
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonperson.yaml
+# ../v2api/api/v2persons.go
+  /persons/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do persons
+# modelo = JSONPerson
+    put:
+      tags:
+       - Persons
+      summary: Atualiza um(a) persons
+    delete:
+      tags:
+       - Persons
+      summary: Deleta um(a) persons
+# ../v2api/api/v2phases.go
+  /phases:
+# filtros = FilterPhases
+# modelo = 
+    get:
+      tags:
+       - Phases
+      summary: Listagem de phases
+      responses:
+        '200':
+          description: phases
+# ../v2api/api/v2phonetypes.go
+  /phonetypes:
+# modelo = JSONPhoneTypes
+    post:
+      tags:
+       - Phonetypes
+      summary: Cria um(a) phonetypes
+      responses:
+        '200':
+          description: phonetypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonphonetypes.yaml
+# ../v2api/api/v2phonetypes.go
+  /phonetypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do phonetypes
+# modelo = JSONPhoneTypes
+    put:
+      tags:
+       - Phonetypes
+      summary: Atualiza um(a) phonetypes
+    delete:
+      tags:
+       - Phonetypes
+      summary: Deleta um(a) phonetypes
+# ERRO open ../v2api/api/v2pickers.go: no such file or directory
+# ERRO open ../v2api/api/v2pickers.go: no such file or directory
+# ERRO open ../v2api/api/v2pickingqueues.go: no such file or directory
+# ERRO open ../v2api/api/v2pickingqueues.go: no such file or directory
+# ERRO open ../v2api/api/v2pickingzones.go: no such file or directory
+# ERRO open ../v2api/api/v2pickingzones.go: no such file or directory
+# ERRO open ../v2api/api/v2pixaccounts.go: no such file or directory
+# ERRO open ../v2api/api/v2pixaccounts.go: no such file or directory
+# ERRO open ../v2api/api/v2pixcharges.go: no such file or directory
+# ERRO open ../v2api/api/v2pixcharges.go: no such file or directory
+# ERRO open ../v2api/api/v2pixstatuses.go: no such file or directory
+# ERRO open ../v2api/api/v2pixstatuses.go: no such file or directory
+# ../v2api/api/v2planpaymentmethods.go
+  /planpaymentmethods:
+# modelo = JSONPlanPaymentMethod
+    ostputpost:
+      tags:
+       - Planpaymentmethods
+# ../v2api/api/v2planpaymentmethods.go
+  /planpaymentmethods/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do planpaymentmethods
+# modelo = JSONPlanPaymentMethod
+    ostputput:
+      tags:
+       - Planpaymentmethods
+# ERRO open ../v2api/api/v2portfoliocustomers.go: no such file or directory
+# ERRO open ../v2api/api/v2portfoliocustomers.go: no such file or directory
+# ../v2api/api/v2portfolios.go
+  /portfolios:
+# modelo = JSONPortfolio
+    post:
+      tags:
+       - Portfolios
+      summary: Cria um(a) portfolios
+      responses:
+        '200':
+          description: portfolios
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonportfolio.yaml
+# ../v2api/api/v2portfolios.go
+  /portfolios/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do portfolios
+# modelo = JSONPortfolio
+    put:
+      tags:
+       - Portfolios
+      summary: Atualiza um(a) portfolios
+    delete:
+      tags:
+       - Portfolios
+      summary: Deleta um(a) portfolios
+# ../v2api/api/v2poslayoutkeys.go
+  /poslayoutkeys:
+# modelo = JSONPosLayoutKey
+    post:
+      tags:
+       - Poslayoutkeys
+      summary: Cria um(a) poslayoutkeys
+      responses:
+        '200':
+          description: poslayoutkeys
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonposlayoutkey.yaml
+# ../v2api/api/v2poslayoutkeys.go
+  /poslayoutkeys/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do poslayoutkeys
+# modelo = JSONPosLayoutKey
+    put:
+      tags:
+       - Poslayoutkeys
+      summary: Atualiza um(a) poslayoutkeys
+# ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
+# ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
+# ../v2api/api/v2postalcodes.go
+  /postalcodes:
+# filtros = FilterPostalCodes
+# modelo = 
+    get:
+      tags:
+       - Postalcodes
+      summary: Listagem de postalcodes
+      responses:
+        '200':
+          description: postalcodes
+# ../v2api/api/v2posterfields.go
+  /posterfields:
+# filtros = FilterPosterFields
+# modelo = 
+    get:
+      tags:
+       - Posterfields
+      summary: Listagem de posterfields
+      responses:
+        '200':
+          description: posterfields
+# ../v2api/api/v2posterfields.go
+  /posterfields/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do posterfields
+# modelo = 
+    get:
+      tags:
+       - Posterfields
+      summary: Busca um(a) posterfields
+      responses:
+        '200':
+          description: posterfields
+# ERRO open ../v2api/api/v2posterjobs.go: no such file or directory
+# ERRO open ../v2api/api/v2posterjobs.go: no such file or directory
+# ../v2api/api/v2posters.go
+  /posters:
+# modelo = JSONPoster
+    post:
+      tags:
+       - Posters
+      summary: Cria um(a) posters
+      responses:
+        '200':
+          description: posters
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonposter.yaml
+# ../v2api/api/v2posters.go
+  /posters/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do posters
+# modelo = JSONPoster
+    put:
+      tags:
+       - Posters
+      summary: Atualiza um(a) posters
+    delete:
+      tags:
+       - Posters
+      summary: Deleta um(a) posters
+# ../v2api/api/v2postersizes.go
+  /postersizes:
+# filtros = FilterPosterSizes
+# modelo = 
+    get:
+      tags:
+       - Postersizes
+      summary: Listagem de postersizes
+      responses:
+        '200':
+          description: postersizes
+# ../v2api/api/v2pricecheck.go
+  /pricecheck/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pricecheck
+# modelo = 
+    get:
+      tags:
+       - Pricecheck
+      summary: Busca um(a) pricecheck
+      responses:
+        '200':
+          description: pricecheck
+# ../v2api/api/v2pricelistarticles.go
+  /pricelistarticles:
+# modelo = JSONPriceListArticle
+    post:
+      tags:
+       - Pricelistarticles
+      summary: Cria um(a) pricelistarticles
+      responses:
+        '200':
+          description: pricelistarticles
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpricelistarticle.yaml
+# ../v2api/api/v2pricelistarticles.go
+  /pricelistarticles/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pricelistarticles
+# modelo = JSONPriceListArticle
+    put:
+      tags:
+       - Pricelistarticles
+      summary: Atualiza um(a) pricelistarticles
+    delete:
+      tags:
+       - Pricelistarticles
+      summary: Deleta um(a) pricelistarticles
+# ../v2api/api/v2pricelistcategories.go
+  /pricelistcategories:
+# modelo = JSONPriceListCategory
+    post:
+      tags:
+       - Pricelistcategories
+      summary: Cria um(a) pricelistcategories
+      responses:
+        '200':
+          description: pricelistcategories
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpricelistcategory.yaml
+# ../v2api/api/v2pricelistcategories.go
+  /pricelistcategories/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pricelistcategories
+# modelo = JSONPriceListCategory
+    delete:
+      tags:
+       - Pricelistcategories
+      summary: Deleta um(a) pricelistcategories
+# ../v2api/api/v2pricelists.go
+  /pricelists:
+# modelo = JSONPriceList
+    post:
+      tags:
+       - Pricelists
+      summary: Cria um(a) pricelists
+      responses:
+        '200':
+          description: pricelists
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpricelist.yaml
+# ../v2api/api/v2pricelists.go
+  /pricelists/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pricelists
+# modelo = JSONPriceList
+    put:
+      tags:
+       - Pricelists
+      summary: Atualiza um(a) pricelists
+    delete:
+      tags:
+       - Pricelists
+      summary: Deleta um(a) pricelists
+# ../v2api/api/v2priceroundingrules.go
+  /priceroundingrules:
+# modelo = JSONPriceRoundingRule
+    post:
+      tags:
+       - Priceroundingrules
+      summary: Cria um(a) priceroundingrules
+      responses:
+        '200':
+          description: priceroundingrules
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpriceroundingrule.yaml
+# ../v2api/api/v2priceroundingrules.go
+  /priceroundingrules/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do priceroundingrules
+# modelo = JSONPriceRoundingRule
+    put:
+      tags:
+       - Priceroundingrules
+      summary: Atualiza um(a) priceroundingrules
+    delete:
+      tags:
+       - Priceroundingrules
+      summary: Deleta um(a) priceroundingrules
+# ../v2api/api/v2pricerules.go
+  /pricerules:
+# modelo = JSONPriceRule
+    post:
+      tags:
+       - Pricerules
+      summary: Cria um(a) pricerules
+      responses:
+        '200':
+          description: pricerules
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpricerule.yaml
+# ../v2api/api/v2pricerules.go
+  /pricerules/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do pricerules
+# modelo = JSONPriceRule
+    delete:
+      tags:
+       - Pricerules
+      summary: Deleta um(a) pricerules
+# ERRO open ../v2api/api/v2productcategories.go: no such file or directory
+# ERRO open ../v2api/api/v2productcategories.go: no such file or directory
 # ERRO open ../v2api/api/v2productimages.go: no such file or directory
 # ERRO open ../v2api/api/v2productimages.go: no such file or directory
+# ../v2api/api/v2products.go
+  /products:
+# modelo = JSONProduct
+    post:
+      tags:
+       - Products
+      summary: Cria um(a) products
+      responses:
+        '200':
+          description: products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonproduct.yaml
+# ../v2api/api/v2products.go
+  /products/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do products
+# modelo = JSONProduct
+    put:
+      tags:
+       - Products
+      summary: Atualiza um(a) products
+    delete:
+      tags:
+       - Products
+      summary: Deleta um(a) products
+# ERRO open ../v2api/api/v2producttags.go: no such file or directory
+# ERRO open ../v2api/api/v2producttags.go: no such file or directory
 # ../v2api/api/v2profiles.go
   /profiles/{id}:
     parameters:
@@ -233,9 +4165,1044 @@ paths:
             application/json:
               schema:
                 $ref: ./models/jsonprospect.yaml
+# ../v2api/api/v2providers.go
+  /providers:
+# modelo = JSONProvider
+    post:
+      tags:
+       - Providers
+      summary: Cria um(a) providers
+      responses:
+        '200':
+          description: providers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonprovider.yaml
+# ../v2api/api/v2providers.go
+  /providers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do providers
+# modelo = JSONProvider
+    put:
+      tags:
+       - Providers
+      summary: Atualiza um(a) providers
+    delete:
+      tags:
+       - Providers
+      summary: Deleta um(a) providers
+# ../v2api/api/v2purchaseitems.go
+  /purchaseitems:
+# modelo = JSONPurchaseItem
+    post:
+      tags:
+       - Purchaseitems
+      summary: Cria um(a) purchaseitems
+      responses:
+        '200':
+          description: purchaseitems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpurchaseitem.yaml
+# ../v2api/api/v2purchaseitems.go
+  /purchaseitems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do purchaseitems
+# modelo = JSONPurchaseItem
+    delete:
+      tags:
+       - Purchaseitems
+      summary: Deleta um(a) purchaseitems
+# ../v2api/api/v2purchaseitemtaxes.go
+  /purchaseitemtaxes:
+# modelo = JSONPurchaseItemTax
+    post:
+      tags:
+       - Purchaseitemtaxes
+      summary: Cria um(a) purchaseitemtaxes
+      responses:
+        '200':
+          description: purchaseitemtaxes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpurchaseitemtax.yaml
+# ../v2api/api/v2purchaseitemtaxes.go
+  /purchaseitemtaxes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do purchaseitemtaxes
+# modelo = JSONPurchaseItemTax
+    put:
+      tags:
+       - Purchaseitemtaxes
+      summary: Atualiza um(a) purchaseitemtaxes
+# ../v2api/api/v2purchasemappings.go
+  /purchasemappings:
+# modelo = JSONPurchaseMapping
+    post:
+      tags:
+       - Purchasemappings
+      summary: Cria um(a) purchasemappings
+      responses:
+        '200':
+          description: purchasemappings
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpurchasemapping.yaml
+# ../v2api/api/v2purchasemappings.go
+  /purchasemappings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do purchasemappings
+# modelo = JSONPurchaseMapping
+    put:
+      tags:
+       - Purchasemappings
+      summary: Atualiza um(a) purchasemappings
+    delete:
+      tags:
+       - Purchasemappings
+      summary: Deleta um(a) purchasemappings
+# ERRO open ../v2api/api/v2purchaseorderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2purchaseorderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2purchaseorderpayments.go: no such file or directory
+# ERRO open ../v2api/api/v2purchaseorderpayments.go: no such file or directory
+# ERRO open ../v2api/api/v2purchaseorders.go: no such file or directory
+# ERRO open ../v2api/api/v2purchaseorders.go: no such file or directory
+# ../v2api/api/v2purchases.go
+  /purchases:
+# modelo = JSONPurchase
+    post:
+      tags:
+       - Purchases
+      summary: Cria um(a) purchases
+      responses:
+        '200':
+          description: purchases
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpurchase.yaml
+# ERRO open ../v2api/api/v2purchases/xml.go: no such file or directory
+# ERRO open ../v2api/api/v2purchases/xml.go: no such file or directory
+# ../v2api/api/v2purchases.go
+  /purchases/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do purchases
+# modelo = JSONPurchase
+    put:
+      tags:
+       - Purchases
+      summary: Atualiza um(a) purchases
+# ERRO open ../v2api/api/v2purchasetaxes.go: no such file or directory
+# ERRO open ../v2api/api/v2purchasetaxes.go: no such file or directory
+# ../v2api/api/v2quotes.go
+  /quotes:
+# modelo = JSONQuotes
+    post:
+      tags:
+       - Quotes
+      summary: Cria um(a) quotes
+      responses:
+        '200':
+          description: quotes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonquotes.yaml
+# ../v2api/api/v2reasons.go
+  /reasons:
+# modelo = JSONReason
+    post:
+      tags:
+       - Reasons
+      summary: Cria um(a) reasons
+      responses:
+        '200':
+          description: reasons
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonreason.yaml
+# ../v2api/api/v2reasons.go
+  /reasons/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do reasons
+# modelo = JSONReason
+    put:
+      tags:
+       - Reasons
+      summary: Atualiza um(a) reasons
+    delete:
+      tags:
+       - Reasons
+      summary: Deleta um(a) reasons
+# ../v2api/api/v2receivables.go
+  /receivables:
+# modelo = JSONReceivables
+    post:
+      tags:
+       - Receivables
+      summary: Cria um(a) receivables
+      responses:
+        '200':
+          description: receivables
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonreceivables.yaml
+# ../v2api/api/v2receivables.go
+  /receivables/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do receivables
+# modelo = JSONReceivables
+    delete:
+      tags:
+       - Receivables
+      summary: Deleta um(a) receivables
+# ERRO open ../v2api/api/v2receivableslist.go: no such file or directory
+# ERRO open ../v2api/api/v2receptioninvoices.go: no such file or directory
+# ERRO open ../v2api/api/v2receptioninvoices.go: no such file or directory
+# ../v2api/api/v2receptions.go
+  /receptions:
+# modelo = JSONReception
+    post:
+      tags:
+       - Receptions
+      summary: Cria um(a) receptions
+      responses:
+        '200':
+          description: receptions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonreception.yaml
+# ../v2api/api/v2receptions.go
+  /receptions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do receptions
+# modelo = JSONReception
+    put:
+      tags:
+       - Receptions
+      summary: Atualiza um(a) receptions
+    delete:
+      tags:
+       - Receptions
+      summary: Deleta um(a) receptions
+# ERRO open ../v2api/api/v2receptionskus.go: no such file or directory
+# ERRO open ../v2api/api/v2receptionskus.go: no such file or directory
+# ../v2api/api/v2recharges.go
+  /recharges:
+# modelo = 
+    get:
+      tags:
+       - Recharges
+      summary: Listagem de recharges
+      responses:
+        '200':
+          description: recharges
+# ERRO open ../v2api/api/v2rep201{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep202{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep203{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep301{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep302{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep303{id}.go: no such file or directory
+# ERRO open ../v2api/api/v2rep304{id}.go: no such file or directory
+# ../v2api/api/v2reportrows.go
+  /reportrows:
+# modelo = 
+    get:
+      tags:
+       - Reportrows
+      summary: Listagem de reportrows
+      responses:
+        '200':
+          description: reportrows
+# ../v2api/api/v2reports.go
+  /reports:
+# filtros = FilterReports
+# modelo = JSONReports
+    get:
+      tags:
+       - Reports
+      summary: Listagem de reports
+      responses:
+        '200':
+          description: reports
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonreports.yaml
+# ../v2api/api/v2reports.go
+  /reports/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do reports
+# modelo = JSONReports
+    put:
+      tags:
+       - Reports
+      summary: Atualiza um(a) reports
+# ../v2api/api/v2rooms.go
+  /rooms:
+# modelo = JSONRoom
+    post:
+      tags:
+       - Rooms
+      summary: Cria um(a) rooms
+      responses:
+        '200':
+          description: rooms
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonroom.yaml
+# ../v2api/api/v2rooms.go
+  /rooms/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do rooms
+# modelo = JSONRoom
+    put:
+      tags:
+       - Rooms
+      summary: Atualiza um(a) rooms
+    delete:
+      tags:
+       - Rooms
+      summary: Deleta um(a) rooms
+# ../v2api/api/v2roundprices.go
+  /roundprices:
+# filtros = FilterRoundPrices
+# modelo = 
+    get:
+      tags:
+       - Roundprices
+      summary: Listagem de roundprices
+      responses:
+        '200':
+          description: roundprices
+# ../v2api/api/v2sales.go
+  /sales:
+# modelo = JSONOrder
+    post:
+      tags:
+       - Sales
+      summary: Cria um(a) sales
+      responses:
+        '200':
+          description: sales
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonorder.yaml
+# ../v2api/api/v2sales.go
+  /sales/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do sales
+# modelo = JSONOrder
+    put:
+      tags:
+       - Sales
+      summary: Atualiza um(a) sales
+    delete:
+      tags:
+       - Sales
+      summary: Deleta um(a) sales
+# ERRO open ../v2api/api/v2salesfunnels.go: no such file or directory
+# ERRO open ../v2api/api/v2salesfunnels.go: no such file or directory
+# ERRO open ../v2api/api/v2salesinstallments.go: no such file or directory
+# ERRO open ../v2api/api/v2salesitems.go: no such file or directory
+# ERRO open ../v2api/api/v2salesitems.go: no such file or directory
+# ERRO open ../v2api/api/v2salespayments.go: no such file or directory
+# ERRO open ../v2api/api/v2salespayments.go: no such file or directory
+# ERRO open ../v2api/api/v2salespaymentslist.go: no such file or directory
+# ../v2api/api/v2salespersons.go
+  /salespersons:
+# modelo = JSONSalesPerson
+    post:
+      tags:
+       - Salespersons
+      summary: Cria um(a) salespersons
+      responses:
+        '200':
+          description: salespersons
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonsalesperson.yaml
+# ../v2api/api/v2salespersons.go
+  /salespersons/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do salespersons
+# modelo = JSONSalesPerson
+    put:
+      tags:
+       - Salespersons
+      summary: Atualiza um(a) salespersons
+    delete:
+      tags:
+       - Salespersons
+      summary: Deleta um(a) salespersons
+# ../v2api/api/v2salesreports.go
+  /salesreports:
+# filtros = FilterSalesReports
+# modelo = JSONSalesReport
+    get:
+      tags:
+       - Salesreports
+      summary: Listagem de salesreports
+      responses:
+        '200':
+          description: salesreports
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonsalesreport.yaml
+# ../v2api/api/v2salesreports.go
+  /salesreports/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do salesreports
+# modelo = JSONSalesReport
+    put:
+      tags:
+       - Salesreports
+      summary: Atualiza um(a) salesreports
+# ../v2api/api/v2salessummaries.go
+  /salessummaries:
+# filtros = Filtersalessummaries
+# modelo = 
+    get:
+      tags:
+       - Salessummaries
+      summary: Listagem de salessummaries
+      responses:
+        '200':
+          description: salessummaries
+# ../v2api/api/v2scmconfigs.go
+  /scmconfigs:
+# modelo = JSONSCMConfig
+    post:
+      tags:
+       - Scmconfigs
+      summary: Cria um(a) scmconfigs
+      responses:
+        '200':
+          description: scmconfigs
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonscmconfig.yaml
+# ../v2api/api/v2scmconfigs.go
+  /scmconfigs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do scmconfigs
+# modelo = JSONSCMConfig
+    put:
+      tags:
+       - Scmconfigs
+      summary: Atualiza um(a) scmconfigs
+    delete:
+      tags:
+       - Scmconfigs
+      summary: Deleta um(a) scmconfigs
+# ERRO open ../v2api/api/v2seasonalconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2seasonalconfigs.go: no such file or directory
+# ../v2api/api/v2seasonranges.go
+  /seasonranges:
+# modelo = JSONSeasonRanges
+    post:
+      tags:
+       - Seasonranges
+      summary: Cria um(a) seasonranges
+      responses:
+        '200':
+          description: seasonranges
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonseasonranges.yaml
+# ../v2api/api/v2seasonranges.go
+  /seasonranges/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do seasonranges
+# modelo = JSONSeasonRanges
+    delete:
+      tags:
+       - Seasonranges
+      summary: Deleta um(a) seasonranges
+    put:
+      tags:
+       - Seasonranges
+      summary: Atualiza um(a) seasonranges
+# ../v2api/api/v2sendmails.go
+  /sendmails:
+# modelo = 
+    post:
+      tags:
+       - Sendmails
+      summary: Cria um(a) sendmails
+      responses:
+        '200':
+          description: sendmails
+# ERRO open ../v2api/api/v2serviceclasses.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceclasses.go: no such file or directory
 # ERRO open ../v2api/api/v2serviceorderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceorderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceorderpayments.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceorderpayments.go: no such file or directory
 # ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
 # ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
+# ../v2api/api/v2services.go
+  /services:
+# modelo = JSONService
+    post:
+      tags:
+       - Services
+      summary: Cria um(a) services
+      responses:
+        '200':
+          description: services
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonservice.yaml
+# ../v2api/api/v2services.go
+  /services/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do services
+# modelo = JSONService
+    put:
+      tags:
+       - Services
+      summary: Atualiza um(a) services
+    delete:
+      tags:
+       - Services
+      summary: Deleta um(a) services
+# ../v2api/api/v2settings.go
+  /settings:
+# filtros = FilterSettings
+# modelo = 
+    get:
+      tags:
+       - Settings
+      summary: Listagem de settings
+      responses:
+        '200':
+          description: settings
+# ../v2api/api/v2settings.go
+  /settings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do settings
+# modelo = 
+    get:
+      tags:
+       - Settings
+      summary: Busca um(a) settings
+      responses:
+        '200':
+          description: settings
+# ../v2api/api/v2shelfqueues.go
+  /shelfqueues:
+# modelo = JSONShelfQueue
+    post:
+      tags:
+       - Shelfqueues
+      summary: Cria um(a) shelfqueues
+      responses:
+        '200':
+          description: shelfqueues
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonshelfqueue.yaml
+# ../v2api/api/v2shelfqueues.go
+  /shelfqueues/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do shelfqueues
+# modelo = JSONShelfQueue
+    delete:
+      tags:
+       - Shelfqueues
+      summary: Deleta um(a) shelfqueues
+# ERRO open ../v2api/api/v2skuarticles.go: no such file or directory
+# ERRO open ../v2api/api/v2skuarticles.go: no such file or directory
+# ERRO open ../v2api/api/v2skucmms.go: no such file or directory
+# ERRO open ../v2api/api/v2skuconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2skuconfigs.go: no such file or directory
+# ERRO open ../v2api/api/v2skucurvedetails.go: no such file or directory
+# ERRO open ../v2api/api/v2skucurvedetails.go: no such file or directory
+# ERRO open ../v2api/api/v2skucurves.go: no such file or directory
+# ERRO open ../v2api/api/v2skucurves.go: no such file or directory
+# ../v2api/api/v2skudailysales.go
+  /skudailysales:
+# filtros = FilterSkuDailySales
+# modelo = 
+    get:
+      tags:
+       - Skudailysales
+      summary: Listagem de skudailysales
+      responses:
+        '200':
+          description: skudailysales
+# ERRO open ../v2api/api/v2skugrids.go: no such file or directory
+# ERRO open ../v2api/api/v2skugrids.go: no such file or directory
+# ERRO open ../v2api/api/v2skugroups.go: no such file or directory
+# ERRO open ../v2api/api/v2skugroups.go: no such file or directory
+# ../v2api/api/v2skumonthlysales.go
+  /skumonthlysales:
+# filtros = FilterSkuMonthlySales
+# modelo = 
+    get:
+      tags:
+       - Skumonthlysales
+      summary: Listagem de skumonthlysales
+      responses:
+        '200':
+          description: skumonthlysales
+# ERRO open ../v2api/api/v2skuparts.go: no such file or directory
+# ERRO open ../v2api/api/v2skuparts.go: no such file or directory
+# ERRO open ../v2api/api/v2skuprices.go: no such file or directory
+# ERRO open ../v2api/api/v2skuprices.go: no such file or directory
+# ERRO open ../v2api/api/v2skureservations.go: no such file or directory
+# ERRO open ../v2api/api/v2skureservations.go: no such file or directory
+# ../v2api/api/v2skus.go
+  /skus:
+# modelo = JSONOneSku
+    post:
+      tags:
+       - Skus
+      summary: Cria um(a) skus
+      responses:
+        '200':
+          description: skus
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsononesku.yaml
+# ../v2api/api/v2skus.go
+  /skus/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do skus
+# modelo = JSONOneSku
+    delete:
+      tags:
+       - Skus
+      summary: Deleta um(a) skus
+# ERRO open ../v2api/api/v2skustocks.go: no such file or directory
+# ERRO open ../v2api/api/v2skustocks.go: no such file or directory
+# ERRO open ../v2api/api/v2skutransits.go: no such file or directory
+# ERRO open ../v2api/api/v2skutransits.go: no such file or directory
+# ERRO open ../v2api/api/v2skutrends.go: no such file or directory
+# ERRO open ../v2api/api/v2skutypes.go: no such file or directory
+# ERRO open ../v2api/api/v2skutypes.go: no such file or directory
+# ERRO open ../v2api/api/v2slipreasons.go: no such file or directory
+# ../v2api/api/v2snbrackets.go
+  /snbrackets:
+# filtros = FilterSnBrackets
+# modelo = 
+    get:
+      tags:
+       - Snbrackets
+      summary: Listagem de snbrackets
+      responses:
+        '200':
+          description: snbrackets
+# ../v2api/api/v2states.go
+  /states:
+# filtros = FilterStates
+# modelo = 
+    get:
+      tags:
+       - States
+      summary: Listagem de states
+      responses:
+        '200':
+          description: states
+# ../v2api/api/v2status.go
+  /status:
+# modelo = 
+    get:
+      tags:
+       - Status
+      summary: Listagem de status
+      responses:
+        '200':
+          description: status
+# ../v2api/api/v2statuses.go
+  /statuses:
+# filtros = FilterStatuses
+# modelo = JSONStatuses
+    get:
+      tags:
+       - Statuses
+      summary: Listagem de statuses
+      responses:
+        '200':
+          description: statuses
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonstatuses.yaml
+# ../v2api/api/v2statuses.go
+  /statuses/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do statuses
+# modelo = JSONStatuses
+    put:
+      tags:
+       - Statuses
+      summary: Atualiza um(a) statuses
+# ERRO open ../v2api/api/v2stockdailysummaries.go: no such file or directory
+# ERRO open ../v2api/api/v2stockdailysummaries.go: no such file or directory
+# ERRO open ../v2api/api/v2stocksectors.go: no such file or directory
+# ERRO open ../v2api/api/v2stocksectors.go: no such file or directory
+# ERRO open ../v2api/api/v2stocksummaries.go: no such file or directory
+# ERRO open ../v2api/api/v2stocksummaries.go: no such file or directory
+# ERRO open ../v2api/api/v2supplieritems.go: no such file or directory
+# ERRO open ../v2api/api/v2supplieritems.go: no such file or directory
+# ../v2api/api/v2suppliers.go
+  /suppliers:
+# modelo = JSONSupplier
+    post:
+      tags:
+       - Suppliers
+      summary: Cria um(a) suppliers
+      responses:
+        '200':
+          description: suppliers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonsupplier.yaml
+# ../v2api/api/v2suppliers.go
+  /suppliers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do suppliers
+# modelo = JSONSupplier
+    put:
+      tags:
+       - Suppliers
+      summary: Atualiza um(a) suppliers
+    delete:
+      tags:
+       - Suppliers
+      summary: Deleta um(a) suppliers
+# ERRO open ../v2api/api/v2supplyitems.go: no such file or directory
+# ERRO open ../v2api/api/v2supplyitems.go: no such file or directory
+# ERRO open ../v2api/api/v2systeminfo.go: no such file or directory
+# ../v2api/api/v2systemtasks.go
+  /systemtasks:
+# filtros = FilterSystemTasks
+# modelo = 
+    get:
+      tags:
+       - Systemtasks
+      summary: Listagem de systemtasks
+      responses:
+        '200':
+          description: systemtasks
+# ../v2api/api/v2tasks.go
+  /tasks:
+# modelo = JSONTask
+    post:
+      tags:
+       - Tasks
+      summary: Cria um(a) tasks
+      responses:
+        '200':
+          description: tasks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsontask.yaml
+# ../v2api/api/v2tasks.go
+  /tasks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do tasks
+# modelo = JSONTask
+    put:
+      tags:
+       - Tasks
+      summary: Atualiza um(a) tasks
+    delete:
+      tags:
+       - Tasks
+      summary: Deleta um(a) tasks
+# ../v2api/api/v2taxcfops.go
+  /taxcfops:
+# modelo = JSONTaxCfop
+    post:
+      tags:
+       - Taxcfops
+      summary: Cria um(a) taxcfops
+      responses:
+        '200':
+          description: taxcfops
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsontaxcfop.yaml
+# ../v2api/api/v2taxcfops.go
+  /taxcfops/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do taxcfops
+# modelo = JSONTaxCfop
+    put:
+      tags:
+       - Taxcfops
+      summary: Atualiza um(a) taxcfops
+# ../v2api/api/v2taxclasses.go
+  /taxclasses:
+# modelo = JSONTaxClass
+    post:
+      tags:
+       - Taxclasses
+      summary: Cria um(a) taxclasses
+      responses:
+        '200':
+          description: taxclasses
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsontaxclass.yaml
+# ../v2api/api/v2taxclasses.go
+  /taxclasses/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do taxclasses
+# modelo = JSONTaxClass
+    put:
+      tags:
+       - Taxclasses
+      summary: Atualiza um(a) taxclasses
+    delete:
+      tags:
+       - Taxclasses
+      summary: Deleta um(a) taxclasses
+# ../v2api/api/v2taxrates.go
+  /taxrates:
+# filtros = FilterTaxRates
+# modelo = JSONTaxRate
+    get:
+      tags:
+       - Taxrates
+      summary: Listagem de taxrates
+      responses:
+        '200':
+          description: taxrates
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsontaxrate.yaml
+# ../v2api/api/v2taxrates.go
+  /taxrates/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do taxrates
+# modelo = JSONTaxRate
+    put:
+      tags:
+       - Taxrates
+      summary: Atualiza um(a) taxrates
+# ../v2api/api/v2tenants.go
+  /tenants:
+# modelo = JSONTenant
+    post:
+      tags:
+       - Tenants
+      summary: Cria um(a) tenants
+      responses:
+        '200':
+          description: tenants
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsontenant.yaml
+# ../v2api/api/v2tenants.go
+  /tenants/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do tenants
+# modelo = JSONTenant
+    put:
+      tags:
+       - Tenants
+      summary: Atualiza um(a) tenants
+    delete:
+      tags:
+       - Tenants
+      summary: Deleta um(a) tenants
+# ../v2api/api/v2timelines.go
+  /timelines:
+# filtros = FilterTimelines
+# modelo = 
+    get:
+      tags:
+       - Timelines
+      summary: Listagem de timelines
+      responses:
+        '200':
+          description: timelines
 # ../v2api/api/v2tokens.go
   /tokens:
 # filtros = FilterTokens
@@ -271,6 +5238,75 @@ paths:
       tags:
        - Tokens
       summary: Deleta um(a) tokens
+# ../v2api/api/v2transactions.go
+  /transactions:
+# filtros = FilterTransactions
+# modelo = JSONTransaction
+    get:
+      tags:
+       - Transactions
+      summary: Listagem de transactions
+      responses:
+        '200':
+          description: transactions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsontransaction.yaml
+# ../v2api/api/v2transactions.go
+  /transactions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do transactions
+# modelo = JSONTransaction
+    delete:
+      tags:
+       - Transactions
+      summary: Deleta um(a) transactions
+# ../v2api/api/v2units.go
+  /units:
+# modelo = JSONUnit
+    post:
+      tags:
+       - Units
+      summary: Cria um(a) units
+      responses:
+        '200':
+          description: units
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonunit.yaml
+# ../v2api/api/v2units.go
+  /units/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do units
+# modelo = JSONUnit
+    put:
+      tags:
+       - Units
+      summary: Atualiza um(a) units
+    delete:
+      tags:
+       - Units
+      summary: Deleta um(a) units
+# ERRO open ../v2api/api/v2userauths.go: no such file or directory
+# ERRO open ../v2api/api/v2usercompanies.go: no such file or directory
+# ERRO open ../v2api/api/v2usercompanies.go: no such file or directory
+# ERRO open ../v2api/api/v2useremails.go: no such file or directory
+# ERRO open ../v2api/api/v2useremails.go: no such file or directory
 # ../v2api/api/v2users.go
   /users:
 # modelo = JSONUser
@@ -304,3 +5340,150 @@ paths:
       tags:
        - Users
       summary: Deleta um(a) users
+# ../v2api/api/v2vendors.go
+  /vendors:
+# modelo = JSONVendor
+    post:
+      tags:
+       - Vendors
+      summary: Cria um(a) vendors
+      responses:
+        '200':
+          description: vendors
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonvendor.yaml
+# ../v2api/api/v2vendors.go
+  /vendors/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do vendors
+# modelo = JSONVendor
+    put:
+      tags:
+       - Vendors
+      summary: Atualiza um(a) vendors
+# ../v2api/api/v2voidnumbers.go
+  /voidnumbers:
+# modelo = JSONVoidNumber
+    post:
+      tags:
+       - Voidnumbers
+      summary: Cria um(a) voidnumbers
+      responses:
+        '200':
+          description: voidnumbers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonvoidnumber.yaml
+# ../v2api/api/v2voidnumbers.go
+  /voidnumbers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do voidnumbers
+# modelo = JSONVoidNumber
+    get:
+      tags:
+       - Voidnumbers
+      summary: Busca um(a) voidnumbers
+      responses:
+        '200':
+          description: voidnumbers
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonvoidnumber.yaml
+# ERRO open ../v2api/api/v2volumelabels.go: no such file or directory
+# ../v2api/api/v2vouchers.go
+  /vouchers:
+# modelo = JSONVoucher
+    post:
+      tags:
+       - Vouchers
+      summary: Cria um(a) vouchers
+      responses:
+        '200':
+          description: vouchers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonvoucher.yaml
+# ../v2api/api/v2vouchers.go
+  /vouchers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do vouchers
+# modelo = JSONVoucher
+    put:
+      tags:
+       - Vouchers
+      summary: Atualiza um(a) vouchers
+    delete:
+      tags:
+       - Vouchers
+      summary: Deleta um(a) vouchers
+# ../v2api/api/v2voucherstatuses.go
+  /voucherstatuses:
+# modelo = 
+    get:
+      tags:
+       - Voucherstatuses
+      summary: Listagem de voucherstatuses
+      responses:
+        '200':
+          description: voucherstatuses
+# ../v2api/api/v2vouchertypes.go
+  /vouchertypes:
+# modelo = JSONVoucherType
+    post:
+      tags:
+       - Vouchertypes
+      summary: Cria um(a) vouchertypes
+      responses:
+        '200':
+          description: vouchertypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonvouchertype.yaml
+# ../v2api/api/v2vouchertypes.go
+  /vouchertypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do vouchertypes
+# modelo = JSONVoucherType
+    delete:
+      tags:
+       - Vouchertypes
+      summary: Deleta um(a) vouchertypes
+# ERRO open ../v2api/api/v2whatsappdevices.go: no such file or directory
+# ERRO open ../v2api/api/v2whatsappdevices.go: no such file or directory
+# ERRO open ../v2api/api/v2whatsappmessages.go: no such file or directory
+# ERRO open ../v2api/api/v2whatsappmessages.go: no such file or directory
+# ERRO open ../v2api/api/v2wmsinfos.go: no such file or directory
+# ERRO open ../v2api/api/v2wmsinfos.go: no such file or directory
+# ERRO open ../v2api/api/v2xmlexports.go: no such file or directory
+# ERRO open ../v2api/api/v2xmlexports/zip.go: no such file or directory
+# ERRO open ../v2api/api/v2xmlexports.go: no such file or directory

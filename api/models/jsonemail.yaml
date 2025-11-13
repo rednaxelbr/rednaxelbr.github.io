@@ -1,0 +1,46 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: string
+  criado_em:
+    type: string
+  nome_remetente:
+    type: string
+  email_remetente:
+    type: string
+  assunto:
+    type: string
+  destinatarios:
+    type: string
+  mensagem_erro:
+    type: string
+  id_template:
+    type: integer
+  id_empresa:
+    type: integer
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  quant_tentativas:
+    type: integer
+  quant_anexos:
+    type: integer
+  enviado_em:
+    type: string
+  envio_pendente:
+    type: boolean
+  data_hora:
+    type: string
+  nome_usuario:
+    type: string
+  chnfe:
+    type: string
+  numero_pedido:
+    type: integer
+  id_boleto:
+    type: integer

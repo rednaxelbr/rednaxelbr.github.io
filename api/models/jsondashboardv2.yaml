@@ -1,0 +1,26 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  ordem:
+    type: integer
+  metric_id:
+    type: integer
+  tipo:
+    type: string
+  nome:
+    type: string
+  nome_metrica:
+    type: string
+  rotulo:
+    type: string
+  ids_grupos:
+    type: array
+    items:
+      type: integer
+  graficos:
+    type: integer
+  ativo:
+    type: boolean

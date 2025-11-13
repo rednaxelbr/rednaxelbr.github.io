@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_kanban:
+    type: string
+  quant_raias:
+    type: integer
+  ids_grupos:
+    type: array
+    items:
+      type: integer
+  ids_usuarios:
+    type: array
+    items:
+      type: integer
+  configurar:
+    type: boolean

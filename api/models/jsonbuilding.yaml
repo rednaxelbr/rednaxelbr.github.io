@@ -1,0 +1,44 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  desc_predio:
+    type: string
+  cdist:
+    type: boolean
+  id_pessoa:
+    type: integer
+  address_id:
+    type: integer
+  logradouro:
+    type: string
+  numero:
+    type: integer
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  legado:
+    type: boolean
+  setor_pallets:
+    type: integer
+  latitude:
+    type: string
+  longitude:
+    type: string
+  url_mapa:
+    type: string
+  ativo:
+    type: boolean
+  resetar_estoque:
+    type: boolean
+  confirmar_reset:
+    type: string
+  id_predio_modelo:
+    type: integer
+  percentual_modelo:
+    type: integer
+  copiar_setor_z:
+    type: boolean

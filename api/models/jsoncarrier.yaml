@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_entregador:
+    type: string
+  id_pessoa:
+    type: integer
+  cpf_cnpj_texto:
+    type: string
+  nome_razao:
+    type: string
+  ativo:
+    type: boolean
+  metodo:
+    type: string
+  excluir:
+    type: boolean
+  vendor:
+    type: string
+  data_hora:
+    type: string
+  atualizado_erp:
+    type: boolean
+  data_ult_transp:
+    type: string

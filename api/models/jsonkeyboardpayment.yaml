@@ -1,0 +1,30 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tpag:
+    type: integer
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  tecla_atalho:
+    type: string
+  rotulo:
+    type: string
+  id_transacao:
+    type: integer
+  id_teclado:
+    type: integer
+  desc_teclado:
+    type: string
+  id_plano_forma:
+    type: integer
+  max_parcelas:
+    type: integer
+  adm_max_parc:
+    type: integer
+  nao_cancelar:
+    type: boolean

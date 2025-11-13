@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  precedencia:
+    type: integer
+  nome_lista:
+    type: string
+  id_catalogo:
+    type: integer

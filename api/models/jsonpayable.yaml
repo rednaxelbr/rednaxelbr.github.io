@@ -1,0 +1,106 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  id_compra:
+    type: integer
+  status_nota:
+    type: integer
+  sigla_status:
+    type: string
+  data_emissao:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  nome_fantasia:
+    type: string
+  id_fornec:
+    type: integer
+  nome_fornec:
+    type: string
+  documento:
+    type: string
+  historico:
+    type: string
+  cta_contab:
+    type: integer
+  nome_conta:
+    type: string
+  id_centro:
+    type: integer
+  desc_centro:
+    type: string
+  id_forma:
+    type: integer
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  data_vencto:
+    type: string
+  cod_situacao:
+    type: integer
+  desc_situacao:
+    type: string
+  rgb_situacao:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  quitado_por:
+    type: string
+  data_quitacao:
+    type: string
+  cod_legado:
+    type: integer
+  data_hora:
+    type: string
+  id_conta:
+    type: integer
+  dados_conta:
+    type: string
+  integracao:
+    type: boolean
+  dthr_lancto:
+    type: string
+  editar_parcelas:
+    type: boolean
+  criar_parcelas:
+    type: boolean
+  parcelamento:
+    type: string
+  data_inicial:
+    type: string
+  vencto_lancto:
+    type: boolean
+  quitar_em_lote:
+    type: boolean
+  tpag:
+    type: integer
+  numero:
+    type: integer
+  serie:
+    type: integer
+  nf_inconsistente:
+    type: boolean
+  pagamento_autorizado:
+    type: boolean
+  marcadores:
+    type: string
+  lancto_pai:
+    type: integer
+  id_cte:
+    type: integer
+  pagto_bloqueado:
+    type: boolean
+  emp_destino:
+    type: integer

@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  pricerule_id:
+    type: integer
+  nome_regra:
+    type: string
+  codigo_cupom:
+    type: string
+  cupom_ativo:
+    type: boolean
+  contador_uso:
+    type: integer
+  cont_pedidos:
+    type: integer
+  descricao_cupom:
+    type: string

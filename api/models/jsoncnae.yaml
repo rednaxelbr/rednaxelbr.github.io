@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: string
+  metodo:
+    type: string
+  denom_subclasse:
+    type: string
+  cnae_div:
+    type: integer
+  denom_divisao:
+    type: string
+  id_segmento:
+    type: integer
+  nome_segmento:
+    type: string

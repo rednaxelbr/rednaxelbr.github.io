@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_plu:
+    type: integer
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  sku_ativo:
+    type: boolean
+  pendente_erp_plu:
+    type: boolean
+  atualizado_erp:
+    type: boolean

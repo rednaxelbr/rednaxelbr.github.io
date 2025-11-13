@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_pai:
+    type: integer
+  ordem:
+    type: integer
+  menu_title:
+    type: string
+  menu_icon:
+    type: string
+  link_v2:
+    type: string
+  id_transacao:
+    type: integer
+  id_modulo:
+    type: integer
+  sigla_modulo:
+    type: string
+  nome_modulo:
+    type: string
+  publicado:
+    type: boolean
+  beta:
+    type: boolean

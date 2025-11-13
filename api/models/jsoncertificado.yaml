@@ -1,0 +1,32 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  cnpj_emit:
+    type: integer
+  cnpj_alfa:
+    type: string
+  serie_certificado:
+    type: string
+  token_csc:
+    type: string
+  token_id:
+    type: integer
+  data_validade:
+    type: string
+  nome_razao:
+    type: string
+  common_name:
+    type: string
+  not_before:
+    type: string
+  senha_nova:
+    type: string
+  apelido:
+    type: string
+  pix:
+    type: boolean
+  imagem_danfe:
+    type: string

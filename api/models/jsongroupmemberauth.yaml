@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_grupo:
+    type: integer
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string

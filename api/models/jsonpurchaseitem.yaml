@@ -1,0 +1,68 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  seq_item:
+    type: integer
+  cprod:
+    type: string
+  ucom:
+    type: string
+  ucom_nota:
+    type: string
+  xprod:
+    type: string
+  xprod_nota:
+    type: string
+  codigo_sku:
+    type: integer
+  cod_produto:
+    type: integer
+  quant:
+    type: integer
+  id_compra:
+    type: integer
+  id_grade:
+    type: integer
+  id_fornec:
+    type: integer
+  cfop:
+    type: integer
+  ignorar_dif_excessiva:
+    type: boolean
+  limpar_mem_map:
+    type: boolean
+  possui_desdob:
+    type: boolean
+  corrigir_mapeamento:
+    type: boolean
+  vigencia_custo:
+    type: string
+  data_receb_merc:
+    type: string
+  data_emissao:
+    type: string
+  numero:
+    type: integer
+  impostos_ok:
+    type: boolean
+  numero_pedido:
+    type: integer
+  corrigido:
+    type: boolean
+  automatico_caixa:
+    type: boolean
+  caixa_com:
+    type: string
+  possui_gtin:
+    type: boolean
+  marcadores:
+    type: string
+  dest:
+    type: string
+  descartar_custo_item:
+    type: boolean
+  produzido:
+    type: boolean

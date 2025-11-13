@@ -1,0 +1,132 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  chnfe:
+    type: string
+  id_pessoa:
+    type: integer
+  serie:
+    type: integer
+  numero:
+    type: integer
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  data_emissao:
+    type: string
+  data_agendamento:
+    type: string
+  nome_emitente:
+    type: string
+  dest:
+    type: string
+  impostos_ok:
+    type: boolean
+  precos_ok:
+    type: boolean
+  valores_nulos:
+    type: integer
+  uf_emit:
+    type: string
+  cfop:
+    type: integer
+  milhar_cfop:
+    type: integer
+  pendente_erp:
+    type: boolean
+  atualizado_erp:
+    type: boolean
+  seta_precos_ok:
+    type: string
+  vigencia_custo:
+    type: string
+  descartar_custo:
+    type: boolean
+  skus_ns:
+    type: integer
+  ns_lidos:
+    type: integer
+  id_empresa:
+    type: integer
+  cnpj_fornec:
+    type: integer
+  seta_impostos_ok:
+    type: string
+  ocs_vinculadas:
+    type: string
+  id_rastreamento:
+    type: integer
+  observacoes:
+    type: string
+  id_fornec:
+    type: integer
+  usuario_legado:
+    type: string
+  cod_ocorrencia:
+    type: integer
+  crt:
+    type: integer
+  nfat:
+    type: string
+  qvol:
+    type: integer
+  finnfe:
+    type: integer
+  ocs:
+    type: array
+    items:
+      type: integer
+  arquivo_xml:
+    type: string
+  data_receb_financ:
+    type: string
+  data_receb_merc:
+    type: string
+  criar_produto_auto:
+    type: boolean
+  qtd_itens_criados:
+    type: integer
+  confirmado_mercad:
+    type: boolean
+  confirmado_valores:
+    type: boolean
+  data_hora:
+    type: string
+  marcadores:
+    type: string
+  primeira_parcela:
+    type: string
+  gerou_conta_pagar:
+    type: boolean
+  contabilizado:
+    type: boolean
+  atencao:
+    type: boolean
+  nf_inconsistente:
+    type: boolean
+  aceitar_inconsistencias:
+    type: boolean
+  motivo_aceite:
+    type: string
+  motivo_ocultacao:
+    type: string
+  quitacao_manual:
+    type: boolean
+  nota_consumo:
+    type: boolean
+  tp_evento:
+    type: integer
+  desc_evento:
+    type: string
+  nao_possui_custoliq:
+    type: boolean
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  id_recepcao:
+    type: integer

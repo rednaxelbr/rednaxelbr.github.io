@@ -1,0 +1,92 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  data_criacao:
+    type: string
+  codigo:
+    type: string
+  codigo_cartao:
+    type: string
+  id_tipo:
+    type: integer
+  tipo_vale:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  cpf_cnpj:
+    type: integer
+  tpag:
+    type: integer
+  situacao:
+    type: string
+  tpdoc:
+    type: string
+  chnfe:
+    type: string
+  nome_reduzido:
+    type: string
+  sigla_loja:
+    type: string
+  nf_origem:
+    type: integer
+  nome_usuario:
+    type: string
+  numero_pedido:
+    type: integer
+  data_emissao:
+    type: string
+  num_ped_nf:
+    type: integer
+  ativo:
+    type: boolean
+  id_origem:
+    type: integer
+  vale_origem:
+    type: string
+  digitar_codigo:
+    type: boolean
+  observacoes:
+    type: string
+  id_empresa:
+    type: integer
+  str_origem:
+    type: string
+  id_compra_devol:
+    type: integer
+  num_nf_compra:
+    type: integer
+  valido_ate:
+    type: string
+  nf_desconto:
+    type: string
+  nf_consumiu:
+    type: string
+  chnfe_consumiu:
+    type: string
+  dtemi_consumiu:
+    type: string
+  quant_resgates:
+    type: integer
+  limite_resgate:
+    type: integer
+  token_id:
+    type: integer
+  data_quitacao:
+    type: string
+  ult_usuario:
+    type: string
+  quitacao_manual:
+    type: boolean
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  chnfe_desconto:
+    type: string
+  data_hora:
+    type: string

@@ -1,0 +1,44 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  chnfe:
+    type: string
+  nprot:
+    type: integer
+  tpevento:
+    type: integer
+  dhregevento:
+    type: string
+  nseqevento:
+    type: integer
+  veraplic:
+    type: string
+  corgao:
+    type: integer
+  cstat:
+    type: integer
+  motivo:
+    type: integer
+  id_autoriz:
+    type: integer
+  data_emissao:
+    type: string
+  hora_emissao:
+    type: string
+  id_abertura:
+    type: string
+  xmotivo:
+    type: string
+  status_motivo:
+    type: string
+  tpamb:
+    type: integer
+  nome_autorizador:
+    type: string
+  desc_motivo:
+    type: string
+  desc_evento:
+    type: string

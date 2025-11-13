@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: string
+  legado:
+    type: boolean
+  icone_tel:
+    type: string

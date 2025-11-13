@@ -1,0 +1,32 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  id_plu:
+    type: integer
+  nome_plu:
+    type: string
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  processar:
+    type: boolean
+  excluir:
+    type: boolean
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  dthr_alteracao:
+    type: string
+  data_inicio:
+    type: string
+  id_canal:
+    type: integer
+  abrev_canal:
+    type: string

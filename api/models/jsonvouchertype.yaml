@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo_vale:
+    type: string
+  tpag:
+    type: integer
+  desc_forma:
+    type: string
+  digitar_codigo:
+    type: boolean

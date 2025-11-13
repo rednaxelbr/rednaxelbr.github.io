@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_usuario:
+    type: string
+  app_id:
+    type: string
+  url_tela:
+    type: string
+  url_ajuda:
+    type: string
+  texto_ajuda:
+    type: string
+  config_ajuda:
+    type: string
+  data_hora:
+    type: string

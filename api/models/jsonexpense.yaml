@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  parent_id:
+    type: integer
+  descricao_despesa:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  natureza:
+    type: string
+  desc_natureza:
+    type: string
+  alocacao:
+    type: string
+  desc_alocacao:
+    type: string
+  parcelas:
+    type: integer
+  nome_usuario:
+    type: string

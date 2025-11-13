@@ -1,0 +1,46 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  data_inicio:
+    type: string
+  nome_plano:
+    type: string
+  id_dispositivo:
+    type: integer
+  device_name:
+    type: string
+  periodo:
+    type: integer
+  objetivo:
+    type: integer
+  validade:
+    type: integer
+  carencia:
+    type: integer
+  validade_vale:
+    type: integer
+  canais_validos:
+    type: array
+    items:
+      type: integer
+  resposta_boas_vindas:
+    type: string
+  resposta_redirecionamento:
+    type: string
+  resposta_confirmacao:
+    type: string
+  resposta_descadastramento:
+    type: string
+  resposta_recompensa:
+    type: string
+  emoji_ponto:
+    type: string
+  emoji_falta:
+    type: string
+  ids_ignorar_perfis:
+    type: array
+    items:
+      type: integer

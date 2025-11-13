@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ucom:
+    type: string
+  desc_unidade:
+    type: string
+  desc_plural:
+    type: string
+  casas_decimais:
+    type: integer

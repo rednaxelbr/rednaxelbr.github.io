@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_reduzido:
+    type: string
+  proj:
+    type: boolean
+  loja:
+    type: boolean
+  suprim:
+    type: boolean
+  compra:
+    type: boolean
+  dias_semana:
+    type: array
+    items:
+      type: integer
+  acesso_restrito:
+    type: boolean
+  codigo_wms:
+    type: integer
+  tags_nd:
+    type: array
+    items:
+      type: integer
+  id_emp_curva:
+    type: integer
+  validade_emp_curva:
+    type: string
+  copiar_curva:
+    type: boolean

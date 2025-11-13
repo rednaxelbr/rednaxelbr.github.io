@@ -1,0 +1,66 @@
+type: object
+properties:
+  id:
+    type: integer
+  nosso_numero:
+    type: integer
+  linha_digitavel:
+    type: string
+  numero_doc:
+    type: string
+  cnpj_cedente:
+    type: integer
+  cnpj_alfa_cedente:
+    type: string
+  id_convenio:
+    type: integer
+  id_lote:
+    type: integer
+  convenio_numero:
+    type: string
+  banco:
+    type: string
+  id_pessoa:
+    type: integer
+  sacado:
+    type: string
+  cpf_cnpj:
+    type: integer
+  data_geracao:
+    type: string
+  data_emissao:
+    type: string
+  data_vencimento:
+    type: string
+  data_pagto:
+    type: string
+  situacao:
+    type: string
+  seq_pagto:
+    type: integer
+  numero_pedido:
+    type: integer
+  pjuridica:
+    type: boolean
+  id_integracao:
+    type: string
+  carteira:
+    type: string
+  motivo:
+    type: string
+  comando:
+    type: string
+  altera_data:
+    type: string
+  sigla_cedente:
+    type: string
+  tipo_oper:
+    type: string
+  status_nf:
+    type: integer
+  visualizado:
+    type: boolean
+  url_boleto:
+    type: string
+  destinatarios:
+    type: string

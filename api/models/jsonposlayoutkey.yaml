@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_layout:
+    type: integer
+  id_funcao:
+    type: string
+  rotulo:
+    type: string
+  exibir_ajuda:
+    type: boolean

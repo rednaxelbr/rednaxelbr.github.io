@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: integer
+  desc_tipo:
+    type: string
+  codigo:
+    type: integer
+  descr_motivo:
+    type: string
+  ativo:
+    type: boolean
+  ordem_tela:
+    type: integer
+  virtuais:
+    type: array
+    items:
+      type: integer
+  cupom_desconto:
+    type: boolean

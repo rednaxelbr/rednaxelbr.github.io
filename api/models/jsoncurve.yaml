@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  letra_curva:
+    type: string
+  id_sla:
+    type: integer
+  dias_encalhe:
+    type: integer

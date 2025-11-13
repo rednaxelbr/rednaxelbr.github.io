@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_tributo:
+    type: string
+  cst:
+    type: integer
+  desc_trib:
+    type: string
+  cfop_nfce:
+    type: integer
+  modbc:
+    type: integer
+  modbc_st:
+    type: integer
+  csosn:
+    type: integer
+  cst_ipi:
+    type: integer
+  cst_pis:
+    type: integer
+  cst_cofins:
+    type: integer
+  csosn_manual:
+    type: integer
+  cclass_tribis:
+    type: string
+  cclass_trib:
+    type: string
+  observacoes:
+    type: string
