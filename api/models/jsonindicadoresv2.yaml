@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  titulo:
+    type: string
+  valor:
+    type: string
+  cor_fonte:
+    type: string
+  cor_fundo:
+    type: string
+  icone:
+    type: string
+  url:
+    type: string
+  escopo:
+    type: string
+  progresso:
+    type: integer

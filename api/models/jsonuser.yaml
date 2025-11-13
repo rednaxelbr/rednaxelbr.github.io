@@ -1,0 +1,58 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_usuario:
+    type: string
+  picture_url:
+    type: string
+  avatar:
+    type: string
+  id_pessoa:
+    type: integer
+  id_empresa:
+    type: integer
+  ativo:
+    type: boolean
+  nome_razao:
+    type: string
+  nome_reduzido:
+    type: string
+  grupos:
+    type: []ViewUsuariosGrupo
+  senha_atual:
+    type: string
+  senha_sha256:
+    type: string
+  senha_atual_md5:
+    type: string
+  senha_md5:
+    type: string
+  data_criacao:
+    type: string
+  ultimo_login:
+    type: string
+  atualizado_erp:
+    type: boolean
+  copiar:
+    type: string
+  id_origem:
+    type: integer
+  novos_grupos:
+    type: []int64
+  ids_filas:
+    type: []int64
+  nome_recurso:
+    type: string
+  separador:
+    type: boolean
+  empresas:
+    type: []JSONUserCompany
+  usuario_admin:
+    type: boolean
+  alterar_senha:
+    type: boolean
+  usu_principal:
+    type: boolean

@@ -1,0 +1,80 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  user_id:
+    type: integer
+  nome_razao:
+    type: string
+  loja:
+    type: integer
+  nome_loja:
+    type: string
+  id_predio:
+    type: integer
+  nome_usuario:
+    type: string
+  conta:
+    type: string
+  url_logo:
+    type: string
+  num_serie:
+    type: integer
+  user_email:
+    type: string
+  picture_url:
+    type: string
+  ip_externo:
+    type: string
+  ip_interno:
+    type: string
+  versao:
+    type: string
+  ult_oper:
+    type: string
+  cmun:
+    type: integer
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  device_id:
+    type: integer
+  nome_dispositivo:
+    type: string
+  android_id:
+    type: string
+  telas_wms:
+    type: []int
+  notificacoes:
+    type: integer
+  latitude:
+    type: string
+  longitude:
+    type: string
+  token_id:
+    type: string
+  user_agent:
+    type: string
+  url_mapa:
+    type: string
+  alerta:
+    type: JSONAlerta
+  alterar_senha:
+    type: boolean
+  data_validade:
+    type: string
+  salesper_id:
+    type: integer
+  cod_vendedor:
+    type: integer
+  cod_comprador:
+    type: integer
+  qtd_ender_reduz:
+    type: integer
+  novo_jwt:
+    type: string
+  pre_vendedor:
+    type: boolean

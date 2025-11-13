@@ -1,3 +1,4 @@
+### 1437
 openapi: 3.0.3
 info:
   title: RNGE API
@@ -10,61 +11,47 @@ servers:
     description: Produção
 
 paths:
-### ("/v2/prospects", authToken(api.ProspectsGet)).Methods(http.MethodGet)
-### ("/v2/prospects/{id:[0-9]+}", authToken(api.ProspectsGet)).Methods(http.MethodGet)
-### ("/v2/menu", authToken(api.MenuGet)).Methods(http.MethodGet)
-### ("/v2/logout", authToken(api.LogoutPost)).Methods(http.MethodPost)
-### ("/v2/cashiers", authToken(api.CashiersGet)).Methods(http.MethodGet)
-### ("/v2/cashiers", authToken(api.CashiersPostPut)).Methods(http.MethodPost)
-### ("/v2/cashiers/{pdv_id:[0-9]+}", authToken(api.CashiersGet)).Methods(http.MethodGet)
-### ("/v2/cashiers/{pdv_id:[0-9]+}", authToken(api.CashiersPostPut)).Methods(http.MethodPut)
-### ("/v2/cashiers/{pdv_id:[0-9]+}", authToken(api.CashiersDelete)).Methods(http.MethodDelete)
-### ("/v2/metrics", authToken(api.MetricsGet)).Methods(http.MethodGet)
-### ("/v2/metrics/{id:[0-9]+}", authToken(api.MetricsGet)).Methods(http.MethodGet)
-### ("/v2/metrics/{id:[0-9]+}", authToken(api.MetricsPostPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-### ("/v2/charts", authToken(api.ChartsGet)).Methods(http.MethodGet)
-### ("/v2/tokens", authToken(api.TokensGet)).Methods(http.MethodGet)
-### ("/v2/me", authToken(api.TokensGet)).Methods(http.MethodGet) //--- GET v2/tokens/{id} do usuário logado
-### ("/v2/tokens/{id:[0-9]+}", authToken(api.TokensGet)).Methods(http.MethodGet)
-### ("/v2/tokens/{id:[0-9]+}", authToken(api.TokensPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-### ("/v2/users", authToken(api.UsersGet)).Methods(http.MethodGet)
-### ("/v2/users/{id:[0-9]+}", authToken(api.UsersGet)).Methods(http.MethodGet)
-### ("/v2/users", authToken(api.UsersPostPutDelete)).Methods(http.MethodPost)
-### ("/v2/users/{id:[0-9]+}", authToken(api.UsersPostPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-# ../v2api/api/v2menu.go
-  /menu:
-    get:
-      summary: Listagem de menu
-# modelo = 
 # ../v2api/api/v2cashiers.go
   /cashiers:
+# modelo = TabelaPontoVenda
     post:
       summary: Cria um(a) cashiers
-# modelo = TabelaPontoVenda
-# ../v2api/api/v2metrics.go
-  /metrics/{id}:
+# ../v2api/api/v2charts.go
+  /charts:
+# modelo = 
+    get:
+      summary: Listagem de charts
+# ../v2api/api/v2tokens.go
+  /tokens:
+# filtros = FilterTokens
+# modelo = JSONToken
+    get:
+      summary: Listagem de tokens
+# ../v2api/api/v2users.go
+  /users:
+# modelo = JSONUser
+    post:
+      summary: Cria um(a) users
+# ../v2api/api/v2users.go
+  /users/{id}:
     parameters:
       - schema:
           type: string
         name: id
         in: path
         required: true
-        description: ID do metrics
+        description: ID do users
+# modelo = JSONUser
     put:
-      summary: Atualiza um(a) metrics
+      summary: Atualiza um(a) users
     delete:
-      summary: Deleta um(a) metrics
-# modelo = JSONIndicadoresV2
-# ../v2api/api/v2charts.go
-  /charts:
+      summary: Deleta um(a) users
+# ../v2api/api/v2prospects.go
+  /prospects:
+# filtros = FilterProspects
+# modelo = JSONProspect
     get:
-      summary: Listagem de charts
-# modelo = 
-# ../v2api/api/v2logout.go
-  /logout:
-    post:
-      summary: Cria um(a) logout
-# modelo = 
+      summary: Listagem de prospects
 # ../v2api/api/v2cashiers.go
   /cashiers/{id}:
     parameters:
@@ -74,21 +61,29 @@ paths:
         in: path
         required: true
         description: ID do cashiers
+# modelo = TabelaPontoVenda
     delete:
       summary: Deleta um(a) cashiers
-# modelo = TabelaPontoVenda
 # ../v2api/api/v2metrics.go
   /metrics:
-    get:
-      summary: Listagem de metrics
 # filtros = FilterMetrics
 # modelo = JSONIndicadoresV2
-# ../v2api/api/v2tokens.go
-  /tokens:
     get:
-      summary: Listagem de tokens
-# filtros = FilterTokens
-# modelo = JSONToken
+      summary: Listagem de metrics
+# ../v2api/api/v2metrics.go
+  /metrics/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do metrics
+# modelo = JSONIndicadoresV2
+    put:
+      summary: Atualiza um(a) metrics
+    delete:
+      summary: Deleta um(a) metrics
 # ERRO open ../v2api/api/v2me.go: no such file or directory
 # ../v2api/api/v2tokens.go
   /tokens/{id}:
@@ -99,36 +94,11 @@ paths:
         in: path
         required: true
         description: ID do tokens
+# modelo = JSONToken
     put:
       summary: Atualiza um(a) tokens
     delete:
       summary: Deleta um(a) tokens
-# modelo = JSONToken
-# ../v2api/api/v2users.go
-  /users:
-    post:
-      summary: Cria um(a) users
-# modelo = JSONUser
-# ../v2api/api/v2users.go
-  /users/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do users
-    put:
-      summary: Atualiza um(a) users
-    delete:
-      summary: Deleta um(a) users
-# modelo = JSONUser
-# ../v2api/api/v2prospects.go
-  /prospects:
-    get:
-      summary: Listagem de prospects
-# filtros = FilterProspects
-# modelo = JSONProspect
 # ../v2api/api/v2prospects.go
   /prospects/{id}:
     parameters:
@@ -138,6 +108,23 @@ paths:
         in: path
         required: true
         description: ID do prospects
+# modelo = JSONProspect
     get:
       summary: Busca um(a) prospects
-# modelo = JSONProspect
+      responses:
+        '200':
+          description: prospects
+          content:
+            application/json:
+              schema:
+                $ref: docs/models/jsonprospect.yaml
+# ../v2api/api/v2menu.go
+  /menu:
+# modelo = 
+    get:
+      summary: Listagem de menu
+# ../v2api/api/v2logout.go
+  /logout:
+# modelo = 
+    post:
+      summary: Cria um(a) logout

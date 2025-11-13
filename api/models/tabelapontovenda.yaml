@@ -1,0 +1,24 @@
+type: object
+properties:
+  cnpj:
+    type: integer
+  cnpj_alfa:
+    type: string
+  pdv_id:
+    type: integer
+  num_serie:
+    type: integer
+  limpar_hash:
+    type: boolean
+  producao:
+    type: boolean
+  pinpad:
+    type: boolean
+  gaveta:
+    type: boolean
+  contagem:
+    type: boolean
+  id:
+    type: integer
+  cnpj_emit_fk:
+    type: integer

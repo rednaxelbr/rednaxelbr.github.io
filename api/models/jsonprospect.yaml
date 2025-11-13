@@ -1,0 +1,50 @@
+type: object
+properties:
+  id:
+    type: string
+  email:
+    type: string
+  nome:
+    type: string
+  senha:
+    type: string
+  conta:
+    type: string
+  empresa:
+    type: string
+  jwt:
+    type: string
+  telefone:
+    type: string
+  aceite:
+    type: boolean
+  cnpj:
+    type: string
+  mensagem:
+    type: string
+  segmento:
+    type: string
+  cupom_desconto:
+    type: string
+  codigo_parceiro:
+    type: string
+  pagina:
+    type: integer
+  cod_plano:
+    type: integer
+  nome_tenant:
+    type: string
+  razao_social:
+    type: string
+  data_cadastro:
+    type: string
+  mail_id:
+    type: integer
+  user_id:
+    type: integer
+  company_id:
+    type: integer
+  id_pessoa:
+    type: integer
+  id_canal:
+    type: integer
