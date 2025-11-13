@@ -495,20 +495,20 @@ tags:
     description: Receptionskus
   - name: Recharges
     description: Recharges
-  - name: Rep201{Id}
-    description: Rep201{Id}
-  - name: Rep202{Id}
-    description: Rep202{Id}
-  - name: Rep203{Id}
-    description: Rep203{Id}
-  - name: Rep301{Id}
-    description: Rep301{Id}
-  - name: Rep302{Id}
-    description: Rep302{Id}
-  - name: Rep303{Id}
-    description: Rep303{Id}
-  - name: Rep304{Id}
-    description: Rep304{Id}
+  - name: Rep201
+    description: Rep201
+  - name: Rep202
+    description: Rep202
+  - name: Rep203
+    description: Rep203
+  - name: Rep301
+    description: Rep301
+  - name: Rep302
+    description: Rep302
+  - name: Rep303
+    description: Rep303
+  - name: Rep304
+    description: Rep304
   - name: Reportrows
     description: Reportrows
   - name: Reports
@@ -4453,13 +4453,83 @@ paths:
       responses:
         '200':
           description: recharges
-# ERRO open ../v2api/api/v2rep201{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep202{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep203{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep301{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep302{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep303{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2rep304{id}.go: no such file or directory
+# ../v2api/api/v2rep201.go
+  /rep201:
+# filtros = FilterRep201
+# modelo = 
+    get:
+      tags:
+       - Rep201
+      summary: Listagem de rep201
+      responses:
+        '200':
+          description: rep201
+# ../v2api/api/v2rep202.go
+  /rep202:
+# filtros = FilterRep202
+# modelo = 
+    get:
+      tags:
+       - Rep202
+      summary: Listagem de rep202
+      responses:
+        '200':
+          description: rep202
+# ../v2api/api/v2rep203.go
+  /rep203:
+# filtros = FilterRep203
+# modelo = 
+    get:
+      tags:
+       - Rep203
+      summary: Listagem de rep203
+      responses:
+        '200':
+          description: rep203
+# ../v2api/api/v2rep301.go
+  /rep301:
+# filtros = FilterRep301
+# modelo = 
+    get:
+      tags:
+       - Rep301
+      summary: Listagem de rep301
+      responses:
+        '200':
+          description: rep301
+# ../v2api/api/v2rep302.go
+  /rep302:
+# filtros = FilterRep302
+# modelo = 
+    get:
+      tags:
+       - Rep302
+      summary: Listagem de rep302
+      responses:
+        '200':
+          description: rep302
+# ../v2api/api/v2rep303.go
+  /rep303:
+# filtros = FilterRep303
+# modelo = 
+    get:
+      tags:
+       - Rep303
+      summary: Listagem de rep303
+      responses:
+        '200':
+          description: rep303
+# ../v2api/api/v2rep304.go
+  /rep304:
+# filtros = FilterRep304
+# modelo = 
+    get:
+      tags:
+       - Rep304
+      summary: Listagem de rep304
+      responses:
+        '200':
+          description: rep304
 # ../v2api/api/v2reportrows.go
   /reportrows:
 # modelo = 
