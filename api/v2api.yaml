@@ -1,0 +1,75 @@
+openapi: 3.0.3
+info:
+  title: RNGE API
+  version: 1.0.0
+
+servers:
+  - url: 'https://homolog.rnge.com.br/v2'
+    description: Homologação
+  - url: 'https://rnge.com.br/v2'
+    description: Produção
+
+paths:
+# ../v2api/api/v2logout.go
+  /logout:
+    post:
+      summary: Cria um(a) logout
+# modelo = 
+# ../v2api/api/v2cashiers.go
+  /cashiers:
+    post:
+      summary: Cria um(a) cashiers
+# modelo = TabelaPontoVenda
+# ../v2api/api/v2cashiers.go
+  /cashiers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cashiers
+    delete:
+      summary: Deleta um(a) cashiers
+# modelo = TabelaPontoVenda
+# ../v2api/api/v2metrics.go
+  /metrics:
+    get:
+      summary: Listagem de metrics
+# filtros = FilterMetrics
+# modelo = JSONIndicadoresV2
+# ../v2api/api/v2metrics.go
+  /metrics/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do metrics
+    get:
+      summary: Busca um(a) metrics
+# modelo = JSONIndicadoresV2
+# ../v2api/api/v2prospects.go
+  /prospects:
+    get:
+      summary: Listagem de prospects
+# filtros = FilterProspects
+# modelo = JSONProspect
+# ../v2api/api/v2prospects.go
+  /prospects/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do prospects
+    get:
+      summary: Busca um(a) prospects
+# modelo = JSONProspect
+# ../v2api/api/v2menu.go
+  /menu:
+    get:
+      summary: Listagem de menu
+# modelo = 
