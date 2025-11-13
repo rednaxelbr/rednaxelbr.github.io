@@ -694,6 +694,9 @@ paths:
       tags:
        - Accessgroups
       summary: Atualiza um(a) accessgroups
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2addresses.go
   /addresses:
 # modelo = JSONCadPesEnder
@@ -723,6 +726,9 @@ paths:
       tags:
        - Addresses
       summary: Deleta um(a) addresses
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2addresstypes.go
   /addresstypes:
 # modelo = JSONAddressType
@@ -752,10 +758,16 @@ paths:
       tags:
        - Addresstypes
       summary: Atualiza um(a) addresstypes
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Addresstypes
       summary: Deleta um(a) addresstypes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2approvals.go
   /approvals:
 # filtros = FilterApprovals
@@ -824,10 +836,16 @@ paths:
       tags:
        - Bankaccounts
       summary: Deleta um(a) bankaccounts
+      responses:
+        '200':
+          description: OK
     put:
       tags:
        - Bankaccounts
       summary: Atualiza um(a) bankaccounts
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2bankcollections.go: no such file or directory
 # ERRO open ../v2api/api/v2bankcollections.go: no such file or directory
 # ../v2api/api/v2banks.go
@@ -872,10 +890,16 @@ paths:
       tags:
        - Barcodes
       summary: Atualiza um(a) barcodes
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Barcodes
       summary: Deleta um(a) barcodes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2baseactivities.go
   /baseactivities:
 # modelo = JSONBaseActivity
@@ -905,6 +929,9 @@ paths:
       tags:
        - Baseactivities
       summary: Atualiza um(a) baseactivities
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2baseprocesses.go
   /baseprocesses:
 # filtros = FilterBaseProcesses
@@ -975,6 +1002,9 @@ paths:
       tags:
        - Billings
       summary: Atualiza um(a) billings
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2billingstatements.go: no such file or directory
 # ERRO open ../v2api/api/v2billingstatements.go: no such file or directory
 # ERRO open ../v2api/api/v2bizhours.go: no such file or directory
@@ -1022,6 +1052,9 @@ paths:
       tags:
        - Boletos
       summary: Deleta um(a) boletos
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2brands.go
   /brands:
 # modelo = JSONBrand
@@ -1051,10 +1084,16 @@ paths:
       tags:
        - Brands
       summary: Atualiza um(a) brands
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Brands
       summary: Deleta um(a) brands
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2buildings.go
   /buildings:
 # modelo = JSONBuilding
@@ -1084,10 +1123,16 @@ paths:
       tags:
        - Buildings
       summary: Atualiza um(a) buildings
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Buildings
       summary: Deleta um(a) buildings
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2bulkhandlings.go: no such file or directory
 # ERRO open ../v2api/api/v2bulkpersons.go: no such file or directory
 # ERRO open ../v2api/api/v2bulkpurchases.go: no such file or directory
@@ -1122,10 +1167,16 @@ paths:
       tags:
        - Buyers
       summary: Atualiza um(a) buyers
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Buyers
       summary: Deleta um(a) buyers
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2cachetables.go
   /cachetables:
 # modelo = 
@@ -1167,10 +1218,16 @@ paths:
       tags:
        - Campaigns
       summary: Atualiza um(a) campaigns
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Campaigns
       summary: Deleta um(a) campaigns
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2carriers.go
   /carriers:
 # modelo = JSONCarrier
@@ -1200,6 +1257,9 @@ paths:
       tags:
        - Carriers
       summary: Deleta um(a) carriers
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2cashbalanceadjustments.go: no such file or directory
 # ../v2api/api/v2cashbalances.go
   /cashbalances:
@@ -1230,10 +1290,16 @@ paths:
       tags:
        - Cashbalances
       summary: Atualiza um(a) cashbalances
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Cashbalances
       summary: Deleta um(a) cashbalances
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2cashiers.go
   /cashiers:
 # modelo = TabelaPontoVenda
@@ -1263,6 +1329,9 @@ paths:
       tags:
        - Cashiers
       summary: Deleta um(a) cashiers
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2cataloglevels.go
   /cataloglevels:
 # filtros = FilterCatalogLevels
@@ -1303,6 +1372,9 @@ paths:
       tags:
        - Catalogs
       summary: Deleta um(a) catalogs
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2categories.go
   /categories:
 # modelo = JSONCategory
@@ -1332,10 +1404,16 @@ paths:
       tags:
        - Categories
       summary: Atualiza um(a) categories
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Categories
       summary: Deleta um(a) categories
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2categorylinkitems.go
   /categorylinkitems/{id}:
     parameters:
@@ -1350,6 +1428,9 @@ paths:
       tags:
        - Categorylinkitems
       summary: Deleta um(a) categorylinkitems
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2categorylinks.go
   /categorylinks:
 # modelo = JSONCategoryLink
@@ -1379,10 +1460,16 @@ paths:
       tags:
        - Categorylinks
       summary: Atualiza um(a) categorylinks
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Categorylinks
       summary: Deleta um(a) categorylinks
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2cbenefs.go
   /cbenefs:
 # modelo = JSONCbenef
@@ -1412,6 +1499,9 @@ paths:
       tags:
        - Cbenefs
       summary: Deleta um(a) cbenefs
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2certificates.go
   /certificates:
 # modelo = JSONCertificado
@@ -1441,6 +1531,9 @@ paths:
       tags:
        - Certificates
       summary: Atualiza um(a) certificates
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2channelfreights.go: no such file or directory
 # ERRO open ../v2api/api/v2channelfreights.go: no such file or directory
 # ERRO open ../v2api/api/v2channelpriceconfigs.go: no such file or directory
@@ -1474,6 +1567,9 @@ paths:
       tags:
        - Channels
       summary: Deleta um(a) channels
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2chartconfigs.go: no such file or directory
 # ERRO open ../v2api/api/v2chartconfigs.go: no such file or directory
 # ../v2api/api/v2charts.go
@@ -1565,10 +1661,16 @@ paths:
       tags:
        - Cnaes
       summary: Atualiza um(a) cnaes
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Cnaes
       summary: Deleta um(a) cnaes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2companies.go
   /companies:
 # modelo = JSONCompany
@@ -1665,6 +1767,9 @@ paths:
       tags:
        - Contracts
       summary: Atualiza um(a) contracts
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2costcenters.go: no such file or directory
 # ERRO open ../v2api/api/v2costcenters.go: no such file or directory
 # ../v2api/api/v2coupons.go
@@ -1696,6 +1801,9 @@ paths:
       tags:
        - Coupons
       summary: Deleta um(a) coupons
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2covenants.go
   /covenants:
 # modelo = JSONConvenio
@@ -1725,10 +1833,16 @@ paths:
       tags:
        - Covenants
       summary: Atualiza um(a) covenants
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Covenants
       summary: Deleta um(a) covenants
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2csts.go
   /csts:
 # modelo = JSONCstExcel
@@ -1799,10 +1913,16 @@ paths:
       tags:
        - Curves
       summary: Atualiza um(a) curves
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Curves
       summary: Deleta um(a) curves
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2customercategories.go: no such file or directory
 # ERRO open ../v2api/api/v2customercategories.go: no such file or directory
 # ERRO open ../v2api/api/v2customercontacts.go: no such file or directory
@@ -1865,6 +1985,9 @@ paths:
       tags:
        - Dashboards
       summary: Deleta um(a) dashboards
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2deals.go
   /deals:
 # modelo = JSONDeal
@@ -1894,10 +2017,16 @@ paths:
       tags:
        - Deals
       summary: Atualiza um(a) deals
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Deals
       summary: Deleta um(a) deals
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2dealtypes.go: no such file or directory
 # ERRO open ../v2api/api/v2dealtypes.go: no such file or directory
 # ../v2api/api/v2deliveries.go
@@ -1929,10 +2058,16 @@ paths:
       tags:
        - Deliveries
       summary: Atualiza um(a) deliveries
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Deliveries
       summary: Deleta um(a) deliveries
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2deliverytypes.go
   /deliverytypes:
 # modelo = JSONDeliveryType
@@ -1962,6 +2097,9 @@ paths:
       tags:
        - Deliverytypes
       summary: Deleta um(a) deliverytypes
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2dfebatches.go: no such file or directory
 # ERRO open ../v2api/api/v2dfebatches.go: no such file or directory
 # ERRO open ../v2api/api/v2distriborders.go: no such file or directory
@@ -2001,6 +2139,9 @@ paths:
       tags:
        - Distributions
       summary: Deleta um(a) distributions
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2documenttypes.go: no such file or directory
 # ERRO open ../v2api/api/v2documenttypes.go: no such file or directory
 # ../v2api/api/v2emails.go
@@ -2032,10 +2173,16 @@ paths:
       tags:
        - Emails
       summary: Atualiza um(a) emails
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Emails
       summary: Deleta um(a) emails
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2emailtemplatefields.go
   /emailtemplatefields:
 # filtros = EmailTemplateFieldsGet
@@ -2076,10 +2223,16 @@ paths:
       tags:
        - Emailtemplates
       summary: Atualiza um(a) emailtemplates
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Emailtemplates
       summary: Deleta um(a) emailtemplates
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2emailtemplatetypes.go
   /emailtemplatetypes:
 # filtros = FilterEmailTemplateTypes
@@ -2151,6 +2304,9 @@ paths:
       tags:
        - Expensecategories
       summary: Deleta um(a) expensecategories
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2expenses.go
   /expenses:
 # modelo = JSONExpense
@@ -2180,6 +2336,9 @@ paths:
       tags:
        - Expenses
       summary: Atualiza um(a) expenses
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2expenseskus.go
   /expenseskus:
 # modelo = JSONExpenseSkus
@@ -2209,6 +2368,9 @@ paths:
       tags:
        - Expenseskus
       summary: Deleta um(a) expenseskus
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2externals{id}.go: no such file or directory
 # ../v2api/api/v2filedownloads.go
   /filedownloads/{id}:
@@ -2262,6 +2424,9 @@ paths:
       tags:
        - Freightbills
       summary: Deleta um(a) freightbills
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2freightregions.go
   /freightregions:
 # modelo = JSONFreightRegion
@@ -2291,6 +2456,9 @@ paths:
       tags:
        - Freightregions
       summary: Deleta um(a) freightregions
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2freightzones.go
   /freightzones:
 # modelo = JSONFreightZone
@@ -2320,6 +2488,9 @@ paths:
       tags:
        - Freightzones
       summary: Deleta um(a) freightzones
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2funnelstages.go: no such file or directory
 # ERRO open ../v2api/api/v2funnelstages.go: no such file or directory
 # ../v2api/api/v2futureprices.go
@@ -2351,10 +2522,16 @@ paths:
       tags:
        - Futureprices
       summary: Atualiza um(a) futureprices
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Futureprices
       summary: Deleta um(a) futureprices
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2giftcards.go
   /giftcards:
 # modelo = JSONGiftCard
@@ -2384,6 +2561,9 @@ paths:
       tags:
        - Giftcards
       summary: Atualiza um(a) giftcards
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2grouplevels.go
   /grouplevels:
 # filtros = FilterGroupLevels
@@ -2415,6 +2595,9 @@ paths:
       tags:
        - Grouplevels
       summary: Atualiza um(a) grouplevels
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2groupmemberauths.go
   /groupmemberauths:
 # modelo = JSONGroupMemberAuth
@@ -2444,6 +2627,9 @@ paths:
       tags:
        - Groupmemberauths
       summary: Deleta um(a) groupmemberauths
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2groupmembers.go
   /groupmembers:
 # filtros = FilterGroupMembers
@@ -2488,10 +2674,16 @@ paths:
       tags:
        - Handlings
       summary: Atualiza um(a) handlings
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Handlings
       summary: Deleta um(a) handlings
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2helpmenuitems.go
   /helpmenuitems:
 # filtros = FilterHelpMenuItems
@@ -2532,6 +2724,9 @@ paths:
       tags:
        - Helppages
       summary: Atualiza um(a) helppages
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2holidays.go
   /holidays:
 # modelo = JSONHoliday
@@ -2561,6 +2756,9 @@ paths:
       tags:
        - Holidays
       summary: Atualiza um(a) holidays
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2ibptaxes.go
   /ibptaxes:
 # modelo = JSONIBPTax
@@ -2605,6 +2803,9 @@ paths:
       tags:
        - Importadditionitems
       summary: Deleta um(a) importadditionitems
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2importadditions.go
   /importadditions:
 # modelo = JSONImportAddition
@@ -2634,6 +2835,9 @@ paths:
       tags:
        - Importadditions
       summary: Deleta um(a) importadditions
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2importadditiontaxes.go
   /importadditiontaxes:
 # modelo = JSONImportAdditionTaxe
@@ -2663,6 +2867,9 @@ paths:
       tags:
        - Importadditiontaxes
       summary: Deleta um(a) importadditiontaxes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2importfees.go
   /importfees:
 # filtros = FilterImportFees
@@ -2694,6 +2901,9 @@ paths:
       tags:
        - Importfees
       summary: Atualiza um(a) importfees
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2imports.go
   /imports:
 # modelo = JSONImport
@@ -2723,6 +2933,9 @@ paths:
       tags:
        - Imports
       summary: Atualiza um(a) imports
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2incompleteopenings.go
   /incompleteopenings:
 # filtros = FilterIncompleteOpenings
@@ -2780,6 +2993,9 @@ paths:
       tags:
        - Installmentplans
       summary: Atualiza um(a) installmentplans
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2installments.go
   /installments:
 # filtros = FilterInstallments
@@ -2828,10 +3044,16 @@ paths:
       tags:
        - Integrations
       summary: Atualiza um(a) integrations
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Integrations
       summary: Deleta um(a) integrations
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2integrationstatus.go: no such file or directory
 # ../v2api/api/v2integrationvendors.go
   /integrationvendors:
@@ -2909,10 +3131,16 @@ paths:
       tags:
        - Issuers
       summary: Atualiza um(a) issuers
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Issuers
       summary: Deleta um(a) issuers
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2kanbanconfigs.go: no such file or directory
 # ERRO open ../v2api/api/v2kanbanconfigs.go: no such file or directory
 # ERRO open ../v2api/api/v2kanbanitems.go: no such file or directory
@@ -2951,10 +3179,16 @@ paths:
       tags:
        - Kanbans
       summary: Atualiza um(a) kanbans
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Kanbans
       summary: Deleta um(a) kanbans
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2kardexes.go
   /kardexes:
 # filtros = FilterKardexes
@@ -2995,10 +3229,16 @@ paths:
       tags:
        - Keyboardpayments
       summary: Atualiza um(a) keyboardpayments
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Keyboardpayments
       summary: Deleta um(a) keyboardpayments
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2keyboards.go
   /keyboards:
 # modelo = JSONKeyboard
@@ -3028,10 +3268,16 @@ paths:
       tags:
        - Keyboards
       summary: Atualiza um(a) keyboards
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Keyboards
       summary: Deleta um(a) keyboards
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2labeljobs.go: no such file or directory
 # ERRO open ../v2api/api/v2labeljobs.go: no such file or directory
 # ../v2api/api/v2labels.go
@@ -3063,10 +3309,16 @@ paths:
       tags:
        - Labels
       summary: Atualiza um(a) labels
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Labels
       summary: Deleta um(a) labels
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2leadreasons.go: no such file or directory
 # ERRO open ../v2api/api/v2leadreasons.go: no such file or directory
 # ../v2api/api/v2leads.go
@@ -3098,10 +3350,16 @@ paths:
       tags:
        - Leads
       summary: Atualiza um(a) leads
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Leads
       summary: Deleta um(a) leads
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2leadstages.go: no such file or directory
 # ERRO open ../v2api/api/v2leadstages.go: no such file or directory
 # ERRO open ../v2api/api/v2leadstatuses.go: no such file or directory
@@ -3184,10 +3442,16 @@ paths:
       tags:
        - Loyaltyprograms
       summary: Atualiza um(a) loyaltyprograms
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Loyaltyprograms
       summary: Deleta um(a) loyaltyprograms
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2me.go: no such file or directory
 # ../v2api/api/v2menu.go
   /menu:
@@ -3228,10 +3492,16 @@ paths:
       tags:
        - Menuitems
       summary: Deleta um(a) menuitems
+      responses:
+        '200':
+          description: OK
     put:
       tags:
        - Menuitems
       summary: Atualiza um(a) menuitems
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2menureports.go: no such file or directory
 # ERRO open ../v2api/api/v2menureports.go: no such file or directory
 # ../v2api/api/v2metrics.go
@@ -3265,10 +3535,16 @@ paths:
       tags:
        - Metrics
       summary: Atualiza um(a) metrics
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Metrics
       summary: Deleta um(a) metrics
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2metricseries.go: no such file or directory
 # ERRO open ../v2api/api/v2metricseries.go: no such file or directory
 # ../v2api/api/v2monthlysales.go
@@ -3311,10 +3587,16 @@ paths:
       tags:
        - Myplans
       summary: Atualiza um(a) myplans
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Myplans
       summary: Deleta um(a) myplans
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2notificationconfigs.go: no such file or directory
 # ERRO open ../v2api/api/v2notificationconfigs.go: no such file or directory
 # ../v2api/api/v2notifications.go
@@ -3346,10 +3628,16 @@ paths:
       tags:
        - Notifications
       summary: Atualiza um(a) notifications
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Notifications
       summary: Deleta um(a) notifications
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2operationconfigs.go
   /operationconfigs:
 # modelo = JSONOperationConfigs
@@ -3379,10 +3667,16 @@ paths:
       tags:
        - Operationconfigs
       summary: Atualiza um(a) operationconfigs
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Operationconfigs
       summary: Deleta um(a) operationconfigs
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2operations.go
   /operations:
 # filtros = FilterOperation
@@ -3486,10 +3780,16 @@ paths:
       tags:
        - Packages
       summary: Atualiza um(a) packages
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Packages
       summary: Deleta um(a) packages
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2parameters.go
   /parameters:
 # modelo = JSONParameter
@@ -3519,10 +3819,16 @@ paths:
       tags:
        - Parameters
       summary: Atualiza um(a) parameters
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Parameters
       summary: Deleta um(a) parameters
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2payables.go
   /payables:
 # modelo = JSONPayable
@@ -3552,10 +3858,16 @@ paths:
       tags:
        - Payables
       summary: Atualiza um(a) payables
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Payables
       summary: Deleta um(a) payables
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2payablesaggs.go
   /payablesaggs:
 # filtros = FilterPayables
@@ -3598,10 +3910,16 @@ paths:
       tags:
        - Paymenttypes
       summary: Atualiza um(a) paymenttypes
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Paymenttypes
       summary: Deleta um(a) paymenttypes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2pdflayouts.go
   /pdflayouts:
 # modelo = JSONPdfLayoutFull
@@ -3631,6 +3949,9 @@ paths:
       tags:
        - Pdflayouts
       summary: Deleta um(a) pdflayouts
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2pdfs{id}.go: no such file or directory
 # ERRO open ../v2api/api/v2pdvparameters.go: no such file or directory
 # ERRO open ../v2api/api/v2pdvparameters.go: no such file or directory
@@ -3670,10 +3991,16 @@ paths:
       tags:
        - Persons
       summary: Atualiza um(a) persons
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Persons
       summary: Deleta um(a) persons
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2phases.go
   /phases:
 # filtros = FilterPhases
@@ -3714,10 +4041,16 @@ paths:
       tags:
        - Phonetypes
       summary: Atualiza um(a) phonetypes
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Phonetypes
       summary: Deleta um(a) phonetypes
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2pickers.go: no such file or directory
 # ERRO open ../v2api/api/v2pickers.go: no such file or directory
 # ERRO open ../v2api/api/v2pickingqueues.go: no such file or directory
@@ -3780,10 +4113,16 @@ paths:
       tags:
        - Portfolios
       summary: Atualiza um(a) portfolios
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Portfolios
       summary: Deleta um(a) portfolios
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2poslayoutkeys.go
   /poslayoutkeys:
 # modelo = JSONPosLayoutKey
@@ -3813,6 +4152,9 @@ paths:
       tags:
        - Poslayoutkeys
       summary: Atualiza um(a) poslayoutkeys
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
 # ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
 # ../v2api/api/v2postalcodes.go
@@ -3885,10 +4227,16 @@ paths:
       tags:
        - Posters
       summary: Atualiza um(a) posters
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Posters
       summary: Deleta um(a) posters
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2postersizes.go
   /postersizes:
 # filtros = FilterPosterSizes
@@ -3946,10 +4294,16 @@ paths:
       tags:
        - Pricelistarticles
       summary: Atualiza um(a) pricelistarticles
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Pricelistarticles
       summary: Deleta um(a) pricelistarticles
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2pricelistcategories.go
   /pricelistcategories:
 # modelo = JSONPriceListCategory
@@ -3979,6 +4333,9 @@ paths:
       tags:
        - Pricelistcategories
       summary: Deleta um(a) pricelistcategories
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2pricelists.go
   /pricelists:
 # modelo = JSONPriceList
@@ -4008,10 +4365,16 @@ paths:
       tags:
        - Pricelists
       summary: Atualiza um(a) pricelists
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Pricelists
       summary: Deleta um(a) pricelists
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2priceroundingrules.go
   /priceroundingrules:
 # modelo = JSONPriceRoundingRule
@@ -4041,10 +4404,16 @@ paths:
       tags:
        - Priceroundingrules
       summary: Atualiza um(a) priceroundingrules
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Priceroundingrules
       summary: Deleta um(a) priceroundingrules
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2pricerules.go
   /pricerules:
 # modelo = JSONPriceRule
@@ -4074,6 +4443,9 @@ paths:
       tags:
        - Pricerules
       summary: Deleta um(a) pricerules
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2productcategories.go: no such file or directory
 # ERRO open ../v2api/api/v2productcategories.go: no such file or directory
 # ERRO open ../v2api/api/v2productimages.go: no such file or directory
@@ -4107,10 +4479,16 @@ paths:
       tags:
        - Products
       summary: Atualiza um(a) products
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Products
       summary: Deleta um(a) products
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2producttags.go: no such file or directory
 # ERRO open ../v2api/api/v2producttags.go: no such file or directory
 # ../v2api/api/v2profiles.go
@@ -4127,6 +4505,9 @@ paths:
       tags:
        - Profiles
       summary: Atualiza um(a) profiles
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2prospects.go
   /prospects:
 # filtros = FilterProspects
@@ -4194,10 +4575,16 @@ paths:
       tags:
        - Providers
       summary: Atualiza um(a) providers
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Providers
       summary: Deleta um(a) providers
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2purchaseitems.go
   /purchaseitems:
 # modelo = JSONPurchaseItem
@@ -4227,6 +4614,9 @@ paths:
       tags:
        - Purchaseitems
       summary: Deleta um(a) purchaseitems
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2purchaseitemtaxes.go
   /purchaseitemtaxes:
 # modelo = JSONPurchaseItemTax
@@ -4256,6 +4646,9 @@ paths:
       tags:
        - Purchaseitemtaxes
       summary: Atualiza um(a) purchaseitemtaxes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2purchasemappings.go
   /purchasemappings:
 # modelo = JSONPurchaseMapping
@@ -4285,10 +4678,16 @@ paths:
       tags:
        - Purchasemappings
       summary: Atualiza um(a) purchasemappings
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Purchasemappings
       summary: Deleta um(a) purchasemappings
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2purchaseorderitems.go: no such file or directory
 # ERRO open ../v2api/api/v2purchaseorderitems.go: no such file or directory
 # ERRO open ../v2api/api/v2purchaseorderpayments.go: no such file or directory
@@ -4326,6 +4725,9 @@ paths:
       tags:
        - Purchases
       summary: Atualiza um(a) purchases
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2purchasetaxes.go: no such file or directory
 # ERRO open ../v2api/api/v2purchasetaxes.go: no such file or directory
 # ../v2api/api/v2quotes.go
@@ -4372,10 +4774,16 @@ paths:
       tags:
        - Reasons
       summary: Atualiza um(a) reasons
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Reasons
       summary: Deleta um(a) reasons
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2receivables.go
   /receivables:
 # modelo = JSONReceivables
@@ -4405,6 +4813,9 @@ paths:
       tags:
        - Receivables
       summary: Deleta um(a) receivables
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2receivableslist.go: no such file or directory
 # ERRO open ../v2api/api/v2receptioninvoices.go: no such file or directory
 # ERRO open ../v2api/api/v2receptioninvoices.go: no such file or directory
@@ -4437,10 +4848,16 @@ paths:
       tags:
        - Receptions
       summary: Atualiza um(a) receptions
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Receptions
       summary: Deleta um(a) receptions
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2receptionskus.go: no such file or directory
 # ERRO open ../v2api/api/v2receptionskus.go: no such file or directory
 # ../v2api/api/v2recharges.go
@@ -4571,6 +4988,9 @@ paths:
       tags:
        - Reports
       summary: Atualiza um(a) reports
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2rooms.go
   /rooms:
 # modelo = JSONRoom
@@ -4600,10 +5020,16 @@ paths:
       tags:
        - Rooms
       summary: Atualiza um(a) rooms
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Rooms
       summary: Deleta um(a) rooms
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2roundprices.go
   /roundprices:
 # filtros = FilterRoundPrices
@@ -4644,10 +5070,16 @@ paths:
       tags:
        - Sales
       summary: Atualiza um(a) sales
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Sales
       summary: Deleta um(a) sales
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2salesfunnels.go: no such file or directory
 # ERRO open ../v2api/api/v2salesfunnels.go: no such file or directory
 # ERRO open ../v2api/api/v2salesinstallments.go: no such file or directory
@@ -4685,10 +5117,16 @@ paths:
       tags:
        - Salespersons
       summary: Atualiza um(a) salespersons
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Salespersons
       summary: Deleta um(a) salespersons
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2salesreports.go
   /salesreports:
 # filtros = FilterSalesReports
@@ -4720,6 +5158,9 @@ paths:
       tags:
        - Salesreports
       summary: Atualiza um(a) salesreports
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2salessummaries.go
   /salessummaries:
 # filtros = Filtersalessummaries
@@ -4760,10 +5201,16 @@ paths:
       tags:
        - Scmconfigs
       summary: Atualiza um(a) scmconfigs
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Scmconfigs
       summary: Deleta um(a) scmconfigs
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2seasonalconfigs.go: no such file or directory
 # ERRO open ../v2api/api/v2seasonalconfigs.go: no such file or directory
 # ../v2api/api/v2seasonranges.go
@@ -4795,10 +5242,16 @@ paths:
       tags:
        - Seasonranges
       summary: Deleta um(a) seasonranges
+      responses:
+        '200':
+          description: OK
     put:
       tags:
        - Seasonranges
       summary: Atualiza um(a) seasonranges
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2sendmails.go
   /sendmails:
 # modelo = 
@@ -4846,10 +5299,16 @@ paths:
       tags:
        - Services
       summary: Atualiza um(a) services
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Services
       summary: Deleta um(a) services
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2settings.go
   /settings:
 # filtros = FilterSettings
@@ -4907,6 +5366,9 @@ paths:
       tags:
        - Shelfqueues
       summary: Deleta um(a) shelfqueues
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2skuarticles.go: no such file or directory
 # ERRO open ../v2api/api/v2skuarticles.go: no such file or directory
 # ERRO open ../v2api/api/v2skucmms.go: no such file or directory
@@ -4977,6 +5439,9 @@ paths:
       tags:
        - Skus
       summary: Deleta um(a) skus
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2skustocks.go: no such file or directory
 # ERRO open ../v2api/api/v2skustocks.go: no such file or directory
 # ERRO open ../v2api/api/v2skutransits.go: no such file or directory
@@ -5048,6 +5513,9 @@ paths:
       tags:
        - Statuses
       summary: Atualiza um(a) statuses
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2stockdailysummaries.go: no such file or directory
 # ERRO open ../v2api/api/v2stockdailysummaries.go: no such file or directory
 # ERRO open ../v2api/api/v2stocksectors.go: no such file or directory
@@ -5085,10 +5553,16 @@ paths:
       tags:
        - Suppliers
       summary: Atualiza um(a) suppliers
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Suppliers
       summary: Deleta um(a) suppliers
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2supplyitems.go: no such file or directory
 # ERRO open ../v2api/api/v2supplyitems.go: no such file or directory
 # ERRO open ../v2api/api/v2systeminfo.go: no such file or directory
@@ -5132,10 +5606,16 @@ paths:
       tags:
        - Tasks
       summary: Atualiza um(a) tasks
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Tasks
       summary: Deleta um(a) tasks
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2taxcfops.go
   /taxcfops:
 # modelo = JSONTaxCfop
@@ -5165,6 +5645,9 @@ paths:
       tags:
        - Taxcfops
       summary: Atualiza um(a) taxcfops
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2taxclasses.go
   /taxclasses:
 # modelo = JSONTaxClass
@@ -5194,10 +5677,16 @@ paths:
       tags:
        - Taxclasses
       summary: Atualiza um(a) taxclasses
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Taxclasses
       summary: Deleta um(a) taxclasses
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2taxrates.go
   /taxrates:
 # filtros = FilterTaxRates
@@ -5229,6 +5718,9 @@ paths:
       tags:
        - Taxrates
       summary: Atualiza um(a) taxrates
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2tenants.go
   /tenants:
 # modelo = JSONTenant
@@ -5258,10 +5750,16 @@ paths:
       tags:
        - Tenants
       summary: Atualiza um(a) tenants
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Tenants
       summary: Deleta um(a) tenants
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2timelines.go
   /timelines:
 # filtros = FilterTimelines
@@ -5304,10 +5802,16 @@ paths:
       tags:
        - Tokens
       summary: Atualiza um(a) tokens
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Tokens
       summary: Deleta um(a) tokens
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2transactions.go
   /transactions:
 # filtros = FilterTransactions
@@ -5339,6 +5843,9 @@ paths:
       tags:
        - Transactions
       summary: Deleta um(a) transactions
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2units.go
   /units:
 # modelo = JSONUnit
@@ -5368,10 +5875,16 @@ paths:
       tags:
        - Units
       summary: Atualiza um(a) units
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Units
       summary: Deleta um(a) units
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2userauths.go: no such file or directory
 # ERRO open ../v2api/api/v2usercompanies.go: no such file or directory
 # ERRO open ../v2api/api/v2usercompanies.go: no such file or directory
@@ -5406,10 +5919,16 @@ paths:
       tags:
        - Users
       summary: Atualiza um(a) users
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Users
       summary: Deleta um(a) users
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2vendors.go
   /vendors:
 # modelo = JSONVendor
@@ -5439,6 +5958,9 @@ paths:
       tags:
        - Vendors
       summary: Atualiza um(a) vendors
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2voidnumbers.go
   /voidnumbers:
 # modelo = JSONVoidNumber
@@ -5505,10 +6027,16 @@ paths:
       tags:
        - Vouchers
       summary: Atualiza um(a) vouchers
+      responses:
+        '200':
+          description: OK
     delete:
       tags:
        - Vouchers
       summary: Deleta um(a) vouchers
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2voucherstatuses.go
   /voucherstatuses:
 # modelo = 
@@ -5548,6 +6076,9 @@ paths:
       tags:
        - Vouchertypes
       summary: Deleta um(a) vouchertypes
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2whatsappdevices.go: no such file or directory
 # ERRO open ../v2api/api/v2whatsappdevices.go: no such file or directory
 # ERRO open ../v2api/api/v2whatsappmessages.go: no such file or directory
