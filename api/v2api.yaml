@@ -2269,12 +2269,13 @@ paths:
         required: true
         description: ID do events
 # modelo = JSONEventoSefaz
-    put /*:
+    put:
       tags:
        - Events
-    delete*/:
-      tags:
-       - Events
+      summary: Atualiza um(a) events
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2expensecategories.go
   /expensecategories:
 # modelo = JSONExpenseCategories
@@ -3742,9 +3743,6 @@ paths:
         required: true
         description: ID do orders
 # modelo = JSONOrder
-    patch:
-      tags:
-       - Orders
 # ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
 # ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
 # ERRO open ../v2api/api/v2ordersync.go: no such file or directory
@@ -4066,9 +4064,18 @@ paths:
 # ../v2api/api/v2planpaymentmethods.go
   /planpaymentmethods:
 # modelo = JSONPlanPaymentMethod
-    ostputpost:
+    post:
       tags:
        - Planpaymentmethods
+      summary: Cria um(a) planpaymentmethods
+      responses:
+        '200':
+          description: planpaymentmethods
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonplanpaymentmethod.yaml
 # ../v2api/api/v2planpaymentmethods.go
   /planpaymentmethods/{id}:
     parameters:
@@ -4079,9 +4086,13 @@ paths:
         required: true
         description: ID do planpaymentmethods
 # modelo = JSONPlanPaymentMethod
-    ostputput:
+    put:
       tags:
        - Planpaymentmethods
+      summary: Atualiza um(a) planpaymentmethods
+      responses:
+        '200':
+          description: OK
 # ERRO open ../v2api/api/v2portfoliocustomers.go: no such file or directory
 # ERRO open ../v2api/api/v2portfoliocustomers.go: no such file or directory
 # ../v2api/api/v2portfolios.go
