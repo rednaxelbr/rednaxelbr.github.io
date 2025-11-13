@@ -11,34 +11,6 @@ servers:
     description: Produção
 
 paths:
-# ../v2api/api/v2tokens.go
-  /tokens/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do tokens
-# modelo = JSONToken
-    put:
-      summary: Atualiza um(a) tokens
-    delete:
-      summary: Deleta um(a) tokens
-# ../v2api/api/v2users.go
-  /users/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do users
-# modelo = JSONUser
-    put:
-      summary: Atualiza um(a) users
-    delete:
-      summary: Deleta um(a) users
 # ../v2api/api/v2prospects.go
   /prospects/{id}:
     parameters:
@@ -64,11 +36,6 @@ paths:
     post:
       summary: Cria um(a) logout
 # ../v2api/api/v2cashiers.go
-  /cashiers:
-# modelo = TabelaPontoVenda
-    post:
-      summary: Cria um(a) cashiers
-# ../v2api/api/v2cashiers.go
   /cashiers/{id}:
     parameters:
       - schema:
@@ -86,23 +53,15 @@ paths:
 # modelo = JSONIndicadoresV2
     get:
       summary: Listagem de metrics
-# ERRO open ../v2api/api/v2me.go: no such file or directory
-# ../v2api/api/v2users.go
-  /users:
-# modelo = JSONUser
-    post:
-      summary: Cria um(a) users
-# ../v2api/api/v2prospects.go
-  /prospects:
-# filtros = FilterProspects
-# modelo = JSONProspect
-    get:
-      summary: Listagem de prospects
-# ../v2api/api/v2menu.go
-  /menu:
-# modelo = 
-    get:
-      summary: Listagem de menu
+      responses:
+        '200':
+          description: metrics
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonindicadoresv2.yaml
 # ../v2api/api/v2metrics.go
   /metrics/{id}:
     parameters:
@@ -117,14 +76,88 @@ paths:
       summary: Atualiza um(a) metrics
     delete:
       summary: Deleta um(a) metrics
+# ../v2api/api/v2tokens.go
+  /tokens/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do tokens
+# modelo = JSONToken
+    put:
+      summary: Atualiza um(a) tokens
+    delete:
+      summary: Deleta um(a) tokens
+# ../v2api/api/v2menu.go
+  /menu:
+# modelo = 
+    get:
+      summary: Listagem de menu
+      responses:
+        '200':
+          description: menu
+# ../v2api/api/v2cashiers.go
+  /cashiers:
+# modelo = TabelaPontoVenda
+    post:
+      summary: Cria um(a) cashiers
 # ../v2api/api/v2charts.go
   /charts:
 # modelo = 
     get:
       summary: Listagem de charts
+      responses:
+        '200':
+          description: charts
 # ../v2api/api/v2tokens.go
   /tokens:
 # filtros = FilterTokens
 # modelo = JSONToken
     get:
       summary: Listagem de tokens
+      responses:
+        '200':
+          description: tokens
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsontoken.yaml
+# ERRO open ../v2api/api/v2me.go: no such file or directory
+# ../v2api/api/v2users.go
+  /users:
+# modelo = JSONUser
+    post:
+      summary: Cria um(a) users
+# ../v2api/api/v2users.go
+  /users/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do users
+# modelo = JSONUser
+    put:
+      summary: Atualiza um(a) users
+    delete:
+      summary: Deleta um(a) users
+# ../v2api/api/v2prospects.go
+  /prospects:
+# filtros = FilterProspects
+# modelo = JSONProspect
+    get:
+      summary: Listagem de prospects
+      responses:
+        '200':
+          description: prospects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonprospect.yaml
