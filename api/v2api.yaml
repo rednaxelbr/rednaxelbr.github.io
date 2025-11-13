@@ -31,51 +31,98 @@ paths:
 ### ("/v2/users/{id:[0-9]+}", authToken(api.UsersGet)).Methods(http.MethodGet)
 ### ("/v2/users", authToken(api.UsersPostPutDelete)).Methods(http.MethodPost)
 ### ("/v2/users/{id:[0-9]+}", authToken(api.UsersPostPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-### ("/v2/profiles/{id:[0-9]+}", authToken(api.ProfilesGet)).Methods(http.MethodGet)
-### ("/v2/profiles/{id:[0-9]+}", authToken(api.ProfilesPostPut)).Methods(http.MethodPut)
-### ("/v2/productimages", authToken(api.ProductImagesGet)).Methods(http.MethodGet)
-### ("/v2/productimages/{id:[0-9]+}", authToken(api.ProductImagesGet)).Methods(http.MethodGet)
-### ("/v2/productimages", authToken(api.ProductImagesPost)).Methods(http.MethodPost)
-### ("/v2/productimages/{id:[0-9A-Z]+}", authToken(api.ProductImagesPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-### ("/v2/serviceorders", authToken(api.ServiceOrdersGet)).Methods(http.MethodGet)
-### ("/v2/serviceorders/{id:[0-9]+}", authToken(api.ServiceOrdersGet)).Methods(http.MethodGet)
-### ("/v2/serviceorders", authToken(api.ServiceOrdersPostPutDelete)).Methods(http.MethodPost)
-### ("/v2/serviceorders/{id:[0-9]+}", authToken(api.ServiceOrdersPostPutDelete)).Methods(http.MethodPut, http.MethodDelete)
-### ("/v2/orders", authToken(api.OrdersGet)).Methods(http.MethodGet)
-### ("/v2/orders", authToken(api.OrdersPostPut)).Methods(http.MethodPost)
-### ("/v2/orders/{numped:[0-9]+}", authToken(api.OrdersGet)).Methods(http.MethodGet)
-### ("/v2/orders/{numped:[0-9]+}", authToken(api.OrdersPostPut)).Methods(http.MethodPut)
-### ("/v2/orders/{numped:[0-9]+}", authToken(api.OrdersDelete)).Methods(http.MethodDelete)
-### ("/v2/orders/{numped:[0-9]+}", authToken(api.OrdersPostPut)).Methods(http.MethodPatch)
-### ("/v2/order5929", authToken(api.OrdersCfop5929Post)).Methods(http.MethodPost)
-### ("/v2/orderimport", authToken(api.OrdersImportPost)).Methods(http.MethodPost)
-### ("/v2/orderdraft/{numped:[0-9]+}", authToken(api.OrdersDraftPost)).Methods(http.MethodPut)
-### ("/v2/ordersync/{numped:[0-9]+}", authToken(api.OrdersSyncPut)).Methods(http.MethodPut)
-### ("/v2/orderstatus/{numped:[0-9]+}", authToken(api.OrdersStatusGet)).Methods(http.MethodGet)
-### ("/v2/orderstatus", authToken(api.OrdersStatusPost)).Methods(http.MethodPost)
-### ("/v2/orderstatus/{numped:[0-9]+}", authToken(api.OrdersStatusPost)).Methods(http.MethodPut)
-### ("/v2/ordercancel/{numped:[0-9]+}", authToken(api.OrdersCancelPost)).Methods(http.MethodPut)
-### ("/v2/orderitems", authToken(api.OrderItemsGet)).Methods(http.MethodGet)
-### ("/v2/orderitems/{id:[0-9]+}", authToken(api.OrderItemsGet)).Methods(http.MethodGet)
-### ("/v2/orderitems", authToken(api.OrderItemsPostPut)).Methods(http.MethodPost)
-### ("/v2/orderitems/{id:[0-9]+}", authToken(api.OrderItemsPostPut)).Methods(http.MethodPut)
-### ("/v2/orderitems/{id:[0-9]+}", authToken(api.OrderItemsDelete)).Methods(http.MethodDelete)
-### ("/v2/serviceorderitems", authToken(api.ServiceOrderItemsGet)).Methods(http.MethodGet)
+# ../v2api/api/v2menu.go
+  /menu:
+    get:
+      summary: Listagem de menu
+# modelo = 
+# ../v2api/api/v2cashiers.go
+  /cashiers:
+    post:
+      summary: Cria um(a) cashiers
+# modelo = TabelaPontoVenda
+# ../v2api/api/v2metrics.go
+  /metrics/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do metrics
+    put:
+      summary: Atualiza um(a) metrics
+    delete:
+      summary: Deleta um(a) metrics
+# modelo = JSONIndicadoresV2
+# ../v2api/api/v2charts.go
+  /charts:
+    get:
+      summary: Listagem de charts
+# modelo = 
+# ../v2api/api/v2logout.go
+  /logout:
+    post:
+      summary: Cria um(a) logout
+# modelo = 
+# ../v2api/api/v2cashiers.go
+  /cashiers/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cashiers
+    delete:
+      summary: Deleta um(a) cashiers
+# modelo = TabelaPontoVenda
+# ../v2api/api/v2metrics.go
+  /metrics:
+    get:
+      summary: Listagem de metrics
+# filtros = FilterMetrics
+# modelo = JSONIndicadoresV2
 # ../v2api/api/v2tokens.go
   /tokens:
     get:
       summary: Listagem de tokens
 # filtros = FilterTokens
 # modelo = JSONToken
-# ../v2api/api/v2productimages.go
-  /productimages/{id}:
-# ERRO open ../v2api/api/v2productimages.go: no such file or directory
-# ../v2api/api/v2serviceorders.go
-  /serviceorders:
-# ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
-# ../v2api/api/v2order5929.go
-  /order5929:
-# ERRO open ../v2api/api/v2order5929.go: no such file or directory
+# ERRO open ../v2api/api/v2me.go: no such file or directory
+# ../v2api/api/v2tokens.go
+  /tokens/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do tokens
+    put:
+      summary: Atualiza um(a) tokens
+    delete:
+      summary: Deleta um(a) tokens
+# modelo = JSONToken
+# ../v2api/api/v2users.go
+  /users:
+    post:
+      summary: Cria um(a) users
+# modelo = JSONUser
+# ../v2api/api/v2users.go
+  /users/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do users
+    put:
+      summary: Atualiza um(a) users
+    delete:
+      summary: Deleta um(a) users
+# modelo = JSONUser
 # ../v2api/api/v2prospects.go
   /prospects:
     get:
@@ -94,152 +141,3 @@ paths:
     get:
       summary: Busca um(a) prospects
 # modelo = JSONProspect
-# ../v2api/api/v2productimages.go
-  /productimages:
-# ERRO open ../v2api/api/v2productimages.go: no such file or directory
-# ../v2api/api/v2orders.go
-  /orders:
-    post:
-      summary: Cria um(a) orders
-# modelo = JSONOrder
-# ../v2api/api/v2orderstatus.go
-  /orderstatus:
-# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
-# ../v2api/api/v2orderitems.go
-  /orderitems/{id}:
-# ERRO open ../v2api/api/v2orderitems.go: no such file or directory
-# ../v2api/api/v2serviceorderitems.go
-  /serviceorderitems:
-# ERRO open ../v2api/api/v2serviceorderitems.go: no such file or directory
-# ../v2api/api/v2metrics.go
-  /metrics/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do metrics
-    put:
-      summary: Atualiza um(a) metrics
-    delete:
-      summary: Deleta um(a) metrics
-# modelo = JSONIndicadoresV2
-# ../v2api/api/v2tokens.go
-  /tokens/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do tokens
-    put:
-      summary: Atualiza um(a) tokens
-    delete:
-      summary: Deleta um(a) tokens
-# modelo = JSONToken
-# ../v2api/api/v2cashiers.go
-  /cashiers:
-    post:
-      summary: Cria um(a) cashiers
-# modelo = TabelaPontoVenda
-# ../v2api/api/v2users.go
-  /users/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do users
-    put:
-      summary: Atualiza um(a) users
-    delete:
-      summary: Deleta um(a) users
-# modelo = JSONUser
-# ../v2api/api/v2orderstatus.go
-  /orderstatus/{id}:
-# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
-# ../v2api/api/v2profiles.go
-  /profiles/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do profiles
-    put:
-      summary: Atualiza um(a) profiles
-# modelo = JSONProfile
-# ../v2api/api/v2orders.go
-  /orders/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do orders
-    patch:
-# modelo = JSONOrder
-# ../v2api/api/v2ordersync.go
-  /ordersync/{id}:
-# ERRO open ../v2api/api/v2ordersync.go: no such file or directory
-# ../v2api/api/v2users.go
-  /users:
-    post:
-      summary: Cria um(a) users
-# modelo = JSONUser
-# ../v2api/api/v2logout.go
-  /logout:
-    post:
-      summary: Cria um(a) logout
-# modelo = 
-# ../v2api/api/v2cashiers.go
-  /cashiers/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do cashiers
-    delete:
-      summary: Deleta um(a) cashiers
-# modelo = TabelaPontoVenda
-# ../v2api/api/v2charts.go
-  /charts:
-    get:
-      summary: Listagem de charts
-# modelo = 
-# ../v2api/api/v2me.go
-  /me:
-# ERRO open ../v2api/api/v2me.go: no such file or directory
-# ../v2api/api/v2ordercancel.go
-  /ordercancel/{id}:
-# ERRO open ../v2api/api/v2ordercancel.go: no such file or directory
-# ../v2api/api/v2orderitems.go
-  /orderitems:
-# ERRO open ../v2api/api/v2orderitems.go: no such file or directory
-# ../v2api/api/v2menu.go
-  /menu:
-    get:
-      summary: Listagem de menu
-# modelo = 
-# ../v2api/api/v2metrics.go
-  /metrics:
-    get:
-      summary: Listagem de metrics
-# filtros = FilterMetrics
-# modelo = JSONIndicadoresV2
-# ../v2api/api/v2serviceorders.go
-  /serviceorders/{id}:
-# ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
-# ../v2api/api/v2orderimport.go
-  /orderimport:
-# ERRO open ../v2api/api/v2orderimport.go: no such file or directory
-# ../v2api/api/v2orderdraft.go
-  /orderdraft/{id}:
-# ERRO open ../v2api/api/v2orderdraft.go: no such file or directory
