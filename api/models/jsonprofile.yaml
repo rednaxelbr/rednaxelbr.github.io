@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_usuario:
+    type: string
+  id_pessoa:
+    type: integer
+  id_empresa:
+    type: integer
+  ativo:
+    type: boolean
+  nome_razao:
+    type: string
+  nome_reduzido:
+    type: string
+  senha_md5:
+    type: string
+  senha_sha256:
+    type: string
+  senha_atual:
+    type: string
+  senha_atual_md5:
+    type: string
+  alterar_senha:
+    type: boolean

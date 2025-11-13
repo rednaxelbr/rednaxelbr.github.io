@@ -1,0 +1,232 @@
+type: object
+properties:
+  metodo:
+    type: string
+  cpf_cnpj:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  id:
+    type: integer
+  delivery_id:
+    type: integer
+  fiscdoc:
+    type: integer
+  numero_pedido:
+    type: integer
+  tipo:
+    type: string
+  origem:
+    type: string
+  identificador:
+    type: string
+  data_hora:
+    type: string
+  data_emissao:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  tipo_oper:
+    type: string
+  desc_operacao:
+    type: string
+  lista_cfop:
+    type: array
+    items:
+      type: integer
+  aplicativo:
+    type: string
+  id_externo:
+    type: string
+  id_pessoa:
+    type: integer
+  id_romaneio:
+    type: integer
+  id_vendedor:
+    type: integer
+  data_entrega:
+    type: string
+  transportadora:
+    type: string
+  contador_itens:
+    type: integer
+  resumo_pagto:
+    type: string
+  mesclar:
+    type: boolean
+  mod_frete:
+    type: string
+  devolver:
+    type: boolean
+  devolver_tudo:
+    type: boolean
+  devolver_nenhum:
+    type: boolean
+  devolver_remover:
+    type: boolean
+  qtd_vol:
+    type: integer
+  volumes_detalhados:
+    type: boolean
+  num_loja:
+    type: integer
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  observacoes:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  nome_vendedor:
+    type: string
+  chnfe_gerada:
+    type: string
+  chave_acesso:
+    type: string
+  num_nota:
+    type: integer
+  serie:
+    type: integer
+  num_nf:
+    type: integer
+  nfe_nprot:
+    type: integer
+  protocolo:
+    type: string
+  pedido_pai:
+    type: integer
+  cor_fundo:
+    type: string
+  cstat:
+    type: integer
+  xmotivo:
+    type: string
+  separador:
+    type: string
+  conferente:
+    type: string
+  limite_exp:
+    type: string
+  inicio_proc:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  nome_razao:
+    type: string
+  desc_tipo_ent:
+    type: string
+  cod_situacao:
+    type: integer
+  sit_credito:
+    type: string
+  status_financ:
+    type: integer
+  urgente:
+    type: boolean
+  prioridade:
+    type: string
+  exibir_comissao:
+    type: boolean
+  mktplace_brand:
+    type: string
+  mktplace_codigo:
+    type: string
+  clonar_pedido:
+    type: boolean
+  finalidade:
+    type: integer
+  zerar_frete:
+    type: boolean
+  zerar_seguro:
+    type: boolean
+  zerar_outras:
+    type: boolean
+  pedido_rnge3:
+    type: string
+  regiao_entrega:
+    type: string
+  data_ult_compra:
+    type: string
+  data_ult_atendimento:
+    type: string
+  id_recepcao:
+    type: integer
+  anotacao_legado:
+    type: string
+  id_destino:
+    type: integer
+  sigla_destino:
+    type: string
+  nfse_substituida:
+    type: string
+  tpag_servico:
+    type: integer
+  data_vencto:
+    type: string
+  sufixo_discrim:
+    type: string
+  id_distrib:
+    type: integer
+  ids_flags:
+    type: array
+    items:
+      type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  id_fila:
+    type: integer
+  nome_fila:
+    type: string
+  id_zona:
+    type: integer
+  emitir_notas:
+    type: boolean
+  data_validade:
+    type: string
+  id_etapa:
+    type: integer
+  id_mesa:
+    type: integer
+  numero_mesa:
+    type: integer
+  ultimo_produto:
+    type: integer
+  token_id:
+    type: integer
+  faturamento:
+    type: boolean
+  dthr_expedicao:
+    type: string
+  dthr_criacao:
+    type: string
+  dthr_inconsistencia:
+    type: string
+  dthr_separacao:
+    type: string
+  dthr_conferencia:
+    type: string
+  dthr_entregue:
+    type: string
+  dthr_criacao_externo:
+    type: string
+  nome_entregador:
+    type: string
+  bloquear_edicao_parcelas:
+    type: boolean
+  cnpj_alfa:
+    type: string
+  cnpj_alfanum:
+    type: string

@@ -11,23 +11,39 @@ servers:
     description: Produção
 
 tags:
-  - name: cashiers
+  - name: Cashiers
     description: Cashiers
-  - name: charts
+  - name: Charts
     description: Charts
-  - name: logout
+  - name: Logout
     description: Logout
-  - name: me
+  - name: Me
     description: Me
-  - name: menu
+  - name: Menu
     description: Menu
-  - name: metrics
+  - name: Metrics
     description: Metrics
-  - name: prospects
+  - name: Order5929
+    description: Order5929
+  - name: Orderimport
+    description: Orderimport
+  - name: Orderitems
+    description: Orderitems
+  - name: Orders
+    description: Orders
+  - name: Orderstatus
+    description: Orderstatus
+  - name: Productimages
+    description: Productimages
+  - name: Prospects
     description: Prospects
-  - name: tokens
+  - name: Serviceorderitems
+    description: Serviceorderitems
+  - name: Serviceorders
+    description: Serviceorders
+  - name: Tokens
     description: Tokens
-  - name: users
+  - name: Users
     description: Users
 
 paths:
@@ -36,7 +52,7 @@ paths:
 # modelo = TabelaPontoVenda
     post:
       tags:
-       - cashiers
+       - Cashiers
       summary: Cria um(a) cashiers
       responses:
         '200':
@@ -58,14 +74,14 @@ paths:
 # modelo = TabelaPontoVenda
     delete:
       tags:
-       - cashiers
+       - Cashiers
       summary: Deleta um(a) cashiers
 # ../v2api/api/v2charts.go
   /charts:
 # modelo = 
     get:
       tags:
-       - charts
+       - Charts
       summary: Listagem de charts
       responses:
         '200':
@@ -75,7 +91,7 @@ paths:
 # modelo = 
     post:
       tags:
-       - logout
+       - Logout
       summary: Cria um(a) logout
       responses:
         '200':
@@ -86,7 +102,7 @@ paths:
 # modelo = 
     get:
       tags:
-       - menu
+       - Menu
       summary: Listagem de menu
       responses:
         '200':
@@ -97,7 +113,7 @@ paths:
 # modelo = JSONIndicadoresV2
     get:
       tags:
-       - metrics
+       - Metrics
       summary: Listagem de metrics
       responses:
         '200':
@@ -120,19 +136,72 @@ paths:
 # modelo = JSONIndicadoresV2
     put:
       tags:
-       - metrics
+       - Metrics
       summary: Atualiza um(a) metrics
     delete:
       tags:
-       - metrics
+       - Metrics
       summary: Deleta um(a) metrics
+# ERRO open ../v2api/api/v2order5929.go: no such file or directory
+# ERRO open ../v2api/api/v2ordercancel.go: no such file or directory
+# ERRO open ../v2api/api/v2orderdraft.go: no such file or directory
+# ERRO open ../v2api/api/v2orderimport.go: no such file or directory
+# ERRO open ../v2api/api/v2orderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2orderitems.go: no such file or directory
+# ../v2api/api/v2orders.go
+  /orders:
+# modelo = JSONOrder
+    post:
+      tags:
+       - Orders
+      summary: Cria um(a) orders
+      responses:
+        '200':
+          description: orders
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonorder.yaml
+# ../v2api/api/v2orders.go
+  /orders/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do orders
+# modelo = JSONOrder
+    patch:
+      tags:
+       - Orders
+# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
+# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
+# ERRO open ../v2api/api/v2ordersync.go: no such file or directory
+# ERRO open ../v2api/api/v2productimages.go: no such file or directory
+# ERRO open ../v2api/api/v2productimages.go: no such file or directory
+# ../v2api/api/v2profiles.go
+  /profiles/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do profiles
+# modelo = JSONProfile
+    put:
+      tags:
+       - Profiles
+      summary: Atualiza um(a) profiles
 # ../v2api/api/v2prospects.go
   /prospects:
 # filtros = FilterProspects
 # modelo = JSONProspect
     get:
       tags:
-       - prospects
+       - Prospects
       summary: Listagem de prospects
       responses:
         '200':
@@ -155,7 +224,7 @@ paths:
 # modelo = JSONProspect
     get:
       tags:
-       - prospects
+       - Prospects
       summary: Busca um(a) prospects
       responses:
         '200':
@@ -164,13 +233,16 @@ paths:
             application/json:
               schema:
                 $ref: ./models/jsonprospect.yaml
+# ERRO open ../v2api/api/v2serviceorderitems.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
+# ERRO open ../v2api/api/v2serviceorders.go: no such file or directory
 # ../v2api/api/v2tokens.go
   /tokens:
 # filtros = FilterTokens
 # modelo = JSONToken
     get:
       tags:
-       - tokens
+       - Tokens
       summary: Listagem de tokens
       responses:
         '200':
@@ -193,18 +265,18 @@ paths:
 # modelo = JSONToken
     put:
       tags:
-       - tokens
+       - Tokens
       summary: Atualiza um(a) tokens
     delete:
       tags:
-       - tokens
+       - Tokens
       summary: Deleta um(a) tokens
 # ../v2api/api/v2users.go
   /users:
 # modelo = JSONUser
     post:
       tags:
-       - users
+       - Users
       summary: Cria um(a) users
       responses:
         '200':
@@ -226,9 +298,9 @@ paths:
 # modelo = JSONUser
     put:
       tags:
-       - users
+       - Users
       summary: Atualiza um(a) users
     delete:
       tags:
-       - users
+       - Users
       summary: Deleta um(a) users
