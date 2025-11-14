@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   ativo:
     type: boolean
   data_cadastro:
@@ -120,6 +118,10 @@ properties:
     type: integer
   place_id:
     type: string
+  latitude:
+    type: number
+  longitude:
+    type: number
   url_mapa:
     type: string
   id_setor:
@@ -144,6 +146,8 @@ properties:
       type: string
   incidencia:
     type: integer
+  acumulado:
+    type: number
   id_lead:
     type: integer
   id_sdr_recup:

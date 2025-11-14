@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_layout:
+    type: integer
+  desc_layout:
+    type: string
+  dthr_importacao:
+    type: string
+  nome_usuario:
+    type: string
+  total_registros:
+    type: integer
+  total_erros:
+    type: integer
+  nome_folha:
+    type: string
+  nome_recurso:
+    type: string

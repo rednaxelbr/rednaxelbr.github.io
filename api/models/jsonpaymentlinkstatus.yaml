@@ -1,0 +1,8 @@
+type: object
+properties:
+  id:
+    type: integer
+  status_link:
+    type: string
+  requer_quitacao:
+    type: boolean

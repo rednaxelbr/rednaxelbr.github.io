@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  id_usuario:
+    type: integer
+  nome_usuario:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  codigo_sku:
+    type: integer
+  data_hora:
+    type: string
+  texto_anotacao:
+    type: string

@@ -14,6 +14,8 @@ properties:
     type: boolean
   tipo_distrib:
     type: string
+  multiplic_mos:
+    type: number
   curva_minima_geral:
     type: integer
   curva_maxima_geral:

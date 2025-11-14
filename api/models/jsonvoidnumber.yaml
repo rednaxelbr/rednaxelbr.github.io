@@ -26,3 +26,5 @@ properties:
     type: integer
   descr_motivo:
     type: string
+  valor:
+    type: number

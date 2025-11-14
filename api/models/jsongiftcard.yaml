@@ -10,3 +10,5 @@ properties:
     type: integer
   nome_razao:
     type: string
+  valor_saldo:
+    type: number

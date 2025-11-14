@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_marca:
     type: integer
   id_categ:
@@ -22,6 +20,10 @@ properties:
     type: string
   cst:
     type: integer
+  aliq_ipi:
+    type: number
+  pmva_st:
+    type: number
   ncm:
     type: string
   cest:

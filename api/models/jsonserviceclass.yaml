@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   desc_tributacao:
     type: string
   cmun:
@@ -16,6 +14,8 @@ properties:
     type: string
   cnae:
     type: string
+  aliq_issqn:
+    type: number
   id_tipo:
     type: integer
   desc_tipo_trib:

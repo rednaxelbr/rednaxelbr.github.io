@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   id_plu:
@@ -14,6 +12,14 @@ properties:
     type: string
   prod_xprod:
     type: string
+  preco_atual:
+    type: number
+  preco_futuro:
+    type: number
+  margem_atual:
+    type: number
+  margem_anterior:
+    type: number
   processar:
     type: boolean
   excluir:

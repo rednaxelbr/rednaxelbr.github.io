@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  descricao_tag:
+    type: string
+  color:
+    type: string
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string

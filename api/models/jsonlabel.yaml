@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   tipo:
     type: string
   modelo:
@@ -20,6 +18,8 @@ properties:
     type: string
   layout:
     type: string
+  preco:
+    type: number
   referencia:
     type: string
   barcode:

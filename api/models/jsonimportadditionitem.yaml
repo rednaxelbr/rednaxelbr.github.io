@@ -12,5 +12,13 @@ properties:
     type: integer
   prod_xprod:
     type: string
+  quantidade:
+    type: number
+  peso_liq:
+    type: number
   moeda:
     type: string
+  vunit_moeda:
+    type: number
+  vtotitem_moeda:
+    type: number

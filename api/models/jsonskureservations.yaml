@@ -2,14 +2,14 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   codigo_sku:
     type: integer
   prod_xprod:
     type: string
   ucom:
     type: string
+  quant_reserva:
+    type: number
   id_predio:
     type: integer
   desc_predio:

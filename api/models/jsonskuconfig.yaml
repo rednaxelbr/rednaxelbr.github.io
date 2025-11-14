@@ -6,8 +6,6 @@ properties:
     type: array
     items:
       type: integer
-  metodo:
-    type: string
   id_empresa:
     type: integer
   sigla_loja:
@@ -24,12 +22,26 @@ properties:
     type: integer
   dias_estoq:
     type: integer
+  quant_mes:
+    type: number
+  ticket_mes:
+    type: number
+  valor_mes:
+    type: number
+  quant_natural:
+    type: number
+  sazo_efet:
+    type: number
   expo:
     type: integer
+  total_sazo:
+    type: number
   es_minimo:
     type: integer
   camp:
     type: integer
+  cmmf_quant:
+    type: number
   cmmf_validade:
     type: string
   pendente_erp:
@@ -56,10 +68,16 @@ properties:
     type: array
     items:
       type: integer
+  quant_predio:
+    type: number
   capac_predio:
     type: integer
+  soma_pedidos:
+    type: number
   log_id:
     type: integer
+  proj_efet:
+    type: number
   observacoes:
     type: string
   url_foto:

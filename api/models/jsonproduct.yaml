@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   sku_id:
     type: integer
   tipo_item:
@@ -14,16 +12,38 @@ properties:
     type: string
   variacao:
     type: string
+  custo_liquido:
+    type: number
   curva:
     type: integer
   curva_minima:
     type: integer
   validade_curva:
     type: string
+  vbcst_nota:
+    type: number
+  icms_efetivo:
+    type: number
+  reducao_bcst:
+    type: number
+  vicmsst_ret:
+    type: number
+  vicms_substituto:
+    type: number
+  vunit_compra:
+    type: number
+  pst_compra:
+    type: number
+  cmv:
+    type: number
   ids_tags:
     type: array
     items:
       type: integer
+  cmp_principal:
+    type: number
+  ptotal_padrao:
+    type: number
   id_grade:
     type: integer
   codigo_alfa:
@@ -34,6 +54,10 @@ properties:
     type: boolean
   orig:
     type: integer
+  aliq_ipi:
+    type: number
+  pmva_st:
+    type: number
   cod_ncm:
     type: string
   cod_cest:
@@ -72,12 +96,18 @@ properties:
     type: string
   prod_xprod:
     type: string
+  margem_padrao:
+    type: number
+  preco_tabela:
+    type: number
   embalagem_venda:
     type: boolean
   data_cadastro:
     type: string
   embalagem_fragil:
     type: boolean
+  percentual_frete:
+    type: number
   esmin_padrao:
     type: integer
   ultima_compra:
@@ -90,6 +120,8 @@ properties:
     type: string
   promo_termino:
     type: string
+  preco_promo:
+    type: number
   cod_sku_modelo:
     type: integer
   possui_variacoes:

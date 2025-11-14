@@ -8,5 +8,9 @@ properties:
     type: integer
   prod_xprod:
     type: string
+  perc_digitado_sku:
+    type: number
+  perc_adicional_sku:
+    type: number
   nome_usuario:
     type: string

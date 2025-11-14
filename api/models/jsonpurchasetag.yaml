@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_tagcompra:
+    type: string
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string

@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   numero_pedido:
@@ -16,8 +14,22 @@ properties:
     type: string
   xprod:
     type: string
+  disp_devol:
+    type: number
+  qcom:
+    type: number
+  vuncom:
+    type: number
+  vdesc:
+    type: number
+  pdesc:
+    type: number
   str_desc:
     type: string
+  vunit:
+    type: number
+  vprod:
+    type: number
   zerado:
     type: boolean
   motivo:
@@ -46,6 +58,10 @@ properties:
     type: string
   cod_cest:
     type: string
+  quant_conf_rn:
+    type: number
+  estoq_disp:
+    type: number
   itens_csv:
     type: string
   copiar_pedido:
@@ -56,5 +72,11 @@ properties:
     type: boolean
   copiar_chave:
     type: string
+  novo_preco:
+    type: number
+  novo_pdesc:
+    type: number
+  novo_pmc:
+    type: number
   data_hora_item:
     type: string

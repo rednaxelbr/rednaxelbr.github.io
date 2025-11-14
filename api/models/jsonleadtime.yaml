@@ -1,0 +1,48 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_fornec:
+    type: string
+  ativo:
+    type: boolean
+  t130:
+    type: number
+  t140:
+    type: number
+  t150:
+    type: number
+  t160:
+    type: number
+  t170:
+    type: number
+  t175:
+    type: number
+  t180:
+    type: number
+  t190:
+    type: number
+  t195:
+    type: number
+  t200:
+    type: number
+  t205:
+    type: number
+  t210:
+    type: number
+  t215:
+    type: number
+  t220:
+    type: number
+  t230:
+    type: number
+  t240:
+    type: number
+  t250:
+    type: number
+  t260:
+    type: number
+  t270:
+    type: number
+  t290:
+    type: number

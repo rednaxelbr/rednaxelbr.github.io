@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   data_evento:
     type: string
   data_hora:
@@ -24,5 +22,7 @@ properties:
     type: integer
   tipo:
     type: string
+  vnf:
+    type: number
   chnfe:
     type: string

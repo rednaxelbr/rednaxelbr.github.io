@@ -1,0 +1,32 @@
+type: object
+properties:
+  id:
+    type: integer
+  cod_sku:
+    type: integer
+  uf:
+    type: string
+  prod_xprod:
+    type: string
+  id_classe:
+    type: integer
+  desc_trib:
+    type: string
+  ncm:
+    type: string
+  cest:
+    type: string
+  ipi:
+    type: number
+  mva:
+    type: number
+  id_grade:
+    type: integer
+  sku_ativo:
+    type: boolean
+  repetir_variacoes:
+    type: boolean
+  fim_vigencia:
+    type: string
+  ncm_vencido:
+    type: boolean

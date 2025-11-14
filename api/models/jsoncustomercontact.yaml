@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   request_uri:
     type: string
   id:

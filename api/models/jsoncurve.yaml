@@ -2,11 +2,11 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   letra_curva:
     type: string
   id_sla:
     type: integer
+  service_level:
+    type: number
   dias_encalhe:
     type: integer

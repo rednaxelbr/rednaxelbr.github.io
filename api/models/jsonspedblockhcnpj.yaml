@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_sped_bloco_h:
+    type: integer
+  cnpj_alfa:
+    type: string
+  nome_reduzido:
+    type: string
+  id_empresa:
+    type: integer
+  custo_rnge:
+    type: number
+  custo_contabil:
+    type: number
+  perc_dif:
+    type: number
+  tot_custo_contabil_cnpj:
+    type: number

@@ -1,0 +1,52 @@
+type: object
+properties:
+  id:
+    type: integer
+  codigo_sku:
+    type: integer
+  nome_sku:
+    type: string
+  mult_sku:
+    type: number
+  ucom:
+    type: string
+  data_cadastro:
+    type: string
+  prod_xprod:
+    type: string
+  preco_tabela:
+    type: number
+  margem_padrao:
+    type: number
+  embalagem_venda:
+    type: boolean
+  embalagem_fragil:
+    type: boolean
+  embalagem_compra:
+    type: boolean
+  sem_remessa:
+    type: boolean
+  nome:
+    type: string
+  curta:
+    type: string
+  longa:
+    type: string
+  peso_kg:
+    type: number
+  largura_m:
+    type: number
+  altura_m:
+    type: number
+  profundidade_m:
+    type: number
+  cubagem_kg:
+    type: number
+  id_package:
+    type: integer
+  nome_embalagem:
+    type: string
+  sufixo_foto:
+    type: string
+  url_foto:
+    type: string

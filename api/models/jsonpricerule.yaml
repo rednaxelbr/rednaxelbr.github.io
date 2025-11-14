@@ -10,6 +10,8 @@ properties:
     type: string
   tipo_valor:
     type: string
+  valor_regra:
+    type: number
   regra_ativa:
     type: boolean
   validade_ini:

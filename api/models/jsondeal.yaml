@@ -2,8 +2,6 @@ type: object
 properties:
   id":
     type: integer
-  metodo:
-    type: string
   id_etapa":
     type: integer
   nome_etapa:
@@ -36,6 +34,10 @@ properties:
     type: boolean
   data_prevista:
     type: string
+  vdesc:
+    type: number
+  valor_oport:
+    type: number
   numero_pedido:
     type: integer
   status:
@@ -48,6 +50,10 @@ properties:
     type: boolean
   id_empresa:
     type: integer
+  pmc_pedido:
+    type: number
+  vmc_pedido:
+    type: number
   justificativa":
     type: string
   token_id:

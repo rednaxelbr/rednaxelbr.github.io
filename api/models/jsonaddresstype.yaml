@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   desc_tipo:
     type: string
   tipo_sede:

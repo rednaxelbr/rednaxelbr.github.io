@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_pedido:
     type: integer
   tipo_oper:
@@ -18,6 +16,8 @@ properties:
     type: integer
   prod_xprod:
     type: string
+  quant_item:
+    type: number
   nome_usuario:
     type: string
   status:
@@ -26,3 +26,7 @@ properties:
     type: string
   id_distrib:
     type: integer
+  quantidade:
+    type: number
+  fator_ocup:
+    type: number

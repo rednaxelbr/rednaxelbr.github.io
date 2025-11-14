@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   excel_import:
     type: boolean
   id_extrato:
@@ -18,6 +16,8 @@ properties:
     type: string
   dt_posted:
     type: string
+  trn_amt:
+    type: number
   fit_id:
     type: string
   check_num:
@@ -68,3 +68,5 @@ properties:
     type: string
   id_trn_pai:
     type: integer
+  valor_original:
+    type: number

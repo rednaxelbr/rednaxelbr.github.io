@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: string
-  metodo:
-    type: string
   operation_id:
     type: string
   desc_operacao:
@@ -26,6 +24,8 @@ properties:
     type: integer
   fila_id:
     type: integer
+  reducao:
+    type: number
   class_trib_padrao:
     type: string
   class_trib_tnant:

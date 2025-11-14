@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   ucom:
     type: string
   prod_xprod:
@@ -26,6 +24,8 @@ properties:
     type: integer
   data_cadastro:
     type: string
+  preco_tabela:
+    type: number
   principal:
     type: boolean
   data_hora:

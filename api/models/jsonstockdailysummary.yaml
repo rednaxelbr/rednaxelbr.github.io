@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: string
-  metodo:
-    type: string
   data_resumo:
     type: string
   id_predio:
@@ -14,9 +12,19 @@ properties:
     type: integer
   desc_sku:
     type: string
+  quant_total:
+    type: number
+  quant_ajustada:
+    type: number
   str_quant_ajust:
     type: string
+  quant_setor_a:
+    type: number
   com_estoque:
     type: boolean
   data_hora:
     type: string
+  valor_unit:
+    type: number
+  valor_total:
+    type: number

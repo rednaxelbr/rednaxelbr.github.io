@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_razao:
+    type: string
+  data_nascimento:
+    type: string
+  ids_usuarios:
+    type: array
+    items:
+      type: integer
+  ultimo_login:
+    type: string
+  data_criacao:
+    type: string

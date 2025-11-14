@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   id_legado:
@@ -44,6 +42,8 @@ properties:
     type: integer
   parcela:
     type: integer
+  total_vnf:
+    type: number
   lista_cfop:
     type: array
     items:
@@ -52,6 +52,12 @@ properties:
     type: string
   data_parcela:
     type: string
+  valor_devido:
+    type: number
+  acrescimo:
+    type: number
+  valor_pago:
+    type: number
   data_quitacao:
     type: string
   nome_usuario:
@@ -72,6 +78,8 @@ properties:
     type: boolean
   icones:
     type: string
+  valor_efet:
+    type: number
   nosso_numero:
     type: integer
   boleto:

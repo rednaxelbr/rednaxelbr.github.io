@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   nome_tenant:
     type: string
   razao_social:
@@ -40,6 +38,8 @@ properties:
     type: string
   cod_servico:
     type: integer
+  mensalidade:
+    type: number
   senha_rednaxel:
     type: string
   contato:

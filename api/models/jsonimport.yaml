@@ -26,5 +26,9 @@ properties:
     type: integer
   tp_inter:
     type: integer
+  vtotal:
+    type: number
   num_nf:
     type: integer
+  valor_nf:
+    type: number

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_abertura:
     type: string
   data_abertura:
@@ -24,6 +22,8 @@ properties:
     type: string
   quem_conferiu:
     type: string
+  dinheiro:
+    type: number
   fechada:
     type: boolean
   conferida:
@@ -46,7 +46,11 @@ properties:
     type: boolean
   auditar:
     type: boolean
+  soma_cupons:
+    type: number
   fechamento_manual:
     type: boolean
   justificativa:
     type: string
+  valor_dinheiro:
+    type: number

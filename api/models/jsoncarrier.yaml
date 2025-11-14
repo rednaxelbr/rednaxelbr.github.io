@@ -12,8 +12,6 @@ properties:
     type: string
   ativo:
     type: boolean
-  metodo:
-    type: string
   excluir:
     type: boolean
   vendor:

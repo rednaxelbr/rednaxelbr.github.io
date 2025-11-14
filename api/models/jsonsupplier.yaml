@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   nome_fornec:
     type: string
   id_pessoa:

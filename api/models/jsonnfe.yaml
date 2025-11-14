@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: string
+  modelo:
+    type: integer
+  numero_pedido:
+    type: integer
+  sincrono:
+    type: boolean
+  contingencia:
+    type: string
+  resp:
+    type: string
+  msg:
+    type: string

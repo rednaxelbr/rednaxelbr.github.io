@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_comercial:
+    type: string
+  max_usuarios:
+    type: integer
+  max_skus:
+    type: integer
+  max_cnpj:
+    type: integer
+  max_notas:
+    type: integer
+  data_criacao:
+    type: string
+  data_exclusao:
+    type: string
+  em_vigor:
+    type: boolean
+  service_id:
+    type: integer
+  cod_servico:
+    type: integer
+  abrev_servico:
+    type: string
+  discriminacao:
+    type: string

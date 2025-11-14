@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   codigo_sku:
@@ -10,6 +8,8 @@ properties:
     type: string
   ucom:
     type: string
+  qtd_compra_sku:
+    type: number
   id_fornec:
     type: integer
   nome_fornec:

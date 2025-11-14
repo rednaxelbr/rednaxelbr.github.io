@@ -1,0 +1,44 @@
+type: object
+properties:
+  id:
+    type: integer
+  chave_cte:
+    type: string
+  data_emissao:
+    type: string
+  num_cte:
+    type: integer
+  id_entregador:
+    type: integer
+  nome_entregador:
+    type: string
+  id_fornec:
+    type: integer
+  nome_fornec:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  nome_fantasia:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  valor_tprest:
+    type: number
+  valor_receber:
+    type: number
+  id_lancto:
+    type: integer
+  autorizado:
+    type: boolean
+  pagto_bloqueado:
+    type: boolean
+  data_vencto:
+    type: string
+  nome_usuario:
+    type: string
+  arquivo_xml:
+    type: string

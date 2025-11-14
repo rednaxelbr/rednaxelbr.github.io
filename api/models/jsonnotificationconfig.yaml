@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   titulo_notificacao:
     type: string
   url_destino:

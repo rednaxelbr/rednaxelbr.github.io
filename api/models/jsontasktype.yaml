@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_tipo_tarefa:
+    type: string
+  type_id:
+    type: integer
+  id_modulo:
+    type: integer
+  sigla_modulo:
+    type: string
+  tarefa_padrao:
+    type: boolean

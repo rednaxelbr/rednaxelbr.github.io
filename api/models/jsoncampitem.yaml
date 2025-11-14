@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: string
   id_campanha:
@@ -18,6 +16,16 @@ properties:
     type: string
   prod_xprod:
     type: string
+  margem_padrao:
+    type: number
+  preco_venda:
+    type: number
+  preco_camp:
+    type: number
+  custo_liquido:
+    type: number
+  ptotal_padrao:
+    type: number
   excluir:
     type: boolean
   id_empresa:

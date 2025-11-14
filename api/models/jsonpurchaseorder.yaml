@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_fornec:
     type: integer
   cnpj_fornec:
@@ -16,6 +14,8 @@ properties:
     type: string
   dthr_criacao:
     type: string
+  valor_total:
+    type: number
   fat_previsto:
     type: string
   codigo_legado:
@@ -34,6 +34,8 @@ properties:
     type: string
   mod_frete:
     type: string
+  valor_frete:
+    type: number
   id_entregador:
     type: integer
   nome_entregador:
@@ -46,6 +48,8 @@ properties:
     type: integer
   atualizado_erp:
     type: boolean
+  perc_atend:
+    type: number
   materia_prima:
     type: boolean
   data_hora:

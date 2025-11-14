@@ -6,3 +6,9 @@ properties:
     type: integer
   tributo:
     type: string
+  aliquota:
+    type: number
+  valor:
+    type: number
+  base_calculo:
+    type: number

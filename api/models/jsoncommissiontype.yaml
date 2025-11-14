@@ -2,11 +2,13 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_canal:
     type: integer
   desc_canal:
     type: string
   desc_tipocom:
     type: string
+  margem_minima:
+    type: number
+  perc_comissao:
+    type: number

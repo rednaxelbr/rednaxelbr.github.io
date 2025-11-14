@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_oc:
     type: integer
   ordem:
@@ -14,8 +12,24 @@ properties:
     type: string
   prod_xprod:
     type: string
+  quantidade:
+    type: number
+  soma_qtd_atend:
+    type: number
+  valor_unit:
+    type: number
+  desc_total:
+    type: number
+  total_item:
+    type: number
+  aliq_icms:
+    type: number
+  aliq_ipi:
+    type: number
   observ_item:
     type: string
+  qtd_original:
+    type: number
   referencia:
     type: string
   qtds_por_loja:

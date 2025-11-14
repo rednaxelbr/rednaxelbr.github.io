@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   cpf_cnpj:
     type: integer
   ids:
@@ -102,6 +100,12 @@ properties:
     type: integer
   protocolo:
     type: string
+  vdesc:
+    type: number
+  vtotal:
+    type: number
+  vtroco:
+    type: number
   pedido_pai:
     type: integer
   cor_fundo:
@@ -126,6 +130,8 @@ properties:
     type: string
   desc_tipo_ent:
     type: string
+  peso_total:
+    type: number
   cod_situacao:
     type: integer
   sit_credito:
@@ -138,6 +144,8 @@ properties:
     type: string
   exibir_comissao:
     type: boolean
+  total_comissao:
+    type: number
   mktplace_brand:
     type: string
   mktplace_codigo:
@@ -224,6 +232,8 @@ properties:
     type: string
   nome_entregador:
     type: string
+  vales_disponiveis:
+    type: number
   bloquear_edicao_parcelas:
     type: boolean
   cnpj_alfa:

@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_adicional:
+    type: string
+  cta_contab:
+    type: integer
+  id_centro:
+    type: integer

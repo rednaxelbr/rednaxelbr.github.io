@@ -2,8 +2,6 @@ type: object
 properties:
   id":
     type: integer
-  metodo:
-    type: string
   data_cadastro:
     type: string
   dthr_agendamento":
@@ -100,3 +98,5 @@ properties:
     type: string
   incidencia:
     type: integer
+  acumulado:
+    type: number

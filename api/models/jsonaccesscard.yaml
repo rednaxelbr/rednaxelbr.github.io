@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: string
-  metodo:
-    type: string
   user_id:
     type: integer
   nome_usuario:

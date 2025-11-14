@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   tipo:
     type: string
   cod_sku:
@@ -14,3 +12,5 @@ properties:
     type: string
   data_final:
     type: string
+  valor:
+    type: number

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_pedido:
     type: integer
   parcela:
@@ -12,6 +10,8 @@ properties:
     type: integer
   tpintegra:
     type: integer
+  total_recebido:
+    type: number
   data_parcela:
     type: string
   sigla_forma:
@@ -38,6 +38,8 @@ properties:
     type: integer
   observacoes:
     type: string
+  valor_dinheiro:
+    type: number
   parcelamento_manual:
     type: string
   dif:

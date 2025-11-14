@@ -1,0 +1,16 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  expo:
+    type: integer
+  capac_aa:
+    type: integer
+  capac_zz:
+    type: integer
+  es_minimo:
+    type: integer
+  esmin_padrao:
+    type: integer

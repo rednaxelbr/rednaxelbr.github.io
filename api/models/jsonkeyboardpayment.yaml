@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   tpag:
     type: integer
   sigla_forma:
@@ -22,8 +20,12 @@ properties:
     type: string
   id_plano_forma:
     type: integer
+  parcela_minima:
+    type: number
   max_parcelas:
     type: integer
+  adm_parc_min:
+    type: number
   adm_max_parc:
     type: integer
   nao_cancelar:

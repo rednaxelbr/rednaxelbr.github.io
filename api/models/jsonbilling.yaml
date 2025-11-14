@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: string
   nome:
@@ -18,6 +16,8 @@ properties:
     type: boolean
   cod_servico:
     type: integer
+  mensalidade:
+    type: number
   tpag_preferido:
     type: integer
   dia_vencimento:

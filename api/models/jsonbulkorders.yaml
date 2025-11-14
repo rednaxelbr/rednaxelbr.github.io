@@ -4,8 +4,6 @@ properties:
     type: array
     items:
       type: integer
-  metodo:
-    type: string
   prioridade:
     type: string
   limite_exp:

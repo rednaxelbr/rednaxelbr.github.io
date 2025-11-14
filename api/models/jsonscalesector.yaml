@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  codigo_setor:
+    type: integer
+  descricao_setor:
+    type: string
+  data_hora:
+    type: string

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   cod_produto:
     type: integer
   prod_xprod:
@@ -12,5 +10,9 @@ properties:
     type: integer
   nome_razao:
     type: string
+  margem_padrao:
+    type: number
+  ultima_quant:
+    type: number
   nome_usuario:
     type: string

@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  rotulo_tag:
+    type: string
+  id_fidelidade:
+    type: integer
+  nome_plano:
+    type: string
+  nome_usuario:
+    type: string

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_poster:
     type: integer
   dthr_geracao:

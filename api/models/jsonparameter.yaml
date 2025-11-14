@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: string
-  metodo:
-    type: string
   escopo:
     type: string
   desc_escopo:

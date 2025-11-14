@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   abrev_servico:
@@ -24,5 +22,7 @@ properties:
     type: string
   codigo_trib:
     type: string
+  valor_unitario:
+    type: number
   serv_ativo:
     type: boolean

@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  dthr_criacao:
+    type: string
+  id_pagto:
+    type: integer
+  numero_pedido:
+    type: integer
+  sequencia_pagto:
+    type: integer
+  valor_pagto:
+    type: number
+  url_pagamento:
+    type: string
+  dthr_quitacao:
+    type: string
+  status_link:
+    type: string
+  nome_usuario:
+    type: string
+  id_status_link:
+    type: integer
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  sigla_loja:
+    type: string
+  observacao:
+    type: string
+  desvincular_pedido:
+    type: boolean

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   tipo_pix:
     type: integer
   data_hora:
@@ -24,6 +22,8 @@ properties:
     type: string
   nome_usuario:
     type: string
+  pix_amount:
+    type: number
   status:
     type: string
   desc_status:

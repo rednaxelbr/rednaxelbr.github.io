@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_pedido:
     type: integer
   tipo_oper:
@@ -36,6 +34,8 @@ properties:
     type: string
   serv_adicionais:
     type: string
+  frete_efetivo:
+    type: number
   id_meio:
     type: integer
   desc_meio:

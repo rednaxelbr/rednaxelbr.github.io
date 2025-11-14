@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   seq_item:
     type: integer
   cprod:
@@ -16,26 +14,52 @@ properties:
     type: string
   xprod_nota:
     type: string
+  qcom:
+    type: number
+  vuncom:
+    type: number
   codigo_sku:
     type: integer
   cod_produto:
     type: integer
+  quant_sku:
+    type: number
+  vunit_sku:
+    type: number
   quant:
     type: integer
+  vprod:
+    type: number
+  preco_venda:
+    type: number
+  custo_liquido:
+    type: number
+  preco_promo:
+    type: number
   id_compra:
     type: integer
   id_grade:
     type: integer
+  total_quant_pedido:
+    type: number
   id_fornec:
     type: integer
+  vdesc:
+    type: number
   cfop:
     type: integer
+  quant_conf_rn:
+    type: number
+  adicional_voutro:
+    type: number
   ignorar_dif_excessiva:
     type: boolean
   limpar_mem_map:
     type: boolean
   possui_desdob:
     type: boolean
+  soma_ocs_atend:
+    type: number
   corrigir_mapeamento:
     type: boolean
   vigencia_custo:
@@ -54,6 +78,8 @@ properties:
     type: boolean
   automatico_caixa:
     type: boolean
+  automatico_multiplic_sku:
+    type: number
   caixa_com:
     type: string
   possui_gtin:

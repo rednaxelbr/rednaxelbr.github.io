@@ -10,3 +10,9 @@ properties:
     type: string
   caminho:
     type: string
+  desconto_categ:
+    type: number
+  comissao_categ:
+    type: number
+  margem_categ:
+    type: number

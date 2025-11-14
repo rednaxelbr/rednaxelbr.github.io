@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   data_inicio:
     type: string
   nome_plano:
@@ -18,6 +16,8 @@ properties:
     type: integer
   validade:
     type: integer
+  recompensa:
+    type: number
   carencia:
     type: integer
   validade_vale:
@@ -26,6 +26,8 @@ properties:
     type: array
     items:
       type: integer
+  valor_minimo:
+    type: number
   resposta_boas_vindas:
     type: string
   resposta_redirecionamento:

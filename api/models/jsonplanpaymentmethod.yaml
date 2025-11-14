@@ -14,3 +14,5 @@ properties:
     type: integer
   max_parcelas:
     type: integer
+  parcela_min:
+    type: number

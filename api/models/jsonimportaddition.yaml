@@ -10,3 +10,11 @@ properties:
     type: string
   moeda:
     type: string
+  vtotal_moeda:
+    type: number
+  vaduaneiro:
+    type: number
+  vdesp_adu:
+    type: number
+  peso_total:
+    type: number

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_plu:
     type: integer
   cod_produto:
@@ -12,6 +10,16 @@ properties:
     type: string
   prod_xprod:
     type: string
+  preco_tabela:
+    type: number
+  perc_desconto:
+    type: number
+  margem_cliente:
+    type: number
+  preco_cliente:
+    type: number
+  preco_calc:
+    type: number
   sku_ativo:
     type: boolean
   pendente_erp_plu:

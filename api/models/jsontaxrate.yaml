@@ -4,3 +4,57 @@ properties:
     type: integer
   uf_origem:
     type: string
+  AC:
+    type: number
+  AL:
+    type: number
+  AM:
+    type: number
+  AP:
+    type: number
+  BA:
+    type: number
+  CE:
+    type: number
+  DF:
+    type: number
+  ES:
+    type: number
+  GO:
+    type: number
+  MA:
+    type: number
+  MG:
+    type: number
+  MS:
+    type: number
+  MT:
+    type: number
+  PA:
+    type: number
+  PB:
+    type: number
+  PE:
+    type: number
+  PI:
+    type: number
+  PR:
+    type: number
+  RJ:
+    type: number
+  RN:
+    type: number
+  RO:
+    type: number
+  RR:
+    type: number
+  RS:
+    type: number
+  SC:
+    type: number
+  SE:
+    type: number
+  SP:
+    type: number
+  TO:
+    type: number

@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  seq_item:
+    type: integer
+  codigo_sku:
+    type: integer
+  uf:
+    type: string
+  id_grade:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  quant_sku:
+    type: number
+  vunit_sku:
+    type: number
+  cliq_manual:
+    type: number
+  cliq_unit:
+    type: number
+  pst_compra:
+    type: number
+  pvarj:
+    type: number
+  pdif_icms_varj:
+    type: number
+  curva:
+    type: integer
+  ptotal:
+    type: number

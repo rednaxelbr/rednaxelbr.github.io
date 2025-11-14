@@ -1,0 +1,30 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  nome_container:
+    type: string
+  cross_docking:
+    type: boolean
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  cont_ativo:
+    type: boolean
+  nome_usuario:
+    type: string
+  limite_skus:
+    type: integer
+  skus_ocupados:
+    type: integer
+  skus_pendentes:
+    type: integer
+  pedidos_criados:
+    type: integer
+  notas_transito:
+    type: integer

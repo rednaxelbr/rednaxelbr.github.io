@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   data_hora:
     type: string
   cod_produto:
@@ -18,3 +16,11 @@ properties:
     type: integer
   ordem_item:
     type: integer
+  margem_contrib:
+    type: number
+  quant_momento:
+    type: number
+  preco_momento:
+    type: number
+  frete_momento:
+    type: number

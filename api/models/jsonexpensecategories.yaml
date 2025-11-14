@@ -8,5 +8,9 @@ properties:
     type: integer
   desc_categoria:
     type: string
+  perc_digitado_cat:
+    type: number
+  perc_adicional_cat:
+    type: number
   nome_usuario:
     type: string

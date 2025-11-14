@@ -2,16 +2,18 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   nome_tenant:
     type: string
   cod_plano:
     type: integer
   nome_comercial:
     type: string
+  mensal_cnpj:
+    type: number
   cnpj_ativos:
     type: integer
+  valor_base:
+    type: number
   modulos:
     type: array
     items:

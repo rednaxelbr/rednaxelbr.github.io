@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   cnpj_alfa:
     type: string
   ano_emissao:

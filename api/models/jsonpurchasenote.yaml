@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_compra:
+    type: integer
+  nome_emitente:
+    type: string
+  data_hora:
+    type: string
+  nome_usuario:
+    type: string
+  texto_anotacao:
+    type: string
+  nome_fornec:
+    type: string

@@ -2,9 +2,11 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_canal:
     type: integer
   desc_canal:
     type: string
+  peso_min_kg:
+    type: number
+  valor_frete:
+    type: number

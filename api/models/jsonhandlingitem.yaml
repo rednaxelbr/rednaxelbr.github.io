@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   ordem_sku:
     type: integer
   numero_pedido:
@@ -14,5 +12,11 @@ properties:
     type: string
   codigo_sku:
     type: integer
+  quant_pedido:
+    type: number
+  quant_separada:
+    type: number
+  quant_conferida:
+    type: number
   separador:
     type: string

@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  prod_ucom:
+    type: string
+  prod_xprod:
+    type: string
+  cod_produto:
+    type: integer
+  multiplic_sku:
+    type: number
+  sufixo_desc_sku:
+    type: string
+  curva_geral:
+    type: integer
+  curva:
+    type: integer

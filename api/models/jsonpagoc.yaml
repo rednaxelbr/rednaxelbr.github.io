@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_oc:
     type: integer
   data_vencto:
@@ -28,7 +26,11 @@ properties:
     type: string
   desc_forma:
     type: string
+  valor_parcela:
+    type: number
   historico:
     type: string
   tpag:
     type: integer
+  valor_original:
+    type: number

@@ -18,6 +18,8 @@ properties:
     type: integer
   nome_plano:
     type: string
+  valor_plano:
+    type: number
   ultimo:
     type: string
   situacao:

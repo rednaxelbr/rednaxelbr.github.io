@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   numero_pedido:
     type: integer
   seq_servico:
@@ -12,5 +10,15 @@ properties:
     type: integer
   abrev_servico:
     type: string
+  quantidade:
+    type: number
+  valor_servico:
+    type: number
+  base_calculo:
+    type: number
   sufixo_discrim:
     type: string
+  desconto_condic:
+    type: number
+  desconto_incondic:
+    type: number

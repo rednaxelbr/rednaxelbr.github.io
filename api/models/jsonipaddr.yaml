@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  endereco_ip:
+    type: string
+  descricao_local:
+    type: string
+  ids_empresas:
+    type: array
+    items:
+      type: integer
+  lista_usuarios:
+    type: array
+    items:
+      type: string
+  total_login:
+    type: integer

@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  dthr_criacao:
+    type: string
+  cod_status:
+    type: integer
+  sigla_status:
+    type: string
+  nome_usuario:
+    type: string

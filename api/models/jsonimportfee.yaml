@@ -10,3 +10,7 @@ properties:
     type: string
   moeda:
     type: string
+  vmoeda:
+    type: number
+  valor:
+    type: number

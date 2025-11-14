@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   chnfe:
     type: string
   id_pessoa:
@@ -24,6 +22,12 @@ properties:
     type: string
   dest:
     type: string
+  total_vnf:
+    type: number
+  perc_map:
+    type: number
+  perc_pago:
+    type: number
   impostos_ok:
     type: boolean
   precos_ok:
@@ -90,6 +94,10 @@ properties:
     type: boolean
   qtd_itens_criados:
     type: integer
+  voutro_efetivo:
+    type: number
+  perc_sku_vinculadas:
+    type: number
   confirmado_mercad:
     type: boolean
   confirmado_valores:
@@ -116,6 +124,8 @@ properties:
     type: string
   quitacao_manual:
     type: boolean
+  vdesc:
+    type: number
   nota_consumo:
     type: boolean
   tp_evento:
@@ -124,6 +134,8 @@ properties:
     type: string
   nao_possui_custoliq:
     type: boolean
+  vtroco:
+    type: number
   ids_tags:
     type: array
     items:

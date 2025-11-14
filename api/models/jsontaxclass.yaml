@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_tributo:
     type: string
   cst:
@@ -12,10 +10,16 @@ properties:
     type: string
   cfop_nfce:
     type: integer
+  picms:
+    type: number
   modbc:
     type: integer
   modbc_st:
     type: integer
+  predbc:
+    type: number
+  predbc_st:
+    type: number
   csosn:
     type: integer
   cst_ipi:

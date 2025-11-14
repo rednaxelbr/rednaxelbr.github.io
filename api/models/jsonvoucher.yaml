@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   data_criacao:
     type: string
   codigo:
@@ -20,6 +18,10 @@ properties:
     type: string
   cpf_cnpj:
     type: integer
+  valor_vale:
+    type: number
+  valor_usado:
+    type: number
   tpag:
     type: integer
   situacao:
@@ -62,6 +64,8 @@ properties:
     type: integer
   valido_ate:
     type: string
+  percentual:
+    type: number
   nf_desconto:
     type: string
   nf_consumiu:

@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    type: integer
+  prod_xprod:
+    type: string
+  desc_tipo_produto:
+    type: string
+  validade:
+    type: string
+  preco_tabela:
+    type: number
+  tipo_produto:
+    type: string
+  tipo_validade:
+    type: string
+  desc_tipo_validade:
+    type: string
+  prazo_validade:
+    type: integer
+  codigo_setor:
+    type: integer
+  descricao_setor:
+    type: string
+  tecla_associada:
+    type: integer
+  pesagem:
+    type: string
+  inf_nutricional:
+    type: string
+  inf_adicionais:
+    type: string
+  dados_arquivo:
+    type: string
+  data_hora:
+    type: string

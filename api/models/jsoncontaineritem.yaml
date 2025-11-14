@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  id_container:
+    type: integer
+  nome_container:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  codigo_sku:
+    type: integer
+  prod_xprod:
+    type: string
+  quantidade:
+    type: integer
+  nome_usuario:
+    type: string
+  numero_pedido:
+    type: integer

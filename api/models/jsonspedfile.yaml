@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  cnpj_alfa:
+    type: string
+  ano_emissao:
+    type: integer
+  mes_emissao:
+    type: integer
+  dthr_geracao:
+    type: string
+  observacoes:
+    type: string
+  url_arquivo:
+    type: string
+  nome_usuario:
+    type: string
+  registros:
+    type: string
+  blocos:
+    type: array
+    items:
+      type: string
+  tipo_custo:
+    type: string

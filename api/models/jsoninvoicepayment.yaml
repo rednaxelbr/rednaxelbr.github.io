@@ -2,14 +2,20 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   tpag:
     type: integer
   sigla_forma:
     type: string
   desc_forma:
     type: string
+  valor:
+    type: number
+  total_cobrar:
+    type: number
+  total_recebido:
+    type: number
+  troco:
+    type: number
   parcela:
     type: integer
   data_parcela:
@@ -32,6 +38,8 @@ properties:
     type: integer
   numero:
     type: integer
+  total_vnf:
+    type: number
   modelo:
     type: integer
   conciliado:

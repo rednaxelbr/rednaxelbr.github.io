@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  tipo:
+    type: string
+  id_predio:
+    type: integer
+  origem:
+    type: string
+  destino:
+    type: string
+  motivo:
+    type: integer
+  contador:
+    type: integer

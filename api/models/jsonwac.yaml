@@ -1,0 +1,30 @@
+type: object
+properties:
+  id:
+    type: integer
+  data_movim:
+    type: string
+  cnpj_alfa:
+    type: string
+  codigo_sku:
+    type: integer
+  desc_basica:
+    type: string
+  entrada_quant:
+    type: number
+  entrada_valor:
+    type: number
+  entrada_total:
+    type: number
+  saida_quant:
+    type: number
+  saida_valor:
+    type: number
+  saida_total:
+    type: number
+  saldo_quant:
+    type: number
+  saldo_valor:
+    type: number
+  saldo_total:
+    type: number

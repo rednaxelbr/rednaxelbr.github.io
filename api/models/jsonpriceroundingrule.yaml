@@ -2,5 +2,13 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
+  valor_min:
+    type: number
+  valor_max:
+    type: number
+  frac_min:
+    type: number
+  frac_max:
+    type: number
+  novo_frac:
+    type: number

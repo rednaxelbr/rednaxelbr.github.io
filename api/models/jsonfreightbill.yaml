@@ -16,6 +16,10 @@ properties:
     type: integer
   nome_usuario:
     type: string
+  valor_total:
+    type: number
+  peso_total:
+    type: number
   stat:
     type: integer
   sigla_status:

@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   ordem:
@@ -22,5 +20,17 @@ properties:
       type: integer
   graficos:
     type: integer
+  ocultar_abaixo:
+    type: number
+  ocultar_acima:
+    type: number
+  amarelo_abaixo:
+    type: number
+  amarelo_acima:
+    type: number
+  vermelho_abaixo:
+    type: number
+  vermelho_acima:
+    type: number
   ativo:
     type: boolean

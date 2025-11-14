@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  ident_origem:
+    type: string
+  deal_id:
+    type: integer
+  id_pessoa:
+    type: integer
+  texto_atividade:
+    type: string
+  id_vendedor:
+    type: integer
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string

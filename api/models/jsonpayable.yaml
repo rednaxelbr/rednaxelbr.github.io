@@ -6,8 +6,6 @@ properties:
     type: array
     items:
       type: integer
-  metodo:
-    type: string
   id_compra:
     type: integer
   status_nota:
@@ -46,6 +44,10 @@ properties:
     type: string
   data_vencto:
     type: string
+  valor_previsto:
+    type: number
+  valor_efetivo:
+    type: number
   cod_situacao:
     type: integer
   desc_situacao:
@@ -80,10 +82,14 @@ properties:
     type: string
   data_inicial:
     type: string
+  total_vnf:
+    type: number
   vencto_lancto:
     type: boolean
   quitar_em_lote:
     type: boolean
+  valor_orcado:
+    type: number
   tpag:
     type: integer
   numero:

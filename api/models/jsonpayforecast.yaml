@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  data:
+    type: string
+  texto_dia_semana:
+    type: string
+  valor_sem_oc:
+    type: number
+  valor_oc:
+    type: number
+  total_pagar:
+    type: number
+  info:
+    type: string
+  obs:
+    type: string

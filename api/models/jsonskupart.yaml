@@ -2,13 +2,33 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   codigo_sku:
     type: integer
   cod_produto:
     type: integer
   prod_xprod:
     type: string
+  quantidade:
+    type: number
+  estoque_real:
+    type: number
+  estoq_disp:
+    type: number
+  cmm_total:
+    type: number
+  estoq_insumo:
+    type: number
+  quant_produzir:
+    type: number
+  limite:
+    type: number
+  quant_insumo_requerida:
+    type: number
+  esmin:
+    type: number
+  necessidade:
+    type: number
+  projefet_total:
+    type: number
   prod_xprod_acab:
     type: string

@@ -20,5 +20,9 @@ properties:
     type: string
   parcelas:
     type: integer
+  percentual_calculado:
+    type: number
+  percentual_digitado:
+    type: number
   nome_usuario:
     type: string

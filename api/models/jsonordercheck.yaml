@@ -4,7 +4,11 @@ properties:
     type: integer
   codigo:
     type: integer
+  qtd_conf:
+    type: number
   volume:
     type: integer
+  qtd_vol:
+    type: number
   hash:
     type: string

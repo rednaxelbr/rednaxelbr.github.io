@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_planilha:
+    type: integer
+  linha_planilha:
+    type: integer
+  id_registro:
+    type: integer
+  mensagem_log:
+    type: string

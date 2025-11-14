@@ -2,11 +2,15 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_canal:
     type: integer
   desc_canal:
     type: string
+  preco_minimo:
+    type: number
+  valor_adicional:
+    type: number
   somar_frete:
     type: boolean
+  perc_adic_frete:
+    type: number

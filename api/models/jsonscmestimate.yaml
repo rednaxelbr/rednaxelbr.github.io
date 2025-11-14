@@ -1,0 +1,112 @@
+type: object
+properties:
+  id:
+    type: integer
+  curva:
+    type: integer
+  esmp:
+    type: integer
+  emp:
+    type: integer
+  compid:
+    type: integer
+  bldgid:
+    type: integer
+  fornec:
+    type: integer
+  ac:
+    type: string
+  cx:
+    type: integer
+  soma_tu:
+    type: integer
+  soma_emp:
+    type: integer
+  perc_soma:
+    type: integer
+  tr:
+    type: number
+  expo:
+    type: integer
+  strexpo:
+    type: string
+  esmin:
+    type: integer
+  sazo:
+    type: number
+  strsazo:
+    type: string
+  camp:
+    type: integer
+  strcamp:
+    type: string
+  cmmf:
+    type: number
+  dce:
+    type: integer
+  cmm:
+    type: number
+  cmmd:
+    type: number
+  tu:
+    type: number
+  shr_emp:
+    type: number
+  inv_normp:
+    type: number
+  std_dev:
+    type: number
+  ftr:
+    type: number
+  ctr:
+    type: number
+  sfty:
+    type: number
+  es:
+    type: number
+  nr:
+    type: number
+  empad:
+    type: number
+  capac:
+    type: integer
+  cap_a:
+    type: integer
+  er:
+    type: number
+  etmp:
+    type: number
+  estoq:
+    type: number
+  qtd_oc:
+    type: number
+  mos:
+    type: number
+  ocnf:
+    type: number
+  ev:
+    type: number
+  ev2:
+    type: number
+  dnr:
+    type: number
+  dfx2:
+    type: number
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  observacoes:
+    type: string
+  em:
+    type: integer
+  emb:
+    type: integer
+  qc:
+    type: integer
+  codigo_sku:
+    type: integer
+  id_analise:
+    type: integer
+  dce_baixo:
+    type: boolean

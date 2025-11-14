@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: string
   cnpj_emit:
@@ -14,6 +12,8 @@ properties:
     type: integer
   tpamb:
     type: integer
+  versao_nfe:
+    type: number
   crt:
     type: integer
   nome_regime:

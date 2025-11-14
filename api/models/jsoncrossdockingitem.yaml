@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_cross:
+    type: integer
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  quant_enviar:
+    type: integer
+  id_item_container:
+    type: integer
+  nome_usuario:
+    type: string
+  dthr_alocacao:
+    type: string
+  numero_pedido:
+    type: integer

@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   data_cadastro:
     type: string
   ucom:
@@ -16,12 +14,34 @@ properties:
     type: string
   sufixo_extra:
     type: string
+  mult_sku:
+    type: number
   codigo_sku:
     type: integer
+  preco_tabela:
+    type: number
   ativo:
     type: boolean
   url_foto:
     type: string
+  preco_promo:
+    type: number
+  preco_venda:
+    type: number
+  disponivel:
+    type: number
+  reserva:
+    type: number
+  peso_kg:
+    type: number
+  largura_m:
+    type: number
+  altura_m:
+    type: number
+  profundidade_m:
+    type: number
+  cubagem_kg:
+    type: number
   id_package:
     type: integer
   nome_embalagem:
@@ -34,6 +54,14 @@ properties:
     type: boolean
   embalagem_compra:
     type: boolean
+  preco_atacado_legado:
+    type: number
+  margem_atacado_legado:
+    type: number
+  margem_padrao:
+    type: number
+  margem_promo:
+    type: number
   promo_inicio:
     type: string
   promo_termino:
@@ -54,6 +82,14 @@ properties:
     type: string
   codigo_agrup:
     type: string
+  vunit_compra:
+    type: number
+  icms_efetivo:
+    type: number
+  aliq_ipi:
+    type: number
+  pmva_st:
+    type: number
   data_hora:
     type: string
   expo:

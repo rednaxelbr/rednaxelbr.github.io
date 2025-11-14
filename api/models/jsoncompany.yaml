@@ -2,8 +2,6 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   id_empresa:
     type: integer
   utiliza_pdv:
@@ -88,6 +86,14 @@ properties:
     type: integer
   serie_ajuste:
     type: integer
+  aliq_pis:
+    type: number
+  aliq_cofins:
+    type: number
+  pis_margem:
+    type: number
+  cofins_margem:
+    type: number
   ids_horarios:
     type: array
     items:

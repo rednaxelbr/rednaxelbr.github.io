@@ -1,0 +1,10 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  cta_contab:
+    type: integer
+  id_pessoa:
+    type: integer

@@ -1,12 +1,18 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   cod_embal:
     type: string
   nome_embalagem:
     type: string
+  capac_kg:
+    type: number
+  larg_m:
+    type: number
+  alt_m:
+    type: number
+  prof_m:
+    type: number
   excluir:
     type: boolean

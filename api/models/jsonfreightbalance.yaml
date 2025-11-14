@@ -8,3 +8,7 @@ properties:
     type: string
   user_id:
     type: integer
+  soma_notas:
+    type: number
+  soma_recebto:
+    type: number

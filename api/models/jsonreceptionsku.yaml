@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   id_recepcao:
@@ -10,8 +8,22 @@ properties:
     type: integer
   prod_xprod:
     type: string
+  quant_acum:
+    type: number
+  quant_conf:
+    type: number
+  delta_conf:
+    type: number
+  diferenca:
+    type: number
+  perda:
+    type: number
   ajuste:
     type: string
+  acum_efet:
+    type: number
+  conf_efet:
+    type: number
   efetivo:
     type: string
   registro:

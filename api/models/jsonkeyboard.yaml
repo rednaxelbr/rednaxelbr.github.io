@@ -2,7 +2,5 @@ type: object
 properties:
   id:
     type: integer
-  metodo:
-    type: string
   desc_teclado:
     type: string

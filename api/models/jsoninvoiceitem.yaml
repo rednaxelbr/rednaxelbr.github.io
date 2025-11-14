@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: integer
   fiscdoc_id:
@@ -14,14 +12,48 @@ properties:
     type: string
   cfop_item:
     type: integer
+  custo_liq_unit:
+    type: number
+  perc_imp_venda:
+    type: number
+  qcom:
+    type: number
+  vuncom:
+    type: number
+  vprod:
+    type: number
+  qtrib:
+    type: number
+  vuntrib:
+    type: number
+  vfrete:
+    type: number
+  vseg:
+    type: number
+  vdesc:
+    type: number
+  voutro:
+    type: number
   indtotot:
     type: integer
+  vtottrib:
+    type: number
   nome_autorizador:
     type: string
   xped:
     type: integer
   nitemped:
     type: integer
+  quant_devolvida:
+    type: number
+  cmv_unit:
+    type: number
+  vuncom_manual:
+    type: number
+  cmp_unit:
+    type: number
+  quant_conf_rn:
+    type: number
   pendente_erp_custo:
     type: boolean
   atualizado_erp:
@@ -30,8 +62,20 @@ properties:
     type: string
   cnpj_emit:
     type: integer
+  valor_comissao:
+    type: number
   ucom:
     type: string
+  icms_vbc:
+    type: number
+  picms:
+    type: number
+  vicms:
+    type: number
+  pipi:
+    type: number
+  vipi:
+    type: number
   ncm:
     type: string
   cst:
@@ -48,6 +92,8 @@ properties:
     type: integer
   data_emissao:
     type: string
+  total_vnf:
+    type: number
   modelo:
     type: integer
   id_pessoa:

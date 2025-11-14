@@ -1,7 +1,5 @@
 type: object
 properties:
-  metodo:
-    type: string
   id:
     type: string
   id_estoque:
@@ -24,10 +22,14 @@ properties:
     type: integer
   setor_destino:
     type: integer
+  quantidade:
+    type: number
   capacidade:
     type: integer
   capac_zero:
     type: boolean
+  delta:
+    type: number
   destino:
     type: integer
   destino_resgate:
@@ -38,10 +40,14 @@ properties:
     type: integer
   motivo_virt:
     type: integer
+  inventario:
+    type: number
   tipo_manutencao:
     type: string
   data_checagem:
     type: string
+  separar:
+    type: number
   insuficiente:
     type: boolean
   pedido:
@@ -68,6 +74,8 @@ properties:
     type: boolean
   data_hora:
     type: string
+  ocup:
+    type: number
   data_suprim:
     type: string
   id_recepcao:

@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  ano_emissao:
+    type: integer
+  mes_emissao:
+    type: integer
+  data_estoque:
+    type: string
+  tipo_custo:
+    type: string
+  nome_usuario:
+    type: string
+  user_id:
+    type: integer
+  observacao:
+    type: string
+  data_hora:
+    type: string
+  total_custo_rnge:
+    type: number
+  total_custo_contabil:
+    type: number
