@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_cartaz:
+    type: integer
+  ordem_campo:
+    type: integer
+  nome_campo:
+    type: string
+  texto_fixo:
+    type: string
+  tam_fonte:
+    type: integer
+  alinhamento:
+    type: string
+  negrito:
+    type: boolean
+  italico:
+    type: boolean
+  peso:
+    type: integer
+  ativo:
+    type: boolean
+  cfg_custom:
+    $ref: ./jsonposterconfig.yaml

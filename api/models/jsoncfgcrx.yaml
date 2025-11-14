@@ -1,0 +1,6 @@
+type: object
+properties:
+  setor:
+    type: integer
+  quant:
+    type: integer

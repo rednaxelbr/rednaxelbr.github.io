@@ -40,6 +40,16 @@ properties:
     type: string
   sigla_status:
     type: string
+  resumo:
+    $ref: ./jsoncashbalanceresumo.yaml
+  ajustes:
+    $ref: ./jsonajustes.yaml
+  totais:
+    $ref: ./jsontotais.yaml
+  conferencias:
+    $ref: ./jsonconferencias.yaml
+  totais_tipos_vales:
+    $ref: ./jsontotaistiposvales.yaml
   cupom:
     type: string
   limpar_conf:
@@ -54,3 +64,5 @@ properties:
     type: string
   valor_dinheiro:
     type: number
+  auditoria:
+    $ref: ./jsonauditaabertura.yaml

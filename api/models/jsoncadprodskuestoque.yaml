@@ -1,0 +1,8 @@
+type: object
+properties:
+  id_predio:
+    type: integer
+  id_estoque:
+    type: integer
+  end_letras:
+    type: string

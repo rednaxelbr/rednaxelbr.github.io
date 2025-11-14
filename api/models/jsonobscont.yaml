@@ -1,0 +1,38 @@
+type: object
+properties:
+  RNXABERTURA:
+    type: string
+  RNXIDPESSOA:
+    type: string
+  txidPIX:
+    type: string
+  RNXCONTAS:
+    type: string
+  RNXCHEQUES1:
+    type: string
+  RNXCHEQUES2:
+    type: string
+  RNXCHEQUES3:
+    type: string
+  RNXCHEQUES4:
+    type: string
+  RNXCHEQUES5:
+    type: string
+  RNXCHEQUES6:
+    type: string
+  RNXCHEQUES7:
+    type: string
+  RNXCHEQUES8:
+    type: string
+  RNXCHEQUES9:
+    type: string
+  RNXSITEFMOD:
+    type: string
+  RNXPAG99:
+    type: string
+  RNXBAND99:
+    type: string
+  RNXVOUCHERS:
+    type: string
+  RNXVALEDESCONTO:
+    type: string

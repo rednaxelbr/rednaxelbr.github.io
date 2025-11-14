@@ -1,0 +1,6 @@
+type: object
+properties:
+  id_categoria:
+    type: integer
+  desc_categoria:
+    type: string

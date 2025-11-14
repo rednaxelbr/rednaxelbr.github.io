@@ -1,0 +1,4 @@
+type: object
+properties:
+  tp_nf:
+    type: string

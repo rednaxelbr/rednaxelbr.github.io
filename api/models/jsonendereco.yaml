@@ -1,0 +1,8 @@
+type: object
+properties:
+  id_predio:
+    type: integer
+  primeira:
+    type: string
+  ultima:
+    type: string

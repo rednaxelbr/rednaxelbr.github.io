@@ -62,6 +62,8 @@ properties:
     type: string
   ocs_vinculadas:
     type: string
+  itens:
+    $ref: ./jsonpurchaseitem.yaml
   id_rastreamento:
     type: integer
   observacoes:
@@ -80,6 +82,8 @@ properties:
     type: integer
   finnfe:
     type: integer
+  inconsistencias:
+    $ref: ./jsontextochip.yaml
   ocs:
     type: array
     items:
@@ -128,6 +132,8 @@ properties:
     type: number
   nota_consumo:
     type: boolean
+  manifestacao:
+    $ref: ./jsonmanifestacao.yaml
   tp_evento:
     type: integer
   desc_evento:

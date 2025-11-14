@@ -1,0 +1,10 @@
+type: object
+properties:
+  moeda:
+    type: string
+  nome_moeda:
+    type: string
+  taxa:
+    type: number
+  data_taxa:
+    type: string

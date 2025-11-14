@@ -14,9 +14,13 @@ properties:
     type: boolean
   ordem_tela:
     type: integer
+  config_justif:
+    $ref: ./jsonjustcfg.yaml
   virtuais:
     type: array
     items:
       type: integer
+  chips_virtuais:
+    $ref: ./jsonvirt.yaml
   cupom_desconto:
     type: boolean

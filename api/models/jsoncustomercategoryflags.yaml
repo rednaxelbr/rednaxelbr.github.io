@@ -1,0 +1,6 @@
+type: object
+properties:
+  ocultar_desconto:
+    type: boolean
+  color:
+    type: string

@@ -10,3 +10,5 @@ properties:
     type: array
     items:
       type: integer
+  chips:
+    $ref: ./jsonlink.yaml

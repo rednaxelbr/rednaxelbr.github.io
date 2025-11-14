@@ -1,0 +1,18 @@
+type: object
+properties:
+  seq:
+    type: integer
+  idprod:
+    type: integer
+  zerado:
+    type: boolean
+  motivo:
+    type: integer
+  plu:
+    type: integer
+  info_adic:
+    $ref: ./jsoninfoadic.yaml
+  imposto:
+    $ref: ./jsonimpostoitem.yaml
+  zerar_desconto:
+    type: boolean

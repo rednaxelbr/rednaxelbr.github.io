@@ -14,6 +14,8 @@ properties:
     type: string
   nome_banco:
     type: string
+  config_lote:
+    $ref: ./jsonbankcolconfiglote.yaml
   id_fila_integ:
     type: integer
   status_http:
@@ -22,3 +24,5 @@ properties:
     type: string
   processado:
     type: boolean
+  resumo:
+    $ref: ./jsonbkcolresumo.yaml

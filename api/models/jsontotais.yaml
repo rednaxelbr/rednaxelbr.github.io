@@ -1,0 +1,18 @@
+type: object
+properties:
+  dinheiro:
+    type: number
+  total_cupons:
+    type: number
+  total_conf:
+    type: number
+  suprimentos:
+    type: number
+  ajustes:
+    type: number
+  saldo:
+    type: number
+  nome:
+    type: string
+  valor:
+    type: number

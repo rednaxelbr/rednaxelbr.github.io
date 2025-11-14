@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_vendor:
+    type: string
+  recurso_api:
+    type: string
+  tabela_base:
+    type: string
+  chave_primaria:
+    type: string
+  config_vendor:
+    $ref: ./jsonconfigvendor.yaml

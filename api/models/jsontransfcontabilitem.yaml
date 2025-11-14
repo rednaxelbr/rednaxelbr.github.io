@@ -1,0 +1,6 @@
+type: object
+properties:
+  cnpj:
+    type: integer
+  percentual:
+    type: number

@@ -1,0 +1,12 @@
+type: object
+properties:
+  data:
+    type: string
+  codigo:
+    type: integer
+  descricao:
+    type: string
+  valor:
+    type: number
+  quant:
+    type: number

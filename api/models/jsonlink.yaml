@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  link_id:
+    type: integer
+  catalog_id:
+    type: integer
+  desc_categ:
+    type: string
+  catalogo:
+    type: string
+  texto_hint:
+    type: string

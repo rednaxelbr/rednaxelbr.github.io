@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  emp:
+    type: integer
+  cmmf:
+    type: number
+  sazo:
+    type: number
+  strsazo:
+    type: string
+  camp:
+    type: integer
+  strcamp:
+    type: string
+  expo:
+    type: integer
+  strexpo:
+    type: string
+  qc:
+    type: integer
+  observacoes:
+    type: string

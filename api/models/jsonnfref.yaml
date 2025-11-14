@@ -1,0 +1,18 @@
+type: object
+properties:
+  data_emissao:
+    type: string
+  modelo:
+    type: string
+  numero:
+    type: integer
+  chnfe:
+    type: string
+  total_vnf:
+    type: number
+  tipo_oper:
+    type: string
+  numero_pedido:
+    type: integer
+  nf_origem:
+    type: integer

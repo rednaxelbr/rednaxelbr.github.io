@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_taxa:
+    type: integer
+  desc_adicional:
+    type: string
+  valor_taxa:
+    type: number

@@ -48,6 +48,22 @@ properties:
     type: integer
   id_vendedor:
     type: integer
+  emit:
+    $ref: ./jsonemitdest.yaml
+  dest:
+    $ref: ./jsonemitdest.yaml
+  itens:
+    $ref: ./jsonorderitem.yaml
+  pagtos:
+    $ref: ./jsonorderpayment.yaml
+  nfref:
+    $ref: ./jsonnfref.yaml
+  pedref:
+    $ref: ./jsonpedidopedref.yaml
+  comref:
+    $ref: ./jsonpedidocompraref.yaml
+  vetor_flags:
+    $ref: ./jsonvetorpedidoflags.yaml
   data_entrega:
     type: string
   transportadora:
@@ -72,6 +88,8 @@ properties:
     type: integer
   volumes_detalhados:
     type: boolean
+  volumes:
+    $ref: ./jsonordervolume.yaml
   num_loja:
     type: integer
   status:
@@ -114,6 +132,10 @@ properties:
     type: integer
   xmotivo:
     type: string
+  categorias:
+    $ref: ./jsondistribskucateg.yaml
+  cupons_desconto:
+    $ref: ./jsonordercupons.yaml
   separador:
     type: string
   conferente:
@@ -122,6 +144,8 @@ properties:
     type: string
   inicio_proc:
     type: string
+  atraso:
+    $ref: ./jsonatraso.yaml
   id_canal:
     type: integer
   desc_canal:
@@ -172,10 +196,14 @@ properties:
     type: integer
   anotacao_legado:
     type: string
+  logs_legado:
+    $ref: ./jsonlogslegado.yaml
   id_destino:
     type: integer
   sigla_destino:
     type: string
+  servicos:
+    $ref: ./jsonserviceorderitem.yaml
   nfse_substituida:
     type: string
   tpag_servico:
@@ -212,6 +240,8 @@ properties:
     type: integer
   ultimo_produto:
     type: integer
+  dados_origem:
+    $ref: ./jsondadosorig.yaml
   token_id:
     type: integer
   faturamento:
@@ -236,6 +266,8 @@ properties:
     type: number
   bloquear_edicao_parcelas:
     type: boolean
+  pagamentos:
+    $ref: ./jsonorderpayment.yaml
   cnpj_alfa:
     type: string
   cnpj_alfanum:

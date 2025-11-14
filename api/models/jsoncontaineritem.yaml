@@ -22,5 +22,7 @@ properties:
     type: integer
   nome_usuario:
     type: string
+  info_cross:
+    $ref: ./jsoninfocross.yaml
   numero_pedido:
     type: integer

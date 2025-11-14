@@ -14,3 +14,5 @@ properties:
     type: array
     items:
       type: integer
+  grupos:
+    $ref: ./jsongrupoacesso.yaml

@@ -76,6 +76,8 @@ properties:
     type: boolean
   pendente:
     type: boolean
+  flags:
+    $ref: ./jsonrecvflag.yaml
   icones:
     type: string
   valor_efet:
@@ -124,6 +126,8 @@ properties:
     type: string
   str_entregue:
     type: string
+  pagamentos:
+    $ref: ./jsonorderpayment.yaml
   atrasado:
     type: boolean
   tipo_vale:

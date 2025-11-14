@@ -12,3 +12,5 @@ properties:
     type: number
   perc_comissao:
     type: number
+  config_comissao:
+    $ref: ./jsoncommissiontypecfg.yaml

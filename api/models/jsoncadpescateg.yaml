@@ -1,0 +1,8 @@
+type: object
+properties:
+  categ_id:
+    type: integer
+  desc_categoria:
+    type: string
+  excluir:
+    type: boolean

@@ -28,3 +28,5 @@ properties:
     type: boolean
   pdf_make:
     type: string
+  config_jobc:
+    $ref: ./jsonpjobcfg.yaml

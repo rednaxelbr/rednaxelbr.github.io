@@ -1,0 +1,8 @@
+type: object
+properties:
+  num:
+    type: integer
+  dia:
+    type: string
+  qtd:
+    type: integer

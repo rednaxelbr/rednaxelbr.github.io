@@ -10,6 +10,8 @@ properties:
     type: integer
   segmento:
     type: boolean
+  flags_segmento:
+    $ref: ./jsoncustomercategoryflags.yaml
   clientes:
     type: integer
   ordtag_id:

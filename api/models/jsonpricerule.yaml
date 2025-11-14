@@ -22,3 +22,13 @@ properties:
     type: boolean
   cont_uso_regra:
     type: integer
+  config_regra:
+    $ref: ./jsonpriceruleconfigregra.yaml
+  categorias:
+    $ref: ./jsonpricerulecategoria.yaml
+  clientes:
+    $ref: ./jsonpricerulecliente.yaml
+  pedidos:
+    $ref: ./jsonpricerulepedido.yaml
+  produtos:
+    $ref: ./jsonpriceruleproduto.yaml

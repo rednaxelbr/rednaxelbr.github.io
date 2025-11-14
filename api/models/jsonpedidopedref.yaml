@@ -1,0 +1,4 @@
+type: object
+properties:
+  numero_pedido:
+    type: integer

@@ -1,0 +1,10 @@
+type: object
+properties:
+  nome_catalogo:
+    type: string
+  id_categoria:
+    type: integer
+  desc_categoria:
+    type: string
+  principal:
+    type: boolean

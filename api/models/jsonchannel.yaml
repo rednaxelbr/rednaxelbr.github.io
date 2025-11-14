@@ -14,6 +14,8 @@ properties:
     type: string
   caminho:
     type: string
+  config_canal:
+    $ref: ./jsonchanconfig.yaml
   preco_proprio:
     type: boolean
   id_vendor:

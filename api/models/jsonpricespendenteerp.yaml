@@ -1,0 +1,6 @@
+type: object
+properties:
+  preco:
+    type: boolean
+  cadastro:
+    type: boolean

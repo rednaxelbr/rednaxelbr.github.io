@@ -30,6 +30,8 @@ properties:
     type: integer
   csosn_manual:
     type: integer
+  config_classe:
+    $ref: ./jsonconfigclasse.yaml
   cclass_tribis:
     type: string
   cclass_trib:

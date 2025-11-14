@@ -1,0 +1,30 @@
+type: object
+properties:
+  ordem:
+    type: integer
+  escopo:
+    type: string
+  rotulo:
+    type: string
+  titulo:
+    type: string
+  board_id:
+    type: integer
+  metric_id:
+    type: integer
+  tipo_dado:
+    type: string
+  texto_detalhe:
+    type: string
+  ocultar_abaixo:
+    type: number
+  ocultar_acima:
+    type: number
+  amarelo_abaixo:
+    type: number
+  amarelo_acima:
+    type: number
+  vermelho_abaixo:
+    type: number
+  vermelho_acima:
+    type: number

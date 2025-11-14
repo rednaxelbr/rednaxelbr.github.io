@@ -1,0 +1,4 @@
+type: object
+properties:
+  id_estoque:
+    type: integer

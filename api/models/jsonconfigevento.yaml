@@ -1,0 +1,12 @@
+type: object
+properties:
+  vnf:
+    type: number
+  cfop:
+    type: array
+    items:
+      type: integer
+  tipo:
+    type: string
+  gatilho:
+    $ref: ./jsonwagatilho.yaml

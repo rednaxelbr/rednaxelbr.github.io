@@ -8,3 +8,9 @@ properties:
     type: string
   codigo_benef:
     type: string
+  config_cbenef:
+    $ref: ./jsonconfigcbenef.yaml
+  csts:
+    $ref: ./jsoncbenefcsts.yaml
+  skus:
+    $ref: ./jsoncbenefskus.yaml

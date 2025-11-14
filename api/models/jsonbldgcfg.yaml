@@ -1,0 +1,8 @@
+type: object
+properties:
+  baixa_avulsa:
+    type: boolean
+  nunca_fracionar:
+    type: boolean
+  separacao_bloqueada:
+    type: boolean

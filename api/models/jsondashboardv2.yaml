@@ -14,6 +14,8 @@ properties:
     type: string
   rotulo:
     type: string
+  grupos:
+    $ref: ./jsongrupoacesso.yaml
   ids_grupos:
     type: array
     items:
@@ -32,5 +34,7 @@ properties:
     type: number
   vermelho_acima:
     type: number
+  config_quadro:
+    $ref: ./jsonconfigquadro.yaml
   ativo:
     type: boolean

@@ -1,0 +1,6 @@
+type: object
+properties:
+  seq:
+    type: integer
+  idprod:
+    type: integer

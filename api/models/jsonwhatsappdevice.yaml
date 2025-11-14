@@ -10,6 +10,12 @@ properties:
     type: string
   numero_teste:
     type: integer
+  device_jid:
+    $ref: ./jsonwajid.yaml
+  config_disp:
+    $ref: ./jsonwacfg.yaml
+  resp_padrao:
+    $ref: ./jsonwastd.yaml
   user_id:
     type: integer
   nome_usuario:

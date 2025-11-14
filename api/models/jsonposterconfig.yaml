@@ -1,0 +1,16 @@
+type: object
+properties:
+  layout:
+    type: string
+  fontSize:
+    type: integer
+  paisagem:
+    type: boolean
+  margin_left:
+    type: integer
+  margin_top:
+    type: integer
+  margin_right:
+    type: integer
+  margin_bottom:
+    type: integer

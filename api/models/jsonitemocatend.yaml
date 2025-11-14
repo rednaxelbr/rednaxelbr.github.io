@@ -1,0 +1,14 @@
+type: object
+properties:
+  numero:
+    type: integer
+  data_emissao:
+    type: string
+  quant_sku:
+    type: number
+  id_compra:
+    type: number
+  numero_oc:
+    type: integer
+  quant_nota:
+    type: number

@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  tpag:
+    type: integer
+  sigla_forma:
+    type: string
+  tpintegra:
+    type: integer
+  nsu:
+    type: string
+  valor:
+    type: number
+  id_pagto:
+    type: integer

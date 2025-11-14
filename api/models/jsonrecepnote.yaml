@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: string
+  chnfe:
+    type: string
+  data_emissao:
+    type: string
+  numero:
+    type: integer
+  itens:
+    type: integer
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  inconsistentes:
+    type: integer
+  excluir:
+    type: boolean

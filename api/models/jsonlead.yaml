@@ -84,6 +84,8 @@ properties:
     type: string
   nb_tasks:
     type: integer
+  dados_lead:
+    $ref: ./jsonleaddadoslead.yaml
   cnae_princ:
     type: string
   outros_cnaes:
@@ -96,6 +98,8 @@ properties:
     type: string
   anotacao:
     type: string
+  conversao:
+    $ref: ./jsonconversaolead.yaml
   incidencia:
     type: integer
   acumulado:

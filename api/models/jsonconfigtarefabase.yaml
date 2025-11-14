@@ -1,0 +1,6 @@
+type: object
+properties:
+  titulo:
+    type: string
+  detalhe:
+    type: string

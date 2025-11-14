@@ -12,6 +12,8 @@ properties:
     type: string
   ativo:
     type: boolean
+  empresas:
+    $ref: ./jsoncarriercompany.yaml
   excluir:
     type: boolean
   vendor:

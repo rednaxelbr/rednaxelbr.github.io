@@ -24,5 +24,9 @@ properties:
     type: integer
   nome_reduzido:
     type: string
+  canais:
+    $ref: ./jsoncampchan.yaml
+  config_camp:
+    $ref: ./jsoncampconfig.yaml
   excluir:
     type: boolean

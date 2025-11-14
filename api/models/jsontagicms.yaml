@@ -1,0 +1,48 @@
+type: object
+properties:
+  orig:
+    type: string
+  CST:
+    type: string
+  modBC:
+    type: string
+  pRedBC:
+    type: string
+  vBC:
+    type: string
+  pICMS:
+    type: string
+  vICMS:
+    type: string
+  vICMSOp:
+    type: string
+  vICMSDif:
+    type: string
+  modBCST:
+    type: string
+  pMVAST:
+    type: string
+  pRedBCST:
+    type: string
+  vBCST:
+    type: string
+  pICMSST:
+    type: string
+  vICMSST:
+    type: string
+  vICMSSTRet:
+    type: string
+  vBCSTRet:
+    type: string
+  pST:
+    type: string
+  pRedBCEfet:
+    type: string
+  vBCEfet:
+    type: string
+  pICMSEfet:
+    type: string
+  vICMSEfet:
+    type: string
+  vICMSSubstituto:
+    type: string

@@ -1,0 +1,10 @@
+type: object
+properties:
+  autorizado:
+    type: boolean
+  validade:
+    type: string
+  senha_md5:
+    type: string
+  limite:
+    type: integer

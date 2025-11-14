@@ -8,6 +8,8 @@ properties:
     type: integer
   sincrono:
     type: boolean
+  lote:
+    $ref: ./jsonnfelote.yaml
   contingencia:
     type: string
   resp:

@@ -1,0 +1,8 @@
+type: object
+properties:
+  account:
+    type: boolean
+  shop:
+    type: boolean
+  business:
+    type: boolean

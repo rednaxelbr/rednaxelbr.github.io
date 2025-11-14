@@ -20,6 +20,8 @@ properties:
     type: string
   pontos:
     type: integer
+  cfg_evento:
+    $ref: ./jsonconfigevento.yaml
   tipo:
     type: string
   vnf:

@@ -1,0 +1,20 @@
+type: object
+properties:
+  logradouro:
+    type: string
+  numero:
+    type: integer
+  complemento:
+    type: string
+  bairro:
+    type: string
+  id_municipio:
+    type: integer
+  nome_municipio:
+    type: string
+  uf_sigla_fk:
+    type: string
+  cep:
+    type: string
+  uf_sigla:
+    type: string

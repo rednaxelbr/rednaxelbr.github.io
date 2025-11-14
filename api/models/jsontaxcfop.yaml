@@ -10,3 +10,5 @@ properties:
     type: string
   id_classe:
     type: integer
+  config_cfop:
+    $ref: ./jsontaxcfopconfigcfop.yaml

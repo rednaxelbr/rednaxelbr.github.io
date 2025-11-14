@@ -6,6 +6,8 @@ properties:
     type: string
   comando_sql:
     type: string
+  itens:
+    $ref: ./jsonrelatparams.yaml
   ids_grupos:
     type: array
     items:

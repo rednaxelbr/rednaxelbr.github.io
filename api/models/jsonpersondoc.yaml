@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_tipo:
+    type: string
+  uf:
+    type: string
+  num_documento:
+    type: string
+  observacoes:
+    type: string

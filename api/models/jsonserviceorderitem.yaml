@@ -22,3 +22,7 @@ properties:
     type: number
   desconto_incondic:
     type: number
+  deducao_manual:
+    $ref: ./jsonsvcorderdedmanual.yaml
+  config_svc_item:
+    $ref: ./jsonsvcordercfgitem.yaml

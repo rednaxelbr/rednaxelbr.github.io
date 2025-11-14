@@ -36,3 +36,5 @@ properties:
     type: integer
   abrev_canal:
     type: string
+  processamento:
+    $ref: ./jsonrespfutureprice.yaml

@@ -50,6 +50,8 @@ properties:
     type: boolean
   id_empresa:
     type: integer
+  itens:
+    $ref: ./jsonorderitem.yaml
   pmc_pedido:
     type: number
   vmc_pedido:

@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_conta:
+    type: integer
+  cpf_cnpj:
+    type: integer
+  ccomp:
+    type: integer
+  nome_banco:
+    type: string
+  num_agencia:
+    type: integer
+  numero_conta:
+    type: string
+  dvc:
+    type: string
+  conta_desde:
+    type: string
+  ativa:
+    type: boolean
+  dv_agencia:
+    type: string

@@ -1,0 +1,8 @@
+type: object
+properties:
+  cod_identidade:
+    type: string
+  orgao_exp:
+    type: string
+  excluir:
+    type: boolean

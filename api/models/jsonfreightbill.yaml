@@ -24,6 +24,10 @@ properties:
     type: integer
   sigla_status:
     type: string
+  notas:
+    $ref: ./jsonfreightinvoice.yaml
+  pedidos:
+    $ref: ./jsonfreightbillorder.yaml
   pre_romaneio:
     type: boolean
   qtd_vol:

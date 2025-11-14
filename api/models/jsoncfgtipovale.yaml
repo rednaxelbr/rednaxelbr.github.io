@@ -1,0 +1,6 @@
+type: object
+properties:
+  validade_padrao:
+    type: integer
+  valor_minimo_padrao:
+    type: number

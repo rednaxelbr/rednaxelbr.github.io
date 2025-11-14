@@ -1,0 +1,24 @@
+type: object
+properties:
+  catalog_id:
+    type: integer
+  canais:
+    $ref: ./jsoncfgextracanais.yaml
+  websites:
+    $ref: ./jsoncfgextraweb.yaml
+  channel_slug:
+    type: array
+    items:
+      type: string
+  liberacao_financeira:
+    type: boolean
+  id_canal:
+    type: integer
+  id_predio:
+    type: integer
+  perc_estoque:
+    type: integer
+  perc_limite_cmm:
+    type: integer
+  estoque_minimo_valido:
+    type: integer

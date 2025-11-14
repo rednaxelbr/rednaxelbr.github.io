@@ -1,0 +1,24 @@
+type: object
+properties:
+  cont_skus:
+    type: integer
+  cont_disp:
+    type: integer
+  sem_ender:
+    type: integer
+  pedidos:
+    type: integer
+  mensagem:
+    type: string
+  pendentes:
+    type: integer
+  linhas:
+    type: integer
+  emitidos:
+    type: integer
+  cancelados:
+    type: integer
+  notas_entregues:
+    type: integer
+  falta_entregar:
+    type: integer

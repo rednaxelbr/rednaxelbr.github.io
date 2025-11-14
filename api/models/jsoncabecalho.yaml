@@ -1,0 +1,14 @@
+type: object
+properties:
+  tipo:
+    type: string
+  ordem:
+    type: integer
+  coluna:
+    type: string
+  rotulo:
+    type: string
+  totalizar:
+    type: boolean
+  config_coluna:
+    $ref: ./jsonconfigcoluna.yaml

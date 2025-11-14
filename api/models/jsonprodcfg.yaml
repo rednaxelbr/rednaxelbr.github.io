@@ -1,0 +1,6 @@
+type: object
+properties:
+  taxonomia:
+    type: string
+  nao_distribuir:
+    type: boolean

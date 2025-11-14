@@ -1,0 +1,18 @@
+type: object
+properties:
+  id_destino:
+    type: integer
+  sigla_dest:
+    type: string
+  faixa:
+    type: integer
+  dthr_expedicao:
+    type: string
+  conferente_rn:
+    type: string
+  pedido_volumes:
+    $ref: ./jsonordervolume.yaml
+  tipo_dist:
+    type: string
+  desc_tipo_dist:
+    type: string

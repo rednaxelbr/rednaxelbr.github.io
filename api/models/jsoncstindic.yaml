@@ -1,0 +1,12 @@
+type: object
+properties:
+  gRed:
+    type: boolean
+  gIBSCBS:
+    type: boolean
+  gIBSCBSMono:
+    type: boolean
+  gDif:
+    type: boolean
+  gTransfCred:
+    type: boolean

@@ -1,0 +1,8 @@
+type: object
+properties:
+  codprod:
+    type: integer
+  emp:
+    type: integer
+  obs:
+    type: string

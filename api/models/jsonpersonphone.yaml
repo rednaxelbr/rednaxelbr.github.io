@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  type_id:
+    type: integer
+  tipo:
+    type: string
+  numero_telefone:
+    type: string
+  observacoes:
+    type: string

@@ -1,0 +1,8 @@
+type: object
+properties:
+  id_dispositivo:
+    type: integer
+  resposta:
+    type: string
+  destino:
+    type: integer

@@ -1,0 +1,4 @@
+type: object
+properties:
+  quant_itens:
+    type: integer

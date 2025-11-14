@@ -1,0 +1,10 @@
+type: object
+properties:
+  contador:
+    type: integer
+  processados:
+    type: integer
+  finalizados:
+    type: integer
+  erro:
+    type: string

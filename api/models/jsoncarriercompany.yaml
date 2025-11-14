@@ -1,0 +1,8 @@
+type: object
+properties:
+  id_empresa:
+    type: integer
+  sigla:
+    type: string
+  nome_reduzido:
+    type: string

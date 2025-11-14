@@ -1,0 +1,6 @@
+type: object
+properties:
+  selo_inmetro:
+    type: boolean
+  status_legado:
+    type: integer

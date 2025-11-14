@@ -1,0 +1,6 @@
+type: object
+properties:
+  aderiu:
+    type: boolean
+  iniciou_adesao:
+    type: boolean

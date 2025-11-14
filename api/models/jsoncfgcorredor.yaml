@@ -1,0 +1,10 @@
+type: object
+properties:
+  andar_caixa_fechada:
+    type: integer
+  max_nichos:
+    type: integer
+  max_andares:
+    type: integer
+  max_apartamentos:
+    type: integer

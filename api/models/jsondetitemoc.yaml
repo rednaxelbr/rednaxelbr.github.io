@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  quantidade:
+    type: number

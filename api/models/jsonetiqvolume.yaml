@@ -1,0 +1,14 @@
+type: object
+properties:
+  numped:
+    type: integer
+  vol:
+    type: integer
+  dtini:
+    type: string
+  dtfim:
+    type: string
+  primeiro:
+    type: integer
+  ultimo:
+    type: integer

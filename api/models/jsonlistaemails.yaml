@@ -1,0 +1,4 @@
+type: object
+properties:
+  single_email:
+    type: string

@@ -1,0 +1,6 @@
+type: object
+properties:
+  reagendar_auto:
+    type: string
+  cor_kanban:
+    type: string

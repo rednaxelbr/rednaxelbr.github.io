@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  data_emissao:
+    type: string
+  chnfe:
+    type: string
+  num_nf:
+    type: integer
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  endereco:
+    type: string
+  quant_volumes:
+    type: integer
+  peso_kg:
+    type: number
+  numero_pedido:
+    type: integer
+  fiscdoc:
+    type: integer

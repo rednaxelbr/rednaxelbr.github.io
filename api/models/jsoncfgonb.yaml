@@ -1,0 +1,8 @@
+type: object
+properties:
+  notas_extras:
+    $ref: ./jsonnotasextras.yaml
+  id_email_trans:
+    type: integer
+  ult_login:
+    type: string

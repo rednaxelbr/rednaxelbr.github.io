@@ -20,6 +20,8 @@ properties:
     type: integer
   preco_tabela:
     type: number
+  barcodes:
+    $ref: ./jsonskuarticlebarcode.yaml
   ativo:
     type: boolean
   url_foto:
@@ -70,6 +72,8 @@ properties:
     type: boolean
   sem_remessa:
     type: boolean
+  memoria_mapeamento:
+    $ref: ./jsonpurchasemapping.yaml
   esmin_padrao:
     type: integer
   automatico:
@@ -80,6 +84,8 @@ properties:
     type: string
   nome_marca:
     type: string
+  tags:
+    $ref: ./jsonprodtag.yaml
   codigo_agrup:
     type: string
   vunit_compra:

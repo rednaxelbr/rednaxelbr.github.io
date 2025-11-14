@@ -48,6 +48,8 @@ properties:
     type: string
   separador:
     type: boolean
+  empresas:
+    $ref: ./jsonusercompany.yaml
   usuario_admin:
     type: boolean
   alterar_senha:

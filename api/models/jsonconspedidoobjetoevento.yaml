@@ -1,0 +1,8 @@
+type: object
+properties:
+  dthr_evento:
+    type: string
+  desc_evento:
+    type: string
+  info_evento:
+    $ref: ./jsoninfoevento.yaml

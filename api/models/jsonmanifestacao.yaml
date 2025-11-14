@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: string
+  id_compra:
+    type: integer
+  chnfe:
+    type: string
+  tpevento:
+    type: integer
+  motivo:
+    type: string
+  cnpj:
+    type: string
+  ret_evento:
+    $ref: ./jsonretevento.yaml

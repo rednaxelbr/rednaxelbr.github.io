@@ -32,5 +32,7 @@ properties:
     type: integer
   data_hora:
     type: string
+  config_cliente:
+    $ref: ./jsonconfigcliente.yaml
   wadevice_id:
     type: integer

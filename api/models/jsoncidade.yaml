@@ -1,0 +1,8 @@
+type: object
+properties:
+  cmun:
+    type: integer
+  nome:
+    type: string
+  uf:
+    type: string

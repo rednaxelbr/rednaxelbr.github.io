@@ -1,0 +1,18 @@
+type: object
+properties:
+  gerar_oc:
+    type: boolean
+  id_empresa:
+    type: integer
+  fat_previsto:
+    type: string
+  parcelamento:
+    type: string
+  cnpj_fornec:
+    type: integer
+  mod_frete:
+    type: string
+  id_entregador:
+    type: integer
+  observacoes_oc:
+    type: string

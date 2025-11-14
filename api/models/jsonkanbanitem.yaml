@@ -1,0 +1,54 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_usuario:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  tipo_oper:
+    type: string
+  data_hora:
+    type: string
+  aplicativo:
+    type: string
+  id_externo:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  vtotal:
+    type: number
+  contador_itens:
+    type: integer
+  resumo_pagto:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string
+  urgente:
+    type: boolean
+  id_fila:
+    type: integer
+  limite_exp:
+    type: string
+  primario:
+    type: string
+  secundario:
+    type: string
+  observacoes:
+    type: string
+  destaque:
+    type: string
+  copiavel:
+    type: string

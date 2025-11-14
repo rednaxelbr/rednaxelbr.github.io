@@ -1,0 +1,8 @@
+type: object
+properties:
+  compra:
+    type: boolean
+  ordemcompra:
+    type: boolean
+  fornecedor:
+    type: boolean

@@ -1,0 +1,8 @@
+type: object
+properties:
+  seq:
+    type: integer
+  qtd:
+    type: number
+  cod_produto:
+    type: integer

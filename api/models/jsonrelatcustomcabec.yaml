@@ -1,0 +1,10 @@
+type: object
+properties:
+  tipo:
+    type: string
+  coluna:
+    type: string
+  rotulo:
+    type: string
+  totalizar:
+    type: boolean

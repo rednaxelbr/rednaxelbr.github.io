@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  dt_posted:
+    type: string
+  memo:
+    type: string
+  trn_amt:
+    type: number

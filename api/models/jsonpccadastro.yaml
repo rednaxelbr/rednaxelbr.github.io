@@ -1,0 +1,40 @@
+type: object
+properties:
+  orig:
+    type: integer
+  cst:
+    type: integer
+  csosn:
+    type: integer
+  ncm:
+    type: string
+  cest:
+    type: string
+  pipi:
+    type: number
+  vipi:
+    type: number
+  mva:
+    type: number
+  picms:
+    type: number
+  vicms:
+    type: number
+  vbcst:
+    type: number
+  redbcst:
+    type: number
+  vicmsst:
+    type: number
+  vunit:
+    type: number
+  cliq:
+    type: number
+  cst_pis:
+    type: number
+  cst_cofins:
+    type: number
+  cst_ipi:
+    type: number
+  ptotal_padrao:
+    type: number

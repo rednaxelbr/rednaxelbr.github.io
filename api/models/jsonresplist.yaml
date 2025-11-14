@@ -1,0 +1,6 @@
+type: object
+properties:
+  obj_id:
+    type: integer
+  storage_url:
+    type: string

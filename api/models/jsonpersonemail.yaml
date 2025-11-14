@@ -1,0 +1,10 @@
+type: object
+properties:
+  email:
+    type: string
+  pessoal:
+    type: boolean
+  danfe:
+    type: boolean
+  favorito:
+    type: boolean

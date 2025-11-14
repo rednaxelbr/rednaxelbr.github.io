@@ -14,5 +14,7 @@ properties:
     type: number
   prof_m:
     type: number
+  config_embal:
+    $ref: ./jsonpkgconfig.yaml
   excluir:
     type: boolean

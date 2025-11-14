@@ -16,3 +16,5 @@ properties:
     type: number
   margem_categ:
     type: number
+  cfg_plu_categ:
+    $ref: ./jsonplccfgplucateg.yaml

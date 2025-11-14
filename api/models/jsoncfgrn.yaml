@@ -1,0 +1,8 @@
+type: object
+properties:
+  abertura_loja:
+    type: boolean
+  setor_destino:
+    type: integer
+  emp_logada:
+    type: integer

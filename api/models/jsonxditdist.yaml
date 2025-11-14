@@ -1,0 +1,28 @@
+type: object
+properties:
+  cmm:
+    type: number
+  prjefet:
+    type: number
+  faixa_mos:
+    type: integer
+  share_cmm:
+    type: number
+  capac_loja:
+    type: integer
+  curva_efet:
+    type: integer
+  quant_camp:
+    type: integer
+  quant_expo:
+    type: integer
+  quant_loja:
+    type: number
+  limite_share:
+    type: integer
+  months_of_stock:
+    type: number
+  transito:
+    type: number
+  mensagem:
+    type: string

@@ -1,0 +1,6 @@
+type: object
+properties:
+  dia:
+    type: string
+  val:
+    type: number

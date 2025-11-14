@@ -16,3 +16,7 @@ properties:
     type: string
   qtd_end:
     type: integer
+  config_corredor:
+    $ref: ./jsoncfgcorredor.yaml
+  mapa_corredor:
+    $ref: ./jsonmapacorredor.yaml

@@ -1,0 +1,4 @@
+type: object
+properties:
+  requer_liberacao:
+    type: boolean

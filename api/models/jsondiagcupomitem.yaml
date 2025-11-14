@@ -1,0 +1,14 @@
+type: object
+properties:
+  num_cupom:
+    type: integer
+  chave:
+    type: string
+  status:
+    type: string
+  sefaz:
+    type: boolean
+  tentativas:
+    type: integer
+  msg_erro:
+    type: string

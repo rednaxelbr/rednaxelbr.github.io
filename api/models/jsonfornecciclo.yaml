@@ -1,0 +1,14 @@
+type: object
+properties:
+  status:
+    type: integer
+  str_status:
+    type: string
+  sigla:
+    type: string
+  minutos:
+    type: integer
+  dias:
+    type: number
+  config_ciclo:
+    $ref: ./jsonfornecconfigciclo.yaml

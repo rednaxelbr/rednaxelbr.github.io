@@ -1,0 +1,8 @@
+type: object
+properties:
+  zpl_label_url:
+    type: string
+  pdf_label_url:
+    type: string
+  package_id:
+    type: string

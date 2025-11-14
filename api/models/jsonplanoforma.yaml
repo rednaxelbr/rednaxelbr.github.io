@@ -1,0 +1,16 @@
+type: object
+properties:
+  id_plano:
+    type: integer
+  ordf:
+    type: integer
+  tpag:
+    type: integer
+  desc_forma:
+    type: string
+  min_parcelas:
+    type: integer
+  max_parcelas:
+    type: integer
+  parcela_min:
+    type: number

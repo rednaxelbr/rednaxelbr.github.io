@@ -16,3 +16,5 @@ properties:
     type: integer
   parcela_min:
     type: number
+  categorias:
+    $ref: ./jsoncategoriaplano.yaml

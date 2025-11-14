@@ -1,0 +1,8 @@
+type: object
+properties:
+  prazo_efet:
+    type: string
+  novo_prazo:
+    type: string
+  retorno_dividir_oc:
+    type: string

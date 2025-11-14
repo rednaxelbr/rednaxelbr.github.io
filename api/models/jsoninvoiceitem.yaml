@@ -108,6 +108,8 @@ properties:
     type: string
   nome_dest:
     type: string
+  icms:
+    $ref: ./jsontagicms.yaml
   motivo:
     type: integer
   descr_motivo:

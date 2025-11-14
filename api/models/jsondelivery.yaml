@@ -26,10 +26,14 @@ properties:
     type: integer
   id_endereco:
     type: integer
+  endereco:
+    $ref: ./jsonconspedidoender.yaml
   data_entrega:
     type: string
   nome_turno:
     type: string
+  info_entrega:
+    $ref: ./jsonpedidoinfoentrega.yaml
   id_vendor:
     type: string
   serv_adicionais:
@@ -54,3 +58,5 @@ properties:
     type: boolean
   data_receb_pagto:
     type: string
+  cartoes:
+    $ref: ./jsondelivcartao.yaml

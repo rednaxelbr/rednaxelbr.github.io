@@ -1,0 +1,24 @@
+type: object
+properties:
+  pipi:
+    type: boolean
+  mva:
+    type: boolean
+  picms:
+    type: boolean
+  ncm:
+    type: boolean
+  cest:
+    type: boolean
+  vunit:
+    type: boolean
+  orig:
+    type: boolean
+  vbcst:
+    type: boolean
+  redbcst:
+    type: boolean
+  vicmsst:
+    type: boolean
+  cliq:
+    type: boolean

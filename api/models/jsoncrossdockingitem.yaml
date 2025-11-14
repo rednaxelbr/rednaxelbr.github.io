@@ -12,6 +12,8 @@ properties:
     type: string
   quant_enviar:
     type: integer
+  info_distrib:
+    $ref: ./jsonxditdist.yaml
   id_item_container:
     type: integer
   nome_usuario:

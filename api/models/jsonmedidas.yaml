@@ -1,0 +1,14 @@
+type: object
+properties:
+  mult_sku:
+    type: number
+  peso_kg:
+    type: number
+  largura_m:
+    type: number
+  altura_m:
+    type: number
+  profundidade_m:
+    type: number
+  cubagem_kg:
+    type: number

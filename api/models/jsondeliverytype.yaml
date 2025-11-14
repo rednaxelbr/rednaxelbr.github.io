@@ -16,3 +16,5 @@ properties:
     type: boolean
   padrao:
     type: boolean
+  config_tpent:
+    $ref: ./jsonconfigtpent.yaml

@@ -1,0 +1,6 @@
+type: object
+properties:
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string

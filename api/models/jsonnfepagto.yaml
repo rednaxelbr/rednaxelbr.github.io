@@ -1,0 +1,10 @@
+type: object
+properties:
+  tpag:
+    type: string
+  vpag:
+    type: number
+  xpag:
+    type: string
+  card:
+    $ref: ./jsonnfecard.yaml

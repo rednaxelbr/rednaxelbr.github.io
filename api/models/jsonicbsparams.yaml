@@ -1,0 +1,14 @@
+type: object
+properties:
+  LC:
+    type: string
+  pRedIBS:
+    type: integer
+  pRedCBS:
+    type: integer
+  RedutorBC:
+    type: boolean
+  gTribRegular:
+    type: boolean
+  CredPres:
+    type: boolean

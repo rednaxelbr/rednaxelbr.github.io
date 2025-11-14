@@ -1,0 +1,8 @@
+type: object
+properties:
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string

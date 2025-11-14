@@ -1,0 +1,26 @@
+type: object
+properties:
+  produto:
+    type: boolean
+  servico:
+    type: boolean
+  dias_tr:
+    type: number
+  ultima_oc:
+    type: string
+  prazo_pagamento:
+    type: string
+  ic_padrao:
+    type: number
+  intervalo_analise:
+    type: integer
+  pedido_minimo:
+    type: number
+  semana_par:
+    type: boolean
+  semana_impar:
+    type: boolean
+  excel_imports:
+    type: boolean
+  dia_semana_iso:
+    type: integer

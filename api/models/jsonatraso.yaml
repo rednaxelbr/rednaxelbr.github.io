@@ -1,0 +1,8 @@
+type: object
+properties:
+  atrasado:
+    type: boolean
+  minutos:
+    type: integer
+  cor_fundo:
+    type: string

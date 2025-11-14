@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: string
+  enviar:
+    type: boolean
+  pix_key:
+    type: string
+  client_id:
+    type: string
+  client_key:
+    type: string
+  client_secret:
+    type: string
+  status:
+    type: string
+  extensao:
+    type: string
+  senha_certificado:
+    type: string
+  queue_id:
+    type: integer

@@ -26,6 +26,12 @@ properties:
     type: integer
   tp_inter:
     type: integer
+  emit:
+    $ref: ./jsonemitdest.yaml
+  dest:
+    $ref: ./jsonemitdest.yaml
+  taxa_cambio:
+    $ref: ./jsonimpcambio.yaml
   vtotal:
     type: number
   num_nf:

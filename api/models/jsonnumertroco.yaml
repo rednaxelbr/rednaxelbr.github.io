@@ -1,0 +1,8 @@
+type: object
+properties:
+  cedula:
+    type: boolean
+  quant:
+    type: integer
+  valor:
+    type: number

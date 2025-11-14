@@ -1,0 +1,94 @@
+type: object
+properties:
+  id:
+    type: string
+  id_canal:
+    type: integer
+  codigo_alfa:
+    type: string
+  canal_raiz:
+    type: boolean
+  abrev_canal:
+    type: string
+  desc_canal:
+    type: string
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  qcom:
+    type: number
+  quant_sku:
+    type: number
+  ucom:
+    type: string
+  cl_cad:
+    type: number
+  preco_canal:
+    type: number
+  preco_promo:
+    type: number
+  id_grade:
+    type: integer
+  cl_nf:
+    type: number
+  variacao_cl:
+    type: number
+  id_compra:
+    type: integer
+  multiplic_sku:
+    type: number
+  mmdv:
+    type: number
+  mmdf:
+    type: number
+  mmdt:
+    type: number
+  max_parc:
+    type: integer
+  ptotal_padrao:
+    type: number
+  novo_preco:
+    type: number
+  mcpromo:
+    type: number
+  menor_preco_web:
+    type: number
+  mcmenor_preco_web:
+    type: number
+  preco_ativo:
+    type: boolean
+  injetado:
+    type: string
+  modificado:
+    type: boolean
+  preco_futuro:
+    type: number
+  data_futura:
+    type: string
+  id_plu:
+    type: integer
+  margem_anterior:
+    type: number
+  pendente_erp:
+    $ref: ./jsonpricespendenteerp.yaml
+  acrescimo_regra:
+    type: number
+  preco_automatico:
+    type: number
+  habilitado:
+    type: boolean
+  market_place:
+    type: boolean
+  margem_canal:
+    type: number
+  mcatual_cadastro:
+    type: number
+  mensagem_regra:
+    type: string
+  mensagem_erro:
+    type: string
+  embalagem_venda:
+    type: boolean
+  curva:
+    type: integer

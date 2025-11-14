@@ -1,0 +1,6 @@
+type: object
+properties:
+  num_pedido:
+    type: integer
+  qtd_itens:
+    type: integer

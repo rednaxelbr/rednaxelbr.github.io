@@ -1,0 +1,32 @@
+type: object
+properties:
+  nitem:
+    type: integer
+  cprod:
+    type: string
+  cean:
+    type: string
+  xprod:
+    type: string
+  ncm:
+    type: string
+  cfop:
+    type: string
+  ucom:
+    type: string
+  qcom:
+    type: number
+  vuncom:
+    type: number
+  vprod:
+    type: number
+  ceantrib:
+    type: string
+  utrib:
+    type: string
+  qtrib:
+    type: number
+  vuntrib:
+    type: number
+  indtot:
+    type: string

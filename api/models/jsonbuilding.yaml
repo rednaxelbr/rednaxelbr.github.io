@@ -18,6 +18,10 @@ properties:
     type: string
   uf:
     type: string
+  empresas:
+    $ref: ./jsonbldgemp.yaml
+  config_predio:
+    $ref: ./jsonbldgcfg.yaml
   legado:
     type: boolean
   setor_pallets:

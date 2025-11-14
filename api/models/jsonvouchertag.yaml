@@ -10,3 +10,5 @@ properties:
     type: string
   nome_usuario:
     type: string
+  config_tag:
+    $ref: ./jsonvchtagcfg.yaml

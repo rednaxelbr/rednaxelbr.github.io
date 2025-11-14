@@ -6,6 +6,8 @@ properties:
     type: string
   prod_xprod:
     type: string
+  grade:
+    $ref: ./jsongrade.yaml
   ativo:
     type: boolean
   referencia:
@@ -14,12 +16,22 @@ properties:
     type: string
   dthr_sku:
     type: string
+  custos:
+    $ref: ./jsonskucustos.yaml
+  fornecedores:
+    $ref: ./jsonskufornecedor.yaml
+  flags_sku:
+    $ref: ./jsonflagssku.yaml
+  categorias:
+    $ref: ./jsonskuscategorias.yaml
   codigo_agrup:
     type: string
   excluir:
     type: boolean
   legado:
     type: boolean
+  info_extra:
+    $ref: ./jsonskudetex.yaml
   tipo_item:
     type: integer
   data_cadastro:

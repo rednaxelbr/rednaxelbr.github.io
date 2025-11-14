@@ -1,0 +1,24 @@
+type: object
+properties:
+  peso_maximo_kg:
+    type: number
+  limite_centimetros:
+    type: integer
+  aresta_maxima_cm:
+    type: integer
+  incluir_frageis:
+    type: boolean
+  preco_minimo:
+    type: number
+  limite_frete_gratis:
+    type: number
+  marketplace:
+    type: boolean
+  quitar_vendas:
+    type: boolean
+  usuario_vendor:
+    type: string
+  cnpj_marketplace:
+    type: string
+  perfil_vendedor:
+    type: string

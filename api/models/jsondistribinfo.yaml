@@ -1,0 +1,10 @@
+type: object
+properties:
+  cont_itens:
+    type: integer
+  cont_sugest:
+    type: integer
+  faixa_zero:
+    type: integer
+  fxzero_sugest:
+    type: integer

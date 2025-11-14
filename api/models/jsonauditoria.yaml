@@ -1,0 +1,12 @@
+type: object
+properties:
+  resp:
+    type: string
+  falta_xml:
+    type: array
+    items:
+      type: integer
+  falta_proc:
+    type: array
+    items:
+      type: integer

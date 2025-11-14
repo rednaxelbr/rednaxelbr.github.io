@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  data_hora:
+    type: string
+  nvol:
+    type: integer
+  peso:
+    type: number
+  itens:
+    type: integer
+  fechado:
+    type: boolean
+  ean13:
+    type: string
+  layout:
+    type: string

@@ -6,3 +6,5 @@ properties:
     type: integer
   fiscdoc_id:
     type: integer
+  pagamentos:
+    $ref: ./jsonorderpayment.yaml

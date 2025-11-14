@@ -1,0 +1,12 @@
+type: object
+properties:
+  Chat:
+    type: string
+  Sender:
+    type: string
+  SenderAlt:
+    type: string
+  IsFromMe:
+    type: boolean
+  IsGroup:
+    type: boolean

@@ -1,0 +1,18 @@
+type: object
+properties:
+  eh_cliente:
+    type: boolean
+  eh_almoxarifado:
+    type: boolean
+  eh_colaborador:
+    type: boolean
+  eh_comprador:
+    type: boolean
+  eh_fornecedor:
+    type: boolean
+  eh_shopper:
+    type: boolean
+  eh_televendas:
+    type: boolean
+  eh_transportadora:
+    type: boolean

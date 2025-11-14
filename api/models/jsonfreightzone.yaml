@@ -10,3 +10,7 @@ properties:
     type: integer
   nome_zona:
     type: string
+  config_zona:
+    $ref: ./jsonconfigzona.yaml
+  valores:
+    $ref: ./jsonfreightzonevalor.yaml

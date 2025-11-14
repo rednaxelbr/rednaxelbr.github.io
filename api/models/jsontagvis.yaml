@@ -1,0 +1,8 @@
+type: object
+properties:
+  carteira:
+    type: boolean
+  contato:
+    type: boolean
+  lead:
+    type: boolean

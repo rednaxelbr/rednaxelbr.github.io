@@ -14,5 +14,7 @@ properties:
     type: integer
   cont_pedidos:
     type: integer
+  config_cupom:
+    $ref: ./jsonconfigcupom.yaml
   descricao_cupom:
     type: string

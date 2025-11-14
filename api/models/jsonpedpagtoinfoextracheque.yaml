@@ -1,0 +1,6 @@
+type: object
+properties:
+  numero:
+    type: integer
+  acct_id:
+    type: integer

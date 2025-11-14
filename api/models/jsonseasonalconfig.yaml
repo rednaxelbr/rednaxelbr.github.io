@@ -12,6 +12,8 @@ properties:
     type: boolean
   id_categoria:
     type: integer
+  potencias:
+    $ref: ./jsonpotsaz.yaml
   desc_categoria:
     type: string
   caminho:

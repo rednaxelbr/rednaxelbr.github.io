@@ -68,5 +68,7 @@ properties:
     type: string
   id_trn_pai:
     type: integer
+  filhos:
+    $ref: ./jsonstmtchildren.yaml
   valor_original:
     type: number

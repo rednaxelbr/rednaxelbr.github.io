@@ -6,6 +6,12 @@ properties:
     type: string
   prefixo_api:
     type: string
+  config_api:
+    $ref: ./jsonconfigapi.yaml
+  config_extra:
+    $ref: ./jsonconfigextra.yaml
+  chaves:
+    $ref: ./jsonintegchave.yaml
   url_autorizacao:
     type: string
   username:

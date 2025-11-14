@@ -1,0 +1,6 @@
+type: object
+properties:
+  observacoes:
+    type: string
+  id_oc_escala:
+    type: integer

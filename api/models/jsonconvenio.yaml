@@ -24,3 +24,5 @@ properties:
     type: string
   ativo:
     type: boolean
+  api_banco:
+    $ref: ./jsonconvapibanco.yaml

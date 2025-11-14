@@ -4,6 +4,8 @@ properties:
     type: integer
   desc_tagped:
     type: string
+  config_tag:
+    $ref: ./jsontagcfg.yaml
   nome_usuario:
     type: string
   data_hora:

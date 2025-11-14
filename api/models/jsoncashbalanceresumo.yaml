@@ -1,0 +1,12 @@
+type: object
+properties:
+  saldo:
+    type: number
+  soma_conf:
+    type: number
+  soma_vendas:
+    type: number
+  soma_ajustes:
+    type: number
+  soma_sangrias:
+    type: number

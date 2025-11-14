@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  numero_pedido:
+    type: integer
+  cstat:
+    type: integer
+  xmotivo:
+    type: string
+  num_nf:
+    type: integer
+  chnfe_gerada:
+    type: string
+  chave_acesso:
+    type: string
+  vtotal:
+    type: number

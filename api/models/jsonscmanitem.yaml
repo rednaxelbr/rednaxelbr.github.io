@@ -1,0 +1,42 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_analise:
+    type: integer
+  codigo_sku:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  referencia:
+    type: string
+  curva:
+    type: integer
+  nome_marca:
+    type: string
+  codigo_agrup:
+    type: string
+  texto_tags:
+    type: string
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  ativo:
+    type: boolean
+  resultado:
+    $ref: ./jsonscmanresult.yaml
+  vunit_compra:
+    type: number
+  aliq_ipi:
+    type: number
+  quant_pedido:
+    type: number
+  preco_unit:
+    type: number
+  total_pedido:
+    type: number
+  dias_tr:
+    type: number

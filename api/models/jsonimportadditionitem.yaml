@@ -22,3 +22,5 @@ properties:
     type: number
   vtotitem_moeda:
     type: number
+  info_item:
+    $ref: ./jsoninfoitem.yaml

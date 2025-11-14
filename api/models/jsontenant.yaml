@@ -50,6 +50,8 @@ properties:
     type: string
   codigo_parceiro:
     type: string
+  cfg_onboard:
+    $ref: ./jsoncfgonb.yaml
   tpag_preferido:
     type: integer
   dia_vencimento:

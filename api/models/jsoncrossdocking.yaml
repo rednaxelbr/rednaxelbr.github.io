@@ -22,6 +22,10 @@ properties:
     type: string
   user_id:
     type: integer
+  empresas:
+    $ref: ./jsonxdemp.yaml
+  containers:
+    $ref: ./jsonxdemp.yaml
   quant_total:
     type: integer
   quant_aloc:
@@ -30,6 +34,8 @@ properties:
     type: integer
   message:
     type: string
+  config_cross:
+    $ref: ./jsoncfgcrx.yaml
   setor:
     type: integer
   id_container:

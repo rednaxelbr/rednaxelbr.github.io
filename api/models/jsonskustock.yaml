@@ -46,6 +46,8 @@ properties:
     type: string
   data_checagem:
     type: string
+  integracao:
+    $ref: ./jsonstockinteg.yaml
   separar:
     type: number
   insuficiente:

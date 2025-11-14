@@ -14,3 +14,5 @@ properties:
     type: integer
   total_erros:
     type: integer
+  arquivos:
+    $ref: ./jsoncsvimparq.yaml

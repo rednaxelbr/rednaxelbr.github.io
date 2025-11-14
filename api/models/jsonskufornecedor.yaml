@@ -1,0 +1,8 @@
+type: object
+properties:
+  id_fornec:
+    type: integer
+  nome_fornec:
+    type: string
+  id_pessoa:
+    type: integer

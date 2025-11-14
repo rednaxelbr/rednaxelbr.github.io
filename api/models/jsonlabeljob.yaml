@@ -24,6 +24,10 @@ properties:
     type: integer
   foi_impresso:
     type: boolean
+  config_trab:
+    $ref: ./jsonjobcfg.yaml
+  etiquetas:
+    $ref: ./jsonlabel.yaml
   gerar_pedido:
     type: boolean
   qtd_itens:

@@ -1,0 +1,16 @@
+type: object
+properties:
+  key:
+    type: integer
+  cst:
+    type: string
+  desc_situacao:
+    type: string
+  reducao_base:
+    type: boolean
+  subst_trib:
+    type: boolean
+  saida_tributada:
+    type: boolean
+  isento_naotrib:
+    type: boolean

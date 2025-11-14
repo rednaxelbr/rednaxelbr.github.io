@@ -1,4 +1,4 @@
-### 1437 models
+### 1465 models (327/327 extras)
 openapi: 3.0.3
 info:
   title: RNGE API
@@ -6688,6 +6688,12 @@ paths:
           description: OK
         "400":
           description: Erro
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsondistriborders.yaml
     post:
       operationId: post-distriborders
       tags:
@@ -6698,6 +6704,11 @@ paths:
           description: OK
         "400":
           description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondistriborders.yaml
   /distriborders/{id}:
     parameters:
       - schema:
@@ -6717,6 +6728,10 @@ paths:
           description: OK
         "400":
           description: Erro
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsondistriborders.yaml
     put:
       operationId: put-distriborders-id
       tags:

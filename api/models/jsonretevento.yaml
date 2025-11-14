@@ -1,0 +1,22 @@
+type: object
+properties:
+  tpAmb":
+    type: string
+  verAplic":
+    type: string
+  cOrgao":
+    type: string
+  cStat":
+    type: integer
+  xMotivo":
+    type: string
+  chNFe":
+    type: string
+  tpEvento":
+    type: integer
+  nSeqEvento":
+    type: integer
+  dhRegEvento":
+    type: string
+  nProt":
+    type: string

@@ -8,3 +8,5 @@ properties:
     type: string
   color:
     type: string
+  visibilidade:
+    $ref: ./jsontagvis.yaml

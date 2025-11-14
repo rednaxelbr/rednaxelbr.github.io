@@ -36,6 +36,10 @@ properties:
     type: integer
   plu:
     type: integer
+  info_adic:
+    $ref: ./jsoninfoadic.yaml
+  imposto:
+    $ref: ./jsonimpostoitem.yaml
   zerar_desconto:
     type: boolean
   cod_servico:

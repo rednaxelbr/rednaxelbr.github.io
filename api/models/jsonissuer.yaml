@@ -20,6 +20,12 @@ properties:
     type: string
   serie_ajuste:
     type: integer
+  config_emit:
+    $ref: ./jsonconfigemit.yaml
+  info_cedente:
+    $ref: ./jsoninfocedente.yaml
+  flags:
+    $ref: ./jsonemitflag.yaml
   id_faixa:
     type: integer
   pix_dinamico:

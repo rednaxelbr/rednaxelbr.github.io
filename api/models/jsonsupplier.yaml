@@ -12,12 +12,18 @@ properties:
     type: string
   ativo:
     type: boolean
+  emit:
+    $ref: ./jsonemit.yaml
+  config_fornec:
+    $ref: ./jsonconfigfornec.yaml
   fornec_pai:
     type: integer
   id_comprador:
     type: integer
   nome_comprador:
     type: string
+  ciclos:
+    $ref: ./jsonfornecciclo.yaml
   consumo:
     type: boolean
   dia_semana_iso:
@@ -32,3 +38,5 @@ properties:
     type: integer
   nb_orders:
     type: integer
+  logo:
+    $ref: ./jsonlogo.yaml

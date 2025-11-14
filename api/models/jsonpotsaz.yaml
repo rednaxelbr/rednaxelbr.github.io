@@ -1,0 +1,6 @@
+type: object
+properties:
+  mes:
+    type: integer
+  potencia:
+    type: integer

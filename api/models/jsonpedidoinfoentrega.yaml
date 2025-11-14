@@ -1,0 +1,26 @@
+type: object
+properties:
+  inicio_processamento:
+    type: string
+  limite_expedicao:
+    type: string
+  frete_efetivo:
+    type: number
+  pdf_label_url:
+    type: string
+  zpl_label_url:
+    type: string
+  contato:
+    type: string
+  aos_cuidados:
+    type: string
+  valor_declarado:
+    type: number
+  aviso_recebimento:
+    type: boolean
+  mao_propria:
+    type: boolean
+  posta_restante:
+    type: boolean
+  entrega_vizinho:
+    type: boolean

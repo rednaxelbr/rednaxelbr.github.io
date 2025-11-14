@@ -1,0 +1,24 @@
+type: object
+properties:
+  custo_liquido:
+    type: number
+  curva:
+    type: integer
+  vbcst_nota:
+    type: number
+  icms_efetivo:
+    type: number
+  reducao_bcst:
+    type: number
+  vicmsst_ret:
+    type: number
+  vicms_substituto:
+    type: number
+  vunit_compra:
+    type: number
+  pst_compra:
+    type: number
+  custo_merc_vend:
+    type: number
+  cmp_principal:
+    type: number

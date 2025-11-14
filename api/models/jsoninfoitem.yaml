@@ -1,0 +1,8 @@
+type: object
+properties:
+  vst:
+    type: number
+  vbcst:
+    type: number
+  vuncom:
+    type: number

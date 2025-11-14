@@ -1,0 +1,4 @@
+type: object
+properties:
+  purchase_id:
+    type: integer

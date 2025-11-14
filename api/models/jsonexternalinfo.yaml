@@ -1,0 +1,12 @@
+type: object
+properties:
+  OrderStatus:
+    type: integer
+  IsProcessing:
+    type: boolean
+  IntegrationOrderID:
+    type: string
+  ShippingLabelStatus:
+    type: integer
+  DeliveryLogisticType:
+    type: integer

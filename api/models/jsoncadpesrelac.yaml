@@ -1,0 +1,8 @@
+type: object
+properties:
+  contatos:
+    $ref: ./jsoncadpescontato.yaml
+  contato_em:
+    $ref: ./jsoncadpescontato.yaml
+  visivel:
+    type: boolean

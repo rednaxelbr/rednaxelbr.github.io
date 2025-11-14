@@ -1,0 +1,32 @@
+type: object
+properties:
+  cmm_sku:
+    type: number
+  cmm_total:
+    type: number
+  curva_geral:
+    type: integer
+  emb_distrib:
+    type: integer
+  esmin_padrao:
+    type: integer
+  estoque_total:
+    type: number
+  fragil:
+    type: boolean
+  maior_cmm:
+    type: number
+  maior_share:
+    type: number
+  nao_distribuir:
+    type: boolean
+  sem_endereco:
+    type: boolean
+  sem_expo:
+    type: boolean
+  share_cmm:
+    type: number
+  tipo:
+    type: string
+  sem_custo:
+    type: boolean

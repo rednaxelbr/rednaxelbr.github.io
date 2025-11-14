@@ -18,6 +18,8 @@ properties:
     type: boolean
   observacoes:
     type: string
+  relacionamento:
+    $ref: ./jsonrelacionamento.yaml
   email:
     type: string
   type_id:

@@ -12,3 +12,5 @@ properties:
     type: boolean
   quant_lugares:
     type: integer
+  comandas:
+    $ref: ./jsonorder.yaml

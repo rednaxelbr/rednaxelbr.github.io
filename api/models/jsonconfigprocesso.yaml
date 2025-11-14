@@ -1,0 +1,10 @@
+type: object
+properties:
+  cor_atraso:
+    type: string
+  cor_futuro:
+    type: string
+  cor_passado:
+    type: string
+  cor_presente:
+    type: string

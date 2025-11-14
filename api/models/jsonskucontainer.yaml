@@ -14,6 +14,8 @@ properties:
     type: integer
   nome_reduzido:
     type: string
+  config_container:
+    $ref: ./jsonctcfg.yaml
   cont_ativo:
     type: boolean
   nome_usuario:

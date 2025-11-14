@@ -12,6 +12,8 @@ properties:
     type: integer
   quant_separadores:
     type: integer
+  config_fila:
+    $ref: ./jsonqueuecfg.yaml
   operacoes:
     type: array
     items:

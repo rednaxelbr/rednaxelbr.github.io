@@ -1,0 +1,10 @@
+type: object
+properties:
+  caut:
+    type: string
+  cnpj:
+    type: string
+  tbad:
+    type: string
+  tpintegra:
+    type: integer

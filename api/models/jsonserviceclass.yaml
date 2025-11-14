@@ -26,3 +26,5 @@ properties:
     type: string
   iss_retido:
     type: boolean
+  cJSONInvoicefg_svc_trib:
+    $ref: ./jsonsvcclscfg.yaml

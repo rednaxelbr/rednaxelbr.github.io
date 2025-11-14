@@ -1,0 +1,30 @@
+type: object
+properties:
+  key:
+    type: integer
+  id_classe:
+    type: integer
+  desc_trib:
+    type: string
+  cst:
+    type: integer
+  cfop:
+    type: integer
+  aliq_interna:
+    type: number
+  mod_bc:
+    type: integer
+  pred_bc:
+    type: number
+  mod_bc_st:
+    type: integer
+  pred_bc_st:
+    type: number
+  cst_ipi:
+    type: integer
+  cst_pis:
+    type: integer
+  cst_cofins:
+    type: integer
+  config_classe:
+    $ref: ./jsonconfigtribclasseconfig.yaml

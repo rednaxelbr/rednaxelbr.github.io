@@ -1,0 +1,20 @@
+type: object
+properties:
+  primeira:
+    type: string
+  ultima:
+    type: string
+  mensagem:
+    type: string
+  data_inicial:
+    type: string
+  data_final:
+    type: string
+  omitir_embalagens:
+    type: boolean
+  somente_com_estoque:
+    type: boolean
+  todas_variacoes_grade:
+    type: boolean
+  ignorar_quantidades:
+    type: boolean

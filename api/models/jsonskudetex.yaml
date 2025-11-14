@@ -1,0 +1,4 @@
+type: object
+properties:
+  exibir_website:
+    type: boolean

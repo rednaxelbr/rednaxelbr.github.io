@@ -22,8 +22,14 @@ properties:
     type: string
   conversa:
     type: string
+  wa_info:
+    $ref: ./jsonwainfo.yaml
   wa_message:
     type: string
+  wa_receipt:
+    $ref: ./jsonwareceipt.yaml
+  config_msg:
+    $ref: ./jsonwamsgcfg.yaml
   user_id:
     type: integer
   nome_usuario:

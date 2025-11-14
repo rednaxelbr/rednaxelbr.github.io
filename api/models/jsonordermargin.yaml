@@ -24,3 +24,5 @@ properties:
     type: number
   frete_momento:
     type: number
+  config_logpmc:
+    $ref: ./jsonordermargincfg.yaml

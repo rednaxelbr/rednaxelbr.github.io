@@ -30,6 +30,10 @@ properties:
     type: integer
   sigla_status:
     type: string
+  itens:
+    $ref: ./jsonitemoc.yaml
+  pagtos:
+    $ref: ./jsonpagoc.yaml
   usuario_legado:
     type: string
   mod_frete:
@@ -44,6 +48,8 @@ properties:
     type: integer
   observacoes_oc:
     type: string
+  info_ordcpa:
+    $ref: ./jsoninfoordcpa.yaml
   id_rastreamento:
     type: integer
   atualizado_erp:

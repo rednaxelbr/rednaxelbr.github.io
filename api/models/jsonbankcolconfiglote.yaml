@@ -1,0 +1,6 @@
+type: object
+properties:
+  erros:
+    $ref: ./jsonbankcolconfigloteerros.yaml
+  faturamento_mensal:
+    type: integer

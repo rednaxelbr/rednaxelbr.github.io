@@ -1,0 +1,16 @@
+type: object
+properties:
+  ip_externo:
+    type: string
+  ip_interno:
+    type: string
+  user_agent:
+    type: string
+  recurso:
+    type: string
+  nome_tela:
+    type: string
+  num_serie:
+    type: integer
+  id_token:
+    type: integer

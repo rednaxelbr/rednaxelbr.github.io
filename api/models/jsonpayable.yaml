@@ -76,6 +76,8 @@ properties:
     type: string
   editar_parcelas:
     type: boolean
+  parcelas:
+    $ref: ./jsonpayparc.yaml
   criar_parcelas:
     type: boolean
   parcelamento:
@@ -108,5 +110,7 @@ properties:
     type: integer
   pagto_bloqueado:
     type: boolean
+  taxas:
+    $ref: ./jsonpayfee.yaml
   emp_destino:
     type: integer

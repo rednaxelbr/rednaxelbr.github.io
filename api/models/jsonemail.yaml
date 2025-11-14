@@ -12,6 +12,8 @@ properties:
     type: string
   assunto:
     type: string
+  vetor_destinatarios:
+    $ref: ./jsonlistaemails.yaml
   destinatarios:
     type: string
   mensagem_erro:

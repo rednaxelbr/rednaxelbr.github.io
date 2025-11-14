@@ -1,0 +1,40 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_marca:
+    type: integer
+  id_categ:
+    type: integer
+  desc_categoria:
+    type: string
+  caminho:
+    type: string
+  ativo:
+    type: boolean
+  marca:
+    type: string
+  orig:
+    type: integer
+  id_classe:
+    type: integer
+  trib:
+    type: string
+  cst:
+    type: integer
+  aliq_ipi:
+    type: number
+  pmva_st:
+    type: number
+  ncm:
+    type: string
+  cest:
+    type: string
+  codigo_alfa:
+    type: string
+  desc_basica:
+    type: string
+  cod_legado:
+    type: integer
+  excluir:
+    type: boolean

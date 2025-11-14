@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  sigla:
+    type: string
+  nome_reduzido:
+    type: string
+  enviar:
+    type: integer

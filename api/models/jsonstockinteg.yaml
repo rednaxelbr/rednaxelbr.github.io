@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  cod_sku:
+    type: integer
+  quantidade:
+    type: number
+  capacidade:
+    type: integer
+  excluir:
+    type: boolean
+  end_legado:
+    type: integer
+  id_tipo:
+    type: integer
+  id_distrib:
+    type: integer
+  nome_usuario:
+    type: string
+  pred_rma:
+    type: integer

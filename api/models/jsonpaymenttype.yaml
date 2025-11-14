@@ -18,5 +18,3 @@ properties:
     type: array
     items:
       type: integer
-  ct_receber:
-    type: boolean

@@ -1,0 +1,6 @@
+type: object
+properties:
+  role_id:
+    type: integer
+  nome_papel:
+    type: string

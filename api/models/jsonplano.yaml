@@ -1,0 +1,16 @@
+type: object
+properties:
+  id_plano:
+    type: integer
+  ordp:
+    type: integer
+  id_plu:
+    type: integer
+  nome_plano:
+    type: string
+  vigencia_inicial:
+    type: string
+  vigencia_final:
+    type: string
+  vigente:
+    type: boolean

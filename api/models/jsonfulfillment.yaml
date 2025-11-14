@@ -48,8 +48,12 @@ properties:
     type: string
   dthr_criacao_externo:
     type: string
+  entrega:
+    $ref: ./jsondelivery.yaml
   resumo_pagto:
     type: string
+  atraso:
+    $ref: ./jsonatraso.yaml
   id_vendedor:
     type: integer
   nome_vendedor:

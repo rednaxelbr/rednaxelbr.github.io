@@ -12,3 +12,9 @@ properties:
     type: string
   movel:
     type: boolean
+  cidades:
+    $ref: ./jsoncidade.yaml
+  estados:
+    $ref: ./jsonestado.yaml
+  anos:
+    $ref: ./jsonano.yaml

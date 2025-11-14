@@ -20,5 +20,7 @@ properties:
     type: string
   versao_app:
     type: string
+  info_extra:
+    $ref: ./jsonprovinfo.yaml
   excluir:
     type: boolean

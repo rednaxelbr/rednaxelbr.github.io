@@ -12,3 +12,5 @@ properties:
     type: string
   auth_type:
     type: string
+  chamadas:
+    $ref: ./jsonvendorcall.yaml

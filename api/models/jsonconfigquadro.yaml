@@ -1,0 +1,6 @@
+type: object
+properties:
+  amarelo:
+    type: string
+  vermelho:
+    type: string

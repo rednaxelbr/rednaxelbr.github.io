@@ -22,6 +22,8 @@ properties:
     type: string
   dv_agencia:
     type: string
+  credenciais_pix:
+    $ref: ./jsoncredpix.yaml
   id_plugpix:
     type: string
   id_certificado:

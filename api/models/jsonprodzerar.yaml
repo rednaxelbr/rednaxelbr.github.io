@@ -1,0 +1,8 @@
+type: object
+properties:
+  sazo:
+    type: boolean
+  camp:
+    type: boolean
+  cmmf:
+    type: boolean

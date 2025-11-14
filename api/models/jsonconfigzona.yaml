@@ -1,0 +1,4 @@
+type: object
+properties:
+  valor_isento:
+    type: integer

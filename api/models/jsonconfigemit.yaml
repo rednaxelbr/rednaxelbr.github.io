@@ -1,0 +1,30 @@
+type: object
+properties:
+  central_distrib:
+    type: boolean
+  contribuinte_ipi:
+    type: boolean
+  emite_boleto:
+    type: boolean
+  emite_nfse:
+    type: boolean
+  importadora:
+    type: boolean
+  nfe_com_difal:
+    type: boolean
+  nfe_indpres:
+    type: integer
+  pix_dinamico:
+    type: boolean
+  somente_mesma_raiz:
+    type: boolean
+  status_pix:
+    type: string
+  queue_id:
+    type: integer
+  notas_destinadas:
+    type: boolean
+  queue_id_destinadas:
+    type: integer
+  tipo_cupom:
+    type: integer

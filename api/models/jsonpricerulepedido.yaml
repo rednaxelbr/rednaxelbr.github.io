@@ -1,0 +1,6 @@
+type: object
+properties:
+  numero_pedido:
+    type: integer
+  data_hora:
+    type: string

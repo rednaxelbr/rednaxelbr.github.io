@@ -60,6 +60,8 @@ properties:
     type: string
   url_mapa:
     type: string
+  alerta:
+    $ref: ./jsonalerta.yaml
   alterar_senha:
     type: boolean
   data_validade:

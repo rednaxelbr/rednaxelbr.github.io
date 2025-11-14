@@ -1,0 +1,10 @@
+type: object
+properties:
+  cor_fundo:
+    type: string
+  mensagem:
+    type: string
+  botao_rotulo:
+    type: string
+  botao_url:
+    type: string

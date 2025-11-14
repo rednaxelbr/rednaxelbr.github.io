@@ -1,0 +1,8 @@
+type: object
+properties:
+  logo_danfe:
+    type: boolean
+  alinhamento:
+    type: string
+  lucro_real:
+    type: boolean

@@ -4,6 +4,8 @@ properties:
     type: integer
   codigo_cartao:
     type: string
+  cfg_gift_card:
+    $ref: ./jsoncfggiftcard.yaml
   voucher_id:
     type: integer
   id_pessoa:

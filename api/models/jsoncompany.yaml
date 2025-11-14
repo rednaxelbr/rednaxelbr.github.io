@@ -56,6 +56,8 @@ properties:
     type: integer
   desc_canal:
     type: string
+  lista_pedidos:
+    $ref: ./jsonlistapedidos.yaml
   id_predio:
     type: integer
   central_distrib:
@@ -113,6 +115,4 @@ properties:
   reagendar_oport:
     type: boolean
   cod_loja_sitef:
-    type: string
-  cnae:
     type: string

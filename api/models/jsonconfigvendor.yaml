@@ -1,0 +1,6 @@
+type: object
+properties:
+  rotulo:
+    type: string
+  parametros:
+    type: string

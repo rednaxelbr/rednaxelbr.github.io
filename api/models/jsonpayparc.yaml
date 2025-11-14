@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_forma:
+    type: integer
+  sigla_forma:
+    type: string
+  data_vencto:
+    type: string
+  valor_previsto:
+    type: number
+  dif:
+    type: boolean
+  desabilita:
+    type: boolean

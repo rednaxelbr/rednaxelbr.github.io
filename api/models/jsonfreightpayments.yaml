@@ -1,0 +1,14 @@
+type: object
+properties:
+  nome_reduzido:
+    type: string
+  cnpj_emit:
+    type: integer
+  id_empresa:
+    type: integer
+  nome_empresa:
+    type: string
+  previsto:
+    type: number
+  troco:
+    type: number

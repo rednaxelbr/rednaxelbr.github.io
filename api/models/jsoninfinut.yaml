@@ -1,0 +1,24 @@
+type: object
+properties:
+  tpAmb:
+    type: string
+  verAplic:
+    type: string
+  cStat:
+    type: string
+  xMotivo:
+    type: string
+  cUF:
+    type: string
+  ano:
+    type: string
+  CNPJ:
+    type: string
+  mod:
+    type: string
+  serie:
+    type: string
+  nNFIni:
+    type: string
+  nNFFin:
+    type: string

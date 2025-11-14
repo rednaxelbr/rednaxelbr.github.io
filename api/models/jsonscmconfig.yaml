@@ -12,10 +12,14 @@ properties:
     type: boolean
   compra:
     type: boolean
+  calendario:
+    $ref: ./jsoncalendario.yaml
   dias_semana:
     type: array
     items:
       type: integer
+  ips:
+    $ref: ./jsonip.yaml
   acesso_restrito:
     type: boolean
   codigo_wms:

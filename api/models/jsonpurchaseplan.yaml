@@ -8,6 +8,10 @@ properties:
       type: integer
   dthr_criacao:
     type: string
+  fornecedores:
+    $ref: ./jsonsupplieritems.yaml
+  itens:
+    $ref: ./jsonsupplieritems.yaml
   cod_status:
     type: integer
   sigla_status:

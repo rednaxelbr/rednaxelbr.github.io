@@ -1,0 +1,8 @@
+type: object
+properties:
+  perfis:
+    $ref: ./jsoncadpesperfis.yaml
+  categorias:
+    $ref: ./jsoncadpescateg.yaml
+  visivel:
+    type: boolean

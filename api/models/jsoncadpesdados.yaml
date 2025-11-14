@@ -1,0 +1,28 @@
+type: object
+properties:
+  id_pessoa:
+    type: integer
+  id_vendedor:
+    type: integer
+  nome_razao:
+    type: string
+  nome_fantasia:
+    type: string
+  cpf_cnpj:
+    type: integer
+  pjuridica:
+    type: boolean
+  iestadual:
+    type: string
+  criada_por:
+    type: string
+  data_cadastro:
+    type: string
+  ind_iedest:
+    type: integer
+  sexo:
+    type: string
+  telef_favorito:
+    type: string
+  email_favorito:
+    type: string

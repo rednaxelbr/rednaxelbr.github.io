@@ -30,6 +30,8 @@ properties:
     type: number
   valor_receber:
     type: number
+  files:
+    $ref: ./jsondata.yaml
   id_lancto:
     type: integer
   autorizado:

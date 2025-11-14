@@ -1,0 +1,20 @@
+type: object
+properties:
+  tpag:
+    type: integer
+  sigla:
+    type: string
+  descricao:
+    type: string
+  venda:
+    type: number
+  tef:
+    type: number
+  recebto:
+    type: number
+  obs_ajuste:
+    type: string
+  ajuste:
+    type: number
+  total:
+    type: number

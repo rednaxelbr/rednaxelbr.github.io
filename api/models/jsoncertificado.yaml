@@ -24,7 +24,11 @@ properties:
     type: string
   apelido:
     type: string
+  integ_api:
+    $ref: ./jsonintegapi.yaml
   pix:
     type: boolean
+  config_cert:
+    $ref: ./jsoncfgcert.yaml
   imagem_danfe:
     type: string

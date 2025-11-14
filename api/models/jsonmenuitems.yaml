@@ -1,0 +1,12 @@
+type: object
+properties:
+  title:
+    type: string
+  type:
+    type: string
+  url:
+    type: string
+  children:
+    $ref: ./jsonmenuitems.yaml
+  icon:
+    type: string

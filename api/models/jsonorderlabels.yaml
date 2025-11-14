@@ -12,3 +12,5 @@ properties:
     type: string
   shipping_label:
     type: string
+  info_entrega:
+    $ref: ./jsoninfoentrega.yaml

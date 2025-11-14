@@ -38,6 +38,8 @@ properties:
     type: integer
   seq_pagto:
     type: integer
+  config_pix:
+    $ref: ./jsoncfgpix.yaml
   imagem_qrcode:
     type: string
   pix_duration:

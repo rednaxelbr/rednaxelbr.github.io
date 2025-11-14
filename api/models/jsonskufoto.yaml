@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  url_foto:
+    type: string
+  primario:
+    type: string
+  secundario:
+    type: string
+  principal:
+    type: boolean

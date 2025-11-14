@@ -1,0 +1,20 @@
+type: object
+properties:
+  dom:
+    type: boolean
+  seg:
+    type: boolean
+  ter:
+    type: boolean
+  qua:
+    type: boolean
+  qui:
+    type: boolean
+  sex:
+    type: boolean
+  sab:
+    type: boolean
+  menor_ini:
+    type: string
+  maior_fim:
+    type: string

@@ -1,0 +1,14 @@
+type: object
+properties:
+  nome:
+    type: string
+  tipo:
+    type: string
+  valor:
+    type: string
+  numero:
+    type: integer
+  rotulo:
+    type: string
+  read_only:
+    type: boolean

@@ -1,0 +1,8 @@
+type: object
+properties:
+  conteudo:
+    type: string
+  base64:
+    type: string
+  url_blob:
+    type: string

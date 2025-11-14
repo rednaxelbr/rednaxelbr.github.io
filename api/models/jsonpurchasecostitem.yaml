@@ -30,5 +30,9 @@ properties:
     type: number
   curva:
     type: integer
-  ptotal:
-    type: number
+  cadastro:
+    $ref: ./jsonpccadastro.yaml
+  copiar:
+    $ref: ./jsonpccopiar.yaml
+  manual:
+    $ref: ./jsonpcmanual.yaml

@@ -1,0 +1,8 @@
+type: object
+properties:
+  coluna:
+    type: string
+  comparacao:
+    type: string
+  valor:
+    type: string

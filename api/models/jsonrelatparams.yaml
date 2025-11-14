@@ -1,0 +1,14 @@
+type: object
+properties:
+  numero_param:
+    type: integer
+  rotulo_param:
+    type: string
+  nome_param:
+    type: string
+  tipo_param:
+    type: string
+  valor_default:
+    type: string
+  excluir:
+    type: boolean

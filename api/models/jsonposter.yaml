@@ -12,3 +12,7 @@ properties:
     type: string
   ativo:
     type: boolean
+  config_cartaz:
+    $ref: ./jsonposterconfig.yaml
+  poster_fields:
+    $ref: ./jsonposterfield.yaml

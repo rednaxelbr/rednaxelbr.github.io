@@ -6,6 +6,8 @@ properties:
     type: array
     items:
       type: string
+  faturas:
+    $ref: ./jsonpedidofatura.yaml
   parcelamento:
     type: string
   observacoes:

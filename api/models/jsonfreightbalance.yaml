@@ -12,3 +12,7 @@ properties:
     type: number
   soma_recebto:
     type: number
+  info_fechto:
+    $ref: ./jsoninfofechto.yaml
+  detalhe:
+    $ref: ./jsonfreightpayments.yaml

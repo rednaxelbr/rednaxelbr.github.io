@@ -68,6 +68,10 @@ properties:
     type: number
   observacoes:
     type: string
+  pagtos:
+    $ref: ./jsonorderpayment.yaml
+  pagamentos:
+    $ref: ./jsonorderpayment.yaml
   tipo_transf:
     type: string
   lista_cfop:
@@ -78,3 +82,5 @@ properties:
     type: string
   vtotal:
     type: number
+  pedido_volumes:
+    $ref: ./jsonordervolume.yaml

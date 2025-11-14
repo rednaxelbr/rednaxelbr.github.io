@@ -1,0 +1,6 @@
+type: object
+properties:
+  src:
+    type: string
+  title:
+    type: string

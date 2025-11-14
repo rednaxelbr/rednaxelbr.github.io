@@ -1,0 +1,8 @@
+type: object
+properties:
+  queue_id:
+    type: integer
+  ativacao:
+    type: integer
+  emv:
+    type: string

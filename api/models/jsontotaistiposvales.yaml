@@ -1,0 +1,10 @@
+type: object
+properties:
+  tipo_vale:
+    type: string
+  qtd_vales:
+    type: integer
+  tot_vales:
+    type: number
+  link:
+    type: string

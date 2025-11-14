@@ -18,3 +18,5 @@ properties:
     type: number
   peso_total:
     type: number
+  info_adicao:
+    $ref: ./jsoninfoadicao.yaml

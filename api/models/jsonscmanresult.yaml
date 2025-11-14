@@ -1,0 +1,16 @@
+type: object
+properties:
+  ev:
+    type: integer
+  nr:
+    type: integer
+  dos:
+    type: number
+  cmmd:
+    type: number
+  dnrg:
+    type: number
+  min_dfx2:
+    type: integer
+  situacao:
+    type: string

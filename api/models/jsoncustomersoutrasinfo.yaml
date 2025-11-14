@@ -1,0 +1,26 @@
+type: object
+properties:
+  data_nasc:
+    type: string
+  id_empresa:
+    type: integer
+  semaforo_credito:
+    type: integer
+  limite_credito:
+    type: number
+  tpag_preferido:
+    type: integer
+  inconsistente:
+    type: boolean
+  mensagem_inconsistente:
+    type: string
+  dias_ciclagem:
+    type: integer
+  isento_acrescimo:
+    type: boolean
+  credito_loja:
+    type: boolean
+  retencao_nfse:
+    type: boolean
+  importado_excel:
+    type: boolean

@@ -1,0 +1,56 @@
+type: object
+properties:
+  requer_separacao:
+    type: boolean
+  nao_separar:
+    type: boolean
+  embalagem_presente:
+    type: boolean
+  doca_expedicao:
+    type: integer
+  limite_volume:
+    type: integer
+  data_emissao:
+    type: string
+  incide_ipi:
+    type: boolean
+  versao_calculo:
+    type: integer
+  cliente_retira:
+    type: boolean
+  cfop_manual:
+    type: integer
+  especial:
+    type: boolean
+  status_financ:
+    type: integer
+  limpar_flags:
+    type: string
+  nat_oper:
+    type: string
+  motivo:
+    type: integer
+  ignorar_estoque:
+    type: boolean
+  emissao_bloqueada:
+    type: boolean
+  urgente:
+    type: boolean
+  requer_liberacao:
+    type: boolean
+  troco_para:
+    type: integer
+  usuario_legado:
+    type: string
+  requer_conferencia:
+    type: boolean
+  id_cartaz:
+    type: integer
+  usar_utrib:
+    type: boolean
+  emitir_com_falta:
+    type: boolean
+  setor_origem:
+    type: integer
+  setor_destino:
+    type: integer

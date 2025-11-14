@@ -12,10 +12,16 @@ properties:
     type: string
   id_comprador:
     type: integer
+  config_analise:
+    $ref: ./jsonscmancfg.yaml
+  ordem_compra:
+    $ref: ./jsonscmoc.yaml
   skus:
     type: array
     items:
       type: integer
+  itens:
+    $ref: ./jsonscmanitem.yaml
   numero_oc:
     type: integer
   id_empresa:

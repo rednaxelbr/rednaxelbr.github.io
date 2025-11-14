@@ -1,0 +1,8 @@
+type: object
+properties:
+  importado_excel:
+    type: boolean
+  cpf_cnpj:
+    type: integer
+  tipo_pessoa:
+    type: string

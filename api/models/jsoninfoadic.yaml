@@ -1,0 +1,24 @@
+type: object
+properties:
+  orig:
+    type: integer
+  picms_item:
+    type: number
+  valor_comissao:
+    type: number
+  cfop_item:
+    type: integer
+  cbenef:
+    type: string
+  vmc:
+    type: number
+  pmc:
+    type: number
+  vmc_tabela:
+    type: number
+  pmc_tabela:
+    type: number
+  xped:
+    type: string
+  nitemped:
+    type: number

@@ -16,6 +16,8 @@ properties:
     type: string
   status_padrao:
     type: integer
+  config_etapa:
+    $ref: ./jsonfunstagecfg.yaml
   sigla_status:
     type: string
   sem_pedido:

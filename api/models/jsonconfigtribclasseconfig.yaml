@@ -1,0 +1,6 @@
+type: object
+properties:
+  texto_legislacao:
+    type: string
+  sem_credito_pis_cofins:
+    type: boolean

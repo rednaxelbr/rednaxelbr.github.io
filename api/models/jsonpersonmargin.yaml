@@ -16,3 +16,5 @@ properties:
     type: number
   nome_usuario:
     type: string
+  config_pmcpp:
+    $ref: ./jsonpersonmargincfg.yaml

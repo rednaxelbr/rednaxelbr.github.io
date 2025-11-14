@@ -1,0 +1,4 @@
+type: object
+properties:
+  codigo_sku:
+    type: integer

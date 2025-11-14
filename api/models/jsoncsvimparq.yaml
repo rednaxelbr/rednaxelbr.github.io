@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_arquivo:
+    type: string
+  quant_registros:
+    type: integer
+  quant_erros:
+    type: integer

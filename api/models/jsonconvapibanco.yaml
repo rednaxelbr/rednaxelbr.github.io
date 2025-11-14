@@ -1,0 +1,8 @@
+type: object
+properties:
+  api_id:
+    type: string
+  api_key:
+    type: string
+  api_secret:
+    type: string

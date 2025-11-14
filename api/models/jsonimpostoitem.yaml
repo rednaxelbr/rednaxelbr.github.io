@@ -1,0 +1,116 @@
+type: object
+properties:
+  trib:
+    type: string
+  orig:
+    type: string
+  CST:
+    type: string
+  CSOSN:
+    type: integer
+  modBC:
+    type: string
+  pRedBC:
+    type: string
+  vBC:
+    type: string
+  pICMS:
+    type: string
+  vICMSOp:
+    type: string
+  pDif:
+    type: string
+  vICMSDif:
+    type: string
+  vICMS:
+    type: string
+  vBCFCP:
+    type: string
+  pFCP:
+    type: string
+  vFCP:
+    type: string
+  modBCST:
+    type: string
+  pMVAST:
+    type: string
+  pRedBCST:
+    type: string
+  vBCST:
+    type: string
+  pICMSST:
+    type: string
+  vICMSST:
+    type: string
+  vBCFCPST:
+    type: string
+  pFCPST:
+    type: string
+  vFCPST:
+    type: string
+  vBCSTRet:
+    type: string
+  pST:
+    type: string
+  vICMSSTRet:
+    type: string
+  vBCFCPSTRet:
+    type: string
+  pFCPSTRet:
+    type: string
+  vFCPSTRet:
+    type: string
+  vICMSDeson:
+    type: string
+  motDesICMS:
+    type: string
+  pRedBCEfet:
+    type: string
+  vBCEfet:
+    type: string
+  pICMSEfet:
+    type: string
+  vICMSEfet:
+    type: string
+  CNPJProd:
+    type: string
+  cSelo:
+    type: string
+  qSelo:
+    type: string
+  cEnq:
+    type: string
+  qUnid:
+    type: string
+  vUnid:
+    type: string
+  pIPI:
+    type: string
+  vIPI:
+    type: string
+  pPIS:
+    type: string
+  vPIS:
+    type: string
+  qBCProd:
+    type: string
+  vAliqProd:
+    type: string
+  pCOFINS:
+    type: string
+  vCOFINS:
+    type: string
+  vDespAdu:
+    type: string
+  vII:
+    type: string
+  vIOF:
+    type: string
+  vICMSSubstituto:
+    type: string
+  cBenef:
+    type: string
+  cClassTrib:
+    type: string
+  calcular:
+    type: boolean

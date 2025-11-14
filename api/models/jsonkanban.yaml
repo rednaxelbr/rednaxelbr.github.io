@@ -6,6 +6,10 @@ properties:
     type: string
   quant_raias:
     type: integer
+  config_kanban:
+    $ref: ./jsonkanbancfg.yaml
+  raias:
+    $ref: ./jsonkanbanlane.yaml
   ids_grupos:
     type: array
     items:
@@ -14,5 +18,7 @@ properties:
     type: array
     items:
       type: integer
+  filtros:
+    $ref: ./jsonkbanfiltros.yaml
   configurar:
     type: boolean

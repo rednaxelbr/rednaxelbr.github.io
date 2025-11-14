@@ -1,4 +1,6 @@
 type: object
 properties:
+  vetor:
+    $ref: ./jsonskuprices.yaml
   um_por_grade:
     type: boolean

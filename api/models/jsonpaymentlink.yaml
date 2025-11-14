@@ -18,6 +18,8 @@ properties:
     type: string
   status_link:
     type: string
+  info_link:
+    $ref: ./jsonpaylinkcfg.yaml
   nome_usuario:
     type: string
   id_status_link:

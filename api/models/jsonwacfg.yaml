@@ -1,0 +1,8 @@
+type: object
+properties:
+  push_name:
+    type: string
+  business_name:
+    type: string
+  platform:
+    type: string

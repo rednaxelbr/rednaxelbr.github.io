@@ -1,0 +1,10 @@
+type: object
+properties:
+  numero_pedido:
+    type: integer
+  id_pessoa:
+    type: integer
+  novo_status:
+    type: integer
+  id_deal:
+    type: integer

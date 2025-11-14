@@ -10,5 +10,7 @@ properties:
     type: number
   valor:
     type: number
+  info:
+    $ref: ./jsontaxeinfo.yaml
   base_calculo:
     type: number

@@ -8,5 +8,7 @@ properties:
     type: integer
   desc_forma:
     type: string
+  cfg_tipo_vale:
+    $ref: ./jsoncfgtipovale.yaml
   digitar_codigo:
     type: boolean

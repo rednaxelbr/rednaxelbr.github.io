@@ -20,3 +20,5 @@ properties:
     type: string
   id_origem:
     type: integer
+  grupos:
+    $ref: ./jsongrupoacesso.yaml

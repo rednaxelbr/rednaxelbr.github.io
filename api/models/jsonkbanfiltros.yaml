@@ -1,0 +1,8 @@
+type: object
+properties:
+  pedido:
+    type: boolean
+  carteira:
+    type: boolean
+  comprador:
+    type: boolean

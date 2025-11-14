@@ -1,0 +1,6 @@
+type: object
+properties:
+  num_param:
+    type: integer
+  ultimo_valor:
+    type: string

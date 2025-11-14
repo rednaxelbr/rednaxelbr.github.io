@@ -1,0 +1,14 @@
+type: object
+properties:
+  resp:
+    type: string
+  desconsiderar:
+    type: boolean
+  falta_xml:
+    type: array
+    items:
+      type: integer
+  falta_proc:
+    type: array
+    items:
+      type: integer

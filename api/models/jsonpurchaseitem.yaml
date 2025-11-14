@@ -28,6 +28,8 @@ properties:
     type: number
   quant:
     type: integer
+  desdobramento:
+    $ref: ./jsondesdobramento.yaml
   vprod:
     type: number
   preco_venda:
@@ -46,6 +48,8 @@ properties:
     type: integer
   vdesc:
     type: number
+  inconsistencias:
+    $ref: ./jsontextochip.yaml
   cfop:
     type: integer
   quant_conf_rn:

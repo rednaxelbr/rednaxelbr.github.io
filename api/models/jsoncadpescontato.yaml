@@ -1,0 +1,10 @@
+type: object
+properties:
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  detalhe:
+    type: string
+  excluir:
+    type: boolean

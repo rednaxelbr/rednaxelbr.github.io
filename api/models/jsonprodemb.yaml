@@ -1,0 +1,10 @@
+type: object
+properties:
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  preco_venda:
+    type: number
+  mult_sku:
+    type: number

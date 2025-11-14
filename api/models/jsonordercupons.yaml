@@ -1,0 +1,4 @@
+type: object
+properties:
+  codigo_cupom:
+    type: integer

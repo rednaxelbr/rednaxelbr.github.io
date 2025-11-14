@@ -1,0 +1,28 @@
+type: object
+properties:
+  pipi:
+    type: number
+  vipi:
+    type: number
+  mva:
+    type: number
+  picms:
+    type: number
+  vicms:
+    type: number
+  ncm:
+    type: string
+  cest:
+    type: string
+  vunit:
+    type: number
+  orig:
+    type: string
+  vbcst:
+    type: number
+  redbcst:
+    type: number
+  vicmsst:
+    type: number
+  cliq:
+    type: number

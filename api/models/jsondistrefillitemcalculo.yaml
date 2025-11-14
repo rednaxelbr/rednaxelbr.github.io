@@ -1,0 +1,20 @@
+type: object
+properties:
+  mos:
+    type: number
+  faixa:
+    type: integer
+  sazo:
+    type: number
+  cmm:
+    type: number
+  transito:
+    type: number
+  numped:
+    type: integer
+  esmin:
+    type: integer
+  cross_docking:
+    type: integer
+  quant_oc:
+    type: integer

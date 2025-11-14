@@ -12,6 +12,8 @@ properties:
     type: string
   variacao:
     type: string
+  config_sku:
+    $ref: ./jsonskucfg.yaml
   custo_liquido:
     type: number
   curva:
@@ -36,6 +38,10 @@ properties:
     type: number
   cmv:
     type: number
+  flags_sku:
+    $ref: ./jsonflagssku.yaml
+  config_prod:
+    $ref: ./jsonconfigprod.yaml
   ids_tags:
     type: array
     items:
@@ -62,6 +68,8 @@ properties:
     type: string
   cod_cest:
     type: string
+  config_meta:
+    $ref: ./jsonprodcfg.yaml
   cont_skus:
     type: integer
   cod_legado:
@@ -108,6 +116,8 @@ properties:
     type: boolean
   percentual_frete:
     type: number
+  info_extra:
+    $ref: ./jsonskudetex.yaml
   esmin_padrao:
     type: integer
   ultima_compra:
@@ -130,6 +140,10 @@ properties:
     type: array
     items:
       type: string
+  medidas:
+    $ref: ./jsonmedidas.yaml
+  fotos:
+    $ref: ./jsonskufoto.yaml
   url_foto_principal:
     type: string
   nova_variacao:
@@ -146,6 +160,8 @@ properties:
     type: integer
   observacoes:
     type: string
+  zerar:
+    $ref: ./jsonprodzerar.yaml
   emb_distrib:
     type: integer
   emb_compra:

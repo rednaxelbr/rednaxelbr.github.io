@@ -104,9 +104,13 @@ properties:
     type: integer
   qc:
     type: integer
+  semanas:
+    $ref: ./jsonscmwk.yaml
   codigo_sku:
     type: integer
   id_analise:
     type: integer
+  info_sku:
+    $ref: ./jsonscminfo.yaml
   dce_baixo:
     type: boolean

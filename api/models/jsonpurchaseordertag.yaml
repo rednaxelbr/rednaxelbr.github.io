@@ -4,6 +4,8 @@ properties:
     type: integer
   desc_tagordemcompra:
     type: string
+  config_ordtag:
+    $ref: ./jsonordtag.yaml
   purtag_id:
     type: integer
   desc_tagcompra:

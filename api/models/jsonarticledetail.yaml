@@ -46,7 +46,11 @@ properties:
     type: integer
   nome_embalagem:
     type: string
+  config_detalhe:
+    $ref: ./jsonartdetcfg.yaml
   sufixo_foto:
     type: string
   url_foto:
     type: string
+  fotos:
+    $ref: ./jsonskufoto.yaml

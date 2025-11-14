@@ -1,0 +1,8 @@
+type: object
+properties:
+  data_hora:
+    type: integer
+  dinheiro:
+    type: number
+  obs_conf:
+    type: string

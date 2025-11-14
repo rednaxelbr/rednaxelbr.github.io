@@ -1,0 +1,8 @@
+type: object
+properties:
+  pix_expiration_date:
+    type: string
+  pix_account_id:
+    type: string
+  pix_kind:
+    type: string

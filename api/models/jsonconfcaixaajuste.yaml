@@ -1,0 +1,6 @@
+type: object
+properties:
+  tpag:
+    type: integer
+  obs:
+    type: string

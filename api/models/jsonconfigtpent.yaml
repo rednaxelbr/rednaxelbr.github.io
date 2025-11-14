@@ -1,0 +1,6 @@
+type: object
+properties:
+  tempo_manuseio:
+    type: integer
+  retirada:
+    type: boolean

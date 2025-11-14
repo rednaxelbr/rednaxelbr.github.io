@@ -1,0 +1,8 @@
+type: object
+properties:
+  situacao:
+    type: string
+  token_cedente:
+    type: string
+  id_software_house:
+    type: string

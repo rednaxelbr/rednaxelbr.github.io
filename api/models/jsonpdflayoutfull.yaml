@@ -6,5 +6,7 @@ properties:
     type: string
   bytes_logo:
     type: integer
+  estilos_pdf:
+    $ref: ./jsonestilospdf.yaml
   logo_base64:
     type: string

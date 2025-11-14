@@ -30,10 +30,14 @@ properties:
     type: string
   qtd_original:
     type: number
+  notas_atend:
+    $ref: ./jsonitemocatend.yaml
   referencia:
     type: string
   qtds_por_loja:
     type: string
+  detalhamento:
+    $ref: ./jsondetitemoc.yaml
   status:
     type: integer
   fat_previsto:
