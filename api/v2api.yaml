@@ -912,14 +912,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonaccesscard.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-accesscards
       tags:
@@ -952,12 +952,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonaccesscard.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-accesscards-id
       tags:
@@ -993,14 +993,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonaccessgroup.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-accessgroups
       tags:
@@ -1033,12 +1033,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonaccessgroup.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-accessgroups-id
       tags:
@@ -1064,14 +1064,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonaccount.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-accounts
       tags:
@@ -1104,12 +1104,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonaccount.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-accounts-id
       tags:
@@ -1145,14 +1145,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncadpesender.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-addresses
       tags:
@@ -1185,12 +1185,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncadpesender.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-addresses-id
       tags:
@@ -1226,14 +1226,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonaddresstype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-addresstypes
       tags:
@@ -1266,12 +1266,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonaddresstype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-addresstypes-id
       tags:
@@ -1343,14 +1343,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonarticledetail.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-articledetails
       tags:
@@ -1383,12 +1383,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonarticledetail.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-articledetails-id
       tags:
@@ -1441,14 +1441,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbankaccount.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-bankaccounts
       tags:
@@ -1481,12 +1481,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbankaccount.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-bankaccounts-id
       tags:
@@ -1522,14 +1522,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbankcollection.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-bankcollections
       tags:
@@ -1562,12 +1562,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbankcollection.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-bankcollections-id
       tags:
@@ -1620,14 +1620,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbankstatement.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-bankstatements
       tags:
@@ -1660,12 +1660,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbankstatement.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-bankstatements-id
       tags:
@@ -1718,14 +1718,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbarcode.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-barcodes
       tags:
@@ -1758,12 +1758,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbarcode.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-barcodes-id
       tags:
@@ -1799,14 +1799,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbaseactivity.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-baseactivities
       tags:
@@ -1839,12 +1839,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbaseactivity.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-baseactivities-id
       tags:
@@ -1933,14 +1933,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbilling.yaml
+        "400":
+          description: Erro
   /billings/{id}:
     parameters:
       - schema:
@@ -1958,12 +1958,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbilling.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-billings-id
       tags:
@@ -2025,14 +2025,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbizhour.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-bizhours
       tags:
@@ -2065,12 +2065,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbizhour.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-bizhours-id
       tags:
@@ -2106,14 +2106,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbizschedule.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-bizschedules
       tags:
@@ -2146,12 +2146,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbizschedule.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-bizschedules-id
       tags:
@@ -2203,14 +2203,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonboleto.yaml
+        "400":
+          description: Erro
   /boletos/{id}:
     parameters:
       - schema:
@@ -2228,12 +2228,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonboleto.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-boletos-id
       tags:
@@ -2269,14 +2269,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbrand.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-brands
       tags:
@@ -2309,12 +2309,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbrand.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-brands-id
       tags:
@@ -2350,14 +2350,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbuilding.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-buildings
       tags:
@@ -2390,12 +2390,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbuilding.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-buildings-id
       tags:
@@ -2618,14 +2618,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbuyer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-buyers
       tags:
@@ -2658,12 +2658,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbuyer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-buyers-id
       tags:
@@ -2711,14 +2711,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncampitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-campaignitems
       tags:
@@ -2751,12 +2751,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncampitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-campaignitems-id
       tags:
@@ -2792,14 +2792,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncampaign.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-campaigns
       tags:
@@ -2832,12 +2832,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncampaign.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-campaigns-id
       tags:
@@ -2873,14 +2873,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncarrier.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-carriers
       tags:
@@ -2913,12 +2913,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncarrier.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-carriers-id
       tags:
@@ -2971,14 +2971,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncashbalance.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-cashbalances
       tags:
@@ -3011,12 +3011,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncashbalance.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-cashbalances-id
       tags:
@@ -3052,14 +3052,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/tabelapontovenda.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-cashiers
       tags:
@@ -3092,12 +3092,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/tabelapontovenda.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-cashiers-id
       tags:
@@ -3186,14 +3186,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncatalogs.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-catalogs
       tags:
@@ -3226,12 +3226,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncatalogs.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-catalogs-id
       tags:
@@ -3267,14 +3267,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncategory.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-categories
       tags:
@@ -3307,12 +3307,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncategory.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-categories-id
       tags:
@@ -3367,14 +3367,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncategorylink.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-categorylinks
       tags:
@@ -3407,12 +3407,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncategorylink.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-categorylinks-id
       tags:
@@ -3448,14 +3448,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncbenef.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-cbenefs
       tags:
@@ -3488,12 +3488,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncbenef.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-cbenefs-id
       tags:
@@ -3529,14 +3529,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncertificado.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-certificates
       tags:
@@ -3569,12 +3569,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncertificado.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-certificates-id
       tags:
@@ -3600,14 +3600,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonchannelfreight.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-channelfreights
       tags:
@@ -3640,12 +3640,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonchannelfreight.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-channelfreights-id
       tags:
@@ -3681,14 +3681,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonchannelpriceconfigs.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-channelpriceconfigs
       tags:
@@ -3721,12 +3721,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonchannelpriceconfigs.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-channelpriceconfigs-id
       tags:
@@ -3762,14 +3762,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonchannel.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-channels
       tags:
@@ -3802,12 +3802,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonchannel.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-channels-id
       tags:
@@ -3843,14 +3843,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonchartconfig.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-chartconfigs
       tags:
@@ -3883,12 +3883,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonchartconfig.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-chartconfigs-id
       tags:
@@ -4010,14 +4010,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbulkclosing.yaml
+        "400":
+          description: Erro
   /closings/{id}:
     parameters:
       - schema:
@@ -4035,12 +4035,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbulkclosing.yaml
+        "400":
+          description: Erro
   /cmmfs:
 # filtros = FilterCmmfs
     # modelo = 
@@ -4073,14 +4073,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncnae.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-cnaes
       tags:
@@ -4113,12 +4113,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncnae.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-cnaes-id
       tags:
@@ -4188,14 +4188,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncommissiontype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-commissiontypes
       tags:
@@ -4228,12 +4228,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncommissiontype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-commissiontypes-id
       tags:
@@ -4269,14 +4269,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncompany.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-companies
       tags:
@@ -4319,12 +4319,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncompany.yaml
+        "400":
+          description: Erro
   /contacttypes:
 # filtros = FilterContactTypes
     # modelo = 
@@ -4376,14 +4376,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncontaineritem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-containeritems
       tags:
@@ -4416,12 +4416,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncontaineritem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-containeritems-id
       tags:
@@ -4469,14 +4469,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncontract.yaml
+        "400":
+          description: Erro
   /contracts/{id}:
     parameters:
       - schema:
@@ -4494,12 +4494,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncontract.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-contracts-id
       tags:
@@ -4525,14 +4525,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncostcenter.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-costcenters
       tags:
@@ -4565,12 +4565,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncostcenter.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-costcenters-id
       tags:
@@ -4606,14 +4606,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncoupon.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-coupons
       tags:
@@ -4646,12 +4646,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncoupon.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-coupons-id
       tags:
@@ -4687,14 +4687,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonconvenio.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-covenants
       tags:
@@ -4727,12 +4727,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonconvenio.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-covenants-id
       tags:
@@ -4768,14 +4768,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncreditcardbrand.yaml
+        "400":
+          description: Erro
   /creditcardbrands/{id}:
     parameters:
       - schema:
@@ -4793,12 +4793,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncreditcardbrand.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-creditcardbrands-id
       tags:
@@ -4834,14 +4834,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncrmtag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-crmtags
       tags:
@@ -4874,12 +4874,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncrmtag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-crmtags-id
       tags:
@@ -4915,14 +4915,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncrossdockingitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-crossdockingitems
       tags:
@@ -4955,12 +4955,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncrossdockingitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-crossdockingitems-id
       tags:
@@ -4996,14 +4996,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncrossdocking.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-crossdockings
       tags:
@@ -5036,12 +5036,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncrossdocking.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-crossdockings-id
       tags:
@@ -5077,14 +5077,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncrossdockingsku.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-crossdockingskus
       tags:
@@ -5117,12 +5117,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncrossdockingsku.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-crossdockingskus-id
       tags:
@@ -5175,14 +5175,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncstexcel.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-csts
       tags:
@@ -5266,14 +5266,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncsvimport.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-csvimports
       tags:
@@ -5306,12 +5306,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncsvimport.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-csvimports-id
       tags:
@@ -5373,14 +5373,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncte.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ctes
       tags:
@@ -5413,12 +5413,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncte.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-ctes-id
       tags:
@@ -5471,14 +5471,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncurve.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-curves
       tags:
@@ -5511,12 +5511,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncurve.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-curves-id
       tags:
@@ -5552,14 +5552,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncustomercategory.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customercategories
       tags:
@@ -5592,12 +5592,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncustomercategory.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-customercategories-id
       tags:
@@ -5633,14 +5633,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncustomercontact.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customercontacts
       tags:
@@ -5673,12 +5673,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncustomercontact.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-customercontacts-id
       tags:
@@ -5714,14 +5714,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncadpesemail.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customeremails
       tags:
@@ -5754,12 +5754,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncadpesemail.yaml
+        "400":
+          description: Erro
   /customernotes:
 # filtros = FilterCustomerNotes
     # modelo = JSONCustomerNote
@@ -5775,14 +5775,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncustomernote.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customernotes
       tags:
@@ -5813,14 +5813,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncadpestelef.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customerphones
       tags:
@@ -5853,12 +5853,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncadpestelef.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-customerphones-id
       tags:
@@ -5894,14 +5894,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoncustomerpoint.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-customerpoints
       tags:
@@ -5934,12 +5934,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoncustomerpoint.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-customerpoints-id
       tags:
@@ -5992,14 +5992,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonbulkclosing.yaml
+        "400":
+          description: Erro
   /dailyclosings/{id}:
     parameters:
       - schema:
@@ -6017,12 +6017,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonbulkclosing.yaml
+        "400":
+          description: Erro
   /dailydeals:
 # filtros = FilterDailyDeals
     # modelo = 
@@ -6164,14 +6164,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondashboardv2.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-dashboards
       tags:
@@ -6204,12 +6204,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondashboardv2.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-dashboards-id
       tags:
@@ -6245,14 +6245,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondealnote.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-dealnotes
       tags:
@@ -6285,12 +6285,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondealnote.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-dealnotes-id
       tags:
@@ -6326,14 +6326,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondeal.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-deals
       tags:
@@ -6366,12 +6366,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondeal.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-deals-id
       tags:
@@ -6443,14 +6443,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondelivery.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-deliveries
       tags:
@@ -6483,12 +6483,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondelivery.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-deliveries-id
       tags:
@@ -6524,14 +6524,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondeliverytype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-deliverytypes
       tags:
@@ -6564,12 +6564,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondeliverytype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-deliverytypes-id
       tags:
@@ -6605,14 +6605,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondfebatch.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-dfebatches
       tags:
@@ -6645,12 +6645,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondfebatch.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-dfebatches-id
       tags:
@@ -6686,14 +6686,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondistriborders.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-distriborders
       tags:
@@ -6726,12 +6726,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondistriborders.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-distriborders-id
       tags:
@@ -6873,14 +6873,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsondistribparamspostputdel.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-distributions
       tags:
@@ -6923,12 +6923,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsondistribparamspostputdel.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-distributions-id
       tags:
@@ -6990,14 +6990,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonemail.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-emails
       tags:
@@ -7030,12 +7030,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonemail.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-emails-id
       tags:
@@ -7088,14 +7088,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonemailtemplate.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-emailtemplates
       tags:
@@ -7128,12 +7128,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonemailtemplate.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-emailtemplates-id
       tags:
@@ -7186,14 +7186,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoneventosefaz.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-events
       tags:
@@ -7226,12 +7226,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoneventosefaz.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-events-id
       tags:
@@ -7293,14 +7293,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonexcelimportlog.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-excelimportlogs
       tags:
@@ -7333,12 +7333,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonexcelimportlog.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-excelimportlogs-id
       tags:
@@ -7374,14 +7374,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonexcelimport.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-excelimports
       tags:
@@ -7414,12 +7414,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonexcelimport.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-excelimports-id
       tags:
@@ -7455,14 +7455,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonexpensecategories.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-expensecategories
       tags:
@@ -7495,12 +7495,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonexpensecategories.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-expensecategories-id
       tags:
@@ -7536,14 +7536,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonexpense.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-expenses
       tags:
@@ -7576,12 +7576,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonexpense.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-expenses-id
       tags:
@@ -7607,14 +7607,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonexpenseskus.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-expenseskus
       tags:
@@ -7647,12 +7647,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonexpenseskus.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-expenseskus-id
       tags:
@@ -7707,14 +7707,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfreightbalance.yaml
+        "400":
+          description: Erro
   /freightbillbalances/{id}:
     parameters:
       - schema:
@@ -7732,12 +7732,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfreightbalance.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-freightbillbalances-id
       tags:
@@ -7809,14 +7809,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfreightbill.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-freightbills
       tags:
@@ -7849,12 +7849,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfreightbill.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-freightbills-id
       tags:
@@ -7890,14 +7890,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfreightregion.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-freightregions
       tags:
@@ -7930,12 +7930,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfreightregion.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-freightregions-id
       tags:
@@ -7971,14 +7971,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfreightzone.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-freightzones
       tags:
@@ -8011,12 +8011,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfreightzone.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-freightzones-id
       tags:
@@ -8051,14 +8051,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfulfillment.yaml
+        "400":
+          description: Erro
   /fulfillments/{id}:
     parameters:
       - schema:
@@ -8093,14 +8093,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfunnelstage.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-funnelstages
       tags:
@@ -8133,12 +8133,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfunnelstage.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-funnelstages-id
       tags:
@@ -8174,14 +8174,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonfutureprice.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-futureprices
       tags:
@@ -8214,12 +8214,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonfutureprice.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-futureprices-id
       tags:
@@ -8255,14 +8255,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsongiftcard.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-giftcards
       tags:
@@ -8295,12 +8295,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsongiftcard.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-giftcards-id
       tags:
@@ -8326,14 +8326,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsongrouplevel.yaml
+        "400":
+          description: Erro
   /grouplevels/{id}:
     parameters:
       - schema:
@@ -8351,12 +8351,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsongrouplevel.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-grouplevels-id
       tags:
@@ -8382,14 +8382,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsongroupmemberauth.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-groupmemberauths
       tags:
@@ -8422,12 +8422,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsongroupmemberauth.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-groupmemberauths-id
       tags:
@@ -8470,14 +8470,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonhandlingitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-handlingitems
       tags:
@@ -8510,12 +8510,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonhandlingitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-handlingitems-id
       tags:
@@ -8551,14 +8551,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
   /handlings/{id}:
     parameters:
       - schema:
@@ -8576,12 +8576,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-handlings-id
       tags:
@@ -8634,14 +8634,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonhelppage.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-helppages
       tags:
@@ -8674,12 +8674,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonhelppage.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-helppages-id
       tags:
@@ -8705,14 +8705,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonholiday.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-holidays
       tags:
@@ -8745,12 +8745,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonholiday.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-holidays-id
       tags:
@@ -8776,14 +8776,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonhumanresource.yaml
+        "400":
+          description: Erro
   /humanresources/{id}:
     parameters:
       - schema:
@@ -8801,12 +8801,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonhumanresource.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-humanresources-id
       tags:
@@ -8921,14 +8921,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonimportadditionitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-importadditionitems
       tags:
@@ -8961,12 +8961,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonimportadditionitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-importadditionitems-id
       tags:
@@ -9002,14 +9002,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonimportaddition.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-importadditions
       tags:
@@ -9042,12 +9042,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonimportaddition.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-importadditions-id
       tags:
@@ -9083,14 +9083,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonimportadditiontaxe.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-importadditiontaxes
       tags:
@@ -9123,12 +9123,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonimportadditiontaxe.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-importadditiontaxes-id
       tags:
@@ -9164,14 +9164,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonimportfee.yaml
+        "400":
+          description: Erro
   /importfees/{id}:
     parameters:
       - schema:
@@ -9189,12 +9189,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonimportfee.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-importfees-id
       tags:
@@ -9220,14 +9220,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonimport.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-imports
       tags:
@@ -9260,12 +9260,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonimport.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-imports-id
       tags:
@@ -9327,14 +9327,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoninstallmentplan.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-installmentplans
       tags:
@@ -9367,12 +9367,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoninstallmentplan.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-installmentplans-id
       tags:
@@ -9559,14 +9559,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonintegtenant.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-integrations
       tags:
@@ -9599,12 +9599,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonintegtenant.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-integrations-id
       tags:
@@ -9640,14 +9640,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpostintegrationstatus.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-integrationstatus
       tags:
@@ -9802,14 +9802,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoninvoiceitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-invoiceitems
       tags:
@@ -9842,12 +9842,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoninvoiceitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-invoiceitems-id
       tags:
@@ -9873,14 +9873,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsoninvoicepayment.yaml
+        "400":
+          description: Erro
   /invoicepayments/{id}:
     parameters:
       - schema:
@@ -9898,12 +9898,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsoninvoicepayment.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-invoicepayments-id
       tags:
@@ -10021,14 +10021,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonipaddr.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ips
       tags:
@@ -10061,12 +10061,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonipaddr.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-ips-id
       tags:
@@ -10174,14 +10174,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonissuer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-issuers
       tags:
@@ -10214,12 +10214,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonissuer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-issuers-id
       tags:
@@ -10254,14 +10254,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonkanban.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-kanbanconfigs
       tags:
@@ -10294,12 +10294,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonkanban.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-kanbanconfigs-id
       tags:
@@ -10352,14 +10352,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonkanbanlane.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-kanbanlanes
       tags:
@@ -10392,12 +10392,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonkanbanlane.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-kanbanlanes-id
       tags:
@@ -10503,14 +10503,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonkanban.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-kanbans
       tags:
@@ -10543,12 +10543,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonkanban.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-kanbans-id
       tags:
@@ -10601,14 +10601,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonkeyboardpayment.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-keyboardpayments
       tags:
@@ -10641,12 +10641,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonkeyboardpayment.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-keyboardpayments-id
       tags:
@@ -10682,14 +10682,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonkeyboard.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-keyboards
       tags:
@@ -10722,12 +10722,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonkeyboard.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-keyboards-id
       tags:
@@ -10763,14 +10763,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonlabeljob.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-labeljobs
       tags:
@@ -10803,12 +10803,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonlabeljob.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-labeljobs-id
       tags:
@@ -10844,14 +10844,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonlabel.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-labels
       tags:
@@ -10884,12 +10884,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonlabel.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-labels-id
       tags:
@@ -10925,14 +10925,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonleadreason.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-leadreasons
       tags:
@@ -10965,12 +10965,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonleadreason.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-leadreasons-id
       tags:
@@ -11006,14 +11006,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonlead.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-leads
       tags:
@@ -11046,12 +11046,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonlead.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-leads-id
       tags:
@@ -11087,14 +11087,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonleadstage.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-leadstages
       tags:
@@ -11127,12 +11127,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonleadstage.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-leadstages-id
       tags:
@@ -11204,14 +11204,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonleadtime.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-leadtimes
       tags:
@@ -11244,12 +11244,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonleadtime.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-leadtimes-id
       tags:
@@ -11350,14 +11350,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonloyaltycustomer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-loyaltycustomers
       tags:
@@ -11390,12 +11390,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonloyaltycustomer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-loyaltycustomers-id
       tags:
@@ -11431,14 +11431,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonloyaltyprogram.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-loyaltyprograms
       tags:
@@ -11471,12 +11471,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonloyaltyprogram.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-loyaltyprograms-id
       tags:
@@ -11528,14 +11528,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonmenuitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-menuitems
       tags:
@@ -11568,12 +11568,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonmenuitem.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-menuitems-id
       tags:
@@ -11645,14 +11645,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonindicadoresv2.yaml
+        "400":
+          description: Erro
   /metrics/{id}:
     parameters:
       - schema:
@@ -11670,12 +11670,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonindicadoresv2.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-metrics-id
       tags:
@@ -11817,14 +11817,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonmyplan.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-myplans
       tags:
@@ -11857,12 +11857,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonmyplan.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-myplans-id
       tags:
@@ -11897,14 +11897,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonnfe.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-nfes
       tags:
@@ -11937,12 +11937,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonnfe.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-nfes-id
       tags:
@@ -11978,14 +11978,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonnotificationconfig.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-notificationconfigs
       tags:
@@ -12018,12 +12018,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonnotificationconfig.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-notificationconfigs-id
       tags:
@@ -12059,14 +12059,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonnotification.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-notifications
       tags:
@@ -12099,12 +12099,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonnotification.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-notifications-id
       tags:
@@ -12140,14 +12140,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonoperationconfigs.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-operationconfigs
       tags:
@@ -12180,12 +12180,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonoperationconfigs.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-operationconfigs-id
       tags:
@@ -12274,14 +12274,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonordercheck.yaml
+        "400":
+          description: Erro
   /ordercheckitems/{id}:
     parameters:
       - schema:
@@ -12448,14 +12448,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderintegrations.yaml
+        "400":
+          description: Erro
   /orderintegrations/{id}:
     parameters:
       - schema:
@@ -12473,12 +12473,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorderintegrations.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-orderintegrations-id
       tags:
@@ -12523,14 +12523,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-orderitems
       tags:
@@ -12563,12 +12563,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorderitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-orderitems-id
       tags:
@@ -12623,12 +12623,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorderlabels.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-orderlabels-id
       tags:
@@ -12654,14 +12654,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonordermargin.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ordermargins
       tags:
@@ -12694,12 +12694,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonordermargin.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-ordermargins-id
       tags:
@@ -12735,14 +12735,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonordernote.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ordernotes
       tags:
@@ -12860,14 +12860,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderpayment.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-orderpayments
       tags:
@@ -12927,14 +12927,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-orders
       tags:
@@ -12967,12 +12967,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-orders-id
       tags:
@@ -13028,12 +13028,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonmudastatus.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-orderstatus-id
       tags:
@@ -13078,14 +13078,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonordertag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ordertags
       tags:
@@ -13118,12 +13118,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonordertag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-ordertags-id
       tags:
@@ -13176,14 +13176,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonordervolumes.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-ordervolumes
       tags:
@@ -13269,14 +13269,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpackage.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-packages
       tags:
@@ -13309,12 +13309,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpackage.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-packages-id
       tags:
@@ -13350,14 +13350,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonparameter.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-parameters
       tags:
@@ -13390,12 +13390,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonparameter.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-parameters-id
       tags:
@@ -13431,14 +13431,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpayablefee.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-payablefees
       tags:
@@ -13471,12 +13471,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpayablefee.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-payablefees-id
       tags:
@@ -13512,14 +13512,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpayable.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-payables
       tags:
@@ -13552,12 +13552,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpayable.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-payables-id
       tags:
@@ -13610,14 +13610,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpayforecast.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-payforecasts
       tags:
@@ -13650,12 +13650,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpayforecast.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-payforecasts-id
       tags:
@@ -13691,14 +13691,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpaymentcode.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-paymentcodes
       tags:
@@ -13731,12 +13731,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpaymentcode.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-paymentcodes-id
       tags:
@@ -13772,14 +13772,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpaymentlink.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-paymentlinks
       tags:
@@ -13812,12 +13812,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpaymentlink.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-paymentlinks-id
       tags:
@@ -13853,14 +13853,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpaymentlinkstatus.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-paymentlinkstatus
       tags:
@@ -13893,12 +13893,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpaymentlinkstatus.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-paymentlinkstatus-id
       tags:
@@ -13934,14 +13934,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpaymenttype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-paymenttypes
       tags:
@@ -13974,12 +13974,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpaymenttype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-paymenttypes-id
       tags:
@@ -14015,14 +14015,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpdflayoutfull.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pdflayouts
       tags:
@@ -14055,12 +14055,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpdflayoutfull.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pdflayouts-id
       tags:
@@ -14096,14 +14096,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpdvparameter.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pdvparameters
       tags:
@@ -14136,12 +14136,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpdvparameter.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pdvparameters-id
       tags:
@@ -14177,14 +14177,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpersonmargin.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-personmargins
       tags:
@@ -14217,12 +14217,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpersonmargin.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-personmargins-id
       tags:
@@ -14311,14 +14311,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonperson.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-persons
       tags:
@@ -14351,12 +14351,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonperson.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-persons-id
       tags:
@@ -14409,14 +14409,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonphonetypes.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-phonetypes
       tags:
@@ -14449,12 +14449,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonphonetypes.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-phonetypes-id
       tags:
@@ -14490,14 +14490,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpickingqueue.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pickingqueues
       tags:
@@ -14530,12 +14530,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpickingqueue.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pickingqueues-id
       tags:
@@ -14571,14 +14571,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpickingzone.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pickingzones
       tags:
@@ -14611,12 +14611,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpickingzone.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pickingzones-id
       tags:
@@ -14652,14 +14652,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpixcharge.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pixcharges
       tags:
@@ -14692,12 +14692,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpixcharge.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pixcharges-id
       tags:
@@ -14769,14 +14769,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonplanpaymentmethod.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-planpaymentmethods
       tags:
@@ -14809,12 +14809,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonplanpaymentmethod.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-planpaymentmethods-id
       tags:
@@ -14840,14 +14840,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonplan.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-plans
       tags:
@@ -14880,12 +14880,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonplan.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-plans-id
       tags:
@@ -14921,14 +14921,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonportfoliocustomer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-portfoliocustomers
       tags:
@@ -14961,12 +14961,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonportfoliocustomer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-portfoliocustomers-id
       tags:
@@ -15002,14 +15002,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonportfolio.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-portfolios
       tags:
@@ -15042,12 +15042,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonportfolio.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-portfolios-id
       tags:
@@ -15085,14 +15085,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonposlayoutkey.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-poslayoutkeys
       tags:
@@ -15195,14 +15195,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonposterjob.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-posterjobs
       tags:
@@ -15235,12 +15235,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonposterjob.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-posterjobs-id
       tags:
@@ -15276,14 +15276,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonposter.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-posters
       tags:
@@ -15316,12 +15316,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonposter.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-posters-id
       tags:
@@ -15393,14 +15393,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpricelistarticle.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pricelistarticles
       tags:
@@ -15433,12 +15433,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpricelistarticle.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pricelistarticles-id
       tags:
@@ -15474,14 +15474,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpricelistcategory.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pricelistcategories
       tags:
@@ -15514,12 +15514,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpricelistcategory.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pricelistcategories-id
       tags:
@@ -15555,14 +15555,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpricelist.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pricelists
       tags:
@@ -15595,12 +15595,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpricelist.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pricelists-id
       tags:
@@ -15636,14 +15636,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpriceroundingrule.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-priceroundingrules
       tags:
@@ -15676,12 +15676,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpriceroundingrule.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-priceroundingrules-id
       tags:
@@ -15716,14 +15716,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpricerule.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-pricerules
       tags:
@@ -15756,12 +15756,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpricerule.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-pricerules-id
       tags:
@@ -15797,14 +15797,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonproductcategory.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-productcategories
       tags:
@@ -15837,12 +15837,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonproductcategory.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-productcategories-id
       tags:
@@ -15878,14 +15878,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonproductimages.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-productimages
       tags:
@@ -15918,12 +15918,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonproductimages.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-productimages-id
       tags:
@@ -15959,14 +15959,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonproduct.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-products
       tags:
@@ -15999,12 +15999,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonproduct.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-products-id
       tags:
@@ -16040,14 +16040,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonproducttag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-producttags
       tags:
@@ -16080,12 +16080,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonproducttag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-producttags-id
       tags:
@@ -16123,12 +16123,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonprofile.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-profiles-id
       tags:
@@ -16154,14 +16154,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonprospect.yaml
+        "400":
+          description: Erro
   /prospects/{id}:
     parameters:
       - schema:
@@ -16179,12 +16179,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonprospect.yaml
+        "400":
+          description: Erro
   /providers:
 # filtros = FilterProviders
     # modelo = JSONProvider
@@ -16200,14 +16200,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonprovider.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-providers
       tags:
@@ -16240,12 +16240,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonprovider.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-providers-id
       tags:
@@ -16281,14 +16281,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchasecostitem.yaml
+        "400":
+          description: Erro
   /purchasecostitems/{id}:
     parameters:
       - schema:
@@ -16306,12 +16306,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchasecostitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasecostitems-id
       tags:
@@ -16337,14 +16337,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
   /purchasecosts/{id}:
     parameters:
       - schema:
@@ -16362,12 +16362,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasecosts-id
       tags:
@@ -16393,14 +16393,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchaseitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseitems
       tags:
@@ -16433,12 +16433,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchaseitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseitems-id
       tags:
@@ -16474,14 +16474,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchaseitemtax.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseitemtaxes
       tags:
@@ -16514,12 +16514,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchaseitemtax.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseitemtaxes-id
       tags:
@@ -16545,14 +16545,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchasemapping.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchasemappings
       tags:
@@ -16585,12 +16585,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchasemapping.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasemappings-id
       tags:
@@ -16626,14 +16626,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchasenote.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchasenotes
       tags:
@@ -16666,12 +16666,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchasenote.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasenotes-id
       tags:
@@ -16707,14 +16707,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonitemoc.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseorderitems
       tags:
@@ -16747,12 +16747,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonitemoc.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseorderitems-id
       tags:
@@ -16788,14 +16788,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpagoc.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseorderpayments
       tags:
@@ -16828,12 +16828,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpagoc.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseorderpayments-id
       tags:
@@ -16869,14 +16869,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchaseorder.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseorders
       tags:
@@ -16909,12 +16909,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchaseorder.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseorders-id
       tags:
@@ -16950,14 +16950,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchaseordertag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseordertags
       tags:
@@ -16990,12 +16990,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchaseordertag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseordertags-id
       tags:
@@ -17031,14 +17031,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchaseplan.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchaseplans
       tags:
@@ -17071,12 +17071,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchaseplan.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchaseplans-id
       tags:
@@ -17112,14 +17112,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchases
       tags:
@@ -17152,12 +17152,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchases-id
       tags:
@@ -17200,14 +17200,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchasetag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchasetags
       tags:
@@ -17240,12 +17240,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchasetag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasetags-id
       tags:
@@ -17280,14 +17280,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-purchasetaxes
       tags:
@@ -17320,12 +17320,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonpurchase.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-purchasetaxes-id
       tags:
@@ -17361,14 +17361,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonquotes.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-quotes
       tags:
@@ -17399,14 +17399,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonreason.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-reasons
       tags:
@@ -17439,12 +17439,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonreason.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-reasons-id
       tags:
@@ -17480,14 +17480,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonreceivables.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-receivables
       tags:
@@ -17520,12 +17520,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonreceivables.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-receivables-id
       tags:
@@ -17578,14 +17578,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderpaymentslist.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-receivableslist
       tags:
@@ -17652,14 +17652,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonreception.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-receptions
       tags:
@@ -17692,12 +17692,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonreception.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-receptions-id
       tags:
@@ -17733,14 +17733,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonreceptionsku.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-receptionskus
       tags:
@@ -17773,12 +17773,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonreceptionsku.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-receptionskus-id
       tags:
@@ -17965,14 +17965,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonreports.yaml
+        "400":
+          description: Erro
   /reports/{id}:
     parameters:
       - schema:
@@ -17990,12 +17990,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonreports.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-reports-id
       tags:
@@ -18129,14 +18129,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonroom.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-rooms
       tags:
@@ -18169,12 +18169,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonroom.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-rooms-id
       tags:
@@ -18227,14 +18227,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-sales
       tags:
@@ -18267,12 +18267,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-sales-id
       tags:
@@ -18397,14 +18397,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-salesitems
       tags:
@@ -18437,12 +18437,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorderitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-salesitems-id
       tags:
@@ -18514,14 +18514,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderpayment.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-salespayments
       tags:
@@ -18554,12 +18554,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorderpayment.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-salespayments-id
       tags:
@@ -18595,14 +18595,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorderpaymentslist.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-salespaymentslist
       tags:
@@ -18633,14 +18633,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonsalesperson.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-salespersons
       tags:
@@ -18673,12 +18673,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonsalesperson.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-salespersons-id
       tags:
@@ -18731,14 +18731,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscaleproduct.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scaleproducts
       tags:
@@ -18771,12 +18771,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonscaleproduct.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-scaleproducts-id
       tags:
@@ -18812,14 +18812,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscalesector.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scalesectors
       tags:
@@ -18852,12 +18852,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonscalesector.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-scalesectors-id
       tags:
@@ -18893,14 +18893,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscmanalysis.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scmanalyses
       tags:
@@ -18933,12 +18933,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonscmanalysis.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-scmanalyses-id
       tags:
@@ -19010,14 +19010,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscmconfig.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scmconfigs
       tags:
@@ -19050,12 +19050,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonscmconfig.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-scmconfigs-id
       tags:
@@ -19091,14 +19091,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscmestimate.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scmestimates
       tags:
@@ -19201,14 +19201,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonscmtag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-scmtags
       tags:
@@ -19241,12 +19241,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonscmtag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-scmtags-id
       tags:
@@ -19282,14 +19282,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonseasonalconfig.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-seasonalconfigs
       tags:
@@ -19322,12 +19322,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonseasonalconfig.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-seasonalconfigs-id
       tags:
@@ -19363,14 +19363,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonseasonranges.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-seasonranges
       tags:
@@ -19403,12 +19403,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonseasonranges.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-seasonranges-id
       tags:
@@ -19456,14 +19456,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonserviceclass.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-serviceclasses
       tags:
@@ -19496,12 +19496,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonserviceclass.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-serviceclasses-id
       tags:
@@ -19537,14 +19537,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonserviceorderitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-serviceorderitems
       tags:
@@ -19577,12 +19577,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonserviceorderitem.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-serviceorderitems-id
       tags:
@@ -19618,14 +19618,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-serviceorders
       tags:
@@ -19658,12 +19658,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonorder.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-serviceorders-id
       tags:
@@ -19699,14 +19699,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonservice.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-services
       tags:
@@ -19739,12 +19739,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonservice.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-services-id
       tags:
@@ -19815,14 +19815,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonshelfqueue.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-shelfqueues
       tags:
@@ -19855,12 +19855,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonshelfqueue.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-shelfqueues-id
       tags:
@@ -19896,14 +19896,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskuarticle.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skuarticles
       tags:
@@ -19936,12 +19936,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskuarticle.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skuarticles-id
       tags:
@@ -20011,14 +20011,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskuconfignote.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skuconfignotes
       tags:
@@ -20051,12 +20051,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskuconfignote.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skuconfignotes-id
       tags:
@@ -20092,14 +20092,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskuconfig.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skuconfigs
       tags:
@@ -20132,12 +20132,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskuconfig.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skuconfigs-id
       tags:
@@ -20173,14 +20173,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskucontainer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skucontainers
       tags:
@@ -20213,12 +20213,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskucontainer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skucontainers-id
       tags:
@@ -20343,14 +20343,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskugrid.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skugrids
       tags:
@@ -20383,12 +20383,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskugrid.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skugrids-id
       tags:
@@ -20424,14 +20424,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskugroup.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skugroups
       tags:
@@ -20464,12 +20464,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskugroup.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skugroups-id
       tags:
@@ -20522,14 +20522,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskupart.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skuparts
       tags:
@@ -20562,12 +20562,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskupart.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skuparts-id
       tags:
@@ -20603,14 +20603,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskupricesvetor.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skuprices
       tags:
@@ -20643,12 +20643,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskupricesvetor.yaml
+        "400":
+          description: Erro
   /skurankings:
 # filtros = FilterSKURankings
     # modelo = 
@@ -20700,14 +20700,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskureservations.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skureservations
       tags:
@@ -20740,12 +20740,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskureservations.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skureservations-id
       tags:
@@ -20781,14 +20781,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsononesku.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skus
       tags:
@@ -20821,12 +20821,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsononesku.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skus-id
       tags:
@@ -20898,14 +20898,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskustate.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skustates
       tags:
@@ -20938,12 +20938,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskustate.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skustates-id
       tags:
@@ -20979,14 +20979,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonskustock.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-skustocks
       tags:
@@ -21019,12 +21019,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonskustock.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-skustocks-id
       tags:
@@ -21183,14 +21183,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonspedblockh.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-spedblockh
       tags:
@@ -21223,12 +21223,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonspedblockh.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-spedblockh-id
       tags:
@@ -21264,14 +21264,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonspedblockhcnpj.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-spedblockhcnpj
       tags:
@@ -21304,12 +21304,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonspedblockhcnpj.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-spedblockhcnpj-id
       tags:
@@ -21345,14 +21345,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonspedfile.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-spedfiles
       tags:
@@ -21386,12 +21386,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonspedfile.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-spedfiles-id
       tags:
@@ -21450,14 +21450,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonstatuses.yaml
+        "400":
+          description: Erro
   /statuses/{id}:
     parameters:
       - schema:
@@ -21475,12 +21475,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonstatuses.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-statuses-id
       tags:
@@ -21506,14 +21506,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonstockdailysummary.yaml
+        "400":
+          description: Erro
   /stockdailysummaries/{id}:
     parameters:
       - schema:
@@ -21531,12 +21531,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonstockdailysummary.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-stockdailysummaries-id
       tags:
@@ -21689,14 +21689,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonsupplieritems.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-supplieritems
       tags:
@@ -21729,12 +21729,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonsupplieritems.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-supplieritems-id
       tags:
@@ -21770,14 +21770,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonsupplier.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-suppliers
       tags:
@@ -21810,12 +21810,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonsupplier.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-suppliers-id
       tags:
@@ -21851,14 +21851,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonsupplyitem.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-supplyitems
       tags:
@@ -21891,12 +21891,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonsupplyitem.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-supplyitems-id
       tags:
@@ -21965,14 +21965,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontable.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-tables
       tags:
@@ -22005,12 +22005,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontable.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-tables-id
       tags:
@@ -22046,14 +22046,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontask.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-tasks
       tags:
@@ -22086,12 +22086,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontask.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-tasks-id
       tags:
@@ -22127,14 +22127,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontasktype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-tasktypes
       tags:
@@ -22167,12 +22167,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontasktype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-tasktypes-id
       tags:
@@ -22208,14 +22208,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontaxcfop.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-taxcfops
       tags:
@@ -22248,12 +22248,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontaxcfop.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-taxcfops-id
       tags:
@@ -22279,14 +22279,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontaxclass.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-taxclasses
       tags:
@@ -22319,12 +22319,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontaxclass.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-taxclasses-id
       tags:
@@ -22360,14 +22360,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontaxrate.yaml
+        "400":
+          description: Erro
   /taxrates/{id}:
     parameters:
       - schema:
@@ -22385,12 +22385,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontaxrate.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-taxrates-id
       tags:
@@ -22416,14 +22416,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontenant.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-tenants
       tags:
@@ -22456,12 +22456,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontenant.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-tenants-id
       tags:
@@ -22514,14 +22514,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontoken.yaml
+        "400":
+          description: Erro
   /tokens/{id}:
     parameters:
       - schema:
@@ -22539,12 +22539,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontoken.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-tokens-id
       tags:
@@ -22580,14 +22580,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontransaction.yaml
+        "400":
+          description: Erro
   /transactions/{id}:
     parameters:
       - schema:
@@ -22605,12 +22605,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontransaction.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-transactions-id
       tags:
@@ -22646,14 +22646,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsontransfer.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-transfers
       tags:
@@ -22686,12 +22686,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsontransfer.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-transfers-id
       tags:
@@ -22727,14 +22727,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonunit.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-units
       tags:
@@ -22767,12 +22767,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonunit.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-units-id
       tags:
@@ -22825,14 +22825,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonusercompany.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-usercompanies
       tags:
@@ -22865,12 +22865,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonusercompany.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-usercompanies-id
       tags:
@@ -22906,14 +22906,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonuseremail.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-useremails
       tags:
@@ -22946,12 +22946,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonuseremail.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-useremails-id
       tags:
@@ -22987,14 +22987,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonusergroup.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-usergroups
       tags:
@@ -23027,12 +23027,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonusergroup.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-usergroups-id
       tags:
@@ -23068,14 +23068,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonuser.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-users
       tags:
@@ -23108,12 +23108,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonuser.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-users-id
       tags:
@@ -23148,14 +23148,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonvendor.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-vendors
       tags:
@@ -23188,12 +23188,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonvendor.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-vendors-id
       tags:
@@ -23219,14 +23219,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonvoidnumber.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-voidnumbers
       tags:
@@ -23259,12 +23259,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonvoidnumber.yaml
+        "400":
+          description: Erro
   /volumelabels/{id}:
     parameters:
       - schema:
@@ -23335,14 +23335,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonvoucher.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-vouchers
       tags:
@@ -23375,12 +23375,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonvoucher.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-vouchers-id
       tags:
@@ -23432,14 +23432,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonvouchertag.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-vouchertags
       tags:
@@ -23472,12 +23472,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonvouchertag.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-vouchertags-id
       tags:
@@ -23513,14 +23513,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonvouchertype.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-vouchertypes
       tags:
@@ -23553,12 +23553,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonvouchertype.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-vouchertypes-id
       tags:
@@ -23630,14 +23630,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonwac.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-wacs
       tags:
@@ -23670,12 +23670,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonwac.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-wacs-id
       tags:
@@ -23783,14 +23783,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonwhatsappdevice.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-whatsappdevices
       tags:
@@ -23823,12 +23823,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonwhatsappdevice.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-whatsappdevices-id
       tags:
@@ -23864,14 +23864,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonwhatsappmessage.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-whatsappmessages
       tags:
@@ -23904,12 +23904,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonwhatsappmessage.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-whatsappmessages-id
       tags:
@@ -23945,14 +23945,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonwmsaisles.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-wmsaisles
       tags:
@@ -23985,12 +23985,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonwmsaisles.yaml
+        "400":
+          description: Erro
     put:
       operationId: put-wmsaisles-id
       tags:
@@ -24062,14 +24062,14 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: ./models/jsonxmlexport.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-xmlexports
       tags:
@@ -24102,12 +24102,12 @@ paths:
       responses:
         "200":
           description: OK
-        "400":
-          description: Erro
           content:
             application/json:
               schema:
                 $ref: ./models/jsonxmlexport.yaml
+        "400":
+          description: Erro
     delete:
       operationId: delete-xmlexports-id
       tags:
