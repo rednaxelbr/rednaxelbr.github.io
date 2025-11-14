@@ -6,6 +6,14 @@ info:
   license:
     name: Copyright (C) Rednaxel Informática
     url: 'https://rednaxel.com'
+  termsOfService: 'https://rednaxel.com/termos-de-uso'
+  contact:
+    name: Suporte
+    email: suporte@rednaxel.com
+    url: 'https://suporte.rednaxel.com'
+  x-logo:
+    url: 'https://storage.googleapis.com/rednaxel-dados/rednaxel-264.png'
+    altText: Logo da Rednaxel
 
 servers:
   - url: "https://homolog.rnge.com.br/v2"
