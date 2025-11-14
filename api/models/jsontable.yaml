@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_salao:
+    type: integer
+  nome_salao:
+    type: string
+  numero_mesa:
+    type: integer
+  mesa_ativa:
+    type: boolean
+  quant_lugares:
+    type: integer

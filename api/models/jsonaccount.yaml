@@ -1,0 +1,46 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: string
+  classificacao:
+    type: string
+  nome:
+    type: string
+  caminho:
+    type: string
+  nivel:
+    type: integer
+  id_categ_dre:
+    type: integer
+  desc_categ:
+    type: string
+  id_conta_pai:
+    type: integer
+  classe:
+    type: string
+  observ_conta:
+    type: string
+  ativa:
+    type: boolean
+  ocultar_cta_pag:
+    type: boolean
+  cte_rem_conta:
+    type: string
+  importacao:
+    type: boolean
+  sentido:
+    type: string
+  tp_custo:
+    type: string
+  padrao_fornec:
+    type: boolean
+  padrao_sped:
+    type: boolean
+  ids_ccus:
+    type: array
+    items:
+      type: integer

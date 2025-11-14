@@ -1,0 +1,12 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  order_id:
+    type: integer
+  goroutine:
+    type: boolean

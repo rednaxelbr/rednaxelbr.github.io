@@ -1,0 +1,66 @@
+type: object
+properties:
+  id:
+    type: integer
+  numero_pedido:
+    type: integer
+  tipo_oper:
+    type: string
+  dthr_criacao:
+    type: string
+  inicio_proc:
+    type: string
+  aplicativo:
+    type: string
+  id_externo:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  itens:
+    type: integer
+  dthr_inconsistencia:
+    type: string
+  separador:
+    type: string
+  dthr_separacao:
+    type: string
+  conferente:
+    type: string
+  dthr_conferencia:
+    type: string
+  limite_exp:
+    type: string
+  data_emissao:
+    type: string
+  num_nf:
+    type: integer
+  dthr_expedicao:
+    type: string
+  nome_entregador:
+    type: string
+  data_entrega:
+    type: string
+  dthr_entregue:
+    type: string
+  dthr_criacao_externo:
+    type: string
+  resumo_pagto:
+    type: string
+  id_vendedor:
+    type: integer
+  nome_vendedor:
+    type: string
+  id_canal:
+    type: integer
+  nome_razao:
+    type: string
+  desc_tipo_ent:
+    type: string
+  sit_credito:
+    type: string
+  status_financ:
+    type: integer
+  urgente:
+    type: boolean

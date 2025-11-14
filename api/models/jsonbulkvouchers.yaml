@@ -1,0 +1,14 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  pdv:
+    type: boolean
+  situacao:
+    type: string
+  limpar_obs:
+    type: boolean

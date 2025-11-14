@@ -1,0 +1,18 @@
+type: object
+properties:
+  num_cupom_fk:
+    type: integer
+  sequencia_item:
+    type: integer
+  motivo:
+    type: integer
+  id_autoriz:
+    type: integer
+  id_produto:
+    type: integer
+  motiv_canc:
+    type: integer
+  autoriz_canc:
+    type: integer
+  nitem_nfce:
+    type: integer

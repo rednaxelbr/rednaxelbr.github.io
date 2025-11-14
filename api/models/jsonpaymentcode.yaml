@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  codigo_forma:
+    type: integer
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  tpag:
+    type: integer
+  sigla_pagto:
+    type: string
+  desc_pagto:
+    type: string
+  forma_ativa:
+    type: boolean
+  bloqueio_nf:
+    type: boolean

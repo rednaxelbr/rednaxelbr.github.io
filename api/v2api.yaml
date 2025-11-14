@@ -15,6 +15,8 @@ tags:
     description: Accesscards
   - name: Accessgroups
     description: Accessgroups
+  - name: Accounts
+    description: Accounts
   - name: Addresses
     description: Addresses
   - name: Addresstypes
@@ -55,6 +57,8 @@ tags:
     description: Brands
   - name: Buildings
     description: Buildings
+  - name: Bulkdeals
+    description: Bulkdeals
   - name: Bulkhandlings
     description: Bulkhandlings
   - name: Bulkpersons
@@ -63,8 +67,12 @@ tags:
     description: Bulkpurchases
   - name: Bulkreceivables
     description: Bulkreceivables
+  - name: Bulksalesitems
+    description: Bulksalesitems
   - name: Bulkstocks
     description: Bulkstocks
+  - name: Bulkvouchers
+    description: Bulkvouchers
   - name: Buyers
     description: Buyers
   - name: Cachetables
@@ -81,6 +89,8 @@ tags:
     description: Cashbalances
   - name: Cashiers
     description: Cashiers
+  - name: Cashierstats
+    description: Cashierstats
   - name: Cataloglevels
     description: Cataloglevels
   - name: Catalogs
@@ -109,8 +119,12 @@ tags:
     description: Citydistricts
   - name: Citytaxes
     description: Citytaxes
+  - name: Closings
+    description: Closings
   - name: Cnaes
     description: Cnaes
+  - name: Commissiontypes
+    description: Commissiontypes
   - name: Companies
     description: Companies
   - name: Contacttypes
@@ -125,6 +139,10 @@ tags:
     description: Coupons
   - name: Covenants
     description: Covenants
+  - name: Crmtags
+    description: Crmtags
+  - name: Cstinvoices
+    description: Cstinvoices
   - name: Csts
     description: Csts
   - name: Csvexports
@@ -151,6 +169,10 @@ tags:
     description: Customerpoints
   - name: Customertransactions
     description: Customertransactions
+  - name: Dailyclosings
+    description: Dailyclosings
+  - name: Dailyreceivables
+    description: Dailyreceivables
   - name: Dashboardmetrics
     description: Dashboardmetrics
   - name: Dashboards
@@ -195,8 +217,6 @@ tags:
     description: Expenses
   - name: Expenseskus
     description: Expenseskus
-  - name: Financialreports
-    description: Financialreports
   - name: Freightbillbalances
     description: Freightbillbalances
   - name: Freightbillitems
@@ -207,6 +227,8 @@ tags:
     description: Freightregions
   - name: Freightzones
     description: Freightzones
+  - name: Fulfillments
+    description: Fulfillments
   - name: Funnelstages
     description: Funnelstages
   - name: Futureprices
@@ -259,6 +281,8 @@ tags:
     description: Integrations
   - name: Integrationstatus
     description: Integrationstatus
+  - name: Integrationtypes
+    description: Integrationtypes
   - name: Integrationvendors
     description: Integrationvendors
   - name: Invoiceevents
@@ -271,6 +295,8 @@ tags:
     description: Invoicepayments
   - name: Invoices
     description: Invoices
+  - name: Invoicetypes
+    description: Invoicetypes
   - name: Issuers
     description: Issuers
   - name: Kanbanconfigs
@@ -313,8 +339,6 @@ tags:
     description: Logs
   - name: Loyaltyprograms
     description: Loyaltyprograms
-  - name: Me
-    description: Me
   - name: Menu
     description: Menu
   - name: Menuitems
@@ -327,6 +351,8 @@ tags:
     description: Metricseries
   - name: Monthlysales
     description: Monthlysales
+  - name: Movements
+    description: Movements
   - name: Myplans
     description: Myplans
   - name: Notificationconfigs
@@ -345,8 +371,6 @@ tags:
     description: Orderflags
   - name: Orderflows
     description: Orderflows
-  - name: Orderfreights
-    description: Orderfreights
   - name: Orderimport
     description: Orderimport
   - name: Orderintegrations
@@ -377,6 +401,8 @@ tags:
     description: Ordertrackings
   - name: Ordervolumes
     description: Ordervolumes
+  - name: Overdues
+    description: Overdues
   - name: Packages
     description: Packages
   - name: Parameters
@@ -393,8 +419,6 @@ tags:
     description: Pdflayouts
   - name: Pdvparameters
     description: Pdvparameters
-  - name: Personaddresses
-    description: Personaddresses
   - name: Personmargins
     description: Personmargins
   - name: Personproducts
@@ -407,14 +431,10 @@ tags:
     description: Phases
   - name: Phonetypes
     description: Phonetypes
-  - name: Pickers
-    description: Pickers
   - name: Pickingqueues
     description: Pickingqueues
   - name: Pickingzones
     description: Pickingzones
-  - name: Pixaccounts
-    description: Pixaccounts
   - name: Pixcharges
     description: Pixcharges
   - name: Pixstatuses
@@ -427,8 +447,6 @@ tags:
     description: Portfolios
   - name: Poslayoutkeys
     description: Poslayoutkeys
-  - name: Poslayouts
-    description: Poslayouts
   - name: Postalcodes
     description: Postalcodes
   - name: Posterfields
@@ -475,8 +493,6 @@ tags:
     description: Purchaseorders
   - name: Purchases
     description: Purchases
-  - name: Purchases/Xml
-    description: Purchases/Xml
   - name: Purchasetaxes
     description: Purchasetaxes
   - name: Quotes
@@ -485,6 +501,8 @@ tags:
     description: Reasons
   - name: Receivables
     description: Receivables
+  - name: Receivablesaggs
+    description: Receivablesaggs
   - name: Receivableslist
     description: Receivableslist
   - name: Receptioninvoices
@@ -531,8 +549,6 @@ tags:
     description: Salespaymentslist
   - name: Salespersons
     description: Salespersons
-  - name: Salesreports
-    description: Salesreports
   - name: Salessummaries
     description: Salessummaries
   - name: Scmconfigs
@@ -547,8 +563,6 @@ tags:
     description: Serviceclasses
   - name: Serviceorderitems
     description: Serviceorderitems
-  - name: Serviceorderpayments
-    description: Serviceorderpayments
   - name: Serviceorders
     description: Serviceorders
   - name: Services
@@ -617,6 +631,8 @@ tags:
     description: Systeminfo
   - name: Systemtasks
     description: Systemtasks
+  - name: Tables
+    description: Tables
   - name: Tasks
     description: Tasks
   - name: Taxcfops
@@ -731,6 +747,45 @@ paths:
       tags:
        - Accessgroups
       summary: Atualiza um(a) accessgroups
+      responses:
+        '200':
+          description: OK
+# ../v2api/api/v2accounts.go
+  /accounts:
+# modelo = JSONAccount
+    post:
+      tags:
+       - Accounts
+      summary: Cria um(a) accounts
+      responses:
+        '200':
+          description: accounts
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonaccount.yaml
+# ../v2api/api/v2accounts.go
+  /accounts/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do accounts
+# modelo = JSONAccount
+    put:
+      tags:
+       - Accounts
+      summary: Atualiza um(a) accounts
+      responses:
+        '200':
+          description: OK
+    delete:
+      tags:
+       - Accounts
+      summary: Deleta um(a) accounts
       responses:
         '200':
           description: OK
@@ -1344,6 +1399,21 @@ paths:
       responses:
         '200':
           description: OK
+# ../v2api/api/v2bulkdeals.go
+  /bulkdeals:
+# modelo = JSONBulkDeals
+    post:
+      tags:
+       - Bulkdeals
+      summary: Cria um(a) bulkdeals
+      responses:
+        '200':
+          description: bulkdeals
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbulkdeals.yaml
 # ../v2api/api/v2bulkhandlings.go
   /bulkhandlings:
 # modelo = JSONBulkOrders
@@ -1404,6 +1474,21 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsonbulkreceivables.yaml
+# ../v2api/api/v2bulksalesitems.go
+  /bulksalesitems:
+# modelo = JSONBulkSalesItems
+    post:
+      tags:
+       - Bulksalesitems
+      summary: Cria um(a) bulksalesitems
+      responses:
+        '200':
+          description: bulksalesitems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbulksalesitems.yaml
 # ../v2api/api/v2bulkstocks.go
   /bulkstocks:
 # modelo = JSONBulkStocks
@@ -1419,6 +1504,21 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsonbulkstocks.yaml
+# ../v2api/api/v2bulkvouchers.go
+  /bulkvouchers:
+# modelo = JSONBulkVouchers
+    post:
+      tags:
+       - Bulkvouchers
+      summary: Cria um(a) bulkvouchers
+      responses:
+        '200':
+          description: bulkvouchers
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonbulkvouchers.yaml
 # ../v2api/api/v2buyers.go
   /buyers:
 # modelo = JSONBuyer
@@ -1664,6 +1764,34 @@ paths:
       responses:
         '200':
           description: OK
+# ../v2api/api/v2cashierstats.go
+  /cashierstats:
+# filtros = FilterCashierStats
+# modelo = 
+    get:
+      tags:
+       - Cashierstats
+      summary: Listagem de cashierstats
+      responses:
+        '200':
+          description: cashierstats
+# ../v2api/api/v2cashierstats.go
+  /cashierstats/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do cashierstats
+# modelo = 
+    get:
+      tags:
+       - Cashierstats
+      summary: Busca um(a) cashierstats
+      responses:
+        '200':
+          description: cashierstats
 # ../v2api/api/v2cataloglevels.go
   /cataloglevels:
 # filtros = FilterCatalogLevels
@@ -2075,6 +2203,44 @@ paths:
       responses:
         '200':
           description: citytaxes
+# ../v2api/api/v2closings.go
+  /closings:
+# filtros = FilterClosings
+# modelo = JSONBulkClosing
+    get:
+      tags:
+       - Closings
+      summary: Listagem de closings
+      responses:
+        '200':
+          description: closings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonbulkclosing.yaml
+# ../v2api/api/v2closings.go
+  /closings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do closings
+# modelo = JSONBulkClosing
+    get:
+      tags:
+       - Closings
+      summary: Busca um(a) closings
+      responses:
+        '200':
+          description: closings
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonbulkclosing.yaml
 # ../v2api/api/v2cnaes.go
   /cnaes:
 # modelo = JSONCnae
@@ -2111,6 +2277,45 @@ paths:
       tags:
        - Cnaes
       summary: Deleta um(a) cnaes
+      responses:
+        '200':
+          description: OK
+# ../v2api/api/v2commissiontypes.go
+  /commissiontypes:
+# modelo = JSONCommissionType
+    post:
+      tags:
+       - Commissiontypes
+      summary: Cria um(a) commissiontypes
+      responses:
+        '200':
+          description: commissiontypes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncommissiontype.yaml
+# ../v2api/api/v2commissiontypes.go
+  /commissiontypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do commissiontypes
+# modelo = JSONCommissionType
+    put:
+      tags:
+       - Commissiontypes
+      summary: Atualiza um(a) commissiontypes
+      responses:
+        '200':
+          description: OK
+    delete:
+      tags:
+       - Commissiontypes
+      summary: Deleta um(a) commissiontypes
       responses:
         '200':
           description: OK
@@ -2178,7 +2383,16 @@ paths:
       responses:
         '200':
           description: contacttypes
-# ERRO open ../v2api/api/v2contractrun.go: no such file or directory
+# ../v2api/api/v2contractrun.go
+  /contractrun:
+# modelo = 
+    post:
+      tags:
+       - Contractrun
+      summary: Cria um(a) contractrun
+      responses:
+        '200':
+          description: contractrun
 # ../v2api/api/v2contracts.go
   /contracts:
 # filtros = FilterContracts
@@ -2323,6 +2537,53 @@ paths:
       responses:
         '200':
           description: OK
+# ../v2api/api/v2crmtags.go
+  /crmtags:
+# modelo = JSONCrmTag
+    post:
+      tags:
+       - Crmtags
+      summary: Cria um(a) crmtags
+      responses:
+        '200':
+          description: crmtags
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncrmtag.yaml
+# ../v2api/api/v2crmtags.go
+  /crmtags/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do crmtags
+# modelo = JSONCrmTag
+    get:
+      tags:
+       - Crmtags
+      summary: Busca um(a) crmtags
+      responses:
+        '200':
+          description: crmtags
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsoncrmtag.yaml
+# ../v2api/api/v2cstinvoices.go
+  /cstinvoices:
+# filtros = FilterCstInvoices
+# modelo = 
+    get:
+      tags:
+       - Cstinvoices
+      summary: Listagem de cstinvoices
+      responses:
+        '200':
+          description: cstinvoices
 # ../v2api/api/v2csts.go
   /csts:
 # modelo = JSONCstExcel
@@ -2670,6 +2931,72 @@ paths:
       responses:
         '200':
           description: customertransactions
+# ../v2api/api/v2dailyclosings.go
+  /dailyclosings:
+# filtros = FilterDailyClosings
+# modelo = JSONBulkClosing
+    get:
+      tags:
+       - Dailyclosings
+      summary: Listagem de dailyclosings
+      responses:
+        '200':
+          description: dailyclosings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonbulkclosing.yaml
+# ../v2api/api/v2dailyclosings.go
+  /dailyclosings/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do dailyclosings
+# modelo = JSONBulkClosing
+    get:
+      tags:
+       - Dailyclosings
+      summary: Busca um(a) dailyclosings
+      responses:
+        '200':
+          description: dailyclosings
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonbulkclosing.yaml
+# ../v2api/api/v2dailyreceivables.go
+  /dailyreceivables:
+# filtros = FilterDailyReceivables
+# modelo = 
+    get:
+      tags:
+       - Dailyreceivables
+      summary: Listagem de dailyreceivables
+      responses:
+        '200':
+          description: dailyreceivables
+# ../v2api/api/v2dailyreceivables.go
+  /dailyreceivables/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do dailyreceivables
+# modelo = 
+    get:
+      tags:
+       - Dailyreceivables
+      summary: Busca um(a) dailyreceivables
+      responses:
+        '200':
+          description: dailyreceivables
 # ../v2api/api/v2dashboardmetrics.go
   /dashboardmetrics:
 # filtros = FilterMetrics
@@ -3290,7 +3617,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2externals{id}.go: no such file or directory
 # ../v2api/api/v2filedownloads.go
   /filedownloads/{id}:
     parameters:
@@ -3308,8 +3634,6 @@ paths:
       responses:
         '200':
           description: filedownloads
-# ERRO open ../v2api/api/v2financialreports.go: no such file or directory
-# ERRO open ../v2api/api/v2financialreports.go: no such file or directory
 # ../v2api/api/v2freightbillbalances.go
   /freightbillbalances:
 # filtros = FilterFreightBillBalances
@@ -3465,6 +3789,39 @@ paths:
       tags:
        - Freightzones
       summary: Deleta um(a) freightzones
+      responses:
+        '200':
+          description: OK
+# ../v2api/api/v2fulfillments.go
+  /fulfillments:
+# modelo = JSONFulFillment
+    get:
+      tags:
+       - Fulfillments
+      summary: Listagem de fulfillments
+      responses:
+        '200':
+          description: fulfillments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonfulfillment.yaml
+# ../v2api/api/v2fulfillments.go
+  /fulfillments/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do fulfillments
+# modelo = JSONFulFillment
+    put:
+      tags:
+       - Fulfillments
+      summary: Atualiza um(a) fulfillments
       responses:
         '200':
           description: OK
@@ -4118,8 +4475,34 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2integrationoptions.go: no such file or directory
-# ERRO open ../v2api/api/v2integrationoptions.go: no such file or directory
+# ../v2api/api/v2integrationoptions.go
+  /integrationoptions:
+# filtros = FilterIntegrationOptions
+# modelo = 
+    get:
+      tags:
+       - Integrationoptions
+      summary: Listagem de integrationoptions
+      responses:
+        '200':
+          description: integrationoptions
+# ../v2api/api/v2integrationoptions.go
+  /integrationoptions/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do integrationoptions
+# modelo = 
+    get:
+      tags:
+       - Integrationoptions
+      summary: Busca um(a) integrationoptions
+      responses:
+        '200':
+          description: integrationoptions
 # ../v2api/api/v2integrationresponses.go
   /integrationresponses:
 # filtros = FilterIntegrationResponses
@@ -4202,6 +4585,34 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsonpostintegrationstatus.yaml
+# ../v2api/api/v2integrationtypes.go
+  /integrationtypes:
+# filtros = FilterIntegrationTypes
+# modelo = 
+    get:
+      tags:
+       - Integrationtypes
+      summary: Listagem de integrationtypes
+      responses:
+        '200':
+          description: integrationtypes
+# ../v2api/api/v2integrationtypes.go
+  /integrationtypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do integrationtypes
+# modelo = 
+    get:
+      tags:
+       - Integrationtypes
+      summary: Busca um(a) integrationtypes
+      responses:
+        '200':
+          description: integrationtypes
 # ../v2api/api/v2integrationvendors.go
   /integrationvendors:
 # modelo = 
@@ -4212,8 +4623,6 @@ paths:
       responses:
         '200':
           description: integrationvendors
-# ERRO open ../v2api/api/v2integrationwebhooks{id}.go: no such file or directory
-# ERRO open ../v2api/api/v2integrationwebhooks{id}{id}.go: no such file or directory
 # ../v2api/api/v2invoiceemails.go
   /invoiceemails/{id}:
     parameters:
@@ -4371,6 +4780,34 @@ paths:
       responses:
         '200':
           description: invoices
+# ../v2api/api/v2invoicetypes.go
+  /invoicetypes:
+# filtros = FilterInvoiceTypes
+# modelo = 
+    get:
+      tags:
+       - Invoicetypes
+      summary: Listagem de invoicetypes
+      responses:
+        '200':
+          description: invoicetypes
+# ../v2api/api/v2invoicetypes.go
+  /invoicetypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do invoicetypes
+# modelo = 
+    get:
+      tags:
+       - Invoicetypes
+      summary: Busca um(a) invoicetypes
+      responses:
+        '200':
+          description: invoicetypes
 # ../v2api/api/v2issuers.go
   /issuers:
 # modelo = JSONIssuer
@@ -4992,7 +5429,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2me.go: no such file or directory
 # ../v2api/api/v2menu.go
   /menu:
 # modelo = 
@@ -5150,6 +5586,21 @@ paths:
       responses:
         '200':
           description: monthlysales
+# ../v2api/api/v2movements.go
+  /movements:
+# modelo = JSONMovements
+    post:
+      tags:
+       - Movements
+      summary: Cria um(a) movements
+      responses:
+        '200':
+          description: movements
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonmovements.yaml
 # ../v2api/api/v2myplans.go
   /myplans:
 # modelo = JSONMyPlan
@@ -5317,8 +5768,38 @@ paths:
       responses:
         '200':
           description: operations
-# ERRO open ../v2api/api/v2order5929.go: no such file or directory
-# ERRO open ../v2api/api/v2ordercancel.go: no such file or directory
+# ../v2api/api/v2order5929.go
+  /order5929:
+# modelo = JSONCfop5929
+    post:
+      tags:
+       - Order5929
+      summary: Cria um(a) order5929
+      responses:
+        '200':
+          description: order5929
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsoncfop5929.yaml
+# ../v2api/api/v2ordercancel.go
+  /ordercancel/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do ordercancel
+# modelo = 
+    put:
+      tags:
+       - Ordercancel
+      summary: Atualiza um(a) ordercancel
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2ordercheckitems.go
   /ordercheckitems:
 # filtros = FilterOrderCheckItems
@@ -5370,7 +5851,23 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2orderdraft.go: no such file or directory
+# ../v2api/api/v2orderdraft.go
+  /orderdraft/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do orderdraft
+# modelo = 
+    put:
+      tags:
+       - Orderdraft
+      summary: Atualiza um(a) orderdraft
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2orderflags.go
   /orderflags:
 # filtros = FilterOrderFlags
@@ -5427,8 +5924,16 @@ paths:
       responses:
         '200':
           description: orderflows
-# ERRO open ../v2api/api/v2orderfreights.go: no such file or directory
-# ERRO open ../v2api/api/v2orderimport.go: no such file or directory
+# ../v2api/api/v2orderimport.go
+  /orderimport:
+# modelo = 
+    post:
+      tags:
+       - Orderimport
+      summary: Cria um(a) orderimport
+      responses:
+        '200':
+          description: orderimport
 # ../v2api/api/v2orderintegrations.go
   /orderintegrations:
 # filtros = FilterOrderIntegrations
@@ -5724,9 +6229,55 @@ paths:
         required: true
         description: ID do orders
 # modelo = JSONOrder
-# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
-# ERRO open ../v2api/api/v2orderstatus.go: no such file or directory
-# ERRO open ../v2api/api/v2ordersync.go: no such file or directory
+# ../v2api/api/v2orderstatus.go
+  /orderstatus:
+# modelo = JSONMudaStatus
+    post:
+      tags:
+       - Orderstatus
+      summary: Cria um(a) orderstatus
+      responses:
+        '200':
+          description: orderstatus
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonmudastatus.yaml
+# ../v2api/api/v2orderstatus.go
+  /orderstatus/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do orderstatus
+# modelo = JSONMudaStatus
+    put:
+      tags:
+       - Orderstatus
+      summary: Atualiza um(a) orderstatus
+      responses:
+        '200':
+          description: OK
+# ../v2api/api/v2ordersync.go
+  /ordersync/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do ordersync
+# modelo = 
+    put:
+      tags:
+       - Ordersync
+      summary: Atualiza um(a) ordersync
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2ordertrackings.go
   /ordertrackings:
 # filtros = FilterOrderTrackings
@@ -5770,6 +6321,34 @@ paths:
       responses:
         '200':
           description: OK
+# ../v2api/api/v2overdues.go
+  /overdues:
+# filtros = FilterOverdues
+# modelo = 
+    get:
+      tags:
+       - Overdues
+      summary: Listagem de overdues
+      responses:
+        '200':
+          description: overdues
+# ../v2api/api/v2overdues.go
+  /overdues/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do overdues
+# modelo = 
+    get:
+      tags:
+       - Overdues
+      summary: Busca um(a) overdues
+      responses:
+        '200':
+          description: overdues
 # ../v2api/api/v2packages.go
   /packages:
 # modelo = JSONPackage
@@ -5898,8 +6477,45 @@ paths:
       responses:
         '200':
           description: payablesaggs
-# ERRO open ../v2api/api/v2paymentcodes.go: no such file or directory
-# ERRO open ../v2api/api/v2paymentcodes.go: no such file or directory
+# ../v2api/api/v2paymentcodes.go
+  /paymentcodes:
+# modelo = JSONPaymentCode
+    post:
+      tags:
+       - Paymentcodes
+      summary: Cria um(a) paymentcodes
+      responses:
+        '200':
+          description: paymentcodes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonpaymentcode.yaml
+# ../v2api/api/v2paymentcodes.go
+  /paymentcodes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do paymentcodes
+# modelo = JSONPaymentCode
+    put:
+      tags:
+       - Paymentcodes
+      summary: Atualiza um(a) paymentcodes
+      responses:
+        '200':
+          description: OK
+    delete:
+      tags:
+       - Paymentcodes
+      summary: Deleta um(a) paymentcodes
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2paymenttypes.go
   /paymenttypes:
 # modelo = JSONPaymentType
@@ -5971,7 +6587,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2pdfs{id}.go: no such file or directory
 # ../v2api/api/v2pdvparameters.go
   /pdvparameters:
 # modelo = JSONPDVParameter
@@ -6011,8 +6626,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2personaddresses.go: no such file or directory
-# ERRO open ../v2api/api/v2personaddresses.go: no such file or directory
 # ../v2api/api/v2personmargins.go
   /personmargins:
 # modelo = JSONPersonMargin
@@ -6180,8 +6793,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2pickers.go: no such file or directory
-# ERRO open ../v2api/api/v2pickers.go: no such file or directory
 # ../v2api/api/v2pickingqueues.go
   /pickingqueues:
 # modelo = JSONPickingQueue
@@ -6260,8 +6871,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2pixaccounts.go: no such file or directory
-# ERRO open ../v2api/api/v2pixaccounts.go: no such file or directory
 # ../v2api/api/v2pixcharges.go
   /pixcharges:
 # modelo = JSONPIXCharge
@@ -6471,8 +7080,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
-# ERRO open ../v2api/api/v2poslayouts.go: no such file or directory
 # ../v2api/api/v2postalcodes.go
   /postalcodes:
 # filtros = FilterPostalCodes
@@ -7284,8 +7891,6 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsonpurchase.yaml
-# ERRO open ../v2api/api/v2purchases/xml.go: no such file or directory
-# ERRO open ../v2api/api/v2purchases/xml.go: no such file or directory
 # ../v2api/api/v2purchases.go
   /purchases/{id}:
     parameters:
@@ -7428,6 +8033,17 @@ paths:
       responses:
         '200':
           description: OK
+# ../v2api/api/v2receivablesaggs.go
+  /receivablesaggs:
+# filtros = FilterReceivables
+# modelo = 
+    get:
+      tags:
+       - Receivablesaggs
+      summary: Listagem de receivablesaggs
+      responses:
+        '200':
+          description: receivablesaggs
 # ../v2api/api/v2receivableslist.go
   /receivableslist:
 # modelo = JSONOrderPaymentsList
@@ -7940,40 +8556,6 @@ paths:
       responses:
         '200':
           description: OK
-# ../v2api/api/v2salesreports.go
-  /salesreports:
-# filtros = FilterSalesReports
-# modelo = JSONSalesReport
-    get:
-      tags:
-       - Salesreports
-      summary: Listagem de salesreports
-      responses:
-        '200':
-          description: salesreports
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: ./models/jsonsalesreport.yaml
-# ../v2api/api/v2salesreports.go
-  /salesreports/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do salesreports
-# modelo = JSONSalesReport
-    put:
-      tags:
-       - Salesreports
-      summary: Atualiza um(a) salesreports
-      responses:
-        '200':
-          description: OK
 # ../v2api/api/v2salessummaries.go
   /salessummaries:
 # filtros = Filtersalessummaries
@@ -8190,8 +8772,6 @@ paths:
       responses:
         '200':
           description: OK
-# ERRO open ../v2api/api/v2serviceorderpayments.go: no such file or directory
-# ERRO open ../v2api/api/v2serviceorderpayments.go: no such file or directory
 # ../v2api/api/v2serviceorders.go
   /serviceorders:
 # modelo = JSONOrder
@@ -8827,7 +9407,21 @@ paths:
       responses:
         '200':
           description: skutypes
-# ERRO open ../v2api/api/v2slipreasons.go: no such file or directory
+# ../v2api/api/v2slipreasons.go
+  /slipreasons:
+# modelo = JSONMotivosItens
+    post:
+      tags:
+       - Slipreasons
+      summary: Cria um(a) slipreasons
+      responses:
+        '200':
+          description: slipreasons
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonmotivositens.yaml
 # ../v2api/api/v2snbrackets.go
   /snbrackets:
 # filtros = FilterSnBrackets
@@ -9122,6 +9716,45 @@ paths:
       responses:
         '200':
           description: systemtasks
+# ../v2api/api/v2tables.go
+  /tables:
+# modelo = JSONTable
+    post:
+      tags:
+       - Tables
+      summary: Cria um(a) tables
+      responses:
+        '200':
+          description: tables
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsontable.yaml
+# ../v2api/api/v2tables.go
+  /tables/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do tables
+# modelo = JSONTable
+    put:
+      tags:
+       - Tables
+      summary: Atualiza um(a) tables
+      responses:
+        '200':
+          description: OK
+    delete:
+      tags:
+       - Tables
+      summary: Deleta um(a) tables
+      responses:
+        '200':
+          description: OK
 # ../v2api/api/v2tasks.go
   /tasks:
 # modelo = JSONTask
@@ -9845,7 +10478,6 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsonxmlexport.yaml
-# ERRO open ../v2api/api/v2xmlexports/zip.go: no such file or directory
 # ../v2api/api/v2xmlexports.go
   /xmlexports/{id}:
     parameters:

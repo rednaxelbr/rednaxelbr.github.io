@@ -1,0 +1,24 @@
+type: object
+properties:
+  cnpj_emitiu:
+    type: integer
+  tipo_doc:
+    type: string
+  dataini:
+    type: string
+  datafim:
+    type: string
+  emp_orig:
+    type: integer
+  emp_dest:
+    type: integer
+  message:
+    type: string
+  cont_itens:
+    type: integer
+  tipo_oper:
+    type: string
+  limite:
+    type: integer
+  comentario:
+    type: string

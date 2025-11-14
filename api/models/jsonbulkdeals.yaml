@@ -1,0 +1,14 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  id_etapa:
+    type: integer
+  redistribuir:
+    type: boolean
+  contatos_dia:
+    type: integer

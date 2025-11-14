@@ -1,0 +1,14 @@
+type: object
+properties:
+  id_pessoa:
+    type: integer
+  cupons:
+    type: array
+    items:
+      type: string
+  parcelamento:
+    type: string
+  observacoes:
+    type: string
+  volumes:
+    type: integer

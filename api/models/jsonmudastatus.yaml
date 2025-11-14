@@ -1,0 +1,26 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  status:
+    type: integer
+  retroceder:
+    type: boolean
+  reagendar:
+    type: boolean
+  limpar_zerados:
+    type: boolean
+  validar:
+    type: boolean
+  observacao:
+    type: string
+  status_financ:
+    type: integer
+  limpar_liberacao:
+    type: boolean
+  usuario_legado:
+    type: string
+  id_token:
+    type: integer
