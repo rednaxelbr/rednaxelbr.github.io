@@ -739,7 +739,7 @@ paths:
       summary: Cria um(a) accesscards
       responses:
         "200":
-          description: accesscards
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -787,7 +787,7 @@ paths:
       summary: Cria um(a) accessgroups
       responses:
         "200":
-          description: accessgroups
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -825,7 +825,7 @@ paths:
       summary: Cria um(a) accounts
       responses:
         "200":
-          description: accounts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -873,7 +873,7 @@ paths:
       summary: Cria um(a) addresses
       responses:
         "200":
-          description: addresses
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -911,7 +911,7 @@ paths:
       summary: Cria um(a) addresstypes
       responses:
         "200":
-          description: addresstypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -964,7 +964,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: approvals
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2approvals.go
@@ -984,7 +984,7 @@ paths:
       summary: Busca um(a) approvals
       responses:
         "200":
-          description: approvals
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2auditlogs.go
@@ -1002,7 +1002,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: auditlogs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2bankaccounts.go
@@ -1015,7 +1015,7 @@ paths:
       summary: Cria um(a) bankaccounts
       responses:
         "200":
-          description: bankaccounts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1063,7 +1063,7 @@ paths:
       summary: Cria um(a) bankcollections
       responses:
         "200":
-          description: bankcollections
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1116,7 +1116,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: banks
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2bankstatements.go
@@ -1129,7 +1129,7 @@ paths:
       summary: Cria um(a) bankstatements
       responses:
         "200":
-          description: bankstatements
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1177,7 +1177,7 @@ paths:
       summary: Cria um(a) barcodes
       responses:
         "200":
-          description: barcodes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1225,7 +1225,7 @@ paths:
       summary: Cria um(a) baseactivities
       responses:
         "200":
-          description: baseactivities
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1268,7 +1268,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: baseprocesses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2batches.go
@@ -1286,7 +1286,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: batches
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2batches.go
@@ -1306,7 +1306,7 @@ paths:
       summary: Busca um(a) batches
       responses:
         "200":
-          description: batches
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2billings.go
@@ -1324,7 +1324,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: billings
+          description: OK
         "400":
           description: Erro
           content:
@@ -1368,7 +1368,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: billingstatements
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2billingstatements.go
@@ -1388,7 +1388,7 @@ paths:
       summary: Busca um(a) billingstatements
       responses:
         "200":
-          description: billingstatements
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2bizhours.go
@@ -1401,7 +1401,7 @@ paths:
       summary: Cria um(a) bizhours
       responses:
         "200":
-          description: bizhours
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1449,7 +1449,7 @@ paths:
       summary: Cria um(a) bizschedules
       responses:
         "200":
-          description: bizschedules
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1501,7 +1501,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: boletocommands
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2boletos.go
@@ -1519,7 +1519,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: boletos
+          description: OK
         "400":
           description: Erro
           content:
@@ -1558,7 +1558,7 @@ paths:
       summary: Cria um(a) brands
       responses:
         "200":
-          description: brands
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1606,7 +1606,7 @@ paths:
       summary: Cria um(a) buildings
       responses:
         "200":
-          description: buildings
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1654,7 +1654,7 @@ paths:
       summary: Cria um(a) bulkdeals
       responses:
         "200":
-          description: bulkdeals
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1672,7 +1672,7 @@ paths:
       summary: Cria um(a) bulkhandlings
       responses:
         "200":
-          description: bulkhandlings
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1690,7 +1690,7 @@ paths:
       summary: Cria um(a) bulkpersons
       responses:
         "200":
-          description: bulkpersons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1708,7 +1708,7 @@ paths:
       summary: Cria um(a) bulkpurchases
       responses:
         "200":
-          description: bulkpurchases
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1726,7 +1726,7 @@ paths:
       summary: Cria um(a) bulkreceivables
       responses:
         "200":
-          description: bulkreceivables
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1744,7 +1744,7 @@ paths:
       summary: Cria um(a) bulksalesitems
       responses:
         "200":
-          description: bulksalesitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1762,7 +1762,7 @@ paths:
       summary: Cria um(a) bulkstocks
       responses:
         "200":
-          description: bulkstocks
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1780,7 +1780,7 @@ paths:
       summary: Cria um(a) bulkvouchers
       responses:
         "200":
-          description: bulkvouchers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1798,7 +1798,7 @@ paths:
       summary: Cria um(a) buyers
       responses:
         "200":
-          description: buyers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1846,7 +1846,7 @@ paths:
       summary: Cria um(a) cachetables
       responses:
         "200":
-          description: cachetables
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2campaignitems.go
@@ -1859,7 +1859,7 @@ paths:
       summary: Cria um(a) campaignitems
       responses:
         "200":
-          description: campaignitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1907,7 +1907,7 @@ paths:
       summary: Cria um(a) campaigns
       responses:
         "200":
-          description: campaigns
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1955,7 +1955,7 @@ paths:
       summary: Cria um(a) carriers
       responses:
         "200":
-          description: carriers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -1993,7 +1993,7 @@ paths:
       summary: Cria um(a) cashbalanceadjustments
       responses:
         "200":
-          description: cashbalanceadjustments
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2011,7 +2011,7 @@ paths:
       summary: Cria um(a) cashbalances
       responses:
         "200":
-          description: cashbalances
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2059,7 +2059,7 @@ paths:
       summary: Cria um(a) cashiers
       responses:
         "200":
-          description: cashiers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2102,7 +2102,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: cashierstats
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2cashierstats.go
@@ -2122,7 +2122,7 @@ paths:
       summary: Busca um(a) cashierstats
       responses:
         "200":
-          description: cashierstats
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2cataloglevels.go
@@ -2140,7 +2140,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: cataloglevels
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2catalogs.go
@@ -2153,7 +2153,7 @@ paths:
       summary: Cria um(a) catalogs
       responses:
         "200":
-          description: catalogs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2191,7 +2191,7 @@ paths:
       summary: Cria um(a) categories
       responses:
         "200":
-          description: categories
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2259,7 +2259,7 @@ paths:
       summary: Cria um(a) categorylinks
       responses:
         "200":
-          description: categorylinks
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2307,7 +2307,7 @@ paths:
       summary: Cria um(a) cbenefs
       responses:
         "200":
-          description: cbenefs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2345,7 +2345,7 @@ paths:
       summary: Cria um(a) certificates
       responses:
         "200":
-          description: certificates
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2383,7 +2383,7 @@ paths:
       summary: Cria um(a) channelfreights
       responses:
         "200":
-          description: channelfreights
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2431,7 +2431,7 @@ paths:
       summary: Cria um(a) channelpriceconfigs
       responses:
         "200":
-          description: channelpriceconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2479,7 +2479,7 @@ paths:
       summary: Cria um(a) channels
       responses:
         "200":
-          description: channels
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2517,7 +2517,7 @@ paths:
       summary: Cria um(a) chartconfigs
       responses:
         "200":
-          description: chartconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2569,7 +2569,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: charts
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2cities.go
@@ -2587,7 +2587,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: cities
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2cities.go
@@ -2607,7 +2607,7 @@ paths:
       summary: Busca um(a) cities
       responses:
         "200":
-          description: cities
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2citydistricts.go
@@ -2625,7 +2625,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: citydistricts
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2citytaxes.go
@@ -2643,7 +2643,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: citytaxes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2closings.go
@@ -2661,7 +2661,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: closings
+          description: OK
         "400":
           description: Erro
           content:
@@ -2687,7 +2687,7 @@ paths:
       summary: Busca um(a) closings
       responses:
         "200":
-          description: closings
+          description: OK
         "400":
           description: Erro
           content:
@@ -2704,7 +2704,7 @@ paths:
       summary: Cria um(a) cnaes
       responses:
         "200":
-          description: cnaes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2752,7 +2752,7 @@ paths:
       summary: Cria um(a) commissiontypes
       responses:
         "200":
-          description: commissiontypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2800,7 +2800,7 @@ paths:
       summary: Cria um(a) companies
       responses:
         "200":
-          description: companies
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2825,7 +2825,7 @@ paths:
       summary: Busca um(a) companies
       responses:
         "200":
-          description: companies
+          description: OK
         "400":
           description: Erro
           content:
@@ -2847,7 +2847,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: contacttypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2contacttypes.go
@@ -2867,7 +2867,7 @@ paths:
       summary: Busca um(a) contacttypes
       responses:
         "200":
-          description: contacttypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2contractrun.go
@@ -2880,7 +2880,7 @@ paths:
       summary: Cria um(a) contractrun
       responses:
         "200":
-          description: contractrun
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2contracts.go
@@ -2898,7 +2898,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: contracts
+          description: OK
         "400":
           description: Erro
           content:
@@ -2937,7 +2937,7 @@ paths:
       summary: Cria um(a) costcenters
       responses:
         "200":
-          description: costcenters
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -2985,7 +2985,7 @@ paths:
       summary: Cria um(a) coupons
       responses:
         "200":
-          description: coupons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3023,7 +3023,7 @@ paths:
       summary: Cria um(a) covenants
       responses:
         "200":
-          description: covenants
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3071,7 +3071,7 @@ paths:
       summary: Cria um(a) crmtags
       responses:
         "200":
-          description: crmtags
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3096,7 +3096,7 @@ paths:
       summary: Busca um(a) crmtags
       responses:
         "200":
-          description: crmtags
+          description: OK
         "400":
           description: Erro
           content:
@@ -3118,7 +3118,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: cstinvoices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2csts.go
@@ -3131,7 +3131,7 @@ paths:
       summary: Cria um(a) csts
       responses:
         "200":
-          description: csts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3154,7 +3154,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: csvexports
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2csvimporterrors.go
@@ -3172,7 +3172,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: csvimporterrors
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2csvimporterrors.go
@@ -3192,7 +3192,7 @@ paths:
       summary: Busca um(a) csvimporterrors
       responses:
         "200":
-          description: csvimporterrors
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2csvimports.go
@@ -3205,7 +3205,7 @@ paths:
       summary: Cria um(a) csvimports
       responses:
         "200":
-          description: csvimports
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3248,7 +3248,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: currencies
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2curves.go
@@ -3261,7 +3261,7 @@ paths:
       summary: Cria um(a) curves
       responses:
         "200":
-          description: curves
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3309,7 +3309,7 @@ paths:
       summary: Cria um(a) customercategories
       responses:
         "200":
-          description: customercategories
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3357,7 +3357,7 @@ paths:
       summary: Cria um(a) customercontacts
       responses:
         "200":
-          description: customercontacts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3405,7 +3405,7 @@ paths:
       summary: Cria um(a) customeremails
       responses:
         "200":
-          description: customeremails
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3430,7 +3430,7 @@ paths:
       summary: Busca um(a) customeremails
       responses:
         "200":
-          description: customeremails
+          description: OK
         "400":
           description: Erro
           content:
@@ -3447,7 +3447,7 @@ paths:
       summary: Cria um(a) customernotes
       responses:
         "200":
-          description: customernotes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3465,7 +3465,7 @@ paths:
       summary: Cria um(a) customerphones
       responses:
         "200":
-          description: customerphones
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3503,7 +3503,7 @@ paths:
       summary: Cria um(a) customerpoints
       responses:
         "200":
-          description: customerpoints
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3556,7 +3556,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: customertransactions
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2dailyclosings.go
@@ -3574,7 +3574,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: dailyclosings
+          description: OK
         "400":
           description: Erro
           content:
@@ -3600,7 +3600,7 @@ paths:
       summary: Busca um(a) dailyclosings
       responses:
         "200":
-          description: dailyclosings
+          description: OK
         "400":
           description: Erro
           content:
@@ -3622,7 +3622,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: dailyreceivables
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2dailyreceivables.go
@@ -3642,7 +3642,7 @@ paths:
       summary: Busca um(a) dailyreceivables
       responses:
         "200":
-          description: dailyreceivables
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2dashboardmetrics.go
@@ -3660,7 +3660,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: dashboardmetrics
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2dashboards.go
@@ -3673,7 +3673,7 @@ paths:
       summary: Cria um(a) dashboards
       responses:
         "200":
-          description: dashboards
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3711,7 +3711,7 @@ paths:
       summary: Cria um(a) deals
       responses:
         "200":
-          description: deals
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3764,7 +3764,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: dealtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2dealtypes.go
@@ -3784,7 +3784,7 @@ paths:
       summary: Busca um(a) dealtypes
       responses:
         "200":
-          description: dealtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2deliveries.go
@@ -3797,7 +3797,7 @@ paths:
       summary: Cria um(a) deliveries
       responses:
         "200":
-          description: deliveries
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3845,7 +3845,7 @@ paths:
       summary: Cria um(a) deliverytypes
       responses:
         "200":
-          description: deliverytypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3883,7 +3883,7 @@ paths:
       summary: Cria um(a) dfebatches
       responses:
         "200":
-          description: dfebatches
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -3931,7 +3931,7 @@ paths:
       summary: Cria um(a) distriborders
       responses:
         "200":
-          description: distriborders
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distriborders.go
@@ -3979,7 +3979,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: distribrefillitems
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distribrefills.go
@@ -3997,7 +3997,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: distribrefills
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distribrefills.go
@@ -4017,7 +4017,7 @@ paths:
       summary: Busca um(a) distribrefills
       responses:
         "200":
-          description: distribrefills
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distribskus.go
@@ -4035,7 +4035,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: distribskus
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distribtypes.go
@@ -4053,7 +4053,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: distribtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distribtypes.go
@@ -4073,7 +4073,7 @@ paths:
       summary: Busca um(a) distribtypes
       responses:
         "200":
-          description: distribtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2distributions.go
@@ -4086,7 +4086,7 @@ paths:
       summary: Cria um(a) distributions
       responses:
         "200":
-          description: distributions
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4129,7 +4129,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: documenttypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2documenttypes.go
@@ -4149,7 +4149,7 @@ paths:
       summary: Busca um(a) documenttypes
       responses:
         "200":
-          description: documenttypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2emails.go
@@ -4162,7 +4162,7 @@ paths:
       summary: Cria um(a) emails
       responses:
         "200":
-          description: emails
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4215,7 +4215,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: emailtemplatefields
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2emailtemplates.go
@@ -4228,7 +4228,7 @@ paths:
       summary: Cria um(a) emailtemplates
       responses:
         "200":
-          description: emailtemplates
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4281,7 +4281,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: emailtemplatetypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2events.go
@@ -4294,7 +4294,7 @@ paths:
       summary: Cria um(a) events
       responses:
         "200":
-          description: events
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4332,7 +4332,7 @@ paths:
       summary: Cria um(a) expensecategories
       responses:
         "200":
-          description: expensecategories
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4370,7 +4370,7 @@ paths:
       summary: Cria um(a) expenses
       responses:
         "200":
-          description: expenses
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4408,7 +4408,7 @@ paths:
       summary: Cria um(a) expenseskus
       responses:
         "200":
-          description: expenseskus
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4453,7 +4453,7 @@ paths:
       summary: Busca um(a) filedownloads
       responses:
         "200":
-          description: filedownloads
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2freightbillbalances.go
@@ -4471,7 +4471,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: freightbillbalances
+          description: OK
         "400":
           description: Erro
           content:
@@ -4515,7 +4515,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: freightbillitems
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2freightbillitems.go
@@ -4548,7 +4548,7 @@ paths:
       summary: Cria um(a) freightbills
       responses:
         "200":
-          description: freightbills
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4586,7 +4586,7 @@ paths:
       summary: Cria um(a) freightregions
       responses:
         "200":
-          description: freightregions
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4624,7 +4624,7 @@ paths:
       summary: Cria um(a) freightzones
       responses:
         "200":
-          description: freightzones
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4666,7 +4666,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: fulfillments
+          description: OK
         "400":
           description: Erro
           content:
@@ -4705,7 +4705,7 @@ paths:
       summary: Cria um(a) funnelstages
       responses:
         "200":
-          description: funnelstages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4753,7 +4753,7 @@ paths:
       summary: Cria um(a) futureprices
       responses:
         "200":
-          description: futureprices
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4801,7 +4801,7 @@ paths:
       summary: Cria um(a) giftcards
       responses:
         "200":
-          description: giftcards
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4844,7 +4844,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: grouplevels
+          description: OK
         "400":
           description: Erro
           content:
@@ -4883,7 +4883,7 @@ paths:
       summary: Cria um(a) groupmemberauths
       responses:
         "200":
-          description: groupmemberauths
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4926,7 +4926,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: groupmembers
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2handlingitems.go
@@ -4939,7 +4939,7 @@ paths:
       summary: Cria um(a) handlingitems
       responses:
         "200":
-          description: handlingitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -4992,7 +4992,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: handlings
+          description: OK
         "400":
           description: Erro
           content:
@@ -5046,7 +5046,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: helpmenuitems
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2helppages.go
@@ -5059,7 +5059,7 @@ paths:
       summary: Cria um(a) helppages
       responses:
         "200":
-          description: helppages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5097,7 +5097,7 @@ paths:
       summary: Cria um(a) holidays
       responses:
         "200":
-          description: holidays
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5135,7 +5135,7 @@ paths:
       summary: Cria um(a) ibptaxes
       responses:
         "200":
-          description: ibptaxes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5153,7 +5153,7 @@ paths:
       summary: Cria um(a) importadditionitems
       responses:
         "200":
-          description: importadditionitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5191,7 +5191,7 @@ paths:
       summary: Cria um(a) importadditions
       responses:
         "200":
-          description: importadditions
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5229,7 +5229,7 @@ paths:
       summary: Cria um(a) importadditiontaxes
       responses:
         "200":
-          description: importadditiontaxes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5272,7 +5272,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: importfees
+          description: OK
         "400":
           description: Erro
           content:
@@ -5311,7 +5311,7 @@ paths:
       summary: Cria um(a) imports
       responses:
         "200":
-          description: imports
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5354,7 +5354,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: incompleteopenings
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2incompleteopenings.go
@@ -5374,7 +5374,7 @@ paths:
       summary: Busca um(a) incompleteopenings
       responses:
         "200":
-          description: incompleteopenings
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2installmentplans.go
@@ -5387,7 +5387,7 @@ paths:
       summary: Cria um(a) installmentplans
       responses:
         "200":
-          description: installmentplans
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5430,7 +5430,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: installments
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationconfigs.go
@@ -5448,7 +5448,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: integrationconfigs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationconfigs.go
@@ -5468,7 +5468,7 @@ paths:
       summary: Busca um(a) integrationconfigs
       responses:
         "200":
-          description: integrationconfigs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationexports.go
@@ -5481,7 +5481,7 @@ paths:
       summary: Cria um(a) integrationexports
       responses:
         "200":
-          description: integrationexports
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5524,7 +5524,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: integrationoptions
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationoptions.go
@@ -5544,7 +5544,7 @@ paths:
       summary: Busca um(a) integrationoptions
       responses:
         "200":
-          description: integrationoptions
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationresponses.go
@@ -5562,7 +5562,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: integrationresponses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationresponses.go
@@ -5582,7 +5582,7 @@ paths:
       summary: Busca um(a) integrationresponses
       responses:
         "200":
-          description: integrationresponses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrations.go
@@ -5595,7 +5595,7 @@ paths:
       summary: Cria um(a) integrations
       responses:
         "200":
-          description: integrations
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5643,7 +5643,7 @@ paths:
       summary: Cria um(a) integrationstatus
       responses:
         "200":
-          description: integrationstatus
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5666,7 +5666,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: integrationtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationtypes.go
@@ -5686,7 +5686,7 @@ paths:
       summary: Busca um(a) integrationtypes
       responses:
         "200":
-          description: integrationtypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2integrationvendors.go
@@ -5703,7 +5703,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: integrationvendors
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2invoiceemails.go
@@ -5736,7 +5736,7 @@ paths:
       summary: Cria um(a) invoiceevents
       responses:
         "200":
-          description: invoiceevents
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5774,7 +5774,7 @@ paths:
       summary: Cria um(a) invoicefixes
       responses:
         "200":
-          description: invoicefixes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5792,7 +5792,7 @@ paths:
       summary: Cria um(a) invoiceitems
       responses:
         "200":
-          description: invoiceitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5835,7 +5835,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: invoicepayments
+          description: OK
         "400":
           description: Erro
           content:
@@ -5874,7 +5874,7 @@ paths:
       summary: Cria um(a) invoices
       responses:
         "200":
-          description: invoices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2invoices.go
@@ -5894,7 +5894,7 @@ paths:
       summary: Busca um(a) invoices
       responses:
         "200":
-          description: invoices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2invoicetypes.go
@@ -5912,7 +5912,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: invoicetypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2invoicetypes.go
@@ -5932,7 +5932,7 @@ paths:
       summary: Busca um(a) invoicetypes
       responses:
         "200":
-          description: invoicetypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2issuers.go
@@ -5945,7 +5945,7 @@ paths:
       summary: Cria um(a) issuers
       responses:
         "200":
-          description: issuers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -5993,7 +5993,7 @@ paths:
       summary: Cria um(a) kanbanconfigs
       responses:
         "200":
-          description: kanbanconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6046,7 +6046,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: kanbanitems
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2kanbanlanes.go
@@ -6059,7 +6059,7 @@ paths:
       summary: Cria um(a) kanbanlanes
       responses:
         "200":
-          description: kanbanlanes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6112,7 +6112,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: kanbanlanetypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2kanbanlanetypes.go
@@ -6132,7 +6132,7 @@ paths:
       summary: Busca um(a) kanbanlanetypes
       responses:
         "200":
-          description: kanbanlanetypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2kanbanmenuactions.go
@@ -6145,7 +6145,7 @@ paths:
       summary: Cria um(a) kanbanmenuactions
       responses:
         "200":
-          description: kanbanmenuactions
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6168,7 +6168,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: kanbanmenuitems
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2kanbans.go
@@ -6181,7 +6181,7 @@ paths:
       summary: Cria um(a) kanbans
       responses:
         "200":
-          description: kanbans
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6234,7 +6234,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: kardexes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2keyboardpayments.go
@@ -6247,7 +6247,7 @@ paths:
       summary: Cria um(a) keyboardpayments
       responses:
         "200":
-          description: keyboardpayments
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6295,7 +6295,7 @@ paths:
       summary: Cria um(a) keyboards
       responses:
         "200":
-          description: keyboards
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6343,7 +6343,7 @@ paths:
       summary: Cria um(a) labeljobs
       responses:
         "200":
-          description: labeljobs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6391,7 +6391,7 @@ paths:
       summary: Cria um(a) labels
       responses:
         "200":
-          description: labels
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6439,7 +6439,7 @@ paths:
       summary: Cria um(a) leadreasons
       responses:
         "200":
-          description: leadreasons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6487,7 +6487,7 @@ paths:
       summary: Cria um(a) leads
       responses:
         "200":
-          description: leads
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6535,7 +6535,7 @@ paths:
       summary: Cria um(a) leadstages
       responses:
         "200":
-          description: leadstages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6588,7 +6588,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: leadstatuses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2leadstatuses.go
@@ -6608,7 +6608,7 @@ paths:
       summary: Busca um(a) leadstatuses
       responses:
         "200":
-          description: leadstatuses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2locationlabels.go
@@ -6626,7 +6626,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: locationlabels
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2logout.go
@@ -6639,7 +6639,7 @@ paths:
       summary: Cria um(a) logout
       responses:
         "200":
-          description: logout
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2logs.go
@@ -6657,7 +6657,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: logs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2logs.go
@@ -6677,7 +6677,7 @@ paths:
       summary: Busca um(a) logs
       responses:
         "200":
-          description: logs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2loyaltyprograms.go
@@ -6690,7 +6690,7 @@ paths:
       summary: Cria um(a) loyaltyprograms
       responses:
         "200":
-          description: loyaltyprograms
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6742,7 +6742,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: menu
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2menuitems.go
@@ -6755,7 +6755,7 @@ paths:
       summary: Cria um(a) menuitems
       responses:
         "200":
-          description: menuitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6808,7 +6808,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: menureports
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2menureports.go
@@ -6828,7 +6828,7 @@ paths:
       summary: Busca um(a) menureports
       responses:
         "200":
-          description: menureports
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2metrics.go
@@ -6846,7 +6846,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: metrics
+          description: OK
         "400":
           description: Erro
           content:
@@ -6900,7 +6900,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: metricseries
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2metricseries.go
@@ -6920,7 +6920,7 @@ paths:
       summary: Busca um(a) metricseries
       responses:
         "200":
-          description: metricseries
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2monthlysales.go
@@ -6938,7 +6938,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: monthlysales
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2movements.go
@@ -6951,7 +6951,7 @@ paths:
       summary: Cria um(a) movements
       responses:
         "200":
-          description: movements
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -6969,7 +6969,7 @@ paths:
       summary: Cria um(a) myplans
       responses:
         "200":
-          description: myplans
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7017,7 +7017,7 @@ paths:
       summary: Cria um(a) notificationconfigs
       responses:
         "200":
-          description: notificationconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7065,7 +7065,7 @@ paths:
       summary: Cria um(a) notifications
       responses:
         "200":
-          description: notifications
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7113,7 +7113,7 @@ paths:
       summary: Cria um(a) operationconfigs
       responses:
         "200":
-          description: operationconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7166,7 +7166,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: operations
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2order5929.go
@@ -7179,7 +7179,7 @@ paths:
       summary: Cria um(a) order5929
       responses:
         "200":
-          description: order5929
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7222,7 +7222,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: ordercheckitems
+          description: OK
         "400":
           description: Erro
           content:
@@ -7306,7 +7306,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: orderflags
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderflags.go
@@ -7326,7 +7326,7 @@ paths:
       summary: Busca um(a) orderflags
       responses:
         "200":
-          description: orderflags
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderflows.go
@@ -7344,7 +7344,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: orderflows
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderflows.go
@@ -7364,7 +7364,7 @@ paths:
       summary: Busca um(a) orderflows
       responses:
         "200":
-          description: orderflows
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderimport.go
@@ -7377,7 +7377,7 @@ paths:
       summary: Cria um(a) orderimport
       responses:
         "200":
-          description: orderimport
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderintegrations.go
@@ -7395,7 +7395,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: orderintegrations
+          description: OK
         "400":
           description: Erro
           content:
@@ -7441,7 +7441,7 @@ paths:
       summary: Busca um(a) orderitemdiscounts
       responses:
         "200":
-          description: orderitemdiscounts
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderitems.go
@@ -7454,7 +7454,7 @@ paths:
       summary: Cria um(a) orderitems
       responses:
         "200":
-          description: orderitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7492,7 +7492,7 @@ paths:
       summary: Cria um(a) orderlabels
       responses:
         "200":
-          description: orderlabels
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7530,7 +7530,7 @@ paths:
       summary: Cria um(a) ordermargins
       responses:
         "200":
-          description: ordermargins
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7578,7 +7578,7 @@ paths:
       summary: Cria um(a) ordernotes
       responses:
         "200":
-          description: ordernotes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7601,7 +7601,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: orderobjects
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderorigins.go
@@ -7619,7 +7619,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: orderorigins
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2orderpatches.go
@@ -7632,7 +7632,7 @@ paths:
       summary: Cria um(a) orderpatches
       responses:
         "200":
-          description: orderpatches
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7670,7 +7670,7 @@ paths:
       summary: Cria um(a) orderpaymentlists
       responses:
         "200":
-          description: orderpaymentlists
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7688,7 +7688,7 @@ paths:
       summary: Cria um(a) orderpayments
       responses:
         "200":
-          description: orderpayments
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7726,7 +7726,7 @@ paths:
       summary: Cria um(a) orders
       responses:
         "200":
-          description: orders
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7754,7 +7754,7 @@ paths:
       summary: Cria um(a) orderstatus
       responses:
         "200":
-          description: orderstatus
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7817,7 +7817,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: ordertrackings
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2ordervolumes.go
@@ -7830,7 +7830,7 @@ paths:
       summary: Cria um(a) ordervolumes
       responses:
         "200":
-          description: ordervolumes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7873,7 +7873,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: overdues
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2overdues.go
@@ -7893,7 +7893,7 @@ paths:
       summary: Busca um(a) overdues
       responses:
         "200":
-          description: overdues
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2packages.go
@@ -7906,7 +7906,7 @@ paths:
       summary: Cria um(a) packages
       responses:
         "200":
-          description: packages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -7954,7 +7954,7 @@ paths:
       summary: Cria um(a) parameters
       responses:
         "200":
-          description: parameters
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8002,7 +8002,7 @@ paths:
       summary: Cria um(a) payables
       responses:
         "200":
-          description: payables
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8055,7 +8055,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: payablesaggs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2paymentcodes.go
@@ -8068,7 +8068,7 @@ paths:
       summary: Cria um(a) paymentcodes
       responses:
         "200":
-          description: paymentcodes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8116,7 +8116,7 @@ paths:
       summary: Cria um(a) paymenttypes
       responses:
         "200":
-          description: paymenttypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8164,7 +8164,7 @@ paths:
       summary: Cria um(a) pdflayouts
       responses:
         "200":
-          description: pdflayouts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8202,7 +8202,7 @@ paths:
       summary: Cria um(a) pdvparameters
       responses:
         "200":
-          description: pdvparameters
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8250,7 +8250,7 @@ paths:
       summary: Cria um(a) personmargins
       responses:
         "200":
-          description: personmargins
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8303,7 +8303,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: personproducts
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2personprofiles.go
@@ -8321,7 +8321,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: personprofiles
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2personprofiles.go
@@ -8341,7 +8341,7 @@ paths:
       summary: Busca um(a) personprofiles
       responses:
         "200":
-          description: personprofiles
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2persons.go
@@ -8354,7 +8354,7 @@ paths:
       summary: Cria um(a) persons
       responses:
         "200":
-          description: persons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8407,7 +8407,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: phases
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2phonetypes.go
@@ -8420,7 +8420,7 @@ paths:
       summary: Cria um(a) phonetypes
       responses:
         "200":
-          description: phonetypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8468,7 +8468,7 @@ paths:
       summary: Cria um(a) pickingqueues
       responses:
         "200":
-          description: pickingqueues
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8516,7 +8516,7 @@ paths:
       summary: Cria um(a) pickingzones
       responses:
         "200":
-          description: pickingzones
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8564,7 +8564,7 @@ paths:
       summary: Cria um(a) pixcharges
       responses:
         "200":
-          description: pixcharges
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8617,7 +8617,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: pixstatuses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2pixstatuses.go
@@ -8637,7 +8637,7 @@ paths:
       summary: Busca um(a) pixstatuses
       responses:
         "200":
-          description: pixstatuses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2planpaymentmethods.go
@@ -8650,7 +8650,7 @@ paths:
       summary: Cria um(a) planpaymentmethods
       responses:
         "200":
-          description: planpaymentmethods
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8688,7 +8688,7 @@ paths:
       summary: Cria um(a) portfoliocustomers
       responses:
         "200":
-          description: portfoliocustomers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8736,7 +8736,7 @@ paths:
       summary: Cria um(a) portfolios
       responses:
         "200":
-          description: portfolios
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8784,7 +8784,7 @@ paths:
       summary: Cria um(a) poslayoutkeys
       responses:
         "200":
-          description: poslayoutkeys
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8827,7 +8827,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: postalcodes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2posterfields.go
@@ -8845,7 +8845,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: posterfields
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2posterfields.go
@@ -8865,7 +8865,7 @@ paths:
       summary: Busca um(a) posterfields
       responses:
         "200":
-          description: posterfields
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2posterjobs.go
@@ -8878,7 +8878,7 @@ paths:
       summary: Cria um(a) posterjobs
       responses:
         "200":
-          description: posterjobs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8926,7 +8926,7 @@ paths:
       summary: Cria um(a) posters
       responses:
         "200":
-          description: posters
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -8979,7 +8979,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: postersizes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2pricecheck.go
@@ -8999,7 +8999,7 @@ paths:
       summary: Busca um(a) pricecheck
       responses:
         "200":
-          description: pricecheck
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2pricelistarticles.go
@@ -9012,7 +9012,7 @@ paths:
       summary: Cria um(a) pricelistarticles
       responses:
         "200":
-          description: pricelistarticles
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9060,7 +9060,7 @@ paths:
       summary: Cria um(a) pricelistcategories
       responses:
         "200":
-          description: pricelistcategories
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9098,7 +9098,7 @@ paths:
       summary: Cria um(a) pricelists
       responses:
         "200":
-          description: pricelists
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9146,7 +9146,7 @@ paths:
       summary: Cria um(a) priceroundingrules
       responses:
         "200":
-          description: priceroundingrules
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9194,7 +9194,7 @@ paths:
       summary: Cria um(a) pricerules
       responses:
         "200":
-          description: pricerules
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9232,7 +9232,7 @@ paths:
       summary: Cria um(a) productcategories
       responses:
         "200":
-          description: productcategories
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9280,7 +9280,7 @@ paths:
       summary: Cria um(a) productimages
       responses:
         "200":
-          description: productimages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9328,7 +9328,7 @@ paths:
       summary: Cria um(a) products
       responses:
         "200":
-          description: products
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9376,7 +9376,7 @@ paths:
       summary: Cria um(a) producttags
       responses:
         "200":
-          description: producttags
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9449,7 +9449,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: prospects
+          description: OK
         "400":
           description: Erro
           content:
@@ -9475,7 +9475,7 @@ paths:
       summary: Busca um(a) prospects
       responses:
         "200":
-          description: prospects
+          description: OK
         "400":
           description: Erro
           content:
@@ -9492,7 +9492,7 @@ paths:
       summary: Cria um(a) providers
       responses:
         "200":
-          description: providers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9540,7 +9540,7 @@ paths:
       summary: Cria um(a) purchaseitems
       responses:
         "200":
-          description: purchaseitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9578,7 +9578,7 @@ paths:
       summary: Cria um(a) purchaseitemtaxes
       responses:
         "200":
-          description: purchaseitemtaxes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9616,7 +9616,7 @@ paths:
       summary: Cria um(a) purchasemappings
       responses:
         "200":
-          description: purchasemappings
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9664,7 +9664,7 @@ paths:
       summary: Cria um(a) purchaseorderitems
       responses:
         "200":
-          description: purchaseorderitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9712,7 +9712,7 @@ paths:
       summary: Cria um(a) purchaseorderpayments
       responses:
         "200":
-          description: purchaseorderpayments
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9760,7 +9760,7 @@ paths:
       summary: Cria um(a) purchaseorders
       responses:
         "200":
-          description: purchaseorders
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9808,7 +9808,7 @@ paths:
       summary: Cria um(a) purchases
       responses:
         "200":
-          description: purchases
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9846,7 +9846,7 @@ paths:
       summary: Cria um(a) purchasetaxes
       responses:
         "200":
-          description: purchasetaxes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9894,7 +9894,7 @@ paths:
       summary: Cria um(a) quotes
       responses:
         "200":
-          description: quotes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9912,7 +9912,7 @@ paths:
       summary: Cria um(a) reasons
       responses:
         "200":
-          description: reasons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -9960,7 +9960,7 @@ paths:
       summary: Cria um(a) receivables
       responses:
         "200":
-          description: receivables
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10003,7 +10003,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: receivablesaggs
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2receivableslist.go
@@ -10016,7 +10016,7 @@ paths:
       summary: Cria um(a) receivableslist
       responses:
         "200":
-          description: receivableslist
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10039,7 +10039,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: receptioninvoices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2receptioninvoices.go
@@ -10059,7 +10059,7 @@ paths:
       summary: Busca um(a) receptioninvoices
       responses:
         "200":
-          description: receptioninvoices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2receptions.go
@@ -10072,7 +10072,7 @@ paths:
       summary: Cria um(a) receptions
       responses:
         "200":
-          description: receptions
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10120,7 +10120,7 @@ paths:
       summary: Cria um(a) receptionskus
       responses:
         "200":
-          description: receptionskus
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10172,7 +10172,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: recharges
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep201.go
@@ -10190,7 +10190,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep201
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep202.go
@@ -10208,7 +10208,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep202
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep203.go
@@ -10226,7 +10226,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep203
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep301.go
@@ -10244,7 +10244,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep301
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep302.go
@@ -10262,7 +10262,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep302
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep303.go
@@ -10280,7 +10280,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep303
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2rep304.go
@@ -10298,7 +10298,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: rep304
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2reportrows.go
@@ -10315,7 +10315,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: reportrows
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2reports.go
@@ -10333,7 +10333,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: reports
+          description: OK
         "400":
           description: Erro
           content:
@@ -10372,7 +10372,7 @@ paths:
       summary: Cria um(a) rooms
       responses:
         "200":
-          description: rooms
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10425,7 +10425,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: roundprices
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2sales.go
@@ -10438,7 +10438,7 @@ paths:
       summary: Cria um(a) sales
       responses:
         "200":
-          description: sales
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10491,7 +10491,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: salesfunnels
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2salesfunnels.go
@@ -10511,7 +10511,7 @@ paths:
       summary: Busca um(a) salesfunnels
       responses:
         "200":
-          description: salesfunnels
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2salesinstallments.go
@@ -10529,7 +10529,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: salesinstallments
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2salesitems.go
@@ -10542,7 +10542,7 @@ paths:
       summary: Cria um(a) salesitems
       responses:
         "200":
-          description: salesitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10590,7 +10590,7 @@ paths:
       summary: Cria um(a) salespayments
       responses:
         "200":
-          description: salespayments
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10638,7 +10638,7 @@ paths:
       summary: Cria um(a) salespaymentslist
       responses:
         "200":
-          description: salespaymentslist
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10656,7 +10656,7 @@ paths:
       summary: Cria um(a) salespersons
       responses:
         "200":
-          description: salespersons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10709,7 +10709,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: salessummaries
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2scmconfigs.go
@@ -10722,7 +10722,7 @@ paths:
       summary: Cria um(a) scmconfigs
       responses:
         "200":
-          description: scmconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10770,7 +10770,7 @@ paths:
       summary: Cria um(a) seasonalconfigs
       responses:
         "200":
-          description: seasonalconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10818,7 +10818,7 @@ paths:
       summary: Cria um(a) seasonranges
       responses:
         "200":
-          description: seasonranges
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10866,7 +10866,7 @@ paths:
       summary: Cria um(a) sendmails
       responses:
         "200":
-          description: sendmails
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2serviceclasses.go
@@ -10879,7 +10879,7 @@ paths:
       summary: Cria um(a) serviceclasses
       responses:
         "200":
-          description: serviceclasses
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10927,7 +10927,7 @@ paths:
       summary: Cria um(a) serviceorderitems
       responses:
         "200":
-          description: serviceorderitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -10975,7 +10975,7 @@ paths:
       summary: Cria um(a) serviceorders
       responses:
         "200":
-          description: serviceorders
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11023,7 +11023,7 @@ paths:
       summary: Cria um(a) services
       responses:
         "200":
-          description: services
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11076,7 +11076,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: settings
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2settings.go
@@ -11096,7 +11096,7 @@ paths:
       summary: Busca um(a) settings
       responses:
         "200":
-          description: settings
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2shelfqueues.go
@@ -11109,7 +11109,7 @@ paths:
       summary: Cria um(a) shelfqueues
       responses:
         "200":
-          description: shelfqueues
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11147,7 +11147,7 @@ paths:
       summary: Cria um(a) skuarticles
       responses:
         "200":
-          description: skuarticles
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11200,7 +11200,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skucmms
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skuconfigs.go
@@ -11213,7 +11213,7 @@ paths:
       summary: Cria um(a) skuconfigs
       responses:
         "200":
-          description: skuconfigs
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11266,7 +11266,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skucurvedetails
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skucurvedetails.go
@@ -11286,7 +11286,7 @@ paths:
       summary: Busca um(a) skucurvedetails
       responses:
         "200":
-          description: skucurvedetails
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skucurves.go
@@ -11304,7 +11304,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skucurves
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skucurves.go
@@ -11324,7 +11324,7 @@ paths:
       summary: Busca um(a) skucurves
       responses:
         "200":
-          description: skucurves
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skudailysales.go
@@ -11342,7 +11342,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skudailysales
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skugrids.go
@@ -11355,7 +11355,7 @@ paths:
       summary: Cria um(a) skugrids
       responses:
         "200":
-          description: skugrids
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11403,7 +11403,7 @@ paths:
       summary: Cria um(a) skugroups
       responses:
         "200":
-          description: skugroups
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11456,7 +11456,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skumonthlysales
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skuparts.go
@@ -11469,7 +11469,7 @@ paths:
       summary: Cria um(a) skuparts
       responses:
         "200":
-          description: skuparts
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11517,7 +11517,7 @@ paths:
       summary: Cria um(a) skuprices
       responses:
         "200":
-          description: skuprices
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11542,7 +11542,7 @@ paths:
       summary: Busca um(a) skuprices
       responses:
         "200":
-          description: skuprices
+          description: OK
         "400":
           description: Erro
           content:
@@ -11559,7 +11559,7 @@ paths:
       summary: Cria um(a) skureservations
       responses:
         "200":
-          description: skureservations
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11607,7 +11607,7 @@ paths:
       summary: Cria um(a) skus
       responses:
         "200":
-          description: skus
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11645,7 +11645,7 @@ paths:
       summary: Cria um(a) skustocks
       responses:
         "200":
-          description: skustocks
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11698,7 +11698,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skutransits
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skutransits.go
@@ -11718,7 +11718,7 @@ paths:
       summary: Busca um(a) skutransits
       responses:
         "200":
-          description: skutransits
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skutrends.go
@@ -11736,7 +11736,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skutrends
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skutypes.go
@@ -11754,7 +11754,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: skutypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2skutypes.go
@@ -11774,7 +11774,7 @@ paths:
       summary: Busca um(a) skutypes
       responses:
         "200":
-          description: skutypes
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2slipreasons.go
@@ -11787,7 +11787,7 @@ paths:
       summary: Cria um(a) slipreasons
       responses:
         "200":
-          description: slipreasons
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -11810,7 +11810,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: snbrackets
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2states.go
@@ -11828,7 +11828,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: states
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2status.go
@@ -11845,7 +11845,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: status
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2statuses.go
@@ -11863,7 +11863,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: statuses
+          description: OK
         "400":
           description: Erro
           content:
@@ -11907,7 +11907,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: stockdailysummaries
+          description: OK
         "400":
           description: Erro
           content:
@@ -11951,7 +11951,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: stocksectors
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2stocksectors.go
@@ -11971,7 +11971,7 @@ paths:
       summary: Busca um(a) stocksectors
       responses:
         "200":
-          description: stocksectors
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2stocksummaries.go
@@ -11989,7 +11989,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: stocksummaries
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2stocksummaries.go
@@ -12009,7 +12009,7 @@ paths:
       summary: Busca um(a) stocksummaries
       responses:
         "200":
-          description: stocksummaries
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2supplieritems.go
@@ -12022,7 +12022,7 @@ paths:
       summary: Cria um(a) supplieritems
       responses:
         "200":
-          description: supplieritems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12070,7 +12070,7 @@ paths:
       summary: Cria um(a) suppliers
       responses:
         "200":
-          description: suppliers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12118,7 +12118,7 @@ paths:
       summary: Cria um(a) supplyitems
       responses:
         "200":
-          description: supplyitems
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12170,7 +12170,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: systeminfo
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2systemtasks.go
@@ -12188,7 +12188,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: systemtasks
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2tables.go
@@ -12201,7 +12201,7 @@ paths:
       summary: Cria um(a) tables
       responses:
         "200":
-          description: tables
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12249,7 +12249,7 @@ paths:
       summary: Cria um(a) tasks
       responses:
         "200":
-          description: tasks
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12297,7 +12297,7 @@ paths:
       summary: Cria um(a) taxcfops
       responses:
         "200":
-          description: taxcfops
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12335,7 +12335,7 @@ paths:
       summary: Cria um(a) taxclasses
       responses:
         "200":
-          description: taxclasses
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12388,7 +12388,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: taxrates
+          description: OK
         "400":
           description: Erro
           content:
@@ -12427,7 +12427,7 @@ paths:
       summary: Cria um(a) tenants
       responses:
         "200":
-          description: tenants
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12480,7 +12480,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: timelines
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2tokens.go
@@ -12498,7 +12498,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: tokens
+          description: OK
         "400":
           description: Erro
           content:
@@ -12552,7 +12552,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: transactions
+          description: OK
         "400":
           description: Erro
           content:
@@ -12591,7 +12591,7 @@ paths:
       summary: Cria um(a) units
       responses:
         "200":
-          description: units
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12644,7 +12644,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: userauths
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2usercompanies.go
@@ -12657,7 +12657,7 @@ paths:
       summary: Cria um(a) usercompanies
       responses:
         "200":
-          description: usercompanies
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12705,7 +12705,7 @@ paths:
       summary: Cria um(a) useremails
       responses:
         "200":
-          description: useremails
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12753,7 +12753,7 @@ paths:
       summary: Cria um(a) users
       responses:
         "200":
-          description: users
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12801,7 +12801,7 @@ paths:
       summary: Cria um(a) vendors
       responses:
         "200":
-          description: vendors
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12839,7 +12839,7 @@ paths:
       summary: Cria um(a) voidnumbers
       responses:
         "200":
-          description: voidnumbers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12864,7 +12864,7 @@ paths:
       summary: Busca um(a) voidnumbers
       responses:
         "200":
-          description: voidnumbers
+          description: OK
         "400":
           description: Erro
           content:
@@ -12888,7 +12888,7 @@ paths:
       summary: Busca um(a) volumelabels
       responses:
         "200":
-          description: volumelabels
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2vouchers.go
@@ -12901,7 +12901,7 @@ paths:
       summary: Cria um(a) vouchers
       responses:
         "200":
-          description: vouchers
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -12953,7 +12953,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: voucherstatuses
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2vouchertypes.go
@@ -12966,7 +12966,7 @@ paths:
       summary: Cria um(a) vouchertypes
       responses:
         "200":
-          description: vouchertypes
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -13004,7 +13004,7 @@ paths:
       summary: Cria um(a) whatsappdevices
       responses:
         "200":
-          description: whatsappdevices
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -13052,7 +13052,7 @@ paths:
       summary: Cria um(a) whatsappmessages
       responses:
         "200":
-          description: whatsappmessages
+          description: OK
         "400":
           description: Erro
       requestBody:
@@ -13105,7 +13105,7 @@ paths:
         - $ref: "#/components/parameters/Sort"
       responses:
         "200":
-          description: wmsinfos
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2wmsinfos.go
@@ -13125,7 +13125,7 @@ paths:
       summary: Busca um(a) wmsinfos
       responses:
         "200":
-          description: wmsinfos
+          description: OK
         "400":
           description: Erro
   # ../v2api/api/v2xmlexports.go
@@ -13138,7 +13138,7 @@ paths:
       summary: Cria um(a) xmlexports
       responses:
         "200":
-          description: xmlexports
+          description: OK
         "400":
           description: Erro
       requestBody:
