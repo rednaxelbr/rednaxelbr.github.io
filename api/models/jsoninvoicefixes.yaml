@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo:
+    type: string
+  cod_sku:
+    type: integer
+  id_compra:
+    type: integer
+  data_inicial:
+    type: string
+  data_final:
+    type: string

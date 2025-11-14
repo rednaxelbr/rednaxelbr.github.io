@@ -1,0 +1,58 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_pedido:
+    type: integer
+  parcela:
+    type: integer
+  tpag:
+    type: integer
+  tpintegra:
+    type: integer
+  data_parcela:
+    type: string
+  sigla_forma:
+    type: string
+  card_id:
+    type: integer
+  voucher_id:
+    type: integer
+  fiscdoc_id:
+    type: integer
+  nome_bandeira:
+    type: string
+  nosso_numero:
+    type: string
+  excluir:
+    type: boolean
+  limpar_pagtos:
+    type: boolean
+  id_boleto:
+    type: integer
+  num_vezes:
+    type: integer
+  id_parc:
+    type: integer
+  observacoes:
+    type: string
+  parcelamento_manual:
+    type: string
+  dif:
+    type: boolean
+  ids_vales:
+    type: array
+    items:
+      type: integer
+  codigo_vale:
+    type: string
+  id_pix:
+    type: integer
+  nf_origem:
+    type: integer
+  chave_origem:
+    type: string
+  id_link:
+    type: integer

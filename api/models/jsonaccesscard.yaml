@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: string
+  metodo:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string

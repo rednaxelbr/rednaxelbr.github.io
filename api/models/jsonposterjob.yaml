@@ -1,0 +1,32 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_poster:
+    type: integer
+  dthr_geracao:
+    type: string
+  tipo:
+    type: string
+  nome_cartaz:
+    type: string
+  tamanho:
+    type: string
+  nome_usuario:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  empresa:
+    type: string
+  numero_pedido:
+    type: integer
+  cod_produto:
+    type: integer
+  foi_gerado:
+    type: boolean
+  pdf_make:
+    type: string

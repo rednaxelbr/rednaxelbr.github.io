@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  api_id:
+    type: integer
+  data_hora:
+    type: string
+  recurso_api:
+    type: string
+  status_http:
+    type: integer
+  dados_request:
+    type: string
+  dados_response:
+    type: string
+  enviar:
+    type: boolean

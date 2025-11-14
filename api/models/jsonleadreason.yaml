@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_etapa:
+    type: integer
+  ordem_motivo:
+    type: integer
+  nome_motivo:
+    type: string
+  descricao_motivo:
+    type: string
+  data_hora:
+    type: string

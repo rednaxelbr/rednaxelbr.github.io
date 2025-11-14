@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  uuid_lote:
+    type: string
+  impressora:
+    type: string
+  shipping_label:
+    type: string

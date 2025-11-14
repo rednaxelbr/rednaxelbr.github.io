@@ -1,0 +1,32 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: string
+  id_campanha:
+    type: integer
+  inicio_camp:
+    type: string
+  termino_camp:
+    type: string
+  cod_produto:
+    type: integer
+  id_grade:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  excluir:
+    type: boolean
+  id_empresa:
+    type: integer
+  preco_ativo:
+    type: boolean
+  itens_csv:
+    type: string
+  copiar_pedido:
+    type: integer
+  copiar_quantidades:
+    type: boolean

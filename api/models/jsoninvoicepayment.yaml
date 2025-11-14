@@ -1,0 +1,62 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tpag:
+    type: integer
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  parcela:
+    type: integer
+  data_parcela:
+    type: string
+  data_emissao:
+    type: string
+  nome_bandeira:
+    type: string
+  nosso_numero:
+    type: string
+  id_boleto:
+    type: integer
+  modalidade_pagto:
+    type: string
+  nsu:
+    type: string
+  nsu_manual:
+    type: string
+  serie:
+    type: integer
+  numero:
+    type: integer
+  modelo:
+    type: integer
+  conciliado:
+    type: boolean
+  cnpj_emit:
+    type: integer
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  sigla_loja:
+    type: string
+  observ_financ:
+    type: string
+  chave_origem:
+    type: string
+  nf_origem:
+    type: integer
+  chnfe:
+    type: string
+  tipo:
+    type: string
+  id_vale:
+    type: integer
+  usu_conciliou:
+    type: integer
+  quem_conciliou:
+    type: string

@@ -1,0 +1,60 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  numero_pedido:
+    type: integer
+  seq:
+    type: integer
+  idprod:
+    type: integer
+  cod_produto:
+    type: integer
+  ucom:
+    type: string
+  xprod:
+    type: string
+  str_desc:
+    type: string
+  zerado:
+    type: boolean
+  motivo:
+    type: integer
+  plu:
+    type: integer
+  zerar_desconto:
+    type: boolean
+  cod_servico:
+    type: integer
+  fracionar:
+    type: boolean
+  desc_tipocom:
+    type: string
+  botao:
+    type: string
+  codigos:
+    type: array
+    items:
+      type: integer
+  excluir:
+    type: boolean
+  num_nota:
+    type: integer
+  cod_ncm:
+    type: string
+  cod_cest:
+    type: string
+  itens_csv:
+    type: string
+  copiar_pedido:
+    type: integer
+  copiar_quantidades:
+    type: boolean
+  copiar_precos:
+    type: boolean
+  copiar_chave:
+    type: string
+  data_hora_item:
+    type: string

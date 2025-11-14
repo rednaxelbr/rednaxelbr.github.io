@@ -1,0 +1,40 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_layout:
+    type: integer
+  dthr_geracao:
+    type: string
+  tipo:
+    type: string
+  modelo:
+    type: string
+  impressora:
+    type: string
+  ordem:
+    type: integer
+  nome_usuario:
+    type: string
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  numero_pedido:
+    type: integer
+  foi_impresso:
+    type: boolean
+  gerar_pedido:
+    type: boolean
+  qtd_itens:
+    type: integer
+  cod_produto:
+    type: integer
+  quantidade:
+    type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer

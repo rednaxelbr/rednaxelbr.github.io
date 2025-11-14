@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  tpag:
+    type: integer
+  sigla:
+    type: string
+  user_id:
+    type: integer

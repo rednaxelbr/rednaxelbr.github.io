@@ -1,0 +1,32 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  status_code:
+    type: integer
+  nome_status:
+    type: string
+  descricao_status:
+    type: string
+  ordem_etapa:
+    type: integer
+  nome_etapa:
+    type: string
+  nome_combinado:
+    type: string
+  texto_orientacao:
+    type: string
+  etapa_padrao:
+    type: boolean
+  requer_motivo:
+    type: boolean
+  convertido:
+    type: boolean
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string
+  ativa:
+    type: boolean

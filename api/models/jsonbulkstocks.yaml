@@ -1,0 +1,14 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: string
+  metodo:
+    type: string
+  mover_perda:
+    type: boolean
+  id_motivo:
+    type: integer
+  zerar:
+    type: boolean

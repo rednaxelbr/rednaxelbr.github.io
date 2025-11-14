@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  data_hora:
+    type: string
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  numero_pedido:
+    type: integer
+  ordem_item:
+    type: integer

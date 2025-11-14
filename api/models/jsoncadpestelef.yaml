@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_pessoa:
+    type: integer
+  phone_id:
+    type: integer
+  type_id:
+    type: integer
+  tipo:
+    type: string
+  numero:
+    type: string
+  observacoes:
+    type: string
+  eh_principal:
+    type: boolean
+  excluir:
+    type: boolean

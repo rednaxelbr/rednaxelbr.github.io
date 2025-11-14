@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  desc_categoria:
+    type: string
+  plu_id:
+    type: integer
+  categ_mae:
+    type: integer
+  segmento:
+    type: boolean
+  clientes:
+    type: integer
+  ordtag_id:
+    type: integer
+  desc_tagped:
+    type: string
+  color:
+    type: string

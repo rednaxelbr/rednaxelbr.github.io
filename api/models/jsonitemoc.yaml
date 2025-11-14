@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_oc:
+    type: integer
+  ordem:
+    type: integer
+  codigo_sku:
+    type: integer
+  ucom:
+    type: string
+  prod_xprod:
+    type: string
+  observ_item:
+    type: string
+  referencia:
+    type: string
+  qtds_por_loja:
+    type: string
+  status:
+    type: integer
+  fat_previsto:
+    type: string

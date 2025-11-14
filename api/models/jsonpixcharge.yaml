@@ -1,0 +1,74 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  tipo_pix:
+    type: integer
+  data_hora:
+    type: string
+  id_conta:
+    type: integer
+  banco:
+    type: string
+  num_conta:
+    type: string
+  id_pessoa:
+    type: integer
+  pix_description:
+    type: string
+  pix_duedate:
+    type: string
+  data_vencimento:
+    type: string
+  nome_usuario:
+    type: string
+  status:
+    type: string
+  desc_status:
+    type: string
+  url_qrcode:
+    type: string
+  id_abertura:
+    type: string
+  numero_cupom:
+    type: integer
+  numero_pedido:
+    type: integer
+  seq_pagto:
+    type: integer
+  imagem_qrcode:
+    type: string
+  pix_duration:
+    type: integer
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  id_plugpix:
+    type: string
+  status_manual:
+    type: string
+  pix_txid:
+    type: string
+  end2end_id:
+    type: string
+  id_lancto:
+    type: integer
+  id_pagto:
+    type: integer
+  desvincular_pedido:
+    type: boolean
+  pode_desvincular:
+    type: boolean
+  token_id:
+    type: integer
+  apelido:
+    type: string
+  fiscdoc_id:
+    type: integer
+  chnfe:
+    type: string

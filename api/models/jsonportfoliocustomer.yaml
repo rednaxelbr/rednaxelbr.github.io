@@ -1,0 +1,56 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  id_carteira:
+    type: integer
+  nome_carteira:
+    type: string
+  id_vendedor:
+    type: integer
+  nome_vendedor:
+    type: string
+  nome_razao:
+    type: string
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  id_pessoa:
+    type: integer
+  favorita:
+    type: boolean
+  mover:
+    type: boolean
+  excluir:
+    type: boolean
+  id_etapa:
+    type: integer
+  nome_etapa:
+    type: string
+  desc_tipo:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string
+  id_lead:
+    type: integer
+  pre_vendedor:
+    type: integer
+  oport_abertas:
+    type: integer
+  pedidos_abertos:
+    type: integer
+  max_agendamento:
+    type: string
+  dthr_etapa:
+    type: string
+  dthr_entrada:
+    type: string
+  data_ult_venda:
+    type: string

@@ -1,0 +1,72 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_kanban:
+    type: integer
+  nome_kanban:
+    type: string
+  ordem_raia:
+    type: integer
+  nome_raia:
+    type: string
+  tipo_raia:
+    type: string
+  desc_tipo_raia:
+    type: string
+  visivel:
+    type: boolean
+  ids_filas:
+    type: array
+    items:
+      type: integer
+  cods_status:
+    type: array
+    items:
+      type: integer
+  cods_situacao:
+    type: array
+    items:
+      type: integer
+  cods_tpag:
+    type: array
+    items:
+      type: integer
+  ids_canais:
+    type: array
+    items:
+      type: integer
+  ids_lead_etapas:
+    type: array
+    items:
+      type: integer
+  ids_lead_status:
+    type: array
+    items:
+      type: integer
+  ids_etapas_funil:
+    type: array
+    items:
+      type: integer
+  ids_empresas:
+    type: array
+    items:
+      type: integer
+  ids_carteiras:
+    type: array
+    items:
+      type: integer
+  ids_tipos_entrega:
+    type: array
+    items:
+      type: integer
+  ids_enderecos:
+    type: array
+    items:
+      type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer

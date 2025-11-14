@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_usuario:
+    type: string
+  tipo_importacao:
+    type: string
+  dthr_importacao:
+    type: string
+  quant_arquivos:
+    type: integer
+  total_registros:
+    type: integer
+  total_erros:
+    type: integer

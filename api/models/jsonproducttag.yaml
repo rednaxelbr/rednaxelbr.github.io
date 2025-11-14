@@ -1,0 +1,38 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  nome_tag:
+    type: string
+  nao_distribuir:
+    type: boolean
+  nao_reabastecer:
+    type: boolean
+  nao_comprar:
+    type: boolean
+  nao_fracionar:
+    type: boolean
+  preco_livre:
+    type: boolean
+  sob_encomenda:
+    type: boolean
+  somente_brinde:
+    type: boolean
+  nao_isentar_frete:
+    type: boolean
+  ocultar_sem_estoque:
+    type: boolean
+  ocultar_sped:
+    type: boolean
+  padrao_compra:
+    type: boolean
+  cod_legado:
+    type: integer
+  str_legado:
+    type: string
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string

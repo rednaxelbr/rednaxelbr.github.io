@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_pedido:
+    type: integer
+  tipo_oper:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  dthr_criacao:
+    type: string
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  nome_usuario:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  id_distrib:
+    type: integer

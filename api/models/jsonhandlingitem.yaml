@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ordem_sku:
+    type: integer
+  numero_pedido:
+    type: integer
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  codigo_sku:
+    type: integer
+  separador:
+    type: string

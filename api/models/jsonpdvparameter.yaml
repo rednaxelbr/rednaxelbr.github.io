@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_teclado:
+    type: integer
+  carga_tabelas:
+    type: boolean
+  limpar_carga:
+    type: boolean
+  requer_custo_liq:
+    type: boolean
+  requer_retirada:
+    type: boolean
+  requer_danfce:
+    type: boolean
+  servidor_sitef:
+    type: string
+  homolog_token_id:
+    type: integer
+  homolog_token_csc:
+    type: string
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string

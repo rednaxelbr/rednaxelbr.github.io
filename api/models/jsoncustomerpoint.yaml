@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  data_evento:
+    type: string
+  data_hora:
+    type: string
+  data_hora_ult_mod:
+    type: string
+  nome_plano:
+    type: string
+  id_pessoa:
+    type: integer
+  nome_razao:
+    type: string
+  numero_pedido:
+    type: integer
+  desc_evento:
+    type: string
+  pontos:
+    type: integer
+  tipo:
+    type: string
+  chnfe:
+    type: string

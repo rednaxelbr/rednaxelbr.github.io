@@ -1,0 +1,22 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  ids_categorias:
+    type: array
+    items:
+      type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  crm_etapa:
+    type: integer
+  crm_motivo:
+    type: integer
+  id_canal:
+    type: integer

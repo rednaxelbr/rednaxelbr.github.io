@@ -1,0 +1,48 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  cnpj_alfa:
+    type: string
+  ano_emissao:
+    type: integer
+  mes_emissao:
+    type: integer
+  dthr_geracao:
+    type: string
+  ent_emitidas:
+    type: integer
+  ent_destinadas:
+    type: integer
+  sai_notas:
+    type: integer
+  sai_cupons:
+    type: integer
+  observacoes:
+    type: string
+  url_arquivo:
+    type: string
+  nome_usuario:
+    type: string
+  incluir_ent_emitidas:
+    type: boolean
+  incluir_ent_destinadas:
+    type: boolean
+  incluir_sai_notas:
+    type: boolean
+  incluir_sai_cupons:
+    type: boolean
+  nota_consumo:
+    type: boolean
+  vetor_status_ent:
+    type: array
+    items:
+      type: integer
+  vetor_status_sai:
+    type: array
+    items:
+      type: integer
+  lista_chnfe:
+    type: string

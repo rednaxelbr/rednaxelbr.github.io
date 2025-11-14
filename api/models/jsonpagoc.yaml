@@ -1,0 +1,34 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_oc:
+    type: integer
+  data_vencto:
+    type: string
+  num_dias:
+    type: integer
+  numero_parcela:
+    type: integer
+  cta_contab:
+    type: integer
+  nome_conta:
+    type: string
+  id_centro:
+    type: integer
+  codigo_centro:
+    type: integer
+  desc_centro:
+    type: string
+  id_forma:
+    type: integer
+  sigla_forma:
+    type: string
+  desc_forma:
+    type: string
+  historico:
+    type: string
+  tpag:
+    type: integer

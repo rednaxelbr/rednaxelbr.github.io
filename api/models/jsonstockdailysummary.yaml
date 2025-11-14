@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: string
+  metodo:
+    type: string
+  data_resumo:
+    type: string
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  codigo_sku:
+    type: integer
+  desc_sku:
+    type: string
+  str_quant_ajust:
+    type: string
+  com_estoque:
+    type: boolean
+  data_hora:
+    type: string

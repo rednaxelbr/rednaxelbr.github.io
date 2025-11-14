@@ -1,0 +1,70 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  excel_import:
+    type: boolean
+  id_extrato:
+    type: integer
+  id_unico:
+    type: string
+  id_conta:
+    type: integer
+  trn_type:
+    type: string
+  ofx_dtposted:
+    type: string
+  dt_posted:
+    type: string
+  fit_id:
+    type: string
+  check_num:
+    type: string
+  memo:
+    type: string
+  conciliado:
+    type: boolean
+  id_pessoa:
+    type: integer
+  desc_lancamento:
+    type: string
+  url_lancamento:
+    type: string
+  nome_usuario:
+    type: string
+  id_cta_pagar:
+    type: integer
+  id_cta_receb:
+    type: integer
+  criar_lancamento:
+    type: boolean
+  dados_conta:
+    type: string
+  logo_banco:
+    type: string
+  receita:
+    type: boolean
+  cta_contab:
+    type: integer
+  conta_contabil:
+    type: string
+  desc_categ:
+    type: string
+  nome_razao:
+    type: string
+  observ_extrato:
+    type: string
+  cod_situacao:
+    type: integer
+  desc_situacao:
+    type: string
+  id_centro:
+    type: integer
+  codigo_centro:
+    type: integer
+  desc_centro:
+    type: string
+  id_trn_pai:
+    type: integer

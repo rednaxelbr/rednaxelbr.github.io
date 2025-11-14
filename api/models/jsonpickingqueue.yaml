@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_fila:
+    type: integer
+  nome_fila:
+    type: string
+  quant_pedidos:
+    type: integer
+  quant_linhas:
+    type: integer
+  quant_separadores:
+    type: integer
+  operacoes:
+    type: array
+    items:
+      type: string
+  empresas:
+    type: array
+    items:
+      type: integer
+  fila_ativa:
+    type: boolean

@@ -1,0 +1,12 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  limite:
+    type: integer
+  comando:
+    type: string
+  excluir:
+    type: boolean

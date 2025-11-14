@@ -1,0 +1,22 @@
+type: object
+properties:
+  chnfe:
+    type: string
+  tp_evento:
+    type: integer
+  xjust:
+    type: string
+  nseq:
+    type: integer
+  num_inicial:
+    type: integer
+  num_final:
+    type: integer
+  tipo_oper:
+    type: string
+  protocolo:
+    type: integer
+  id_autoriz:
+    type: integer
+  raiz_cnpj:
+    type: integer

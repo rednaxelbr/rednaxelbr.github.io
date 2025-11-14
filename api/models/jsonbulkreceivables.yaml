@@ -1,0 +1,36 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  str_quitado:
+    type: string
+  str_pagto_recebido:
+    type: string
+  str_confirmado:
+    type: string
+  str_atencao:
+    type: string
+  str_entregue:
+    type: string
+  str_cobranca:
+    type: string
+  tpag:
+    type: integer
+  tpintegra:
+    type: integer
+  data_vencto:
+    type: string
+  data_quitacao:
+    type: string
+  data_confirmado:
+    type: string
+  alterar_vencto:
+    type: boolean
+  alterar_quitacao:
+    type: boolean
+  alterar_confirmado:
+    type: boolean

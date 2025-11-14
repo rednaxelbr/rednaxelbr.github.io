@@ -1,0 +1,66 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  data_cadastro:
+    type: string
+  ucom:
+    type: string
+  unit_id:
+    type: integer
+  prod_xprod:
+    type: string
+  sufixo_desc:
+    type: string
+  sufixo_extra:
+    type: string
+  codigo_sku:
+    type: integer
+  ativo:
+    type: boolean
+  url_foto:
+    type: string
+  id_package:
+    type: integer
+  nome_embalagem:
+    type: string
+  capac_package:
+    type: integer
+  embalagem_fragil:
+    type: boolean
+  embalagem_venda:
+    type: boolean
+  embalagem_compra:
+    type: boolean
+  promo_inicio:
+    type: string
+  promo_termino:
+    type: string
+  legado:
+    type: boolean
+  sem_remessa:
+    type: boolean
+  esmin_padrao:
+    type: integer
+  automatico:
+    type: boolean
+  csv_barcodes:
+    type: string
+  referencia:
+    type: string
+  nome_marca:
+    type: string
+  codigo_agrup:
+    type: string
+  data_hora:
+    type: string
+  expo:
+    type: integer
+  cross_docking:
+    type: boolean
+  curva:
+    type: integer
+  marcadores:
+    type: string

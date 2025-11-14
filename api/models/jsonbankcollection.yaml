@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_remessa:
+    type: integer
+  data_geracao:
+    type: string
+  nome_cedente:
+    type: string
+  convenio_numero:
+    type: string
+  carteira_padrao:
+    type: string
+  nome_banco:
+    type: string
+  id_fila_integ:
+    type: integer
+  status_http:
+    type: integer
+  dados_request:
+    type: string
+  processado:
+    type: boolean

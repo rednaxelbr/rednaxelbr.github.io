@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_horario:
+    type: integer
+  nome_horario:
+    type: string
+  dia_semana:
+    type: integer
+  nome_dia:
+    type: string
+  hora_ini:
+    type: string
+  hora_fim:
+    type: string

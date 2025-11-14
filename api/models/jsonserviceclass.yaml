@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  desc_tributacao:
+    type: string
+  cmun:
+    type: integer
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  codigo_trib:
+    type: string
+  cnae:
+    type: string
+  id_tipo:
+    type: integer
+  desc_tipo_trib:
+    type: string
+  id_exig:
+    type: integer
+  desc_exigibilidade:
+    type: string
+  iss_retido:
+    type: boolean

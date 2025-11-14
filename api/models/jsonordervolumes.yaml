@@ -1,0 +1,8 @@
+type: object
+properties:
+  numero_pedido:
+    type: integer
+  numero_volume:
+    type: integer
+  fechado:
+    type: boolean

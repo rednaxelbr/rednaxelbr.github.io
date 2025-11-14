@@ -1,0 +1,70 @@
+type: object
+properties:
+  metodo:
+    type: string
+  id:
+    type: integer
+  fiscdoc_id:
+    type: integer
+  seq:
+    type: integer
+  idprod:
+    type: integer
+  xprod:
+    type: string
+  cfop_item:
+    type: integer
+  indtotot:
+    type: integer
+  nome_autorizador:
+    type: string
+  xped:
+    type: integer
+  nitemped:
+    type: integer
+  pendente_erp_custo:
+    type: boolean
+  atualizado_erp:
+    type: boolean
+  chnfe:
+    type: string
+  cnpj_emit:
+    type: integer
+  ucom:
+    type: string
+  ncm:
+    type: string
+  cst:
+    type: string
+  csosn:
+    type: string
+  orig:
+    type: string
+  tipo_oper:
+    type: string
+  serie:
+    type: integer
+  numero:
+    type: integer
+  data_emissao:
+    type: string
+  modelo:
+    type: integer
+  id_pessoa:
+    type: integer
+  id_empresa:
+    type: integer
+  tipo:
+    type: string
+  sigla_loja:
+    type: string
+  nome_emit:
+    type: string
+  nome_dest:
+    type: string
+  motivo:
+    type: integer
+  descr_motivo:
+    type: string
+  nome_marca:
+    type: string

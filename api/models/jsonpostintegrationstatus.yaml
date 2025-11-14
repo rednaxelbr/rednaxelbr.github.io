@@ -1,0 +1,14 @@
+type: object
+properties:
+  tipo:
+    type: string
+  ip:
+    type: string
+  recurso:
+    type: string
+  mensagem:
+    type: string
+  contador:
+    type: integer
+  erro:
+    type: boolean

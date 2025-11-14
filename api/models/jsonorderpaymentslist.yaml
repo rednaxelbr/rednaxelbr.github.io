@@ -1,0 +1,8 @@
+type: object
+properties:
+  numero_pedido:
+    type: integer
+  troco_para:
+    type: integer
+  fiscdoc_id:
+    type: integer

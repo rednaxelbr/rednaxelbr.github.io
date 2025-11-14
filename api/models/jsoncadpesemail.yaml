@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_pessoa:
+    type: integer
+  email:
+    type: string
+  pessoal:
+    type: boolean
+  danfe:
+    type: boolean
+  favorito:
+    type: boolean
+  excluir:
+    type: boolean

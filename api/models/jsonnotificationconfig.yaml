@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  titulo_notificacao:
+    type: string
+  url_destino:
+    type: string
+  todos:
+    type: boolean
+  transacoes:
+    type: array
+    items:
+      type: integer
+  usu_criador:
+    type: string
+  cont_lidas:
+    type: integer
+  cont_nao_lidas:
+    type: integer
+  data_hora:
+    type: string

@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  lista_locais:
+    type: string
+  informar_recepcao:
+    type: boolean
+  id_fila:
+    type: integer
+  nome_fila:
+    type: string

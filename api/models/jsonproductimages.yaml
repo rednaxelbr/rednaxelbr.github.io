@@ -1,0 +1,40 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  cod_produto:
+    type: integer
+  codigo_sku:
+    type: integer
+  ordem_foto:
+    type: integer
+  principal:
+    type: boolean
+  descricao_foto:
+    type: string
+  url_foto:
+    type: string
+  sufixo_url:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string
+  primario:
+    type: string
+  secundario:
+    type: string
+  mult_sku:
+    type: integer
+  id_grade:
+    type: integer
+  url_video:
+    type: string
+  url_video_embed:
+    type: string
+  tipo_midia:
+    type: string

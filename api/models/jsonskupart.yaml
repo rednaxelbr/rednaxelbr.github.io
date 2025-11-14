@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  codigo_sku:
+    type: integer
+  cod_produto:
+    type: integer
+  prod_xprod:
+    type: string
+  prod_xprod_acab:
+    type: string

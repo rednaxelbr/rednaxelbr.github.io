@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  nome_marca:
+    type: string
+  sku_ativo:
+    type: boolean
+  descricao_sku:
+    type: string
+  taxonomia:
+    type: string
+  ids_categorias:
+    type: array
+    items:
+      type: integer

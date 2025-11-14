@@ -1,0 +1,88 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_fornec:
+    type: integer
+  cnpj_fornec:
+    type: integer
+  id_pessoa:
+    type: integer
+  nome_fornec:
+    type: string
+  nome_fantasia:
+    type: string
+  dthr_criacao:
+    type: string
+  fat_previsto:
+    type: string
+  codigo_legado:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_usuario:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  usuario_legado:
+    type: string
+  mod_frete:
+    type: string
+  id_entregador:
+    type: integer
+  nome_entregador:
+    type: string
+  entregador_legado:
+    type: integer
+  observacoes_oc:
+    type: string
+  id_rastreamento:
+    type: integer
+  atualizado_erp:
+    type: boolean
+  materia_prima:
+    type: boolean
+  data_hora:
+    type: string
+  dividir_oc:
+    type: boolean
+  empresas:
+    type: array
+    items:
+      type: integer
+  descartar_saldo:
+    type: boolean
+  oc_pai:
+    type: integer
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  dthr_agendamento:
+    type: string
+  stage:
+    type: string
+  data_arquivamento:
+    type: string
+  desarquivar:
+    type: boolean
+  index:
+    type: integer
+  icone_kanban:
+    type: string
+  escala_compra:
+    type: boolean
+  id_comprador:
+    type: integer
+  clonar_oc:
+    type: boolean
+  ident_fornec:
+    type: string
+  id_analise:
+    type: integer

@@ -1,0 +1,10 @@
+type: object
+properties:
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  novo_status:
+    type: integer

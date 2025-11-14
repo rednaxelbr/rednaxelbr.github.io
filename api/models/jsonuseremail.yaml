@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  user_email:
+    type: string
+  auth_server:
+    type: string
+  conta:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  nome_completo:
+    type: string
+  url_foto:
+    type: string
+  criado_em:
+    type: string
+  verificado:
+    type: boolean
+  visivel:
+    type: boolean

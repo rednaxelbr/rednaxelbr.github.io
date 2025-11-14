@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  codigo_centro:
+    type: integer
+  desc_centro:
+    type: string
+  ativo:
+    type: boolean
+  padrao_compra:
+    type: boolean
+  id_empresa:
+    type: integer
+  nome_reduzido:
+    type: string
+  sigla_loja:
+    type: string
+  cta_contab:
+    type: integer
+  nome_conta:
+    type: string
+  tipo:
+    type: string
+  cte_rem_ccus:
+    type: string

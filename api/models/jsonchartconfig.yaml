@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  ordem:
+    type: integer
+  id_metrica:
+    type: integer
+  titulo_indicador:
+    type: string
+  id_comparativo:
+    type: integer
+  ids_grupos:
+    type: array
+    items:
+      type: integer

@@ -1,0 +1,66 @@
+type: object
+properties:
+  id:
+    type: integer
+  ids:
+    type: array
+    items:
+      type: integer
+  metodo:
+    type: string
+  id_empresa:
+    type: integer
+  sigla_loja:
+    type: string
+  nome_reduzido:
+    type: string
+  codigo_sku:
+    type: integer
+  ucom:
+    type: string
+  nome_sku:
+    type: string
+  curva:
+    type: integer
+  dias_estoq:
+    type: integer
+  expo:
+    type: integer
+  es_minimo:
+    type: integer
+  camp:
+    type: integer
+  cmmf_validade:
+    type: string
+  pendente_erp:
+    type: boolean
+  atualizado_erp:
+    type: boolean
+  ultima_venda:
+    type: string
+  data_checagem:
+    type: string
+  encalhado:
+    type: boolean
+  data_hora:
+    type: string
+  esmin_padrao:
+    type: integer
+  capac_aa:
+    type: integer
+  capac_zz:
+    type: integer
+  emb_distrib:
+    type: integer
+  vetor_empresa:
+    type: array
+    items:
+      type: integer
+  capac_predio:
+    type: integer
+  log_id:
+    type: integer
+  observacoes:
+    type: string
+  url_foto:
+    type: string

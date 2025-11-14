@@ -1,0 +1,54 @@
+type: object
+properties:
+  metodo:
+    type: string
+  request_uri:
+    type: string
+  id:
+    type: integer
+  id_pessoa:
+    type: integer
+  idpes_contato:
+    type: integer
+  tipo:
+    type: integer
+  desc_tipo:
+    type: string
+  nome_contato:
+    type: string
+  ativo:
+    type: boolean
+  observacoes:
+    type: string
+  email:
+    type: string
+  type_id:
+    type: integer
+  telefone:
+    type: string
+  cpf:
+    type: string
+  cnpj:
+    type: string
+  nova_pessoa:
+    type: boolean
+  log_id:
+    type: integer
+  data_hora:
+    type: string
+  nome_cliente:
+    type: string
+  cod_vendedor:
+    type: integer
+  data_cadastro:
+    type: string
+  sexo:
+    type: string
+  temperatura:
+    type: string
+  ids_tags:
+    type: array
+    items:
+      type: integer
+  nb_tasks:
+    type: integer

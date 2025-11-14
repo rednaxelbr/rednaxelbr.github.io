@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_funil:
+    type: integer
+  nome_funil:
+    type: string
+  ordem_etapa:
+    type: integer
+  nome_etapa:
+    type: string
+  id_tipo:
+    type: integer
+  desc_tipo:
+    type: string
+  status_padrao:
+    type: integer
+  sigla_status:
+    type: string
+  sem_pedido:
+    type: boolean
+  recuperar:
+    type: boolean

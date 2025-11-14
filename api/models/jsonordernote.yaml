@@ -1,0 +1,12 @@
+type: object
+properties:
+  id:
+    type: integer
+  data_hora:
+    type: string
+  nome_usuario:
+    type: string
+  texto_anotacao:
+    type: string
+  numero_pedido:
+    type: integer

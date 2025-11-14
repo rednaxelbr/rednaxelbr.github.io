@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_marca:
+    type: integer
+  id_categ:
+    type: integer
+  caminho:
+    type: string
+  ativo:
+    type: boolean
+  marca:
+    type: string
+  orig:
+    type: integer
+  id_classe:
+    type: integer
+  trib:
+    type: string
+  cst:
+    type: integer
+  ncm:
+    type: string
+  cest:
+    type: string
+  codigo_alfa:
+    type: string
+  desc_basica:
+    type: string
+  cont_skus:
+    type: integer
+  cod_legado:
+    type: integer

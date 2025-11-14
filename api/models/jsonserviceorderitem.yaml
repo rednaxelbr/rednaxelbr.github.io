@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  numero_pedido:
+    type: integer
+  seq_servico:
+    type: integer
+  cod_servico:
+    type: integer
+  abrev_servico:
+    type: string
+  sufixo_discrim:
+    type: string

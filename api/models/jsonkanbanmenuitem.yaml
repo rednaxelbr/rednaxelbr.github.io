@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  rotulo:
+    type: string
+  url:
+    type: string
+  comando:
+    type: string

@@ -1,0 +1,46 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  nivel:
+    type: integer
+  herdado:
+    type: boolean
+  id_categoria:
+    type: integer
+  desc_categoria:
+    type: string
+  caminho:
+    type: string
+  pot_01:
+    type: integer
+  pot_02:
+    type: integer
+  pot_03:
+    type: integer
+  pot_04:
+    type: integer
+  pot_05:
+    type: integer
+  pot_06:
+    type: integer
+  pot_07:
+    type: integer
+  pot_08:
+    type: integer
+  pot_09:
+    type: integer
+  pot_10:
+    type: integer
+  pot_11:
+    type: integer
+  pot_12:
+    type: integer
+  nome_usuario:
+    type: string

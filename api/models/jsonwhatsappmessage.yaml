@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  message_id:
+    type: string
+  id_chat:
+    type: integer
+  chat_user:
+    type: string
+  push_name:
+    type: string
+  remetente:
+    type: string
+  id_dispositivo:
+    type: integer
+  device_name:
+    type: string
+  numero_destino:
+    type: integer
+  dthr_request:
+    type: string
+  conversa:
+    type: string
+  wa_message:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string
+  msg_lida:
+    type: boolean

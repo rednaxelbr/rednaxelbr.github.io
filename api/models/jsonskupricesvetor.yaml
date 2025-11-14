@@ -1,0 +1,4 @@
+type: object
+properties:
+  um_por_grade:
+    type: boolean

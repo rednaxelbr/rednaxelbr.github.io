@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: integer
+  metodo:
+    type: string
+  id_canal:
+    type: integer
+  desc_canal:
+    type: string

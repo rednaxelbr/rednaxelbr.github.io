@@ -1,0 +1,4 @@
+type: object
+properties:
+  cashbal_id:
+    type: integer

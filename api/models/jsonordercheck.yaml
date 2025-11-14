@@ -1,0 +1,10 @@
+type: object
+properties:
+  orderid:
+    type: integer
+  codigo:
+    type: integer
+  volume:
+    type: integer
+  hash:
+    type: string
