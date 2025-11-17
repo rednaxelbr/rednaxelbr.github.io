@@ -4,5 +4,5 @@ properties:
     type: integer
   largura:
     type: integer
-  andares:
-    $ref: ./jsonandar.yaml
+  blocos:
+    $ref: ./jsonbloco.yaml

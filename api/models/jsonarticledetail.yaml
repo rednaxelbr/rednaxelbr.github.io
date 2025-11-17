@@ -54,3 +54,11 @@ properties:
     type: string
   fotos:
     $ref: ./jsonskufoto.yaml
+  marcadores:
+    type: string
+  sufixo_desc:
+    type: string
+  cross_docking:
+    type: boolean
+  unit_id:
+    type: integer
