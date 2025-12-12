@@ -3,4 +3,4 @@ properties:
   id:
     type: integer
   aptos:
-    $ref: ./jsonskustock.yaml
+    $ref: ./jsonapto.yaml

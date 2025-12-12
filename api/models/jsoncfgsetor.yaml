@@ -1,0 +1,24 @@
+type: object
+properties:
+  caixa_fechada:
+    type: boolean
+  max_corredores:
+    type: integer
+  requer_capacidade:
+    type: boolean
+  larg_padrao:
+    type: number
+  alt_padrao:
+    type: number
+  prof_padrao:
+    type: number
+  andar_max_picking:
+    type: integer
+  andar_maximo:
+    type: integer
+  apartamento_maximo:
+    type: integer
+  ordem_curva:
+    type: string
+  nicho_maximo:
+    type: integer

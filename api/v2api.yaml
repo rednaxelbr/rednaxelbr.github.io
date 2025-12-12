@@ -1,4 +1,4 @@
-### 1466 models (328/328 extras, 386/0 filtros)
+### 1474 models (329/329 extras, 389/0 filtros)
 openapi: 3.0.3
 info:
   title: RNGE API
@@ -184,8 +184,12 @@ tags:
     description: Catalogs
   - name: Categories
     description: Categories
+  - name: Categorydailysales
+    description: Categorydailysales
   - name: Categorylinks
     description: Categorylinks
+  - name: Categorysales
+    description: Categorysales
   - name: Cbenefs
     description: Cbenefs
   - name: Certificates
@@ -912,6 +916,8 @@ tags:
     description: Wmsaisles
   - name: Wmsinfos
     description: Wmsinfos
+  - name: Wmssectors
+    description: Wmssectors
   - name: Xmlexports
     description: Xmlexports
 
@@ -2855,6 +2861,8 @@ paths:
                       type: integer
                   todos:
                     type: boolean
+                  pesquisa:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -4063,6 +4071,40 @@ paths:
           description: OK
         "400":
           description: Erro
+  /categorydailysales:
+# filtros = FilterCategoryDailySales
+    # modelo = 
+    get:
+      operationId: get-categorydailysales
+      tags:
+        - Categorydailysales
+      summary: Listagem de categorydailysales
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  data_emissao:
+                    type: string
+                  cnpj_alfa:
+                    type: string
+                  id_categoria:
+                    type: integer
+                  codigo_descricao:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /categorylinkitems/{id}:
     parameters:
       - schema:
@@ -4177,6 +4219,71 @@ paths:
       tags:
         - Categorylinks
       summary: Deleta um(a) categorylinks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /categorysales:
+# filtros = FilterCategorySales
+    # modelo = 
+    get:
+      operationId: get-categorysales
+      tags:
+        - Categorysales
+      summary: Listagem de categorysales
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  ids_empresas:
+                    type: array
+                    items:
+                      type: integer
+                  agrupar_por:
+                    type: string
+                  cnpj_alfa:
+                    type: string
+                  id_categoria:
+                    type: integer
+                  codigo_descricao:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /categorysales/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do categorysales
+    # modelo = 
+    get:
+      operationId: get-categorysales-id
+      tags:
+        - Categorysales
+      summary: Busca um(a) categorysales
       responses:
         "200":
           description: OK
@@ -13408,6 +13515,8 @@ paths:
                     type: integer
                   nome_kanban:
                     type: string
+                  inativos:
+                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -16669,7 +16778,53 @@ paths:
           description: Erro
     # metodo = PATCH
   /orderstatus:
+# filtros = FilterOrdersStatus
     # modelo = JSONMudaStatus
+    get:
+      operationId: get-orderstatus
+      tags:
+        - Orderstatus
+      summary: Listagem de orderstatus
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  numpeds:
+                    type: array
+                    items:
+                      type: integer
+                  retroceder:
+                    type: boolean
+                  atualizar:
+                    type: boolean
+                  etapa:
+                    type: integer
+                  fluxo:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonmudastatus.yaml
+        "400":
+          description: Erro
     post:
       operationId: post-orderstatus
       tags:
@@ -28024,6 +28179,8 @@ paths:
                       type: integer
                   corrigidos:
                     type: boolean
+                  nicho:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -30245,6 +30402,8 @@ paths:
                     type: integer
                   id_empresa:
                     type: integer
+                  id_destino:
+                    type: integer
                   id_container:
                     type: integer
                   vetor_empresa:
@@ -30270,6 +30429,8 @@ paths:
                   datafim:
                     type: string
                   somente_nf:
+                    type: boolean
+                  lote:
                     type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -31885,9 +32046,28 @@ paths:
           description: OK
         "400":
           description: Erro
+  /wmsaisleblocks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsaisleblocks
+    # modelo = 
+    get:
+      operationId: get-wmsaisleblocks-id
+      tags:
+        - Wmsaisleblocks
+      summary: Busca um(a) wmsaisleblocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /wmsaisles:
 # filtros = FilterWMSAisles
-    # modelo = JSONWMSAisles
+    # modelo = JSONWMSAisle
     get:
       operationId: get-wmsaisles
       tags:
@@ -31908,6 +32088,14 @@ paths:
                     type: array
                     items:
                       type: integer
+                  id_predio:
+                    type: integer
+                  num_setor:
+                    type: integer
+                  setor_letra:
+                    type: string
+                  corredor_letra:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -31918,7 +32106,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: ./models/jsonwmsaisles.yaml
+                  $ref: ./models/jsonwmsaisle.yaml
         "400":
           description: Erro
     post:
@@ -31935,7 +32123,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: ./models/jsonwmsaisles.yaml
+              $ref: ./models/jsonwmsaisle.yaml
   /wmsaisles/{id}:
     parameters:
       - schema:
@@ -31944,7 +32132,7 @@ paths:
         in: path
         required: true
         description: ID do wmsaisles
-    # modelo = JSONWMSAisles
+    # modelo = JSONWMSAisle
     get:
       operationId: get-wmsaisles-id
       tags:
@@ -31956,7 +32144,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./models/jsonwmsaisles.yaml
+                $ref: ./models/jsonwmsaisle.yaml
         "400":
           description: Erro
     put:
@@ -32021,6 +32209,104 @@ paths:
       tags:
         - Wmsinfos
       summary: Busca um(a) wmsinfos
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmssectors:
+# filtros = FilterWMSSectors
+    # modelo = JSONWMSSector
+    get:
+      operationId: get-wmssectors
+      tags:
+        - Wmssectors
+      summary: Listagem de wmssectors
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  setor_letra:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmssector.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmssectors
+      tags:
+        - Wmssectors
+      summary: Cria um(a) wmssectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmssector.yaml
+  /wmssectors/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmssectors
+    # modelo = JSONWMSSector
+    get:
+      operationId: get-wmssectors-id
+      tags:
+        - Wmssectors
+      summary: Busca um(a) wmssectors
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmssector.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmssectors-id
+      tags:
+        - Wmssectors
+      summary: Atualiza um(a) wmssectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmssectors-id
+      tags:
+        - Wmssectors
+      summary: Deleta um(a) wmssectors
       responses:
         "200":
           description: OK

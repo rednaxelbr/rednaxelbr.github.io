@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: string
+  id_estoque:
+    type: string
+  cod_sku:
+    type: integer
+  quantidade:
+    type: number
+  unidades_caixa:
+    type: integer
+  marcadores:
+    type: string
+  capacidade:
+    type: integer

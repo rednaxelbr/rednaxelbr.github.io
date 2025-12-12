@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  num_setor:
+    type: integer
+  letra_setor:
+    type: string
+  config_setor:
+    $ref: ./jsoncfgsetor.yaml
+  ids_categorias:
+    type: array
+    items:
+      type: integer
+  lista_categorias:
+    type: string
+  limpar_categorias:
+    type: boolean

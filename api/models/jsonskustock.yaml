@@ -26,6 +26,8 @@ properties:
     type: number
   capacidade:
     type: integer
+  unidades_caixa:
+    type: integer
   capac_zero:
     type: boolean
   delta:
@@ -86,3 +88,5 @@ properties:
     type: integer
   rapido:
     type: boolean
+  marcadores:
+    type: string

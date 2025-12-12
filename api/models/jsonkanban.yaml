@@ -22,3 +22,5 @@ properties:
     $ref: ./jsonkbanfiltros.yaml
   configurar:
     type: boolean
+  ativo:
+    type: boolean

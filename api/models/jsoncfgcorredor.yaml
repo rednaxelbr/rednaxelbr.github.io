@@ -1,10 +1,12 @@
 type: object
 properties:
-  andar_caixa_fechada:
+  andar_max_picking:
     type: integer
-  max_nichos:
+  andar_maximo:
     type: integer
-  max_andares:
+  apartamento_maximo:
     type: integer
-  max_apartamentos:
-    type: integer
+  ordem_curva:
+    type: string
+  nicho_maximo:
+    type: string

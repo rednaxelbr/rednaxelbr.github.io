@@ -2,5 +2,7 @@ type: object
 properties:
   id:
     type: string
+  cont_ender:
+    type: integer
   andares:
     $ref: ./jsonandar.yaml
