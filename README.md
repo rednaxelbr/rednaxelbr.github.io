@@ -1,3 +1,3 @@
-API da Rednaxel
+Site de Desenvolvedor
 
-https://rednaxelbr.github.io/api/
+https://rednaxelbr.github.io/
