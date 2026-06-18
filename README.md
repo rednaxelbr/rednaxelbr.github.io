@@ -1,3 +1,3 @@
-Chat da Rednaxel
+API da Rednaxel
 
-https://rednaxelbr.github.io/
+https://rednaxelbr.github.io/api/
