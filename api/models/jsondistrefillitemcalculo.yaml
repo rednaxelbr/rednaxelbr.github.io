@@ -18,3 +18,5 @@ properties:
     type: integer
   quant_oc:
     type: integer
+  sugestao:
+    type: number

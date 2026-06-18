@@ -40,3 +40,5 @@ properties:
     type: integer
   fechar:
     type: boolean
+  data_hora:
+    type: string

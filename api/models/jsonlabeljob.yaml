@@ -40,3 +40,7 @@ properties:
     type: array
     items:
       type: integer
+  id_predio:
+    type: integer
+  comandos_layout:
+    type: string

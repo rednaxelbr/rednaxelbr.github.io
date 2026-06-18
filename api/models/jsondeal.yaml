@@ -1,8 +1,8 @@
 type: object
 properties:
-  id":
+  id:
     type: integer
-  id_etapa":
+  id_etapa:
     type: integer
   nome_etapa:
     type: string
@@ -10,7 +10,7 @@ properties:
     type: integer
   cod_tipo_etapa_funil:
     type: integer
-  id_pessoa":
+  id_pessoa:
     type: integer
   nome_razao:
     type: string
@@ -22,15 +22,15 @@ properties:
     type: array
     items:
       type: string
-  dthr_agendamento":
+  dthr_agendamento:
     type: string
-  id_vendedor":
+  id_vendedor:
     type: integer
-  descricao":
+  descricao:
     type: string
   nome_usuario:
     type: string
-  contato_ativo":
+  contato_ativo:
     type: boolean
   data_prevista:
     type: string
@@ -56,7 +56,7 @@ properties:
     type: number
   vmc_pedido:
     type: number
-  justificativa":
+  justificativa:
     type: string
   token_id:
     type: integer
@@ -66,7 +66,7 @@ properties:
     type: boolean
   nome_vendedor:
     type: string
-  hora_marcada":
+  hora_marcada:
     type: boolean
   desc_tipo:
     type: string
@@ -78,11 +78,11 @@ properties:
     type: boolean
   index:
     type: integer
-  id_carteira":
+  id_carteira:
     type: integer
   nome_carteira:
     type: string
-  id_pre_vendedor":
+  id_pre_vendedor:
     type: integer
   nome_pre_vendedor:
     type: string

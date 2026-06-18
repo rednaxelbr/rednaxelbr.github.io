@@ -24,3 +24,5 @@ properties:
     type: string
   id_token:
     type: integer
+  caut:
+    type: string

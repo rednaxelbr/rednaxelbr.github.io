@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  placa_veiculo:
+    type: string
+  rodo_rntrc:
+    type: string
+  descricao_veic:
+    type: string
+  uf:
+    type: string
+  latitude:
+    type: number
+  longitude:
+    type: number
+  data_hora:
+    type: string

@@ -28,3 +28,5 @@ properties:
     type: string
   ativa:
     type: boolean
+required:
+  - nome_lead

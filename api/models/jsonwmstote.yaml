@@ -1,0 +1,26 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  dthr_criacao:
+    type: string
+  dthr_conclusao:
+    type: string
+  nome_usuario:
+    type: string
+  peso_tara_kg:
+    type: number
+  id_tarefa:
+    type: integer
+  codigo_pallet:
+    type: integer
+  data_hora:
+    type: string
+  tote_aberto:
+    type: boolean
+  cont_itens:
+    type: integer

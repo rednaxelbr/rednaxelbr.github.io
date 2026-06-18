@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_colmeia:
+    type: integer
+  nome_colmeia:
+    type: string
+  id_compartimento:
+    type: integer
+  dthr_criacao:
+    type: string
+  codigo_pallet:
+    type: integer
+  id_vasilhame:
+    type: integer
+  nome_usuario:
+    type: string
+  data_hora:
+    type: string
+  ocupado:
+    type: boolean

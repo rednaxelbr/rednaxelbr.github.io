@@ -16,9 +16,11 @@ properties:
     type: boolean
   gaveta:
     type: boolean
+  fora_estab:
+    type: boolean
   contagem:
     type: boolean
   id:
     type: integer
-  cnpj_emit_fk:
+  cmun_ibs:
     type: integer

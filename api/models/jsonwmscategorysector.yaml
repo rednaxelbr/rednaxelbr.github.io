@@ -10,15 +10,11 @@ properties:
     type: integer
   letra_setor:
     type: string
-  config_setor:
-    $ref: ./jsoncfgsetor.yaml
-  ids_categorias:
-    type: array
-    items:
-      type: integer
-  lista_categorias:
-    type: string
-  limpar_categorias:
-    type: boolean
-  qtd_end:
+  id_categoria:
     type: integer
+  desc_categoria:
+    type: string
+  exclusivo_setor:
+    type: boolean
+  proibido_setor:
+    type: boolean

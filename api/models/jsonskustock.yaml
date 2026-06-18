@@ -6,6 +6,8 @@ properties:
     type: integer
   cod_sku:
     type: integer
+  ucom:
+    type: string
   prod_xprod:
     type: string
   curva:
@@ -52,6 +54,8 @@ properties:
     $ref: ./jsonstockinteg.yaml
   separar:
     type: number
+  separados:
+    type: integer
   insuficiente:
     type: boolean
   pedido:
@@ -70,12 +74,6 @@ properties:
     type: array
     items:
       type: integer
-  vetor_atualizado_erp:
-    type: array
-    items:
-      type: integer
-  atualizado_erp:
-    type: boolean
   data_hora:
     type: string
   ocup:
@@ -90,3 +88,9 @@ properties:
     type: boolean
   marcadores:
     type: string
+  emb_distrib:
+    type: integer
+  id_tarefa:
+    type: integer
+  emp_logada:
+    type: integer

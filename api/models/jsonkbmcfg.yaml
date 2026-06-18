@@ -8,3 +8,11 @@ properties:
     type: integer
   id_deal:
     type: integer
+  pagto:
+    type: string
+  vlr_total:
+    type: number
+  permite_digitar_nsu:
+    type: boolean
+  sit_credito:
+    type: string

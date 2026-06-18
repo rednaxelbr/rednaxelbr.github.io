@@ -2,13 +2,15 @@ type: object
 properties:
   id:
     type: integer
-  desc_tipo_tarefa:
+  nome_colmeia:
     type: string
-  id_modulo:
+  nome_usuario:
+    type: string
+  id_predio:
     type: integer
-  sigla_modulo:
+  desc_predio:
     type: string
-  tarefa_padrao:
+  porta_pallet:
     type: boolean
-  rotulo_tarefa:
+  dthr_criacao:
     type: string

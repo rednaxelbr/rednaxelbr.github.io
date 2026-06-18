@@ -44,6 +44,14 @@ properties:
     type: array
     items:
       type: integer
+  filas:
+    $ref: ./jsonpickingqueue.yaml
+  ids_zonas:
+    type: array
+    items:
+      type: integer
+  zonas:
+    $ref: ./jsonpickingzone.yaml
   nome_recurso:
     type: string
   separador:
@@ -56,3 +64,11 @@ properties:
     type: boolean
   usu_principal:
     type: boolean
+  id_predio:
+    type: integer
+  desc_predio:
+    type: string
+  ult_login_wms:
+    type: string
+  app_wms:
+    type: string

@@ -24,3 +24,7 @@ properties:
     type: boolean
   importado_excel:
     type: boolean
+  id_estrangeiro:
+    type: string
+  observacoes:
+    type: string

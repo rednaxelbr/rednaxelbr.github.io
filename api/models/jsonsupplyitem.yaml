@@ -30,3 +30,5 @@ properties:
     type: number
   fator_ocup:
     type: number
+  observ_item:
+    type: string

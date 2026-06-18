@@ -94,3 +94,7 @@ properties:
     type: string
   data_hora:
     type: string
+  ids_perfis:
+    type: array
+    items:
+      type: integer

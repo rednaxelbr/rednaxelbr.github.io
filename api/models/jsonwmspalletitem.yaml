@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: integer
+  codigo_pallet:
+    type: integer
+  nome_usuario:
+    type: string
+  cod_produto:
+    type: integer
+  quantidade:
+    type: integer
+  id_vasilhame:
+    type: integer
+  data_hora:
+    type: string

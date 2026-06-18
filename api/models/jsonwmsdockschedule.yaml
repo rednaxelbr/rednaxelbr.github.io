@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_doca:
+    type: integer
+  id_carga:
+    type: integer
+  desc_carga:
+    type: string
+  user_id:
+    type: integer
+  inicio_previsto:
+    type: string
+  tempo_previsto:
+    type: string
+  inicio_efetivo:
+    type: string
+  dthr_termino:
+    type: string
+  data_hora:
+    type: string
+  nome_usuario:
+    type: string
+  lastuser_id:
+    type: integer
+  ult_usuario:
+    type: string

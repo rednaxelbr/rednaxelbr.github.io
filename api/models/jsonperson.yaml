@@ -6,55 +6,55 @@ properties:
     type: boolean
   data_cadastro:
     type: string
-  pjuridica":
+  pjuridica:
     type: boolean
-  cnpj":
+  cnpj:
     type: string
-  cpf":
+  cpf:
     type: string
-  nome_razao":
+  nome_razao:
     type: string
-  nome_fantasia":
+  nome_fantasia:
     type: string
-  ind_iedest":
+  ind_iedest:
     type: integer
-  tp_ente_gov":
+  tp_ente_gov:
     type: integer
-  iestadual":
+  iestadual:
     type: string
-  imunicipal":
+  imunicipal:
     type: string
-  email":
+  email:
     type: string
   id_telefone:
     type: integer
-  telefone":
+  telefone:
     type: string
-  id_canal":
+  id_canal:
     type: integer
   desc_canal:
     type: string
   address_id:
     type: integer
-  logradouro":
+  logradouro:
     type: string
-  numero":
+  numero:
     type: integer
-  complemento":
+  complemento:
     type: string
-  lograd_complem":
+  lograd_complem:
     type: string
-  bairro":
+  bairro:
     type: string
-  cep":
+  cep:
     type: string
-  cmun":
+  cmun:
     type: integer
-  nome_municipio":
+  nome_municipio:
     type: string
-  uf":
+  uf:
     type: string
-  id_vendedor":
+  id_vendedor:
     type: integer
   data_hora:
     type: string
@@ -62,7 +62,7 @@ properties:
     type: string
   data_ult_venda:
     type: string
-  duplicar_cadastro":
+  duplicar_cadastro:
     type: boolean
   outras_info:
     $ref: ./jsoncustomersoutrasinfo.yaml
@@ -96,7 +96,7 @@ properties:
     type: boolean
   gerencial:
     type: boolean
-  observ_padrao":
+  observ_padrao:
     type: string
   observ_financeira:
     type: string
@@ -118,7 +118,7 @@ properties:
     type: string
   chave_pix:
     type: string
-  id_carteira":
+  id_carteira:
     type: integer
   nome_carteira:
     type: string
@@ -170,3 +170,5 @@ properties:
     type: string
   dthr_recuperacao:
     type: string
+  revenda:
+    type: boolean

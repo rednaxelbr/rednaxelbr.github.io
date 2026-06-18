@@ -1,8 +1,8 @@
 type: object
 properties:
-  src:
+  id:
+    type: integer
+  nome_usuario:
     type: string
-  title:
+  picture_url:
     type: string
-required:
-  - nome_lead

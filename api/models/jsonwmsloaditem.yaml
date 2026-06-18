@@ -1,0 +1,38 @@
+type: object
+properties:
+  id:
+    type: integer
+  user_id:
+    type: integer
+  id_compra:
+    type: integer
+  data_agendamento:
+    type: string
+  data_emissao:
+    type: string
+  id_carga:
+    type: integer
+  id_pessoa:
+    type: integer
+  numero:
+    type: integer
+  total_vnf:
+    type: number
+  vfrete:
+    type: number
+  ident_fornec:
+    type: string
+  nome_fornec:
+    type: string
+  rn:
+    type: integer
+  qvol:
+    type: integer
+  data_hora:
+    type: string
+  id_entregador:
+    type: integer
+  transportadora:
+    type: string
+  cnpj_transp:
+    type: string

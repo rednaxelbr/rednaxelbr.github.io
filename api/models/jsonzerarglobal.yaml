@@ -1,0 +1,14 @@
+type: object
+properties:
+  expo:
+    type: boolean
+  sazo:
+    type: boolean
+  camp:
+    type: boolean
+  cmmf:
+    type: boolean
+  zerar_empresas:
+    type: array
+    items:
+      type: integer

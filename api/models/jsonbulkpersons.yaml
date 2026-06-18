@@ -18,3 +18,5 @@ properties:
     type: integer
   id_canal:
     type: integer
+required:
+  - nome_lead

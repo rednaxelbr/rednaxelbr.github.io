@@ -18,3 +18,7 @@ properties:
     type: boolean
   limpar:
     type: boolean
+  id_modulo:
+    type: integer
+  sigla_modulo:
+    type: string

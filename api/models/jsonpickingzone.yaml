@@ -10,7 +10,17 @@ properties:
     type: string
   informar_recepcao:
     type: boolean
-  id_fila:
+  separadores:
+    $ref: ./jsonpicker.yaml
+  quant_pedidos:
     type: integer
-  nome_fila:
+  quant_tarefas:
+    type: integer
+  mover:
+    $ref: ./jsonzonemover.yaml
+  data_hora:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
     type: string

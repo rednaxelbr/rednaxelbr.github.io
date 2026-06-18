@@ -166,3 +166,7 @@ properties:
     type: integer
   emb_compra:
     type: integer
+  data_hora:
+    type: string
+  marcadores:
+    type: string

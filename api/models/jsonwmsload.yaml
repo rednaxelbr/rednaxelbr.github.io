@@ -1,0 +1,22 @@
+type: object
+properties:
+  id:
+    type: integer
+  desc_carga:
+    type: string
+  user_id:
+    type: integer
+  desc_predio:
+    type: string
+  vehicle_id:
+    type: integer
+  placa_veiculo:
+    type: string
+  id_entregador:
+    type: integer
+  nome_entregador:
+    type: string
+  dthr_contato:
+    type: string
+  data_hora:
+    type: string

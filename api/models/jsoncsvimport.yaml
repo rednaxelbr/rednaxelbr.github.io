@@ -16,3 +16,5 @@ properties:
     type: integer
   arquivos:
     $ref: ./jsoncsvimparq.yaml
+required:
+  - nome_lead

@@ -1,4 +1,4 @@
-### 1474 models (329/329 extras, 389/0 filtros)
+### 1512 models (335/335 extras, 403/0 filtros)
 openapi: 3.0.3
 info:
   title: RNGE API
@@ -89,7 +89,7 @@ security:
 
 tags:
   - name: Accesscards
-    description: Cartões de Acesso de usuários, para uso no PDV
+    description: Accesscards
   - name: Accessgroups
     description: Accessgroups
   - name: Accounts
@@ -116,10 +116,6 @@ tags:
     description: Bankstatsums
   - name: Barcodes
     description: Barcodes
-  - name: Baseactivities
-    description: Baseactivities
-  - name: Baseprocesses
-    description: Baseprocesses
   - name: Batches
     description: Batches
   - name: Billings
@@ -274,12 +270,12 @@ tags:
     description: Customeremails
   - name: Customernotes
     description: Customernotes
-  - name: Customerphones
-    description: Customerphones
   - name: Customerpoints
     description: Customerpoints
   - name: Customertransactions
     description: Customertransactions
+  - name: Dailychannelsales
+    description: Dailychannelsales
   - name: Dailyclosings
     description: Dailyclosings
   - name: Dailydeals
@@ -318,6 +314,8 @@ tags:
     description: Distributions
   - name: Documenttypes
     description: Documenttypes
+  - name: Ecommercestocks
+    description: Ecommercestocks
   - name: Emails
     description: Emails
   - name: Emailtemplatefields
@@ -461,7 +459,7 @@ tags:
   - name: Leadreasons
     description: Leadreasons
   - name: Leads
-    description: Leads
+    description: CRM - Leads (clientes em potencial)
   - name: Leadstages
     description: Leadstages
   - name: Leadstatuses
@@ -580,8 +578,6 @@ tags:
     description: Personprofiles
   - name: Persons
     description: Persons
-  - name: Phases
-    description: Phases
   - name: Phonetypes
     description: Phonetypes
   - name: Pickingqueues
@@ -654,6 +650,8 @@ tags:
     description: Purchaseorderpayments
   - name: Purchaseorders
     description: Purchaseorders
+  - name: Purchaseordershareitems
+    description: Purchaseordershareitems
   - name: Purchaseordertags
     description: Purchaseordertags
   - name: Purchaseplans
@@ -914,10 +912,42 @@ tags:
     description: Whatsappmessages
   - name: Wmsaisles
     description: Wmsaisles
+  - name: Wmsblocks
+    description: Wmsblocks
+  - name: Wmscategoryaisles
+    description: Wmscategoryaisles
+  - name: Wmscategorysectors
+    description: Wmscategorysectors
+  - name: Wmsdocks
+    description: Wmsdocks
+  - name: Wmsdockschedules
+    description: Wmsdockschedules
+  - name: Wmsdocktypes
+    description: Wmsdocktypes
+  - name: Wmshoneycombs
+    description: Wmshoneycombs
+  - name: Wmshoneycombslots
+    description: Wmshoneycombslots
   - name: Wmsinfos
     description: Wmsinfos
+  - name: Wmsloaditems
+    description: Wmsloaditems
+  - name: Wmsloads
+    description: Wmsloads
+  - name: Wmspalletitems
+    description: Wmspalletitems
+  - name: Wmspallets
+    description: Wmspallets
   - name: Wmssectors
     description: Wmssectors
+  - name: Wmsskus
+    description: Wmsskus
+  - name: Wmstotes
+    description: Wmstotes
+  - name: Wmstoteskus
+    description: Wmstoteskus
+  - name: Wmsvehicles
+    description: Wmsvehicles
   - name: Xmlexports
     description: Xmlexports
 
@@ -1241,6 +1271,8 @@ paths:
                     type: boolean
                   id:
                     type: integer
+                  dias_alteracao:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -1527,6 +1559,8 @@ paths:
                   id_canal:
                     type: integer
                   campos_incompletos:
+                    type: boolean
+                  deletados:
                     type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -2133,116 +2167,6 @@ paths:
           description: OK
         "400":
           description: Erro
-  /baseactivities:
-# filtros = Filterbaseactivities
-    # modelo = JSONBaseActivity
-    get:
-      operationId: get-baseactivities
-      tags:
-        - Baseactivities
-      summary: Listagem de baseactivities
-      parameters:
-        - name: filter
-          in: query
-          description: Filtros
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  sigla_ativ_base:
-                    type: string
-                  sigla_processo:
-                    type: string
-                  nome_ativ_base:
-                    type: string
-        - $ref: "#/components/parameters/Range"
-        - $ref: "#/components/parameters/Sort"
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: ./models/jsonbaseactivity.yaml
-        "400":
-          description: Erro
-    post:
-      operationId: post-baseactivities
-      tags:
-        - Baseactivities
-      summary: Cria um(a) baseactivities
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: ./models/jsonbaseactivity.yaml
-  /baseactivities/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do baseactivities
-    # modelo = JSONBaseActivity
-    get:
-      operationId: get-baseactivities-id
-      tags:
-        - Baseactivities
-      summary: Busca um(a) baseactivities
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: ./models/jsonbaseactivity.yaml
-        "400":
-          description: Erro
-    put:
-      operationId: put-baseactivities-id
-      tags:
-        - Baseactivities
-      summary: Atualiza um(a) baseactivities
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
-  /baseprocesses:
-# filtros = FilterBaseProcesses
-    # modelo = 
-    get:
-      operationId: get-baseprocesses
-      tags:
-        - Baseprocesses
-      summary: Listagem de baseprocesses
-      parameters:
-        - name: filter
-          in: query
-          description: Filtros
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  sigla_processo:
-                    type: string
-        - $ref: "#/components/parameters/Range"
-        - $ref: "#/components/parameters/Sort"
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
   /batches:
 # filtros = FilterBatches
     # modelo = 
@@ -2317,6 +2241,8 @@ paths:
                 properties:
                   id:
                     type: string
+                  todos:
+                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -3478,6 +3404,8 @@ paths:
                     type: string
                   dias_transp:
                     type: integer
+                  cnpj_alfa:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -5423,6 +5351,12 @@ paths:
                     type: boolean
                   cnpj_padrao:
                     type: integer
+                  id_predio:
+                    type: integer
+                  pesquisa:
+                    type: string
+                  cnpj_alfa_padrao:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -5643,7 +5577,7 @@ paths:
           description: Erro
   /contracts:
 # filtros = FilterContracts
-    # modelo = JSONContract
+    # modelo = 
     get:
       operationId: get-contracts
       tags:
@@ -5671,12 +5605,6 @@ paths:
       responses:
         "200":
           description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: ./models/jsoncontract.yaml
         "400":
           description: Erro
   /contracts/{id}:
@@ -5687,26 +5615,12 @@ paths:
         in: path
         required: true
         description: ID do contracts
-    # modelo = JSONContract
+    # modelo = 
     get:
       operationId: get-contracts-id
       tags:
         - Contracts
       summary: Busca um(a) contracts
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: ./models/jsoncontract.yaml
-        "400":
-          description: Erro
-    put:
-      operationId: put-contracts-id
-      tags:
-        - Contracts
-      summary: Atualiza um(a) contracts
       responses:
         "200":
           description: OK
@@ -6837,6 +6751,8 @@ paths:
                     type: integer
                   id_entregador:
                     type: integer
+                  dias_alteracao:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -7383,100 +7299,6 @@ paths:
           application/json:
             schema:
               $ref: ./models/jsoncustomernote.yaml
-  /customerphones:
-# filtros = FilterPhones
-    # modelo = JSONCadPesTelef
-    get:
-      operationId: get-customerphones
-      tags:
-        - Customerphones
-      summary: Listagem de customerphones
-      parameters:
-        - name: filter
-          in: query
-          description: Filtros
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  id:
-                    type: integer
-                  id_pessoa:
-                    type: integer
-                  inativos:
-                    type: boolean
-        - $ref: "#/components/parameters/Range"
-        - $ref: "#/components/parameters/Sort"
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: ./models/jsoncadpestelef.yaml
-        "400":
-          description: Erro
-    post:
-      operationId: post-customerphones
-      tags:
-        - Customerphones
-      summary: Cria um(a) customerphones
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: ./models/jsoncadpestelef.yaml
-  /customerphones/{id}:
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: ID do customerphones
-    # modelo = JSONCadPesTelef
-    get:
-      operationId: get-customerphones-id
-      tags:
-        - Customerphones
-      summary: Busca um(a) customerphones
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: ./models/jsoncadpestelef.yaml
-        "400":
-          description: Erro
-    put:
-      operationId: put-customerphones-id
-      tags:
-        - Customerphones
-      summary: Atualiza um(a) customerphones
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
-    delete:
-      operationId: delete-customerphones-id
-      tags:
-        - Customerphones
-      summary: Deleta um(a) customerphones
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
   /customerpoints:
 # filtros = FilterCustomerPoints
     # modelo = JSONCustomerPoint
@@ -7598,6 +7420,69 @@ paths:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /dailychannelsales:
+# filtros = FilterDailyChannelSales
+    # modelo = 
+    get:
+      operationId: get-dailychannelsales
+      tags:
+        - Dailychannelsales
+      summary: Listagem de dailychannelsales
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  faturamento:
+                    type: string
+                  ids_canais:
+                    type: array
+                    items:
+                      type: integer
+                  agrupar_por:
+                    type: string
+                  visualizar_custos:
+                    type: boolean
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /dailychannelsales/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do dailychannelsales
+    # modelo = 
+    get:
+      operationId: get-dailychannelsales-id
+      tags:
+        - Dailychannelsales
+      summary: Busca um(a) dailychannelsales
       responses:
         "200":
           description: OK
@@ -7873,6 +7758,8 @@ paths:
                     type: array
                     items:
                       type: integer
+                  hub:
+                    type: string
                   versao:
                     type: integer
                   listagem:
@@ -8165,6 +8052,10 @@ paths:
                     type: integer
                   inconsistentes:
                     type: boolean
+                  pessoa_ids_tags:
+                    type: array
+                    items:
+                      type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -8746,6 +8637,8 @@ paths:
                     type: integer
                   desc:
                     type: string
+                  pesquisa:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -8828,6 +8721,8 @@ paths:
                   tipo:
                     type: string
                   desc:
+                    type: string
+                  pesquisa:
                     type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -8914,6 +8809,16 @@ paths:
                     type: boolean
                   concluidos:
                     type: boolean
+                  id_predio:
+                    type: integer
+                  tipo:
+                    type: string
+                  status:
+                    type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -9025,6 +8930,89 @@ paths:
       tags:
         - Documenttypes
       summary: Busca um(a) documenttypes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /ecommercestocks:
+# filtros = FilterEcommerceStocks
+    # modelo = JSONStockEcommerce
+    get:
+      operationId: get-ecommercestocks
+      tags:
+        - Ecommercestocks
+      summary: Listagem de ecommercestocks
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  codigo_sku:
+                    type: integer
+                  id_externo:
+                    type: integer
+                  id_predio:
+                    type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  id_vendor:
+                    type: string
+                  pesquisa:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonstockecommerce.yaml
+        "400":
+          description: Erro
+  /ecommercestocks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do ecommercestocks
+    # modelo = JSONStockEcommerce
+    get:
+      operationId: get-ecommercestocks-id
+      tags:
+        - Ecommercestocks
+      summary: Busca um(a) ecommercestocks
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonstockecommerce.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-ecommercestocks-id
+      tags:
+        - Ecommercestocks
+      summary: Atualiza um(a) ecommercestocks
       responses:
         "200":
           description: OK
@@ -10039,6 +10027,12 @@ paths:
               schema:
                 type: object
                 properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
                   id_romaneio:
                     type: integer
                   stat:
@@ -10057,6 +10051,8 @@ paths:
                     type: integer
                   nome_usuario:
                     type: string
+                  dias_alteracao:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -10920,6 +10916,10 @@ paths:
                 properties:
                   id:
                     type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
                   dias:
                     type: integer
                   pesquisa:
@@ -10936,6 +10936,8 @@ paths:
                       type: integer
                   id_empresa:
                     type: integer
+                  id_predio:
+                    type: integer
                   limite_exp:
                     type: string
                   vetor_status:
@@ -10946,6 +10948,8 @@ paths:
                     type: string
                   pendente_liberacao:
                     type: boolean
+                  cod_sku:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -11311,6 +11315,8 @@ paths:
                       type: string
                   cst:
                     type: string
+                  todos:
+                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -11360,8 +11366,6 @@ paths:
                     type: array
                     items:
                       type: string
-                  todos:
-                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -12150,6 +12154,8 @@ paths:
                   descricao_recurso:
                     type: string
                   dados_request:
+                    type: string
+                  dados_response:
                     type: string
                   com_erros:
                     type: boolean
@@ -14659,6 +14665,8 @@ paths:
                     type: string
                   inativos:
                     type: boolean
+                  excluidos:
+                    type: boolean
                   dias_alteracao:
                     type: integer
                   sem_cpf:
@@ -14669,6 +14677,8 @@ paths:
                     type: boolean
                   sem_adesao:
                     type: boolean
+                  chat_user:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -15027,6 +15037,8 @@ paths:
                     type: array
                     items:
                       type: integer
+                  hub:
+                    type: string
                   versao:
                     type: integer
                   listagem:
@@ -15436,6 +15448,8 @@ paths:
                 properties:
                   id:
                     type: integer
+                  id_modulo:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -15526,6 +15540,10 @@ paths:
                 properties:
                   id:
                     type: integer
+                  id_modulo:
+                    type: integer
+                  modulo:
+                    type: string
                   nao_lidas:
                     type: boolean
                   titulo:
@@ -16667,6 +16685,8 @@ paths:
                     type: array
                     items:
                       type: integer
+                  id_predio:
+                    type: integer
                   pedidos_para_mim:
                     type: boolean
                   datafim:
@@ -17252,6 +17272,8 @@ paths:
                     type: string
                   nome_param:
                     type: string
+                  id_empresa:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -18770,32 +18792,6 @@ paths:
           description: OK
         "400":
           description: Erro
-  /phases:
-# filtros = FilterPhases
-    # modelo = 
-    get:
-      operationId: get-phases
-      tags:
-        - Phases
-      summary: Listagem de phases
-      parameters:
-        - name: filter
-          in: query
-          description: Filtros
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  id:
-                    type: string
-        - $ref: "#/components/parameters/Range"
-        - $ref: "#/components/parameters/Sort"
-      responses:
-        "200":
-          description: OK
-        "400":
-          description: Erro
   /phonetypes:
 # filtros = FilterPhoneTypes
     # modelo = JSONPhoneTypes
@@ -18925,8 +18921,6 @@ paths:
                     type: boolean
                   inativas:
                     type: boolean
-                  todas:
-                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -19022,6 +19016,8 @@ paths:
                     items:
                       type: integer
                   id_predio:
+                    type: integer
+                  user_id:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -20807,6 +20803,8 @@ paths:
                     type: integer
                   tipo_item:
                     type: integer
+                  dias_alteracao:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -21391,6 +21389,12 @@ paths:
                   ident_fornec:
                     type: string
                   cnpj_dest:
+                    type: string
+                  cnpj_transp:
+                    type: string
+                  nome_transp:
+                    type: string
+                  pesq_transp:
                     type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -22188,6 +22192,54 @@ paths:
           description: OK
         "400":
           description: Erro
+  /purchaseordershareitems:
+# filtros = FilterPurchaseOrderShareItems
+    # modelo = 
+    get:
+      operationId: get-purchaseordershareitems
+      tags:
+        - Purchaseordershareitems
+      summary: Listagem de purchaseordershareitems
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: string
+                  numero_oc:
+                    type: integer
+                  id_fornec:
+                    type: integer
+                  nome_fornec:
+                    type: string
+                  descricao:
+                    type: string
+                  codigo_sku:
+                    type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  filtrar_por:
+                    type: string
+                  dias_alteracao:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /purchaseordertags:
 # filtros = FilterPurchaseOrderTags
     # modelo = JSONPurchaseOrderTag
@@ -22512,6 +22564,12 @@ paths:
                   ident_fornec:
                     type: string
                   cnpj_dest:
+                    type: string
+                  cnpj_transp:
+                    type: string
+                  nome_transp:
+                    type: string
+                  pesq_transp:
                     type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -23057,6 +23115,8 @@ paths:
                     type: integer
                   id_conta:
                     type: integer
+                  id_canal:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -23234,6 +23294,8 @@ paths:
                   id_tipo_vale:
                     type: integer
                   id_conta:
+                    type: integer
+                  id_canal:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -25183,6 +25245,8 @@ paths:
                     type: integer
                   id_fornec:
                     type: integer
+                  codigo_sku:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -25593,6 +25657,14 @@ paths:
                   ver_somas:
                     type: boolean
                   planejar:
+                    type: integer
+                  wms:
+                    type: boolean
+                  notas:
+                    type: string
+                  id_compra:
+                    type: integer
+                  id_predio_sem_endereco:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -26139,6 +26211,16 @@ paths:
                     type: array
                     items:
                       type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  id_pessoa:
+                    type: integer
+                  vtotal_ini:
+                    type: number
+                  vtotal_fim:
+                    type: number
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -26537,6 +26619,8 @@ paths:
                     type: array
                     items:
                       type: integer
+                  id_categoria:
+                    type: integer
                   sem_crossdocking:
                     type: boolean
         - $ref: "#/components/parameters/Range"
@@ -26627,9 +26711,9 @@ paths:
               schema:
                 type: object
                 properties:
-                  sku_id:
+                  codigo_sku:
                     type: integer
-                  cnpj_emit:
+                  id_empresa:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -26865,6 +26949,12 @@ paths:
                     type: integer
                   data_alteracao:
                     type: string
+                  com_sazo:
+                    type: boolean
+                  com_camp:
+                    type: boolean
+                  com_cmmf:
+                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -27641,10 +27731,66 @@ paths:
                     type: array
                     items:
                       type: integer
+                  id_fornec:
+                    type: integer
                   fornecedor:
                     type: string
+                  sem_cmm:
+                    type: boolean
                   todos:
                     type: boolean
+                  q:
+                    type: string
+                  id_comprador:
+                    type: integer
+                  id_categoria:
+                    type: integer
+                  taxonomia:
+                    type: string
+                  numero_pedido:
+                    type: integer
+                  incluir_inativos:
+                    type: boolean
+                  ids_tags:
+                    type: array
+                    items:
+                      type: integer
+                  curva_minima:
+                    type: integer
+                  curva_maxima:
+                    type: integer
+                  acs_excluir:
+                    type: array
+                    items:
+                      type: string
+                  ids_acs_excluir:
+                    type: array
+                    items:
+                      type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  ic:
+                    type: number
+                  tr:
+                    type: number
+                  ver_formula:
+                    type: boolean
+                  ver_observ:
+                    type: boolean
+                  ver_somas:
+                    type: boolean
+                  planejar:
+                    type: integer
+                  wms:
+                    type: boolean
+                  notas:
+                    type: string
+                  id_compra:
+                    type: integer
+                  id_predio_sem_endereco:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -27991,6 +28137,8 @@ paths:
                     type: string
                   codigo_sku:
                     type: integer
+                  codigo_sku_fim:
+                    type: integer
                   id_grade:
                     type: integer
                   inativos:
@@ -28010,6 +28158,8 @@ paths:
                   id_pessoa:
                     type: integer
                   id_classe:
+                    type: integer
+                  dias_alteracao:
                     type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -28107,6 +28257,8 @@ paths:
                       type: string
                   cod_sku:
                     type: integer
+                  cod_produto:
+                    type: integer
                   inativos:
                     type: boolean
                   lista_vazia:
@@ -28122,6 +28274,8 @@ paths:
                   numero_pedido:
                     type: integer
                   separar_pedido:
+                    type: integer
+                  separar_tarefa:
                     type: integer
                   pulos:
                     type: array
@@ -28180,6 +28334,14 @@ paths:
                   corrigidos:
                     type: boolean
                   nicho:
+                    type: string
+                  token_id:
+                    type: integer
+                  algoritmo:
+                    type: string
+                  posicao_atual:
+                    type: string
+                  tipo_endereco:
                     type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
@@ -28871,6 +29033,8 @@ paths:
                     type: integer
                   ocultar_estoque_zerado:
                     type: boolean
+                  incluir_inativos:
+                    type: boolean
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -29342,6 +29506,8 @@ paths:
                 properties:
                   id:
                     type: integer
+                  etapa:
+                    type: integer
                   codigo_sku:
                     type: integer
                   id_empresa:
@@ -29350,6 +29516,12 @@ paths:
                     type: string
                   indicador_nivel_suprimento:
                     type: boolean
+                  data_criacao:
+                    type: string
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -29453,10 +29625,37 @@ paths:
               schema:
                 type: object
                 properties:
-                  id_atividade:
+                  id:
                     type: string
+                  ids:
+                    type: array
+                    items:
+                      type: string
+                  modulo:
+                    type: string
+                  id_modulo:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /systemtasks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do systemtasks
+    # modelo = 
+    get:
+      operationId: get-systemtasks-id
+      tags:
+        - Systemtasks
+      summary: Busca um(a) systemtasks
       responses:
         "200":
           description: OK
@@ -29609,6 +29808,14 @@ paths:
                     type: integer
                   descricao:
                     type: string
+                  vetor_zonas:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  id_rastreamento:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -30150,6 +30357,8 @@ paths:
                     type: boolean
                   codigo_alfa:
                     type: string
+                  codigo_str:
+                    type: string
                   cod_produto:
                     type: integer
                   id_empresa:
@@ -30192,6 +30401,14 @@ paths:
                     type: string
                   dataini:
                     type: string
+                  num_setor:
+                    type: integer
+                  num_corredor:
+                    type: integer
+                  id_predio:
+                    type: integer
+                  id_carteira:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -30410,6 +30627,10 @@ paths:
                     type: array
                     items:
                       type: integer
+                  vetor_emp_dest:
+                    type: array
+                    items:
+                      type: integer
                   vetor_status:
                     type: array
                     items:
@@ -30420,6 +30641,12 @@ paths:
                     type: string
                   tipo_transf:
                     type: string
+                  lista_tipos_transf:
+                    type: string
+                  vetor_tipos_transf:
+                    type: array
+                    items:
+                      type: string
                   dias_alteracao:
                     type: integer
                   filtrar_por:
@@ -30432,6 +30659,26 @@ paths:
                     type: boolean
                   lote:
                     type: boolean
+                  id_entregador:
+                    type: integer
+                  num_nf:
+                    type: string
+                  faixa:
+                    type: string
+                  separador:
+                    type: string
+                  transportadora:
+                    type: string
+                  tipo_dist:
+                    type: string
+                  id_fila:
+                    type: integer
+                  id_zona:
+                    type: integer
+                  id_romaneio:
+                    type: integer
+                  id_distrib:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -30976,6 +31223,8 @@ paths:
                     type: boolean
                   uso_interno:
                     type: boolean
+                  id_predio:
+                    type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -31327,6 +31576,10 @@ paths:
                     type: string
                   dias_alteracao:
                     type: integer
+                  ids_perfis:
+                    type: array
+                    items:
+                      type: integer
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -32167,6 +32420,769 @@ paths:
           description: OK
         "400":
           description: Erro
+  /wmsblocks:
+# filtros = FilterWMSBlocks
+    # modelo = JSONWMSBlock
+    get:
+      operationId: get-wmsblocks
+      tags:
+        - Wmsblocks
+      summary: Listagem de wmsblocks
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  NomeBloco:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsblock.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsblocks
+      tags:
+        - Wmsblocks
+      summary: Cria um(a) wmsblocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsblock.yaml
+  /wmsblocks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsblocks
+    # modelo = JSONWMSBlock
+    get:
+      operationId: get-wmsblocks-id
+      tags:
+        - Wmsblocks
+      summary: Busca um(a) wmsblocks
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsblock.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsblocks-id
+      tags:
+        - Wmsblocks
+      summary: Atualiza um(a) wmsblocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsblocks-id
+      tags:
+        - Wmsblocks
+      summary: Deleta um(a) wmsblocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmscategoryaisles:
+# filtros = FilterWMSCategoryAisles
+    # modelo = JSONWMSCategoryAisle
+    get:
+      operationId: get-wmscategoryaisles
+      tags:
+        - Wmscategoryaisles
+      summary: Listagem de wmscategoryaisles
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  num_setor:
+                    type: integer
+                  setor_letra:
+                    type: string
+                  corredor_letra:
+                    type: string
+                  id_categoria:
+                    type: integer
+                  num_corredor:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmscategoryaisle.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmscategoryaisles
+      tags:
+        - Wmscategoryaisles
+      summary: Cria um(a) wmscategoryaisles
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmscategoryaisle.yaml
+  /wmscategoryaisles/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmscategoryaisles
+    # modelo = JSONWMSCategoryAisle
+    get:
+      operationId: get-wmscategoryaisles-id
+      tags:
+        - Wmscategoryaisles
+      summary: Busca um(a) wmscategoryaisles
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmscategoryaisle.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmscategoryaisles-id
+      tags:
+        - Wmscategoryaisles
+      summary: Atualiza um(a) wmscategoryaisles
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmscategoryaisles-id
+      tags:
+        - Wmscategoryaisles
+      summary: Deleta um(a) wmscategoryaisles
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmscategorysectors:
+# filtros = FilterWMSCategorySectors
+    # modelo = JSONWMSCategorySector
+    get:
+      operationId: get-wmscategorysectors
+      tags:
+        - Wmscategorysectors
+      summary: Listagem de wmscategorysectors
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  num_setor:
+                    type: integer
+                  setor_letra:
+                    type: string
+                  id_categoria:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmscategorysector.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmscategorysectors
+      tags:
+        - Wmscategorysectors
+      summary: Cria um(a) wmscategorysectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmscategorysector.yaml
+  /wmscategorysectors/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmscategorysectors
+    # modelo = JSONWMSCategorySector
+    get:
+      operationId: get-wmscategorysectors-id
+      tags:
+        - Wmscategorysectors
+      summary: Busca um(a) wmscategorysectors
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmscategorysector.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmscategorysectors-id
+      tags:
+        - Wmscategorysectors
+      summary: Atualiza um(a) wmscategorysectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmscategorysectors-id
+      tags:
+        - Wmscategorysectors
+      summary: Deleta um(a) wmscategorysectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsdocks:
+# filtros = FilterWMSDocks
+    # modelo = JSONWMSDock
+    get:
+      operationId: get-wmsdocks
+      tags:
+        - Wmsdocks
+      summary: Listagem de wmsdocks
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  num_doca:
+                    type: integer
+                  id_predio:
+                    type: integer
+                  tipo_doca:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsdock.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsdocks
+      tags:
+        - Wmsdocks
+      summary: Cria um(a) wmsdocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsdock.yaml
+  /wmsdocks/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsdocks
+    # modelo = JSONWMSDock
+    get:
+      operationId: get-wmsdocks-id
+      tags:
+        - Wmsdocks
+      summary: Busca um(a) wmsdocks
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsdock.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsdocks-id
+      tags:
+        - Wmsdocks
+      summary: Atualiza um(a) wmsdocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsdocks-id
+      tags:
+        - Wmsdocks
+      summary: Deleta um(a) wmsdocks
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsdockschedules:
+# filtros = FilterWMSDockSchedules
+    # modelo = JSONWMSDockSchedule
+    get:
+      operationId: get-wmsdockschedules
+      tags:
+        - Wmsdockschedules
+      summary: Listagem de wmsdockschedules
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_carga:
+                    type: integer
+                  user_id:
+                    type: integer
+                  lastuser_id:
+                    type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  filtrar_por:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsdockschedule.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsdockschedules
+      tags:
+        - Wmsdockschedules
+      summary: Cria um(a) wmsdockschedules
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsdockschedule.yaml
+  /wmsdockschedules/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsdockschedules
+    # modelo = JSONWMSDockSchedule
+    get:
+      operationId: get-wmsdockschedules-id
+      tags:
+        - Wmsdockschedules
+      summary: Busca um(a) wmsdockschedules
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsdockschedule.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsdockschedules-id
+      tags:
+        - Wmsdockschedules
+      summary: Atualiza um(a) wmsdockschedules
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsdockschedules-id
+      tags:
+        - Wmsdockschedules
+      summary: Deleta um(a) wmsdockschedules
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsdocktypes:
+# filtros = FilterWMSDockTypes
+    # modelo = 
+    get:
+      operationId: get-wmsdocktypes
+      tags:
+        - Wmsdocktypes
+      summary: Listagem de wmsdocktypes
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  ids:
+                    type: array
+                    items:
+                      type: string
+                  desc_tipo:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsdocktypes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsdocktypes
+    # modelo = 
+    get:
+      operationId: get-wmsdocktypes-id
+      tags:
+        - Wmsdocktypes
+      summary: Busca um(a) wmsdocktypes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmshoneycombs:
+# filtros = FilterWMSHoneycombs
+    # modelo = JSONWMSHoneycomb
+    get:
+      operationId: get-wmshoneycombs
+      tags:
+        - Wmshoneycombs
+      summary: Listagem de wmshoneycombs
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  pesquisa:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmshoneycomb.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmshoneycombs
+      tags:
+        - Wmshoneycombs
+      summary: Cria um(a) wmshoneycombs
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmshoneycomb.yaml
+  /wmshoneycombs/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmshoneycombs
+    # modelo = JSONWMSHoneycomb
+    get:
+      operationId: get-wmshoneycombs-id
+      tags:
+        - Wmshoneycombs
+      summary: Busca um(a) wmshoneycombs
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmshoneycomb.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmshoneycombs-id
+      tags:
+        - Wmshoneycombs
+      summary: Atualiza um(a) wmshoneycombs
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmshoneycombs-id
+      tags:
+        - Wmshoneycombs
+      summary: Deleta um(a) wmshoneycombs
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmshoneycombslots:
+# filtros = FilterWMSHoneycombSlots
+    # modelo = JSONWMSHoneycombSlot
+    get:
+      operationId: get-wmshoneycombslots
+      tags:
+        - Wmshoneycombslots
+      summary: Listagem de wmshoneycombslots
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_colmeia:
+                    type: integer
+                  id_compartimento:
+                    type: integer
+                  codigo_pallet:
+                    type: integer
+                  id_vasilhame:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmshoneycombslot.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmshoneycombslots
+      tags:
+        - Wmshoneycombslots
+      summary: Cria um(a) wmshoneycombslots
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmshoneycombslot.yaml
+  /wmshoneycombslots/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmshoneycombslots
+    # modelo = JSONWMSHoneycombSlot
+    get:
+      operationId: get-wmshoneycombslots-id
+      tags:
+        - Wmshoneycombslots
+      summary: Busca um(a) wmshoneycombslots
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmshoneycombslot.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmshoneycombslots-id
+      tags:
+        - Wmshoneycombslots
+      summary: Atualiza um(a) wmshoneycombslots
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmshoneycombslots-id
+      tags:
+        - Wmshoneycombslots
+      summary: Deleta um(a) wmshoneycombslots
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /wmsinfos:
 # filtros = FilterWMSInfos
     # modelo = 
@@ -32209,6 +33225,408 @@ paths:
       tags:
         - Wmsinfos
       summary: Busca um(a) wmsinfos
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsloaditems:
+# filtros = FilterWMSLoadItems
+    # modelo = JSONWMSLoadItem
+    get:
+      operationId: get-wmsloaditems
+      tags:
+        - Wmsloaditems
+      summary: Listagem de wmsloaditems
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_compra:
+                    type: integer
+                  user_id:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsloaditem.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsloaditems
+      tags:
+        - Wmsloaditems
+      summary: Cria um(a) wmsloaditems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsloaditem.yaml
+  /wmsloaditems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsloaditems
+    # modelo = JSONWMSLoadItem
+    get:
+      operationId: get-wmsloaditems-id
+      tags:
+        - Wmsloaditems
+      summary: Busca um(a) wmsloaditems
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsloaditem.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsloaditems-id
+      tags:
+        - Wmsloaditems
+      summary: Atualiza um(a) wmsloaditems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsloaditems-id
+      tags:
+        - Wmsloaditems
+      summary: Deleta um(a) wmsloaditems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsloads:
+# filtros = FilterWMSLoads
+    # modelo = JSONWMSLoad
+    get:
+      operationId: get-wmsloads
+      tags:
+        - Wmsloads
+      summary: Listagem de wmsloads
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  dataini:
+                    type: string
+                  datafim:
+                    type: string
+                  filtrar_por:
+                    type: string
+                  vehicle_id:
+                    type: integer
+                  user_id:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsload.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsloads
+      tags:
+        - Wmsloads
+      summary: Cria um(a) wmsloads
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsload.yaml
+  /wmsloads/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsloads
+    # modelo = JSONWMSLoad
+    get:
+      operationId: get-wmsloads-id
+      tags:
+        - Wmsloads
+      summary: Busca um(a) wmsloads
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsload.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsloads-id
+      tags:
+        - Wmsloads
+      summary: Atualiza um(a) wmsloads
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsloads-id
+      tags:
+        - Wmsloads
+      summary: Deleta um(a) wmsloads
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmspalletitems:
+# filtros = FilterWMSPalletItems
+    # modelo = JSONWMSPalletItem
+    get:
+      operationId: get-wmspalletitems
+      tags:
+        - Wmspalletitems
+      summary: Listagem de wmspalletitems
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  codigo_pallet:
+                    type: integer
+                  cod_produto:
+                    type: integer
+                  id_vasilhame:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmspalletitem.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmspalletitems
+      tags:
+        - Wmspalletitems
+      summary: Cria um(a) wmspalletitems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmspalletitem.yaml
+  /wmspalletitems/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmspalletitems
+    # modelo = JSONWMSPalletItem
+    get:
+      operationId: get-wmspalletitems-id
+      tags:
+        - Wmspalletitems
+      summary: Busca um(a) wmspalletitems
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmspalletitem.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmspalletitems-id
+      tags:
+        - Wmspalletitems
+      summary: Atualiza um(a) wmspalletitems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmspalletitems-id
+      tags:
+        - Wmspalletitems
+      summary: Deleta um(a) wmspalletitems
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmspallets:
+# filtros = FilterWMSPallets
+    # modelo = JSONWMSPallet
+    get:
+      operationId: get-wmspallets
+      tags:
+        - Wmspallets
+      summary: Listagem de wmspallets
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  id_corredor:
+                    type: integer
+                  duas_letras:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmspallet.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmspallets
+      tags:
+        - Wmspallets
+      summary: Cria um(a) wmspallets
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmspallet.yaml
+  /wmspallets/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmspallets
+    # modelo = JSONWMSPallet
+    get:
+      operationId: get-wmspallets-id
+      tags:
+        - Wmspallets
+      summary: Busca um(a) wmspallets
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmspallet.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmspallets-id
+      tags:
+        - Wmspallets
+      summary: Atualiza um(a) wmspallets
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmspallets-id
+      tags:
+        - Wmspallets
+      summary: Deleta um(a) wmspallets
       responses:
         "200":
           description: OK
@@ -32307,6 +33725,310 @@ paths:
       tags:
         - Wmssectors
       summary: Deleta um(a) wmssectors
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+# ERRO open ../v2api/api/v2wmsskus.go: no such file or directory
+# ERRO open ../v2api/api/v2wmsskus.go: no such file or directory
+  /wmstotes:
+# filtros = FilterWMSTotes
+    # modelo = JSONWMSTote
+    get:
+      operationId: get-wmstotes
+      tags:
+        - Wmstotes
+      summary: Listagem de wmstotes
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_predio:
+                    type: integer
+                  codigo_pallet:
+                    type: integer
+                  id_tarefa:
+                    type: integer
+                  totes_abertos:
+                    type: boolean
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmstote.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmstotes
+      tags:
+        - Wmstotes
+      summary: Cria um(a) wmstotes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmstote.yaml
+  /wmstotes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmstotes
+    # modelo = JSONWMSTote
+    get:
+      operationId: get-wmstotes-id
+      tags:
+        - Wmstotes
+      summary: Busca um(a) wmstotes
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmstote.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmstotes-id
+      tags:
+        - Wmstotes
+      summary: Atualiza um(a) wmstotes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmstotes-id
+      tags:
+        - Wmstotes
+      summary: Deleta um(a) wmstotes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmstoteskus:
+# filtros = FilterWMSToteSkus
+    # modelo = JSONWMSToteSku
+    get:
+      operationId: get-wmstoteskus
+      tags:
+        - Wmstoteskus
+      summary: Listagem de wmstoteskus
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  codigo_sku:
+                    type: integer
+                  id_vasilhame:
+                    type: integer
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmstotesku.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmstoteskus
+      tags:
+        - Wmstoteskus
+      summary: Cria um(a) wmstoteskus
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmstotesku.yaml
+  /wmstoteskus/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmstoteskus
+    # modelo = JSONWMSToteSku
+    get:
+      operationId: get-wmstoteskus-id
+      tags:
+        - Wmstoteskus
+      summary: Busca um(a) wmstoteskus
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmstotesku.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmstoteskus-id
+      tags:
+        - Wmstoteskus
+      summary: Atualiza um(a) wmstoteskus
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmstoteskus-id
+      tags:
+        - Wmstoteskus
+      summary: Deleta um(a) wmstoteskus
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /wmsvehicles:
+# filtros = FilterWMSVehicles
+    # modelo = JSONWMSVehicle
+    get:
+      operationId: get-wmsvehicles
+      tags:
+        - Wmsvehicles
+      summary: Listagem de wmsvehicles
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_compra:
+                    type: integer
+                  placa_veiculo:
+                    type: string
+                  rodo_rntrc:
+                    type: string
+                  uf:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonwmsvehicle.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-wmsvehicles
+      tags:
+        - Wmsvehicles
+      summary: Cria um(a) wmsvehicles
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonwmsvehicle.yaml
+  /wmsvehicles/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do wmsvehicles
+    # modelo = JSONWMSVehicle
+    get:
+      operationId: get-wmsvehicles-id
+      tags:
+        - Wmsvehicles
+      summary: Busca um(a) wmsvehicles
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonwmsvehicle.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-wmsvehicles-id
+      tags:
+        - Wmsvehicles
+      summary: Atualiza um(a) wmsvehicles
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-wmsvehicles-id
+      tags:
+        - Wmsvehicles
+      summary: Deleta um(a) wmsvehicles
       responses:
         "200":
           description: OK

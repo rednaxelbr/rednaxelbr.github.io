@@ -36,3 +36,7 @@ properties:
     $ref: ./jsonpccopiar.yaml
   manual:
     $ref: ./jsonpcmanual.yaml
+  vcbs_unit:
+    type: number
+  vibs_unit:
+    type: number

@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  nome_usuario:
+    type: string
+  codigo_sku:
+    type: integer
+  quantidade:
+    type: number
+  peso_total_kg:
+    type: number
+  id_vasilhame:
+    type: integer
+  dthr_coleta:
+    type: string
+  data_hora:
+    type: string

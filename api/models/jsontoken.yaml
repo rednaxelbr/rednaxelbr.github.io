@@ -10,6 +10,8 @@ properties:
     type: integer
   nome_loja:
     type: string
+  sigla:
+    type: string
   id_predio:
     type: integer
   nome_usuario:
@@ -78,3 +80,17 @@ properties:
     type: string
   pre_vendedor:
     type: boolean
+  desc_predio:
+    type: string
+  central_distrib:
+    type: boolean
+  progresso:
+    type: integer
+  ids_filas:
+    type: array
+    items:
+      type: integer
+  ids_zonas:
+    type: array
+    items:
+      type: integer

@@ -38,3 +38,5 @@ properties:
     type: number
   ptotal_padrao:
     type: number
+  cclass_trib:
+    type: string

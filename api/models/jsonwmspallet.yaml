@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_predio:
+    type: integer
+  id_corredor:
+    type: integer
+  desc_predio:
+    type: string
+  dthr_criacao:
+    type: string
+  nome_usuario:
+    type: string
+  duas_letras:
+    type: string
+  data_hora:
+    type: string
+  cont_itens:
+    type: integer

@@ -34,3 +34,13 @@ properties:
     type: string
   copiar_curva:
     type: boolean
+  zerar_global:
+    $ref: ./jsonzerarglobal.yaml
+  quant_expo:
+    type: integer
+  quant_sazo:
+    type: integer
+  quant_camp:
+    type: integer
+  quant_cmmf:
+    type: integer

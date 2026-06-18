@@ -82,3 +82,5 @@ properties:
     type: string
   url_foto:
     type: string
+  std_dev:
+    type: number

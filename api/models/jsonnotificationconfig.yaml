@@ -10,6 +10,10 @@ properties:
     $ref: ./jsoncfgnotif.yaml
   todos:
     type: boolean
+  id_modulo:
+    type: integer
+  sigla_modulo:
+    type: string
   transacoes:
     type: array
     items:

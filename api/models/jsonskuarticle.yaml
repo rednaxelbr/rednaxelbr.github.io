@@ -106,3 +106,5 @@ properties:
     type: integer
   marcadores:
     type: string
+  dthr_cache:
+    type: string

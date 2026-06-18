@@ -1,0 +1,24 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_vendor:
+    type: string
+  id_predio:
+    type: integer
+  codigo_sku:
+    type: integer
+  id_externo:
+    type: integer
+  prod_xprod:
+    type: string
+  quant:
+    type: integer
+  data_hora:
+    type: string
+  status_http:
+    type: integer
+  processado:
+    type: boolean
+  queue_id:
+    type: integer

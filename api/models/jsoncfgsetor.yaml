@@ -21,4 +21,4 @@ properties:
   ordem_curva:
     type: string
   nicho_maximo:
-    type: integer
+    type: string

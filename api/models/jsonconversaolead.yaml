@@ -2,3 +2,5 @@ type: object
 properties:
   id:
     type: string
+required:
+  - nome_lead

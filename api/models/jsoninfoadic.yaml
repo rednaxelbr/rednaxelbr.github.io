@@ -22,3 +22,5 @@ properties:
     type: string
   nitemped:
     type: number
+  id_estoque:
+    type: string

@@ -32,6 +32,8 @@ properties:
     type: integer
   cod_plano:
     type: integer
+  plano:
+    type: string
   nome_tenant:
     type: string
   razao_social:
@@ -44,6 +46,12 @@ properties:
     type: integer
   company_id:
     type: integer
+  tamanho:
+    type: string
+  hash:
+    type: string
+  recaptcha:
+    type: string
   id_pessoa:
     type: integer
   id_canal:

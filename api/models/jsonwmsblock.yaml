@@ -2,11 +2,11 @@ type: object
 properties:
   id:
     type: integer
-  nome_arquivo:
+  id_predio:
+    type: integer
+  nome_bloco:
     type: string
-  quant_registros:
+  pos_x:
     type: integer
-  quant_erros:
+  pos_y:
     type: integer
-required:
-  - nome_lead

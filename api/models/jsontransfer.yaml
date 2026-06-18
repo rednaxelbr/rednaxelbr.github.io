@@ -74,6 +74,8 @@ properties:
     $ref: ./jsonorderpayment.yaml
   tipo_transf:
     type: string
+  desc_tipo_transf:
+    type: string
   lista_cfop:
     type: string
   cnpj_dest:
@@ -84,3 +86,27 @@ properties:
     type: number
   pedido_volumes:
     $ref: ./jsonordervolume.yaml
+  remover_nao_separados:
+    type: boolean
+  id_fila:
+    type: integer
+  id_zona:
+    type: integer
+  separador:
+    type: string
+  transportadora:
+    type: string
+  id_romaneio:
+    type: integer
+  id_distrib:
+    type: integer
+  tipo_dist:
+    type: string
+  desc_tipo_dist:
+    type: string
+  faixa:
+    type: integer
+  limite_exp:
+    type: string
+  contador_itens:
+    type: integer

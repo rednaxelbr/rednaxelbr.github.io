@@ -1,8 +1,6 @@
 type: object
 properties:
-  setor:
+  id_fila:
     type: integer
-  quant:
-    type: integer
-  esmin:
+  user_id:
     type: integer

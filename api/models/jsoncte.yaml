@@ -44,3 +44,5 @@ properties:
     type: string
   arquivo_xml:
     type: string
+  data_hora:
+    type: string

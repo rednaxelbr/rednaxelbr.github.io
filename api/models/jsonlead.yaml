@@ -1,10 +1,10 @@
 type: object
 properties:
-  id":
+  id:
     type: integer
   data_cadastro:
     type: string
-  dthr_agendamento":
+  dthr_agendamento:
     type: string
   ativo:
     type: boolean
@@ -22,6 +22,7 @@ properties:
     type: string
   type_id:
     type: integer
+    description:  Tipo do telefone
   tipo_telef:
     type: string
   id_canal:
@@ -30,6 +31,7 @@ properties:
     type: string
   salesper_id:
     type: integer
+    description:  Pré-vendedor (SDR)
   nome_prevendedor:
     type: string
   id_pessoa:
@@ -38,11 +40,11 @@ properties:
     type: integer
   nome_vendedor:
     type: string
-  id_carteira":
+  id_carteira:
     type: integer
   nome_carteira:
     type: string
-  id_etapa":
+  id_etapa:
     type: integer
   nome_etapa:
     type: string
@@ -52,7 +54,7 @@ properties:
     type: string
   descricao_status:
     type: string
-  id_motivo":
+  id_motivo:
     type: integer
   descricao_motivo:
     type: string
@@ -104,3 +106,5 @@ properties:
     type: integer
   acumulado:
     type: number
+required:
+  - nome_lead

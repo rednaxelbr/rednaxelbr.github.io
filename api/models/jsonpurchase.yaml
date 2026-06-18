@@ -148,3 +148,7 @@ properties:
       type: integer
   id_recepcao:
     type: integer
+  transportadora:
+    type: string
+  cnpj_transp:
+    type: string

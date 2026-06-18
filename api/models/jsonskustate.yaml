@@ -30,3 +30,5 @@ properties:
     type: string
   ncm_vencido:
     type: boolean
+  data_hora:
+    type: string

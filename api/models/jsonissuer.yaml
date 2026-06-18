@@ -34,3 +34,5 @@ properties:
     type: string
   lucro_real:
     type: boolean
+  licenca_ativa:
+    type: boolean

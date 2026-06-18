@@ -24,3 +24,13 @@ properties:
       type: integer
   fila_ativa:
     type: boolean
+  separadores:
+    $ref: ./jsonpicker.yaml
+  mover:
+    $ref: ./jsonqueuemover.yaml
+  data_hora:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string

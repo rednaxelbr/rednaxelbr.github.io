@@ -10,6 +10,8 @@ properties:
     type: string
   dthr_prevista:
     type: string
+  dthr_inicio:
+    type: string
   dthr_conclusao:
     type: string
   nome_usuario:
@@ -24,3 +26,41 @@ properties:
     type: integer
   nome_contato:
     type: string
+  numero_pedido:
+    type: integer
+  rotulo_tarefa:
+    type: string
+  id_pessoa:
+    type: integer
+  id_vendedor:
+    type: integer
+  nome_vendedor:
+    type: string
+  id_modulo:
+    type: integer
+  sigla_modulo:
+    type: string
+  id_usuario:
+    type: integer
+  id_carteira:
+    type: integer
+  id_vend_carteira:
+    type: integer
+  nome_carteira:
+    type: string
+  status:
+    type: integer
+  sigla_status:
+    type: string
+  id_zona:
+    type: integer
+  contador_itens:
+    type: integer
+  userid_atrib:
+    type: integer
+  usuario_atrib:
+    type: string
+  tipo_oper:
+    type: string
+  id_vasilhame:
+    type: integer

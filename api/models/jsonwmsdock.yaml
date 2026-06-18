@@ -2,15 +2,15 @@ type: object
 properties:
   id:
     type: integer
-  id_etapa:
+  num_doca:
     type: integer
-  ordem_motivo:
+  id_predio:
     type: integer
-  nome_motivo:
+  desc_predio:
     type: string
-  descricao_motivo:
+  tipo_doca:
+    type: string
+  desc_tipo:
     type: string
   data_hora:
     type: string
-required:
-  - nome_lead

@@ -70,6 +70,10 @@ properties:
     type: string
   contador_itens:
     type: integer
+  cont_separados:
+    type: integer
+  nb_tasks:
+    type: integer
   resumo_pagto:
     type: string
   mesclar:
@@ -272,3 +276,11 @@ properties:
     type: string
   cnpj_alfanum:
     type: string
+  permite_digitar_nsu:
+    type: boolean
+  tipo_supri:
+    type: string
+  consumidor_final:
+    type: boolean
+  consfinal_readonly:
+    type: boolean
