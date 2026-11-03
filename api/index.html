@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>RNGE API Reference</title>
+    <title>RNGE API</title>
+    <!-- needed for adaptive design -->
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style> body { margin: 0; padding: 0; } </style>
+
+    <!--
+    Redoc CE doesn't reset the body margin
+    -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
-    <redoc spec-url="v2api.yaml" options='{"search": true, "schemasExpansionLevel": 1, "sortOperationsAlphabetically": true, "expandResponses": "200,201"}'></redoc>
-    <script type="module" src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+    <redoc spec-url="v2api.yaml"></redoc>
+    <script type="module" src="https://cdn.redoc.ly/redoc/v3.x/bundles/redoc.standalone.js"></script>
   </body>
 </html>
