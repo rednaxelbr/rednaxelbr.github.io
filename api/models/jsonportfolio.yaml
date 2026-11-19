@@ -20,6 +20,10 @@ properties:
     type: integer
   clientes:
     type: integer
+  leads:
+    type: integer
+    description: Quantidade de leads ativos (ainda sem pessoa) vinculados à carteira
+    readOnly: true
   nome_usuario:
     type: string
   cart_ativa:

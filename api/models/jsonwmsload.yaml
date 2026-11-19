@@ -20,3 +20,11 @@ properties:
     type: string
   data_hora:
     type: string
+  id_doca:
+    type: integer
+  inicio_previsto:
+    type: string
+  itens:
+    type: array
+    items:
+      $ref: ./jsonwmsloaditem.yaml

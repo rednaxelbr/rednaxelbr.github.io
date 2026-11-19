@@ -300,6 +300,8 @@ tags:
     description: Deliverytypes
   - name: Dfebatches
     description: Dfebatches
+  - name: Discoveries
+    description: Discoveries
   - name: Distriborders
     description: Distriborders
   - name: Distribrefillitems
@@ -594,6 +596,8 @@ tags:
     description: Plans
   - name: Portfoliocustomers
     description: Portfoliocustomers
+  - name: Portfolioleads
+    description: Portfolioleads (Carteira x Lead)
   - name: Portfolios
     description: Portfolios
   - name: Portfoliotags
@@ -878,6 +882,8 @@ tags:
     description: Userauths
   - name: Usercompanies
     description: Usercompanies
+  - name: Userdiscoveries
+    description: Userdiscoveries
   - name: Useremails
     description: Useremails
   - name: Usergroups
@@ -8476,6 +8482,120 @@ paths:
           description: OK
         "400":
           description: Erro
+  /discoveries:
+# filtros = FilterDiscoveries
+    # modelo = JSONDiscovery
+    get:
+      operationId: get-discoveries
+      tags:
+        - Discoveries
+      summary: Listagem de descobertas de funcionalidades
+      description: Qualquer usuário autenticado. Lista as descobertas visíveis (ativas e com inicio vazio ou já passado). Usuários da Rednaxel podem usar todas=true para incluir inativas e agendadas (tela de manutenção).
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  tela:
+                    type: string
+                  todas:
+                    type: boolean
+                    description: Inclui inativas e agendadas (só usuários da Rednaxel)
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsondiscovery.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-discoveries
+      tags:
+        - Discoveries
+      summary: Cria uma descoberta
+      description: Somente a equipe da Rednaxel (com permissão de configuração geral). Outros tenants recebem 403.
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+        "403":
+          description: Somente a equipe da Rednaxel pode alterar as descobertas.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondiscovery.yaml
+  /discoveries/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID da descoberta
+    # modelo = JSONDiscovery
+    get:
+      operationId: get-discoveries-id
+      tags:
+        - Discoveries
+      summary: Busca uma descoberta
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsondiscovery.yaml
+        "400":
+          description: Erro
+    put:
+      operationId: put-discoveries-id
+      tags:
+        - Discoveries
+      summary: Atualiza uma descoberta
+      description: Somente a equipe da Rednaxel. Para reativar, envie "ativo" true.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsondiscovery.yaml
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+        "403":
+          description: Somente a equipe da Rednaxel pode alterar as descobertas.
+    delete:
+      operationId: delete-discoveries-id
+      tags:
+        - Discoveries
+      summary: Desativa uma descoberta
+      description: Somente a equipe da Rednaxel. Exclusão lógica (ativo = false); o histórico de leituras é preservado.
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+        "403":
+          description: Somente a equipe da Rednaxel pode alterar as descobertas.
   /distriborders:
 # filtros = FilterDistribOrders
     # modelo = JSONDistribOrders
@@ -15350,6 +15470,57 @@ paths:
           description: OK
         "400":
           description: Erro
+  /nbscodes:
+# filtros = FilterNBSCodes
+    # modelo = JSONNBSCode
+    get:
+      operationId: get-nbscodes
+      tags:
+        - Nbscodes
+      summary: Listagem de nbscodes
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  ids:
+                    type: array
+                    items:
+                      type: string
+                  descricao_nbs:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /nbscodes/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do nbscodes (codigo_nbs)
+    # modelo = JSONNBSCode
+    get:
+      operationId: get-nbscodes-id
+      tags:
+        - Nbscodes
+      summary: Busca um(a) nbscodes
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /nfes:
     # modelo = JSONNFe
     get:
@@ -19541,6 +19712,108 @@ paths:
           description: OK
         "400":
           description: Erro
+  /portfolioleads:
+# filtros = FilterPortfolioLeads
+    # modelo = JSONPortfolioLead
+    get:
+      operationId: get-portfolioleads
+      tags:
+        - Portfolioleads
+      summary: Listagem de portfolioleads (leads sem pessoa vinculados a carteiras)
+      parameters:
+        - name: filter
+          in: query
+          description: Filtros (exige id_carteira, id_vendedor, carteira, id_lead ou lead)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  ids:
+                    type: array
+                    items:
+                      type: integer
+                  id_carteira:
+                    type: integer
+                  id_vendedor:
+                    type: integer
+                  id_lead:
+                    type: integer
+                  carteira:
+                    type: string
+                  lead:
+                    type: string
+                  deletados:
+                    type: boolean
+                  dias_alteracao:
+                    type: integer
+                  data_ini_entrada:
+                    type: string
+                  data_fim_entrada:
+                    type: string
+        - $ref: "#/components/parameters/Range"
+        - $ref: "#/components/parameters/Sort"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/jsonportfoliolead.yaml
+        "400":
+          description: Erro
+    post:
+      operationId: post-portfolioleads
+      tags:
+        - Portfolioleads
+      summary: Inclui um lead numa carteira (id_lead + id_carteira ou id_vendedor)
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonportfoliolead.yaml
+  /portfolioleads/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID do portfolioleads
+    # modelo = JSONPortfolioLead
+    get:
+      operationId: get-portfolioleads-id
+      tags:
+        - Portfolioleads
+      summary: Busca um(a) portfolioleads
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonportfoliolead.yaml
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-portfolioleads-id
+      tags:
+        - Portfolioleads
+      summary: Remove o lead da carteira
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
   /portfolios:
 # filtros = FilterPortfolios
     # modelo = JSONPortfolio
@@ -21051,6 +21324,95 @@ paths:
                   $ref: ./models/jsonprospect.yaml
         "400":
           description: Erro
+    post:
+      operationId: post-prospects
+      tags:
+        - Prospects
+      summary: Cria ou atualiza um prospecto (formulário público)
+      description: |
+        Endpoint público (sem autenticação). O reCAPTCHA é opcional; quando enviado, o score mínimo é 0,8.
+
+        Na página 1 (captura de lead) os campos obrigatórios são `nome`, `email` e `telefone`.
+        Os campos `origem` e `dados` são opcionais e compatíveis com o formulário Experimente,
+        que continua enviando apenas `pagina`, `nome`, `email`, `telefone` e `tamanho`.
+
+        Se `dados` trouxer `consent.share_simulation` igual a `false`, a requisição é recusada.
+        O tamanho máximo de `dados` é 32 KB. `origem` tem no máximo 64 caracteres.
+
+        Se o e-mail já estiver vinculado a uma conta, a API responde 417 com a mensagem
+        "Esse email <email> já está vinculado a uma conta".
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: ./models/jsonprospect.yaml
+            examples:
+              experimente:
+                summary: Formulário Experimente (compatível)
+                value:
+                  pagina: 1
+                  nome: Maria Silva
+                  email: maria@example.com
+                  telefone: "11987654321"
+                  tamanho: Pequena
+              simulador:
+                summary: Contato com simulação de impacto
+                value:
+                  pagina: 1
+                  nome: Maria Silva
+                  email: maria@example.com
+                  telefone: "11987654321"
+                  empresa: Papelaria Exemplo
+                  segmento: papelaria
+                  mensagem: Quero montar um orçamento
+                  origem: site-simulador
+                  dados:
+                    schema_version: "1.0"
+                    created_at: "2026-11-16T17:00:00.000Z"
+                    consent:
+                      share_simulation: true
+                      purpose:
+                        - orcamento
+                        - diagnostico
+                        - estudo_retorno
+                    inputs:
+                      currentAnnualRevenue: 10000000
+                      currentGrossMarginRate: 0.3
+                      averageInventoryAtCost: 1000000
+                      illustrativeTurnover: 4
+                      baselineAnnualGrowthRate: 0.02
+                      salesGrowthScenario: reference
+                      customProjectedGrowthRate: null
+                      turnoverTargetScenario: reference
+                      customTurnoverIncreaseRate: null
+                      captureScenario: reference
+                      projectGrossMargin: true
+                      targetGrossMarginRate: 0.31
+                      grossMarginRealizationMonths: 12
+                      grossMarginRealizationMethod: linear
+                      projectionHorizonYears: 3
+                    results:
+                      currentCogs: 7000000
+                      currentTurnover: 7
+                      targetTurnover: 10.15
+                      incrementalGrossProfit: 405014
+                      potentialInventoryRelease: 310345
+                      avoidedAdditionalInventory: 354131
+                      potentialEconomicImpact: 715359
+                    assumptions_version: "2.0"
+      responses:
+        "201":
+          description: Prospecto gravado
+          content:
+            application/json:
+              schema:
+                $ref: ./models/jsonprospect.yaml
+        "400":
+          description: Formulário inválido (campos obrigatórios, e-mail, origem, dados ou reCAPTCHA)
+        "417":
+          description: E-mail já vinculado a uma conta
   /prospects/{id}:
     parameters:
       - schema:
@@ -28907,6 +29269,8 @@ paths:
                     type: array
                     items:
                       type: string
+                  pesquisa:
+                    type: string
         - $ref: "#/components/parameters/Range"
         - $ref: "#/components/parameters/Sort"
       responses:
@@ -30973,6 +31337,71 @@ paths:
       tags:
         - Usercompanies
       summary: Deleta um(a) usercompanies
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+  /userdiscoveries:
+# filtros = FilterUserDiscoveries
+    # modelo = JSONUserDiscovery
+    get:
+      operationId: get-userdiscoveries
+      tags:
+        - Userdiscoveries
+      summary: Próxima descoberta pendente da tela para o usuário do token
+      description: Devolve uma lista vazia ou com um único item, a primeira descoberta visível da tela (por ordem e depois id) que o usuário do token ainda não leu.
+      parameters:
+        - name: filter
+          in: query
+          required: true
+          description: Filtros
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - tela
+                properties:
+                  tela:
+                    type: string
+                    example: products
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                maxItems: 1
+                items:
+                  $ref: ./models/jsonuserdiscovery.yaml
+        "400":
+          description: Erro
+  /userdiscoveries/{id}:
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: ID da descoberta
+    put:
+      operationId: put-userdiscoveries-id
+      tags:
+        - Userdiscoveries
+      summary: Marca a descoberta como lida (botão ENTENDI)
+      description: Grava a leitura para o usuário do token. Idempotente, sem corpo.
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Erro
+    delete:
+      operationId: delete-userdiscoveries-id
+      tags:
+        - Userdiscoveries
+      summary: Marca a descoberta como lida (mesmo efeito do PUT)
       responses:
         "200":
           description: OK

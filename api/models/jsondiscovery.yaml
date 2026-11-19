@@ -1,0 +1,46 @@
+type: object
+description: Descoberta de funcionalidade (feature discovery). Catálogo global, mantido pela equipe da Rednaxel.
+required:
+  - tela
+  - titulo
+  - texto
+properties:
+  id:
+    type: integer
+    readOnly: true
+  tela:
+    type: string
+    description: Identificador da tela no front (letras, números, _ . / : ou -, até 60 caracteres)
+    example: products
+  titulo:
+    type: string
+  texto:
+    type: string
+  link_artigo:
+    type: string
+    description: Link opcional para o artigo da base de conhecimento ("Saiba mais")
+  ordem:
+    type: integer
+    description: Ordem de exibição dentro da tela (padrão 0)
+  ativo:
+    type: boolean
+    description: Padrão true. O DELETE marca como false.
+  inicio:
+    type: string
+    format: date-time
+    description: Opcional. Só exibe a partir desta data/hora (ISO 8601).
+  criado_por:
+    type: integer
+    readOnly: true
+    description: user_id de quem criou
+  nome_usuario:
+    type: string
+    readOnly: true
+    description: Nome de quem criou
+  dthr_criacao:
+    type: string
+    readOnly: true
+  data_hora:
+    type: string
+    readOnly: true
+    description: Data/hora da última alteração

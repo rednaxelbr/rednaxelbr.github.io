@@ -1,0 +1,50 @@
+type: object
+properties:
+  id:
+    type: integer
+  id_carteira:
+    type: integer
+  nome_carteira:
+    type: string
+  id_vendedor:
+    type: integer
+  nome_vendedor:
+    type: string
+  id_lead:
+    type: integer
+  nome_lead:
+    type: string
+  cpf:
+    type: string
+  cnpj:
+    type: string
+  email:
+    type: string
+  telefone:
+    type: string
+  nome_municipio:
+    type: string
+  uf:
+    type: string
+  id_etapa:
+    type: integer
+  nome_etapa:
+    type: string
+  status_code:
+    type: integer
+  temperatura:
+    type: string
+  pre_vendedor:
+    type: integer
+  id_pessoa:
+    type: integer
+  deletado_em:
+    type: string
+  user_id:
+    type: integer
+  nome_usuario:
+    type: string
+  dthr_entrada:
+    type: string
+  data_hora:
+    type: string

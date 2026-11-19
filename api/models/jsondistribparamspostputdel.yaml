@@ -42,3 +42,5 @@ properties:
     type: boolean
   debitar_transito:
     type: boolean
+  considerar_sazonal:
+    type: boolean

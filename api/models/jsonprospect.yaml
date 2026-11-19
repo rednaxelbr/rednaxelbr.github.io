@@ -56,3 +56,11 @@ properties:
     type: integer
   id_canal:
     type: integer
+  origem:
+    type: string
+    description: Origem do lead (ex. site-simulador, site-contato). Opcional, no máximo 64 caracteres.
+    maxLength: 64
+  dados:
+    type: object
+    description: Payload extra do lead. No formulário do site, o JSON da simulação de impacto (rednaxelImpactSimulation), até 32 KB. Só deve ser enviado com consent.share_simulation = true.
+    additionalProperties: true
